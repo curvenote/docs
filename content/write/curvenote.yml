@@ -1,7 +1,6 @@
 version: 1
 project:
   title: Write
-  journal: Curvenote Docs
   remote: Z1isOjJQGvM22q5fhunb
   link: https://curvenote.com/@docs/write
   frontmatter:

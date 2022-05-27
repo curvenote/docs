@@ -35,6 +35,6 @@ site:
       slug: cli
   frontmatter:
     numbering: false
-    journal: Curvenote Docs
-    license: {}
+    venue: Curvenote Docs
+    license: CC-BY-4.0
     open_access: true
