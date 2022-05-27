@@ -1,0 +1,34 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: index
+parts:
+  - caption: Overview
+    chapters:
+      - file: editing
+      - file: command-menu
+      - file: markdown-accelerators
+      - file: editing-toolbar
+      - file: explorable-explanations
+      - file: authors
+  - caption: Organization
+    chapters:
+      - file: articles
+      - file: blocks
+      - file: navigation
+  - caption: Content
+    chapters:
+      - file: formatting-and-style
+      - file: figures-and-images
+      - file: math-and-equations
+      - file: tables
+      - file: interactive-outputs
+      - file: videos-and-iframes
+  - caption: References & Citations
+    chapters:
+      - file: citations
+      - file: internal-references
+      - file: citation-style
+      - file: reference-style
+

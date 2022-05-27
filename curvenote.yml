@@ -1,0 +1,40 @@
+version: 1
+site:
+  title: Curvenote Docs
+  domains:
+    - docs.curvenote.com
+  logo: public/logo.svg
+  logoText: Curvenote Docs
+  twitter: curvenote
+  actions:
+    - title: Sign Up
+      url: https://curvenote.com/signup
+  design:
+    hide_authors: true
+  nav:
+    - title: Overview
+      url: /overview
+    - title: Write
+      url: /write
+    - title: Jupyter
+      url: /jupyter
+    - title: Export
+      url: /export
+    - title: Develop
+      url: /cli
+  projects:
+    - path: content/overview
+      slug: overview
+    - path: content/write
+      slug: write
+    - path: content/jupyter
+      slug: jupyter
+    - path: content/export
+      slug: export
+    - path: content/cli
+      slug: cli
+  frontmatter:
+    numbering: false
+    journal: Curvenote Docs
+    license: {}
+    open_access: true
