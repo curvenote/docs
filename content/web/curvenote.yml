@@ -2,8 +2,14 @@ version: 1
 project:
   title: Web
   remote: Eh6WvY9NT46Ds4lE3OqJ
-  description: null
+  description: >-
+    Curvenote allows you to easily publish content on the web as a fast,
+    optimized site that preserves all interactive features in Curvenote.
   subject: Web
   numbering: false
-  license: CC-BY-4.0
+  license:
+    content: CC-BY-4.0
+    code: MIT
   open_access: true
+  authors: []
+  name: web

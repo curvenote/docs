@@ -7,7 +7,7 @@ name: frontmatter
 oxa: oxa:Eh6WvY9NT46Ds4lE3OqJ/ZS5jFLjvnEdoTjlf1d7S
 ---
 
-+++ {"oxa":"oxa:Eh6WvY9NT46Ds4lE3OqJ/eVZJajQmG01m5YoAZaQ5.1"}
++++ {"oxa":"oxa:Eh6WvY9NT46Ds4lE3OqJ/eVZJajQmG01m5YoAZaQ5.3"}
 
 # Where to set frontmatter
 
@@ -22,15 +22,22 @@ A frontmatter section can be added at the top of any `md` file using `---` delim
 title: My First Article
 date: 2022-05-11
 authors:
-	- name: Jane Bloggs
-      affiliations:
-        - University of Europe
+  - name: Jane Bloggs
+    affiliations:
+      - University of Europe
 ---
 ```
 
 ## In a Jupyter Notebook
 
-Front matter can be added to the first cell of a Jupyter Notebook, that cell should be a Markdown cell and use `---` delimiters as above. Note, unfortunately
+Front matter can be added to the first cell of a Jupyter Notebook, that cell should be a Markdown cell and use `---` delimiters as above.
+
+````{important}
+**Note**
+
+Remember to format the contents of the section as valid `yaml` even though when rendered, the cell will not look well formated in your notebook.
+
+````
 
 ## In a `curvenote.yml` file
 
@@ -45,7 +52,7 @@ project:
   open_access: true
 ```
 
-+++ {"oxa":"oxa:Eh6WvY9NT46Ds4lE3OqJ/cqcU0oZTmDVaWFzbGuFn.4"}
++++ {"oxa":"oxa:Eh6WvY9NT46Ds4lE3OqJ/cqcU0oZTmDVaWFzbGuFn.5"}
 
 # Available frontmatter fields
 
@@ -73,21 +80,21 @@ The following table lists the available front matter fields, a brief description
 
   - page & project
 
-* - `authors`
+* - `short_title`
 
-  - a list of author objects
+  - a string (max 40 chars)
 
-  - page can override project
+  - page & project
+
+* - `name`
+
+  - a string (max 500 chars)
+
+  - page & project
 
 * - `subtitle`
 
   - a string (max 500 chars)
-
-  - page only
-
-* - `short_title`
-
-  - a string (max 40 chars)
 
   - page only
 
@@ -97,11 +104,11 @@ The following table lists the available front matter fields, a brief description
 
   - page can override project
 
-* - `name`
+* - `authors`
 
-  - a string (max 500 chars)
+  - a list of author objects
 
-  - page & project
+  - page can override project
 
 * - `doi`
 
