@@ -1,6 +1,6 @@
 ---
 title: Frontmatter
-description: ""
+description: ''
 date: 2022-05-26T17:23:08.973Z
 authors: []
 name: frontmatter
@@ -32,12 +32,12 @@ authors:
 
 Front matter can be added to the first cell of a Jupyter Notebook, that cell should be a Markdown cell and use `---` delimiters as above.
 
-````{important}
+```{important}
 **Note**
 
 Remember to format the contents of the section as valid `yaml` even though when rendered, the cell will not look well formated in your notebook.
 
-````
+```
 
 ## In a `curvenote.yml` file
 
@@ -48,7 +48,8 @@ version:1
 site:
   ...
 project:
-  license: CC-BY-4.0
+  license:
+    content: CC-BY-4.0
   open_access: true
 ```
 
@@ -58,7 +59,7 @@ project:
 
 The following table lists the available front matter fields, a brief description and a note on how the field behaves depending on whether it is set on a page or at the project level. Where a field itself is an object with sub-fields, see the relevant description on the page below.
 
-~~~{list-table} A list of available front matter fields and their behaviour across projects and pages
+```{list-table} A list of available front matter fields and their behaviour across projects and pages
 :header-rows: 1
 :name: wmDcYPnNQf
 
@@ -164,7 +165,7 @@ The following table lists the available front matter fields, a brief description
 
   - page can override project
 
-~~~
+```
 
 +++ {"oxa":"oxa:Eh6WvY9NT46Ds4lE3OqJ/qEWOsWdNQeyy2H5KfprX.2"}
 
@@ -176,12 +177,12 @@ Frontmatter can be attached to a “page”, meaning a local `.md` or `.ipynb` o
 2. `page only` - the field is only available on pages, and not present on projects and it will be ignored if set there.
 3. `page can override project` - the field is available on both page & project but the value of the field on the page will override any set of the project. Note that the page field must be omitted or undefined, for the project value to be used, value of `null` (or `[]` in the case of `authors`) will still override the project value but clear the field for that page.
 
-````{important}
+```{important}
 **Note**
 
 Learn more about project scopes in [Working with projects](oxa:Eh6WvY9NT46Ds4lE3OqJ/Omi3OM3q7uQVMkQChjdM "Working with projects").
 
-````
+```
 
 +++ {"oxa":"oxa:Eh6WvY9NT46Ds4lE3OqJ/FUAv66SXLnK1PPkA7DCc.3"}
 
@@ -191,7 +192,7 @@ The `authors` field is a list of `author` objects.
 
 Available fields in the author object are:
 
-~~~{list-table}
+````{list-table}
 :header-rows: 1
 :name: GURqaM1qL7
 
@@ -244,7 +245,7 @@ Available fields in the author object are:
           - Earth University
     ```
 
-~~~
+````
 
 ## Date
 
@@ -270,7 +271,7 @@ Available fields in the License object are `content` and `code` allowing license
 
 String values for licenses should be a valid “Identifier” string from the [SPDX License List](https://spdx.org/licenses/). Identifiers for well-known licenses are easily recognizable, but can be more specific than you are used to, for example:
 
-~~~{list-table}
+```{list-table}
 :header-rows: 1
 :name: ovrQAe267C
 
@@ -290,7 +291,7 @@ String values for licenses should be a valid “Identifier” string from the [S
     - `LGPL-3.0-or-later`
     - `AGPL`
 
-~~~
+```
 
 By using the correct SPDX Identifier, your website will automatically use the appropriate icon for the license and link to the license definition.
 
@@ -330,25 +331,24 @@ Some example `biblio` values may be:
 
 ```yaml
 biblio:
-  volume: "42"
-  issue: "3"
-  first_page: "1" # can be a number or string
-  last_page: "99" # can be a number or string
+  volume: '42'
+  issue: '3'
+  first_page: '1' # can be a number or string
+  last_page: '99' # can be a number or string
 ```
 
 OR
 
 ```yaml
 biblio:
-  volume: "2022"
+  volume: '2022'
   issue: Winter
   first_page: Inside cover # can be a number or string
 ```
 
-````{warning}
+```{warning}
 **Coming Soon**
 
 `first_page` and `last_page` information is not currently rendered in the default [curve.space](https://curve.space) theme
 
-````
-
+```

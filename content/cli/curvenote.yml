@@ -5,5 +5,7 @@ project:
   link: https://curvenote.com/@docs/cli
   subject: Command Line Tools
   numbering: false
-  license: CC-BY-4.0
+  license:
+    content: CC-BY-4.0
+    code: MIT
   open_access: true

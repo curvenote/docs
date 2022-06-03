@@ -7,7 +7,7 @@ name: index
 oxa: oxa:Eh6WvY9NT46Ds4lE3OqJ/Ubz3WohwR2wSdi4384DE
 ---
 
-+++ {"oxa":"oxa:Eh6WvY9NT46Ds4lE3OqJ/P22AphvTYJiSwPksS804.3"}
++++ {"oxa":"oxa:Eh6WvY9NT46Ds4lE3OqJ/P22AphvTYJiSwPksS804.4"}
 
 Curvenote allows you to easily publish content on the web as a fast, optimized site that preserves all interactive features in Curvenote, deployed on our hosting service called [curve.space](https://curve.space) and can also be hosted on your own [custom domain](oxa:Eh6WvY9NT46Ds4lE3OqJ/Qn9rzCukuPlbwhKl8qA0 "Custom Domains").
 
@@ -15,15 +15,6 @@ Curvenote allows you to easily publish content on the web as a fast, optimized s
 
 - [Start with a Curvenote project](oxa:Eh6WvY9NT46Ds4lE3OqJ/cMzSX755ZfawTQbU41BV "Start with a Curvenote project") - you have content in Curvenote
 - [Start with a local folder](oxa:Eh6WvY9NT46Ds4lE3OqJ/awl1FKZAY7CpiX7GWWXS "Start with a local folder") - you have existing content in a local folder or `git` repository
-
-````{important}
-**Note**
-
-Creating and deploying a website currently requires you to use the Curvenote Command Line Interface. You can see documentation about installing and getting started in our [CLI docs](https://curvenote.com/oxa:EplL6AlILV3RGEDPzj5U/qO37OgRXvWSbykWGvaDR).
-
-In the future you will be able to create and update websites directly from the Curvenote application online.
-
-````
 
 ## Example Websites using Curvenote
 
@@ -60,4 +51,15 @@ Interactive notebooks in a [blog by Steve Purves](https://www.stevejpurves.com/l
 
 A 250 page report for the EU on [soil management and climate change](https://climasoma.curve.space/report/summary).
 ```
+
++++ {"oxa":"oxa:Eh6WvY9NT46Ds4lE3OqJ/g4rdPsKKQhfQd3IMLXyK.1"}
+
+````{important}
+**Note**
+
+Creating and deploying a website currently requires you to use the Curvenote Command Line Interface. You can see documentation about installing and getting started in our [CLI docs](https://curvenote.com/oxa:EplL6AlILV3RGEDPzj5U/qO37OgRXvWSbykWGvaDR).
+
+In the future you will be able to create and update websites directly from the Curvenote application online.
+
+````
 
