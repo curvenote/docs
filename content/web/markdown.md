@@ -27,7 +27,7 @@ MyST is a superset of [CommonMark](https://commonmark.org/) (a standard form of 
 
 MyST is influenced by [ReStructured Text (RST)](https://en.wikipedia.org/wiki/ReStructuredText) and [Sphinx](https://www.sphinx-doc.org/) – pulling on the nomenclature and introducing additional standards where appropriate.
 
-+++ {"oxa":"oxa:Eh6WvY9NT46Ds4lE3OqJ/Kcuet5oJAehtlQ0bZhrA.1"}
++++ {"oxa":"oxa:Eh6WvY9NT46Ds4lE3OqJ/Kcuet5oJAehtlQ0bZhrA.2"}
 
 ### Directives
 
@@ -51,7 +51,7 @@ My directive content.
 
 2) **directive options** - a collection of key/value pairs that come just below `{directive_type}`
 
-````yaml
+````text
 ```{directivename}
 :key1: metadata1
 :key2: metadata2
@@ -60,7 +60,7 @@ My directive content.
 ```
 ````
 
-+++ {"oxa":"oxa:Eh6WvY9NT46Ds4lE3OqJ/WpCB3pWods694yWRDXod.1"}
++++ {"oxa":"oxa:Eh6WvY9NT46Ds4lE3OqJ/WpCB3pWods694yWRDXod.2"}
 
 ### Roles
 

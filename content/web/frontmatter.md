@@ -7,11 +7,49 @@ name: frontmatter
 oxa: oxa:Eh6WvY9NT46Ds4lE3OqJ/ZS5jFLjvnEdoTjlf1d7S
 ---
 
-+++ {"oxa":"oxa:Eh6WvY9NT46Ds4lE3OqJ/cqcU0oZTmDVaWFzbGuFn.3"}
++++ {"oxa":"oxa:Eh6WvY9NT46Ds4lE3OqJ/eVZJajQmG01m5YoAZaQ5.1"}
+
+# Where to set frontmatter
+
+Front matter can be set in a markdown (`md`) or notebook (`ipynb`) file (described as a “page” below) or in the `project:` section of a `curvenote.yml` file. When set in a `curvenote.yml` file, those settings will be applied to all content in that same folder and subfolders (apart from “page only” fields).
+
+## In a markdown file
+
+A frontmatter section can be added at the top of any `md` file using `---` delimiters.
+
+```yaml
+---
+title: My First Article
+date: 2022-05-11
+authors:
+	- name: Jane Bloggs
+      affiliations:
+        - University of Europe
+---
+```
+
+## In a Jupyter Notebook
+
+Front matter can be added to the first cell of a Jupyter Notebook, that cell should be a Markdown cell and use `---` delimiters as above. Note, unfortunately
+
+## In a `curvenote.yml` file
+
+Front matter fields can be added directly to any `project:` section within a `curvenote.yml` file. If your root `curvenote.yml` file only contains a `site:` section, and you want to add front matter, add a `project:` section at the top level and add the fields there. e.g.
+
+```python
+version:1
+site:
+  ...
+project:
+  license: CC-BY-4.0
+  open_access: true
+```
+
++++ {"oxa":"oxa:Eh6WvY9NT46Ds4lE3OqJ/cqcU0oZTmDVaWFzbGuFn.4"}
 
 # Available frontmatter fields
 
-The following table lists the available front matter fields, a brief description and a note on how the field behaves depending on whether it is set at on a page or at the project level. Where a field itself is an object with sub-fields, see the relevant description on the page below.
+The following table lists the available front matter fields, a brief description and a note on how the field behaves depending on whether it is set on a page or at the project level. Where a field itself is an object with sub-fields, see the relevant description on the page below.
 
 ~~~{list-table} A list of available front matter fields and their behaviour across projects and pages
 :header-rows: 1
@@ -57,7 +95,7 @@ The following table lists the available front matter fields, a brief description
 
   - a valid date formatted string
 
-  - page only
+  - page can override project
 
 * - `name`
 
@@ -83,7 +121,7 @@ The following table lists the available front matter fields, a brief description
 
   - page can override project
 
-* - `licenses`
+* - `license`
 
   - a license object or a string
 
@@ -103,7 +141,7 @@ The following table lists the available front matter fields, a brief description
 
 * - `subject`
 
-  - a string (max 500 chars)
+  - a string (max 40 chars)
 
   - page can override project
 

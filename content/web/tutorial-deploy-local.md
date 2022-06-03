@@ -313,13 +313,13 @@ The format of the [Frontmatter](oxa:Eh6WvY9NT46Ds4lE3OqJ/ZS5jFLjvnEdoTjlf1d7S "F
 
 Whitespace matters, as this is YAML, and as long as the layout of the section looks ok when you are editing the cell, that will work. Once we render the cell, unfortunately, Jupyter, VSCode and other notebook renderers don't “yet” know how to display the frontmatter correctly, so it may look a mess.
 
-+++ {"oxa":"oxa:Eh6WvY9NT46Ds4lE3OqJ/uANFp4XA2VTIjaIr4Na8.4"}
++++ {"oxa":"oxa:Eh6WvY9NT46Ds4lE3OqJ/uANFp4XA2VTIjaIr4Na8.5"}
 
 ### Site-wide frontmatter
 
 So we can add frontmatter to each of our files and be very precise about the metadata for each piece of content, which is great but some of this metadata can be common across our whole site (or sections of it, see [Working with projects](oxa:Eh6WvY9NT46Ds4lE3OqJ/Omi3OM3q7uQVMkQChjdM "Working with projects")). Rather than duplicate the frontmatter in `index.md` in our other files, let’s instead move some of it to `curvenote.yml` where it will be applied to all content in our site.
 
-🛠️ Open the `curvenote.yml` file for your site and locate the `project:` section. Add a `frontmatter:` section to that and add the `authors` information that we just added to the `index.md` file.
+🛠️ Open the `curvenote.yml` file for your site and locate the `project:` section. Add the `authors` information that we just added to the `index.md` file.
 
 ```yaml
 version: 1
@@ -339,14 +339,13 @@ site:
   twitter: stevejpurves
 project:
   title: My Blog
-  frontmatter:
-    authors:
-      - name: Steve Purves
-        orcid: 0000-0002-0760-5497
-        corresponding: true
-        email: steve@curvenote.com
-        affiliations:
-          - Curvenote
+  authors:
+    - name: Steve Purves
+      orcid: 0000-0002-0760-5497
+      corresponding: true
+      email: steve@curvenote.com
+      affiliations:
+        - Curvenote
 ```
 
 +++ {"oxa":"oxa:Eh6WvY9NT46Ds4lE3OqJ/50AWUIpR2WBYsQJq4Iql.2"}
