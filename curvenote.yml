@@ -18,6 +18,8 @@ site:
       url: /write
     - title: Jupyter
       url: /jupyter
+    - title: Web
+      url: /web
     - title: Export
       url: /export
     - title: Develop
@@ -29,12 +31,12 @@ site:
       slug: write
     - path: content/jupyter
       slug: jupyter
+    - path: content/web
+      slug: web
     - path: content/export
       slug: export
     - path: content/cli
       slug: cli
-  frontmatter:
-    numbering: false
-    venue: Curvenote Docs
-    license: CC-BY-4.0
-    open_access: true
+  analytics:
+    google: G-WENBZHW9JR
+  venue: Curvenote Docs

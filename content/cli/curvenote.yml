@@ -3,5 +3,7 @@ project:
   title: Command Line Tools
   remote: EplL6AlILV3RGEDPzj5U
   link: https://curvenote.com/@docs/cli
-  frontmatter:
-    subject: Command Line Tools
+  subject: Command Line Tools
+  numbering: false
+  license: CC-BY-4.0
+  open_access: true

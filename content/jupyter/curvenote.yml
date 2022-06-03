@@ -3,5 +3,7 @@ project:
   title: Jupyter Integration
   remote: m59m7JQmWVyPjlASj9v3
   link: https://curvenote.com/@docs/jupyter
-  frontmatter:
-    subject: Jupyter Integration
+  subject: Jupyter Integration
+  numbering: false
+  license: CC-BY-4.0
+  open_access: true

@@ -3,5 +3,7 @@ project:
   title: Write
   remote: Z1isOjJQGvM22q5fhunb
   link: https://curvenote.com/@docs/write
-  frontmatter:
-    subject: Write
+  subject: Write
+  numbering: false
+  license: CC-BY-4.0
+  open_access: true

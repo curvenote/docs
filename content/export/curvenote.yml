@@ -3,5 +3,7 @@ project:
   title: Export
   remote: TnCP56I5qhrKLeVufPL4
   link: https://curvenote.com/@docs/export
-  frontmatter:
-    subject: Export
+  subject: Export
+  numbering: false
+  license: CC-BY-4.0
+  open_access: true

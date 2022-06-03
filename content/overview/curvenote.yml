@@ -3,5 +3,7 @@ project:
   title: Overview
   remote: w6jXebeTS6WGaVFDIEz9
   link: https://curvenote.com/@docs/overview
-  frontmatter:
-    subject: Overview
+  subject: Overview
+  numbering: false
+  license: CC-BY-4.0
+  open_access: true
