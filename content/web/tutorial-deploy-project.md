@@ -2,7 +2,6 @@
 title: Start with a Curvenote project
 description: ""
 date: 2022-05-19T12:05:25.929Z
-authors: []
 name: tutorial-deploy-project
 oxa: oxa:Eh6WvY9NT46Ds4lE3OqJ/cMzSX755ZfawTQbU41BV
 ---

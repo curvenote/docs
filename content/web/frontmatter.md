@@ -1,19 +1,18 @@
 ---
 title: Frontmatter
-description: ''
+description: ""
 date: 2022-05-26T17:23:08.973Z
-authors: []
 name: frontmatter
 oxa: oxa:Eh6WvY9NT46Ds4lE3OqJ/ZS5jFLjvnEdoTjlf1d7S
 ---
 
-+++ {"oxa":"oxa:Eh6WvY9NT46Ds4lE3OqJ/eVZJajQmG01m5YoAZaQ5.3"}
-
-# Where to set frontmatter
++++ {"oxa":"oxa:Eh6WvY9NT46Ds4lE3OqJ/eVZJajQmG01m5YoAZaQ5.4"}
 
 Front matter can be set in a markdown (`md`) or notebook (`ipynb`) file (described as a “page” below) or in the `project:` section of a `curvenote.yml` file. When set in a `curvenote.yml` file, those settings will be applied to all content in that same folder and subfolders (apart from “page only” fields).
 
-## In a markdown file
+# Where to set frontmatter
+
+### In a markdown file
 
 A frontmatter section can be added at the top of any `md` file using `---` delimiters.
 
@@ -28,16 +27,20 @@ authors:
 ---
 ```
 
-## In a Jupyter Notebook
+### In a Jupyter Notebook
 
 Front matter can be added to the first cell of a Jupyter Notebook, that cell should be a Markdown cell and use `---` delimiters as above.
 
-```{important}
+````{important}
 **Note**
 
 Remember to format the contents of the section as valid `yaml` even though when rendered, the cell will not look well formated in your notebook.
 
-```
+````
+
+### In a markdown-based notebook
+
+If your Jupyter Notebook is described as a markdown file (e.g. using [jupytext](https://jupytext.readthedocs.io/en/latest/formats.html), or [MyST](https://jupyterbook.org/en/stable/file-types/myst-notebooks.html)), then this should be included in the frontmatter section as usual in addition to the `jupyter` key that defines the kernel and jupytext metadata.
 
 ## In a `curvenote.yml` file
 
@@ -48,8 +51,7 @@ version:1
 site:
   ...
 project:
-  license:
-    content: CC-BY-4.0
+  license: CC-BY-4.0
   open_access: true
 ```
 
@@ -59,7 +61,7 @@ project:
 
 The following table lists the available front matter fields, a brief description and a note on how the field behaves depending on whether it is set on a page or at the project level. Where a field itself is an object with sub-fields, see the relevant description on the page below.
 
-```{list-table} A list of available front matter fields and their behaviour across projects and pages
+~~~{list-table} A list of available front matter fields and their behaviour across projects and pages
 :header-rows: 1
 :name: wmDcYPnNQf
 
@@ -165,7 +167,7 @@ The following table lists the available front matter fields, a brief description
 
   - page can override project
 
-```
+~~~
 
 +++ {"oxa":"oxa:Eh6WvY9NT46Ds4lE3OqJ/qEWOsWdNQeyy2H5KfprX.2"}
 
@@ -177,14 +179,14 @@ Frontmatter can be attached to a “page”, meaning a local `.md` or `.ipynb` o
 2. `page only` - the field is only available on pages, and not present on projects and it will be ignored if set there.
 3. `page can override project` - the field is available on both page & project but the value of the field on the page will override any set of the project. Note that the page field must be omitted or undefined, for the project value to be used, value of `null` (or `[]` in the case of `authors`) will still override the project value but clear the field for that page.
 
-```{important}
+````{important}
 **Note**
 
 Learn more about project scopes in [Working with projects](oxa:Eh6WvY9NT46Ds4lE3OqJ/Omi3OM3q7uQVMkQChjdM "Working with projects").
 
-```
+````
 
-+++ {"oxa":"oxa:Eh6WvY9NT46Ds4lE3OqJ/FUAv66SXLnK1PPkA7DCc.3"}
++++ {"oxa":"oxa:Eh6WvY9NT46Ds4lE3OqJ/FUAv66SXLnK1PPkA7DCc.4"}
 
 ## Authors
 
@@ -192,7 +194,7 @@ The `authors` field is a list of `author` objects.
 
 Available fields in the author object are:
 
-````{list-table}
+~~~{list-table}
 :header-rows: 1
 :name: GURqaM1qL7
 
@@ -245,7 +247,7 @@ Available fields in the author object are:
           - Earth University
     ```
 
-````
+~~~
 
 ## Date
 
@@ -271,7 +273,7 @@ Available fields in the License object are `content` and `code` allowing license
 
 String values for licenses should be a valid “Identifier” string from the [SPDX License List](https://spdx.org/licenses/). Identifiers for well-known licenses are easily recognizable, but can be more specific than you are used to, for example:
 
-```{list-table}
+~~~{list-table}
 :header-rows: 1
 :name: ovrQAe267C
 
@@ -291,7 +293,7 @@ String values for licenses should be a valid “Identifier” string from the [S
     - `LGPL-3.0-or-later`
     - `AGPL`
 
-```
+~~~
 
 By using the correct SPDX Identifier, your website will automatically use the appropriate icon for the license and link to the license definition.
 
@@ -316,7 +318,7 @@ or
 ```yaml
 venue:
   title: EuroSciPy 2022
-  utl: https://www.euroscipy.org/2022
+  url: https://www.euroscipy.org/2022
 ```
 
 ## Biblio
@@ -331,24 +333,25 @@ Some example `biblio` values may be:
 
 ```yaml
 biblio:
-  volume: '42'
-  issue: '3'
-  first_page: '1' # can be a number or string
-  last_page: '99' # can be a number or string
+  volume: "42"
+  issue: "3"
+  first_page: "1" # can be a number or string
+  last_page: "99" # can be a number or string
 ```
 
 OR
 
 ```yaml
 biblio:
-  volume: '2022'
+  volume: "2022"
   issue: Winter
   first_page: Inside cover # can be a number or string
 ```
 
-```{warning}
+````{warning}
 **Coming Soon**
 
 `first_page` and `last_page` information is not currently rendered in the default [curve.space](https://curve.space) theme
 
-```
+````
+

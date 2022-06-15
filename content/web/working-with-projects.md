@@ -2,7 +2,6 @@
 title: Working with projects
 description: ""
 date: 2022-05-26T17:22:33.572Z
-authors: []
 name: working-with-projects
 oxa: oxa:Eh6WvY9NT46Ds4lE3OqJ/Omi3OM3q7uQVMkQChjdM
 ---

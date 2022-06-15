@@ -2,7 +2,6 @@
 title: Hosting on curve.space
 description: ""
 date: 2022-05-26T17:23:31.362Z
-authors: []
 name: hosting
 oxa: oxa:Eh6WvY9NT46Ds4lE3OqJ/6xTpl07Az7VN9tdldJAt
 ---

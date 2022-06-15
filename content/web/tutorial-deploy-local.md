@@ -2,7 +2,6 @@
 title: Start with a local folder
 description: ""
 date: 2022-05-26T10:56:00.000Z
-authors: []
 name: tutorial-deploy-local
 oxa: oxa:Eh6WvY9NT46Ds4lE3OqJ/awl1FKZAY7CpiX7GWWXS
 ---
@@ -29,7 +28,7 @@ This tutorial assumes that you have installed the Curvenote CLI (see [Installing
 
 ````
 
-+++ {"oxa":"oxa:Eh6WvY9NT46Ds4lE3OqJ/Rlubtklyn8adnMX8dQQQ.3"}
++++ {"oxa":"oxa:Eh6WvY9NT46Ds4lE3OqJ/Rlubtklyn8adnMX8dQQQ.4"}
 
 # Create a folder containing content
 
@@ -42,10 +41,17 @@ This is an ideal starting point if you are managing your content in GitHub, and 
 
 ````
 
+````{important}
+**Demo Content**
+
+You can follow this tutorial using your own content. However, if you’d like to use the same content that is featured in the tutorial you can do. Just use the `git clone` command specified in the next step without modification.
+
+````
+
 🛠️ The first step is to create a new, or identify an existing, folder to contain all the local content and configuration files from your site and `cd` into it:
 
 ```shell
-% git clone https://github.com/username/blog
+% git clone https://github.com/curvneote/doc-blog-template blog
 Cloning into 'blog'...
 remote: Enumerating objects: 60, done.
 remote: Counting objects: 100% (6/6), done.

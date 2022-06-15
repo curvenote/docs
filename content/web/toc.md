@@ -2,7 +2,6 @@
 title: Table of contents
 description: ""
 date: 2022-05-26T11:41:33.190Z
-authors: []
 name: toc
 oxa: oxa:Eh6WvY9NT46Ds4lE3OqJ/FrJ3eDvWP2LO3o40n4du
 ---

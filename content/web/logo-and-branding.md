@@ -2,7 +2,6 @@
 title: Logo & branding
 description: ""
 date: 2022-05-26T17:23:05.533Z
-authors: []
 name: logo-and-branding
 oxa: oxa:Eh6WvY9NT46Ds4lE3OqJ/UgHua2z4Rp16qMSx6e6U
 ---

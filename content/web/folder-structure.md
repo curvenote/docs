@@ -2,7 +2,6 @@
 title: Folder Structure
 description: ""
 date: 2022-05-26T17:23:58.905Z
-authors: []
 name: folder-structure
 oxa: oxa:Eh6WvY9NT46Ds4lE3OqJ/fDMrRS0eu2j1AeD8O311
 ---

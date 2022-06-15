@@ -2,7 +2,6 @@
 title: Deploying from GitHub
 description: ""
 date: 2022-05-19T10:44:11.817Z
-authors: []
 name: github-action
 oxa: oxa:Eh6WvY9NT46Ds4lE3OqJ/rVruBYk1hDZL2Ca9a6UQ
 ---

@@ -2,7 +2,6 @@
 title: Creating Scientific Websites
 description: ""
 date: 2022-05-18T09:17:58.631Z
-authors: []
 name: index
 oxa: oxa:Eh6WvY9NT46Ds4lE3OqJ/Ubz3WohwR2wSdi4384DE
 ---

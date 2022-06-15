@@ -2,7 +2,6 @@
 title: Working with markdown
 description: ""
 date: 2022-05-27T18:05:17.117Z
-authors: []
 name: markdown
 oxa: oxa:Eh6WvY9NT46Ds4lE3OqJ/mS6TLCfdpoKbugwh3Rzf
 ---

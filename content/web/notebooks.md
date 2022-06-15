@@ -2,7 +2,6 @@
 title: Working with notebooks
 description: ""
 date: 2022-05-27T18:05:27.448Z
-authors: []
 name: notebooks
 oxa: oxa:Eh6WvY9NT46Ds4lE3OqJ/cg5xe63ZRhLmNpn84YLy
 ---

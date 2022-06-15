@@ -2,7 +2,6 @@
 title: Navigation and actions
 description: ""
 date: 2022-05-27T18:05:50.609Z
-authors: []
 name: navigation
 oxa: oxa:Eh6WvY9NT46Ds4lE3OqJ/jrOoppptNKmkpA5FmGTU
 ---

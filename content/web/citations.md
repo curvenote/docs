@@ -2,7 +2,6 @@
 title: Citations
 description: ""
 date: 2022-05-24T14:45:10.494Z
-authors: []
 name: citations
 oxa: oxa:Eh6WvY9NT46Ds4lE3OqJ/Vhry2i4pZKexKOLOQasy
 ---

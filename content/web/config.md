@@ -2,7 +2,6 @@
 title: Configuration
 description: ""
 date: 2022-05-26T17:23:49.005Z
-authors: []
 name: config
 oxa: oxa:Eh6WvY9NT46Ds4lE3OqJ/n4eX0Wb2I1eXXMK2xq9Y
 ---
