@@ -1,20 +1,17 @@
 ---
 title: Math & Equations
 description: ""
-date: 2022-03-15T04:44:47.994Z
 authors:
-  - name: Rowan Cockett
-    userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
+  - userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
+    name: Rowan Cockett
     orcid: 0000-0002-7859-8394
-    corresponding: null
-    email: null
-    roles: null
-    affiliations: null
+    corresponding: false
+    roles: []
+    affiliations: []
+date: 2022-03-15T04:44:47.994Z
 name: math-and-equations
 oxa: oxa:Z1isOjJQGvM22q5fhunb/Y0cAWcbYJy11ZBXmGSAm
 ---
-
-# Math & Equations
 
 +++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/uUQGBB4or5EqB538NldB.1"}
 
@@ -36,9 +33,9 @@ Curvenote supports and automatically renders $\LaTeX$ math symbols in either inl
 
 You can create math equations inline with the rest of your text in Curvenote such as: $\int_{a}^{b} x^2 \,dx$. Inline math can be created using
 
-* [Editing Toolbar](oxa:Z1isOjJQGvM22q5fhunb/FXp6KALoOyrnk0w5XgQT "Editing Toolbar") → ➕ Insert Menu → $\bf{\Sigma}$ **Inline Math**
-* [Command Menu](oxa:Z1isOjJQGvM22q5fhunb/gKX5CnZEMGcUbygsA0dh "Command Menu") `/` → **Inline Math**
-* Keyboard shortcut `$ $`
+- [Editing Toolbar](oxa:Z1isOjJQGvM22q5fhunb/FXp6KALoOyrnk0w5XgQT "Editing Toolbar") → ➕ Insert Menu → $\bf{\Sigma}$ **Inline Math**
+- [Command Menu](oxa:Z1isOjJQGvM22q5fhunb/gKX5CnZEMGcUbygsA0dh "Command Menu") `/` → **Inline Math**
+- Keyboard shortcut `$ $`
 
 ```{figure} images/MshxlXndaLsk3WbJ0ZGy-DwJwFluqdLMIcV1UCKOe-v2.gif
 :name: a7256801
@@ -63,9 +60,9 @@ x = {-b \pm \sqrt{b^2-4ac} \over 2a}
 
 Equations can be created using
 
-* Editing Toolbar → ➕ Insert Menu → $\bf{\Sigma}$ **Equation Block**
-* Command Menu `/` → **Equation**
-* Keyboard shortcut `$$`
+- Editing Toolbar → ➕ Insert Menu → $\bf{\Sigma}$ **Equation Block**
+- Command Menu `/` → **Equation**
+- Keyboard shortcut `$$`
 
 ```{figure} images/MshxlXndaLsk3WbJ0ZGy-KquePozuECEFRimjQu9q-v1.gif
 :name: hvamNcdPZf

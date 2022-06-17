@@ -1,20 +1,17 @@
 ---
 title: Editing Toolbar
 description: ""
-date: 2022-03-15T04:49:29.121Z
 authors:
-  - name: Rowan Cockett
-    userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
+  - userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
+    name: Rowan Cockett
     orcid: 0000-0002-7859-8394
-    corresponding: null
-    email: null
-    roles: null
-    affiliations: null
+    corresponding: false
+    roles: []
+    affiliations: []
+date: 2022-03-15T04:49:29.121Z
 name: editing-toolbar
 oxa: oxa:Z1isOjJQGvM22q5fhunb/FXp6KALoOyrnk0w5XgQT
 ---
-
-# Editing Toolbar
 
 +++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/ZPyYL5Y8D9mNdJild0kQ.2"}
 

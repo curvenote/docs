@@ -1,20 +1,17 @@
 ---
 title: Formatting & Style
 description: ""
-date: 2022-03-15T05:28:14.757Z
 authors:
-  - name: Rowan Cockett
-    userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
+  - userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
+    name: Rowan Cockett
     orcid: 0000-0002-7859-8394
-    corresponding: null
-    email: null
-    roles: null
-    affiliations: null
+    corresponding: false
+    roles: []
+    affiliations: []
+date: 2022-03-15T05:28:14.757Z
 name: formatting-and-style
 oxa: oxa:Z1isOjJQGvM22q5fhunb/mejX29aqC6lQrauTK08F
 ---
-
-# Formatting & Style
 
 +++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/9GP9YY33LBKzcN25r890.2"}
 
@@ -45,8 +42,8 @@ You can use standard shortcuts (`⌘B`, `⌘I`, `⌘U`) for styling **bold**, *i
 
 You can add either a Bullet Point or Numbered List to your block. You can search for the specific list you want, or see all available list options by typing `/list`. When you add a list, you can start from an empty line or place your cursor in front of text you have already added. Only that line of text will be added to your list.
 
-* `/bullet point list` `⌘ ⇧ 8`
-* `/numbered list` `⌘ ⇧ 7`
+- `/bullet point list` `⌘ ⇧ 8`
+- `/numbered list` `⌘ ⇧ 7`
 
 You can also access list formatting and options using Markdown commands or the editing toolbar. Learn more [Markdown Accelerators](oxa:Z1isOjJQGvM22q5fhunb/CR4x2BBf2tUF5l0BmMNK "Markdown Accelerators") and [Editing Toolbar](oxa:Z1isOjJQGvM22q5fhunb/FXp6KALoOyrnk0w5XgQT "Editing Toolbar").
 
@@ -60,7 +57,7 @@ You can create a callout panel with the `/callout` command.
 :name: EkfyBTbeLt
 ```
 
-* To exit the callout panel, type enter twice at the bottom of the panel.
-* To insert text before the panel, hit escape and then the left arrow, then enter.
-* To escape all content in the panel, use the `Remove from Container` button in the callout controls.
+- To exit the callout panel, type enter twice at the bottom of the panel.
+- To insert text before the panel, hit escape and then the left arrow, then enter.
+- To escape all content in the panel, use the `Remove from Container` button in the callout controls.
 

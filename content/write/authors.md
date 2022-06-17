@@ -1,20 +1,17 @@
 ---
 title: Adding Authors
 description: ""
-date: 2022-03-15T05:00:24.948Z
 authors:
-  - name: Rowan Cockett
-    userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
+  - userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
+    name: Rowan Cockett
     orcid: 0000-0002-7859-8394
-    corresponding: null
-    email: null
-    roles: null
-    affiliations: null
+    corresponding: false
+    roles: []
+    affiliations: []
+date: 2022-03-15T05:00:24.948Z
 name: authors
 oxa: oxa:Z1isOjJQGvM22q5fhunb/vXuPyvzh1s6hy49k0nrS
 ---
-
-# Adding Authors
 
 +++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/p377jZM6RtFh7FRfahLI.2"}
 

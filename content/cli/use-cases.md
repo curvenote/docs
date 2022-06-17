@@ -2,16 +2,15 @@
 title: Use Cases
 description: ""
 date: 2022-05-25T10:09:57.627Z
-authors: null
 name: use-cases
 oxa: oxa:EplL6AlILV3RGEDPzj5U/Ewz1XGs9N0mKdQqCLTAw
 ---
 
 +++ {"oxa":"oxa:EplL6AlILV3RGEDPzj5U/fWzhjZXQJwn8Yc3wJ87D.1"}
 
-* local folder → just a folder with no `curvenote.yml` in it
-* local site → a local folder that contains a `curvneote.yml` with `project` and `site` sections
-* remote → a project that exists on curvenote.com
+- local folder → just a folder with no `curvenote.yml` in it
+- local site → a local folder that contains a `curvneote.yml` with `project` and `site` sections
+- remote → a project that exists on curvenote.com
 
 +++ {"oxa":"oxa:EplL6AlILV3RGEDPzj5U/FZryUdpJF8HymZ2xEpCc.3"}
 

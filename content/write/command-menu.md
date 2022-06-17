@@ -1,20 +1,17 @@
 ---
 title: Command Menu
 description: ""
-date: 2022-03-15T05:02:34.595Z
 authors:
-  - name: Rowan Cockett
-    userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
+  - userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
+    name: Rowan Cockett
     orcid: 0000-0002-7859-8394
-    corresponding: null
-    email: null
-    roles: null
-    affiliations: null
+    corresponding: false
+    roles: []
+    affiliations: []
+date: 2022-03-15T05:02:34.595Z
 name: command-menu
 oxa: oxa:Z1isOjJQGvM22q5fhunb/gKX5CnZEMGcUbygsA0dh
 ---
-
-# Command Menu
 
 +++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/6x9vKGQUgpuzkl52IJVY.1"}
 
@@ -57,8 +54,8 @@ To turn a heading into a paragraph, you can select it and use the menu, use the 
 
 You can add either a Bullet Point or Numbered List to your block. You can search for the specific list you want, or see all available list options by typing `/list`. When you add a list, you can start from an empty line or place your cursor in front of text you have already added. Only that line of text will be added to your list.
 
-* `/bullet point list` `⌘ ⇧ 8`
-* `/numbered list` `⌘ ⇧ 7`
+- `/bullet point list` `⌘ ⇧ 8`
+- `/numbered list` `⌘ ⇧ 7`
 
 You can also access list formatting and options using Markdown commands or the editing toolbar. Learn more [Markdown Accelerators](oxa:Z1isOjJQGvM22q5fhunb/CR4x2BBf2tUF5l0BmMNK "Markdown Accelerators") and [Editing Toolbar](oxa:Z1isOjJQGvM22q5fhunb/FXp6KALoOyrnk0w5XgQT "Editing Toolbar").
 

@@ -1,20 +1,17 @@
 ---
 title: Internal References
 description: ""
-date: 2022-03-15T04:45:43.120Z
 authors:
-  - name: Rowan Cockett
-    userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
+  - userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
+    name: Rowan Cockett
     orcid: 0000-0002-7859-8394
-    corresponding: null
-    email: null
-    roles: null
-    affiliations: null
+    corresponding: false
+    roles: []
+    affiliations: []
+date: 2022-03-15T04:45:43.120Z
 name: internal-references
 oxa: oxa:Z1isOjJQGvM22q5fhunb/kM7RCPH0vEYtXYMgTN6G
 ---
-
-# Internal References
 
 +++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/1MhOEGTFhBstovyQNt0Y.1"}
 

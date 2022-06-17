@@ -2,14 +2,6 @@
 title: LaTeX and PDFs
 description: ""
 date: 2022-01-20T20:25:52.595Z
-authors:
-  - name: Rowan Cockett
-    userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
-    orcid: 0000-0002-7859-8394
-    corresponding: null
-    email: null
-    roles: null
-    affiliations: null
 name: latex-and-pdfs
 oxa: oxa:EplL6AlILV3RGEDPzj5U/ws9GZcMqfeNIV2sPB82H
 ---

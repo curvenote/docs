@@ -1,20 +1,17 @@
 ---
 title: Navigation
 description: ""
-date: 2022-03-15T04:46:27.144Z
 authors:
-  - name: Rowan Cockett
-    userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
+  - userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
+    name: Rowan Cockett
     orcid: 0000-0002-7859-8394
-    corresponding: null
-    email: null
-    roles: null
-    affiliations: null
+    corresponding: false
+    roles: []
+    affiliations: []
+date: 2022-03-15T04:46:27.144Z
 name: navigation
 oxa: oxa:Z1isOjJQGvM22q5fhunb/Yz5Fmzdx1uFlo1YicWSw
 ---
-
-# Navigation
 
 +++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/MGxRryNtH4MmS34FoYGn.1"}
 
@@ -33,9 +30,9 @@ The project sidebar helps with organizing all of the documents in your project. 
 
 You can control the order of your project content. To do this:
 
-* Access your project
-* In the blue **navigation panel** to the left of your screen select, drag, and drop your article or notebook where you want it
-* Content can be ordered and or nested by dragging it up and down or left to right
+- Access your project
+- In the blue **navigation panel** to the left of your screen select, drag, and drop your article or notebook where you want it
+- Content can be ordered and or nested by dragging it up and down or left to right
 
 +++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/NqdMt3RWCY6e6d2MiYnU.1"}
 

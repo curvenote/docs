@@ -1,20 +1,17 @@
 ---
 title: Articles
 description: ""
-date: 2022-03-15T04:48:50.448Z
 authors:
-  - name: Rowan Cockett
-    userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
+  - userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
+    name: Rowan Cockett
     orcid: 0000-0002-7859-8394
-    corresponding: null
-    email: null
-    roles: null
-    affiliations: null
+    corresponding: false
+    roles: []
+    affiliations: []
+date: 2022-03-15T04:48:50.448Z
 name: articles
 oxa: oxa:Z1isOjJQGvM22q5fhunb/cXTgMKcibbT0CMdtJYBU
 ---
-
-# Articles
 
 +++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/XccodkmtHQh7VFPEzEyW.1"}
 
@@ -26,13 +23,13 @@ Articles are text-based documents within Curvenote that can be used for a variet
 
 Articles must live within projects. To create a new article in a project:
 
-* Access the **Project Navigation Panel**.
-* Click the **➕** button at the bottom.
-* Enter the article title.
-  * The article URL is automatically created from the title.
-  * You can change the URL but it must be unique within a project and can only contain lowercase letters, numbers, and dashes.
-* Click **CONTINUE 🚀.**
-  * You will be redirected to your newly created article!
+- Access the **Project Navigation Panel**.
+- Click the **➕** button at the bottom.
+- Enter the article title.
+  - The article URL is automatically created from the title.
+  - You can change the URL but it must be unique within a project and can only contain lowercase letters, numbers, and dashes.
+- Click **CONTINUE 🚀.**
+  - You will be redirected to your newly created article!
 
     ```{figure} images/MshxlXndaLsk3WbJ0ZGy-tstqdKcgZc5rP6CVdWS3-v4.gif
     :name: 9d6558d2
@@ -47,21 +44,21 @@ When you access your article you can either view a saved **version**, or edit a 
 
 To edit your article:
 
-* Click **EDIT** in the top left to enter **Draft Mode.**
-  * You are now editing a temporary **draft** of your article.
+- Click **EDIT** in the top left to enter **Draft Mode.**
+  - You are now editing a temporary **draft** of your article.
 
 
-  * Draft mode is indicated in the status bar at the bottom of the page.
-  * Any changes you make are synced and saved.
-* Blocks can edited individually.
-  * Learn more about editing and versioning [Blocks](oxa:Z1isOjJQGvM22q5fhunb/dX2scJKs5ZrcWJLgLvVs "Blocks").
-* To exit draft mode you can either click:
-  * **STOP EDITING** in the top left.
-    * You will be redirected to a view of your most recent saved **version**.
-    * Your changes are saved in a **draft** and will be visible the next time you click **EDIT** on Curvenote.
-  * **SAVE VERSION** in the top left.
-    * Your edits are now saved in a new **version** of your article.
-    * You will be redirected to a view of your newly saved **version**.
+  - Draft mode is indicated in the status bar at the bottom of the page.
+  - Any changes you make are synced and saved.
+- Blocks can edited individually.
+  - Learn more about editing and versioning [Blocks](oxa:Z1isOjJQGvM22q5fhunb/dX2scJKs5ZrcWJLgLvVs "Blocks").
+- To exit draft mode you can either click:
+  - **STOP EDITING** in the top left.
+    - You will be redirected to a view of your most recent saved **version**.
+    - Your changes are saved in a **draft** and will be visible the next time you click **EDIT** on Curvenote.
+  - **SAVE VERSION** in the top left.
+    - Your edits are now saved in a new **version** of your article.
+    - You will be redirected to a view of your newly saved **version**.
 
 ```{figure} images/MshxlXndaLsk3WbJ0ZGy-ZiqlKcmXXfb30mlOCaCA-v3.gif
 :name: a1ab9b36
@@ -87,21 +84,21 @@ All your changes are saved locally, and are available at the bottom of the versi
 
 You can update the article settings at any time. To do this:
 
-* Click **EDIT** to enter Draft Mode if you are not already.
-* Open the the $\mathbf{\vdots}$ **Page Options** menu.
-  * Select ⚙️ **Settings**
-* Update the URL, title, description, and/or tags.
-  * Click **UPDATE SETTINGS**
+- Click **EDIT** to enter Draft Mode if you are not already.
+- Open the the $\mathbf{\vdots}$ **Page Options** menu.
+  - Select ⚙️ **Settings**
+- Update the URL, title, description, and/or tags.
+  - Click **UPDATE SETTINGS**
 
 ````{danger}
 If you change the article URL, previously created links to the article will be broken!
 
 ````
 
-* Add or update the article thumbnail.
-  * Browse or drag and drop a new image from your computer.
-  * Use the image editor to position your image
-  * Click **UPLOAD IMAGE**
+- Add or update the article thumbnail.
+  - Browse or drag and drop a new image from your computer.
+  - Use the image editor to position your image
+  - Click **UPLOAD IMAGE**
 
 ```{figure} images/MshxlXndaLsk3WbJ0ZGy-cqaNdAMtr7daU4LeCV2m-v4.gif
 :name: a72d4290
@@ -118,9 +115,9 @@ The article title, description and thumbnail are shown when you share a link to 
 
 You can delete your article. To do this:
 
-* Click on the **Page Options** menu $\mathbf{\vdots}$
-* Select **Delete Article**
-* Click **DELETE**
+- Click on the **Page Options** menu $\mathbf{\vdots}$
+- Select **Delete Article**
+- Click **DELETE**
 
 ````{danger}
 This will **permanently** delete the article including all of its blocks, history, versions, drafts and comments. Any links to the article or its blocks will break. This action cannot be undone!

@@ -1,20 +1,17 @@
 ---
 title: Citations
 description: ""
-date: 2022-03-15T04:45:48.038Z
 authors:
-  - name: Rowan Cockett
-    userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
+  - userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
+    name: Rowan Cockett
     orcid: 0000-0002-7859-8394
-    corresponding: null
-    email: null
-    roles: null
-    affiliations: null
+    corresponding: false
+    roles: []
+    affiliations: []
+date: 2022-03-15T04:45:48.038Z
 name: citations
 oxa: oxa:Z1isOjJQGvM22q5fhunb/Hpk0fVg52bmVZMyIjHv2
 ---
-
-# Citations
 
 +++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/74n6Q79GGPMmuKdPfXEv.1"}
 
@@ -81,19 +78,19 @@ A digital object identifier (DOI) is a unique string that’s used to permanentl
 
 To add a DOI:
 
-* Locate the DOI on the article or document you want to cite, and copy it to your clipboard
+- Locate the DOI on the article or document you want to cite, and copy it to your clipboard
 
 ````{note}
 The DOI is usually included with the article content. However, if you cannot find the DOI you can use the ‘Search Metadata’ option on [crossref.org.](crossref.org.)
 
 ````
 
-* Place your cursor in the area you want to add the citation
-* Access the citation menu by using the `/cite` command
-* Navigate to **ADD DOI**
-* Enter the DOI in the search bar
-* Select **SEARCH**
-* If the appropriate article or document is shown, select **CREATE CITATION**
+- Place your cursor in the area you want to add the citation
+- Access the citation menu by using the `/cite` command
+- Navigate to **ADD DOI**
+- Enter the DOI in the search bar
+- Select **SEARCH**
+- If the appropriate article or document is shown, select **CREATE CITATION**
 
 ```{figure} images/MshxlXndaLsk3WbJ0ZGy-tZmadZXYnXoMbmz0nAwm-v2.gif
 :name: 17800507
@@ -125,10 +122,10 @@ In Curvenote, the references are stored as a `Reference` block, when you upload 
 
 To add multiple citations:
 
-* Place your cursor in the area you want to add the citation
-* Access the references menu by using the `/reference` command
-* Filter using the **Search**, and use the checkboxes to select the citation you would like to add
-* Select **INSERT CITATIONS**
+- Place your cursor in the area you want to add the citation
+- Access the references menu by using the `/reference` command
+- Filter using the **Search**, and use the checkboxes to select the citation you would like to add
+- Select **INSERT CITATIONS**
 
 The citations will now be added!
 

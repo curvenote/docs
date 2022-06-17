@@ -1,20 +1,17 @@
 ---
 title: Citation Style
 description: ""
-date: 2022-03-15T04:45:58.188Z
 authors:
-  - name: Rowan Cockett
-    userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
+  - userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
+    name: Rowan Cockett
     orcid: 0000-0002-7859-8394
-    corresponding: null
-    email: null
-    roles: null
-    affiliations: null
+    corresponding: false
+    roles: []
+    affiliations: []
+date: 2022-03-15T04:45:58.188Z
 name: citation-style
 oxa: oxa:Z1isOjJQGvM22q5fhunb/matEyTKxn9SCqd3iE4Sy
 ---
-
-# Citation Style
 
 +++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/J6ic2bsDtFAgs6cxRESA.1"}
 

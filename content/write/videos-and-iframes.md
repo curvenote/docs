@@ -1,29 +1,26 @@
 ---
 title: Videos & Embedded Content
 description: ""
-date: 2022-03-15T04:37:42.984Z
 authors:
-  - name: Rowan Cockett
-    userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
+  - userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
+    name: Rowan Cockett
     orcid: 0000-0002-7859-8394
-    corresponding: null
-    email: null
-    roles: null
-    affiliations: null
+    corresponding: false
+    roles: []
+    affiliations: []
+date: 2022-03-15T04:37:42.984Z
 name: videos-and-iframes
 oxa: oxa:Z1isOjJQGvM22q5fhunb/uhqOeXVi0jnYKtq5AIeJ
 ---
-
-# Videos & Embedded Content
 
 +++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/a3mz2jgz06uuAJdsXOzV.1"}
 
 External content from a variety of places can be embedded into a Curvenote block. All of the options below must be added using either the options in Insert Menu➕ in the Editing Toolbar at the top of the page or the [command menu](oxa:Z1isOjJQGvM22q5fhunb/gKX5CnZEMGcUbygsA0dh "Command Menu") accessed via the `/` symbol.
 
-* YouTube Video `/YouTube`
-* Vimeo Video `/Vimeo`
-* Loom Video `/Loom`
-* Embed an IFrame `/IFrame`
+- YouTube Video `/YouTube`
+- Vimeo Video `/Vimeo`
+- Loom Video `/Loom`
+- Embed an IFrame `/IFrame`
 
 For example, this is a concept video about Curvenote (when we started we were called iooxa!).
 
@@ -51,6 +48,24 @@ To embed this sort of content, or any other IFrame content, find the `Embed` but
 :name: VpqS8wXfb2
 
 Curvenote only uses the specific link to the content, not any of the code provided.
+```
+
++++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/YCjlEBFVnUnTsx2wgawg.2"}
+
+## Google Slides
+
+You can embed Google Slides, using the **File → Publish to Web** in Google Slides, see [their help here](https://support.google.com/a/users/answer/9308870?hl=en). In the publish dialog, click the embed tab, and copy the URL in the IFrame HTML tag.
+
+```{figure} images/Z1isOjJQGvM22q5fhunb-dZGczZZLuRQTfjBmQOMH-v1.png
+:name: BW7o9WpXSQ
+```
+
+For example, here is a seminar talk:
+
+```{iframe} https://docs.google.com/presentation/d/e/2PACX-1vQLA_cwshr37isaM5V8TlPDS6GJzcuCL2Qggd00Dp9I1R4YIQaxqk4LCuElwHhEI-TsrryVkAplLwzP/embed
+:label: QP1tqy3Nx5
+:align: center
+:width: 100%
 ```
 
 +++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/K6yagBwDSAHYo50YbTbC.1"}
@@ -100,7 +115,7 @@ You have to put the following code before the url:
 
 For example:
 
-[https://www.figma.com/embed?embed\_host=astra&url=https://www.figma.com/file/LKQ4FJ4bTnCSjedbRpk931/Sample-File](https://www.figma.com/embed?embed\_host=astra&url=\\
+[https://www.figma.com/embed?embed_host=astra&url=https://www.figma.com/file/LKQ4FJ4bTnCSjedbRpk931/Sample-File](https://www.figma.com/embed?embed_host=astra&url=\\
        https://www.figma.com/file/LKQ4FJ4bTnCSjedbRpk931/Sample-File)
 
 ```{iframe} https://www.figma.com/embed?embed_host=astra&url=https://www.figma.com/file/LKQ4FJ4bTnCSjedbRpk931/Sample-File

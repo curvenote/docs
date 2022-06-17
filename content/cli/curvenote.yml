@@ -1,6 +1,7 @@
 version: 1
 project:
   title: Command Line Tools
+  description: ''
   remote: EplL6AlILV3RGEDPzj5U
   link: https://curvenote.com/@docs/cli
   subject: Command Line Tools
@@ -9,3 +10,4 @@ project:
     content: CC-BY-4.0
     code: MIT
   open_access: true
+  name: cli

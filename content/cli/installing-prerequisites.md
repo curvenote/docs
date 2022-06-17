@@ -2,7 +2,6 @@
 title: Installing NodeJS
 description: ""
 date: 2022-05-24T13:49:58.211Z
-authors: null
 name: installing-prerequisites
 oxa: oxa:EplL6AlILV3RGEDPzj5U/ok1vVkdB8m0EHgjdelbF
 ---
@@ -22,7 +21,7 @@ Curvenote currently supports `nodejs` v14, v16, and v18. Note that odd-numbered 
 
 Following any of the install methods below, verify your installation and ensure that `node` and `npm` are available on your system *PATH* by opening a new terminal window or command line prompt and typing:
 
-```text/plain
+```text
 % node -v
 v16.15.0
 % npm -v

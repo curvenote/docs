@@ -1,20 +1,17 @@
 ---
 title: Explorable Explanations
 description: ""
-date: 2022-03-15T04:49:45.092Z
 authors:
-  - name: Rowan Cockett
-    userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
+  - userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
+    name: Rowan Cockett
     orcid: 0000-0002-7859-8394
-    corresponding: null
-    email: null
-    roles: null
-    affiliations: null
+    corresponding: false
+    roles: []
+    affiliations: []
+date: 2022-03-15T04:49:45.092Z
 name: explorable-explanations
 oxa: oxa:Z1isOjJQGvM22q5fhunb/FKfeWxyvfKNO5EhqYaw0
 ---
-
-# Explorable Explanations
 
 +++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/czx1Q44AwU2JQ11FlEbn.1"}
 
@@ -73,11 +70,11 @@ When using our interactive text tools, you’ll first need to create a variable.
 
 To do this:
 
-* Ensure you are on a new line in your article (you cannot create in-line variables)
-* Type in the variable name
-* Type in the equal sign `=`
-* Type in the value for that variable
-* Hit `enter`
+- Ensure you are on a new line in your article (you cannot create in-line variables)
+- Type in the variable name
+- Type in the equal sign `=`
+- Type in the value for that variable
+- Hit `enter`
 
 ```{figure} images/MshxlXndaLsk3WbJ0ZGy-qzJE2pr4T0szcURBoifM-v1.gif
 :name: 3296f741
@@ -105,10 +102,10 @@ To do this:
 
 To display a variable:
 
-* Place your cursor in the area you’d like to display the variable
-* Use two curly brackets `{{` to open the variable menu
-* Select the variable you’d like to display
-* Hit `enter`
+- Place your cursor in the area you’d like to display the variable
+- Use two curly brackets `{{` to open the variable menu
+- Select the variable you’d like to display
+- Hit `enter`
 
 +++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/h0BK3BX65DNMbiKoIHca.1"}
 
@@ -123,10 +120,10 @@ To display a variable:
 
 To display a function output (like multiplying two variables together):
 
-* Place your cursor in the area you’d like to display the function output
-* Use two curly brackets `{{` to open the variable menu
-* Type in the variables and relevant mathematical operations (e.g. visitors \* cost)
-* Hit `enter`
+- Place your cursor in the area you’d like to display the function output
+- Use two curly brackets `{{` to open the variable menu
+- Type in the variables and relevant mathematical operations (e.g. visitors \* cost)
+- Hit `enter`
 
 +++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/4tHUxTqdUH3wym1jb984.1"}
 
@@ -141,10 +138,10 @@ You can link your variables to sliders, which will update any variable displays 
 
 ````
 
-* Place your cursor in the area you’d like to display the slider
-* Type in two equal signs `==`
-* Enter in the name of the variable you’d like to link the slider to
-* Type in two more equal signs `==`
+- Place your cursor in the area you’d like to display the slider
+- Type in two equal signs `==`
+- Enter in the name of the variable you’d like to link the slider to
+- Type in two more equal signs `==`
 
 +++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/jSAQkTGLcyqAg3A5hfRG.1"}
 
@@ -152,8 +149,8 @@ You can link your variables to sliders, which will update any variable displays 
 
 Similar to sliders, you can also a display a variable as dynamic text, where you can drag the number left to decrease the value or right to increase. To create a section of dynamic text:
 
-* Place your cursor in the area you’d like to display the inline slider
-* Type `\dynamic` to insert the text, and type the variable you would like to hook up
+- Place your cursor in the area you’d like to display the inline slider
+- Type `\dynamic` to insert the text, and type the variable you would like to hook up
 
 ````{important}
 **For example:** There are {r:dynamic}`rValue="visitors", rChange="{visitors: value}"` visitors in the park, the park will make {r:display}`rValue="visitors*cost", format="$"`.

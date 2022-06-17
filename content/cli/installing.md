@@ -2,14 +2,6 @@
 title: Installing Curvenote
 description: ""
 date: 2022-02-07T20:12:25.085Z
-authors:
-  - name: Rowan Cockett
-    userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
-    orcid: 0000-0002-7859-8394
-    corresponding: null
-    email: null
-    roles: null
-    affiliations: null
 name: installing
 oxa: oxa:EplL6AlILV3RGEDPzj5U/k4G4ZrOcTIx3szxGNEFb
 ---

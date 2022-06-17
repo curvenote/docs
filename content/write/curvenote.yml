@@ -5,6 +5,7 @@ project:
   link: https://curvenote.com/@docs/write
   subject: Write
   numbering: false
-  license:
-    content: CC-BY-4.0
+  license: CC-BY-4.0
   open_access: true
+  description: ''
+  name: write

@@ -10,18 +10,7 @@ parts:
         sections:
           - file: installing-prerequisites
       - file: authorization
-  # - caption: Website
-  #   chapters:
-  #     - file: init
   - caption: Export
     chapters:
       - file: latex-and-pdfs
       - file: jupyter-book
-      # - file: sphinx
-  # - caption: Reference
-  #   chapters:
-  #     - file: use-cases
-  # - file: commands
-  # - caption: Part 1
-  #   chapters:
-  #     - file: web

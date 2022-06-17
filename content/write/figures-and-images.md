@@ -1,20 +1,17 @@
 ---
 title: Figures & Images
 description: ""
-date: 2022-03-15T04:45:07.621Z
 authors:
-  - name: Rowan Cockett
-    userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
+  - userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
+    name: Rowan Cockett
     orcid: 0000-0002-7859-8394
-    corresponding: null
-    email: null
-    roles: null
-    affiliations: null
+    corresponding: false
+    roles: []
+    affiliations: []
+date: 2022-03-15T04:45:07.621Z
 name: figures-and-images
 oxa: oxa:Z1isOjJQGvM22q5fhunb/gzr0LnPie4uvL7GSEISJ
 ---
-
-# Figures & Images
 
 +++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/yzxxmXYoC2ssXTONpDUd.1"}
 
@@ -38,20 +35,20 @@ Static image formats (JPEG, TIFF, PNG, etc.) and GIFs are all supported and trea
 
 To add an image/GIF to an existing content block:
 
-* You must be in Draft Mode for the page and block.
-  * To enter Draft Mode for the page click **EDIT** at the top of the page.
-  * To enter Draft Mode for the block, double click within the block or select the block and hit `enter`.
-* You can use any of the following to add one or multiple images/GIFs
-  * **Drag and drop** images/GIFs from your computer directly into your block
-    * A line will appear as you drag, and once you drop your images will appear below that line
-  * **Paste** images/GIFs directly into your block
-  * Open the **command menu** `/` and search for `image` then
-    * Drag and drop your images/GIFs into the box
-    * Click within the box to browse and select your files
-  * Open the **insert menu** in the editing toolbar and select **Image** then
-    * Drag and drop your images/GIFs into the box
-    * Click within the box to browse and select your files
-* The transparency may pulse while the images/GIFs uploads.
+- You must be in Draft Mode for the page and block.
+  - To enter Draft Mode for the page click **EDIT** at the top of the page.
+  - To enter Draft Mode for the block, double click within the block or select the block and hit `enter`.
+- You can use any of the following to add one or multiple images/GIFs
+  - **Drag and drop** images/GIFs from your computer directly into your block
+    - A line will appear as you drag, and once you drop your images will appear below that line
+  - **Paste** images/GIFs directly into your block
+  - Open the **command menu** `/` and search for `image` then
+    - Drag and drop your images/GIFs into the box
+    - Click within the box to browse and select your files
+  - Open the **insert menu** in the editing toolbar and select **Image** then
+    - Drag and drop your images/GIFs into the box
+    - Click within the box to browse and select your files
+- The transparency may pulse while the images/GIFs uploads.
 
 ```{figure} images/MshxlXndaLsk3WbJ0ZGy-6tCunwqTLaRQ4uPQWXdt-v4.gif
 :name: a7debcd4
@@ -59,12 +56,12 @@ To add an image/GIF to an existing content block:
 
 To display an image/GIF as its own block:
 
-* You must be in Draft Mode for the page.
-  * To enter Draft Mode for the page click **EDIT** at the top of the page.
-* Select the block above where you want to add your image/GIF.
-  * You may need to hit `esc` until the entire block is selected or click directly on the block selection tab (it will be a slightly darker blue).
-* Paste your image/GIF.
-* A new block will appear below that is just your image/GIF.
+- You must be in Draft Mode for the page.
+  - To enter Draft Mode for the page click **EDIT** at the top of the page.
+- Select the block above where you want to add your image/GIF.
+  - You may need to hit `esc` until the entire block is selected or click directly on the block selection tab (it will be a slightly darker blue).
+- Paste your image/GIF.
+- A new block will appear below that is just your image/GIF.
 
 ```{figure} images/MshxlXndaLsk3WbJ0ZGy-BWIOxL2RX6ie3sOtxiWD-v2.gif
 :name: a4128a09
@@ -92,16 +89,16 @@ No matter if your image/GIF is displayed as its own block or within another bloc
 
 Replacing an image/GIF will create a new version of the image/GIF block. To replace a block (not delete it):
 
-* Select the image/GIF you want to replace.
-* Drag and drop or paste a new image onto the previous.
+- Select the image/GIF you want to replace.
+- Drag and drop or paste a new image onto the previous.
 
 To use a different version of an image/GIF:
 
-* Select the image/GIF.
-* Expand the **Block Details Panel** on the right of the page.
-* Select a version you want to use.
-  * A preview of that version will appear in place of the current image/GIF.
-* Click **USE VERSION**.
+- Select the image/GIF.
+- Expand the **Block Details Panel** on the right of the page.
+- Select a version you want to use.
+  - A preview of that version will appear in place of the current image/GIF.
+- Click **USE VERSION**.
 
 ```{figure} images/MshxlXndaLsk3WbJ0ZGy-kSwgghFsBCgaR4AQDxaJ-v2.gif
 :name: af71c7fb
@@ -115,15 +112,15 @@ You can access and update the image/GIF block settings when the it is displayed 
 
 To update the image/GIF settings:
 
-* Open Image Settings.
-  * For and image/GIF inside a content block
-    * Open the $\mathbf{\vdots}$ **Options** menu to the top-right of the image.
-    * Select **Image Settings**.
-  * For a stand-alone image/GIF block
-    * Open the $\mathbf{\vdots}$ **Options** menu to the top-right of the block.
-    * Select **Block Settings**.
-* Update the settings.
-* Click **UPDATE SETTINGS**.
+- Open Image Settings.
+  - For and image/GIF inside a content block
+    - Open the $\mathbf{\vdots}$ **Options** menu to the top-right of the image.
+    - Select **Image Settings**.
+  - For a stand-alone image/GIF block
+    - Open the $\mathbf{\vdots}$ **Options** menu to the top-right of the block.
+    - Select **Block Settings**.
+- Update the settings.
+- Click **UPDATE SETTINGS**.
 
 +++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/T6oPr3XvE2dtXTY8YWiE.1"}
 
@@ -133,10 +130,10 @@ Image and GIFs can be formatted as Figures within your content on Curvenote. Thi
 
 To toggle the caption and or numbering for an image/GIF:
 
-* Select the image.
-* In the formatting toolbar that appears:
-  * Select the lines symbol for the **Show/Hide Caption** option.
-  * When the caption is shown, you can then enable numbering by selecting the number icon for the **Toggle Numbering** option.
+- Select the image.
+- In the formatting toolbar that appears:
+  - Select the lines symbol for the **Show/Hide Caption** option.
+  - When the caption is shown, you can then enable numbering by selecting the number icon for the **Toggle Numbering** option.
 
 ````{note}
 For figures displayed within a content block, when the caption is toggled on, the caption can be edited directly by clicking the **EDIT** button on the image.

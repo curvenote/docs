@@ -1,20 +1,17 @@
 ---
 title: Editing Content
 description: ""
-date: 2022-03-15T05:01:59.260Z
 authors:
-  - name: Rowan Cockett
-    userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
+  - userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
+    name: Rowan Cockett
     orcid: 0000-0002-7859-8394
-    corresponding: null
-    email: null
-    roles: null
-    affiliations: null
+    corresponding: false
+    roles: []
+    affiliations: []
+date: 2022-03-15T05:01:59.260Z
 name: editing
 oxa: oxa:Z1isOjJQGvM22q5fhunb/HQCUGQTuzNMdnK19cyEj
 ---
-
-# Editing Content
 
 +++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/up2itQz4pzmhj7ARdIWu.1"}
 

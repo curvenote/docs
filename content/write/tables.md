@@ -1,20 +1,17 @@
 ---
 title: Tables
 description: ""
-date: 2022-03-15T04:40:42.029Z
 authors:
-  - name: Rowan Cockett
-    userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
+  - userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
+    name: Rowan Cockett
     orcid: 0000-0002-7859-8394
-    corresponding: null
-    email: null
-    roles: null
-    affiliations: null
+    corresponding: false
+    roles: []
+    affiliations: []
+date: 2022-03-15T04:40:42.029Z
 name: tables
 oxa: oxa:Z1isOjJQGvM22q5fhunb/JYoz7Hw17JI9EZEHzv6Y
 ---
-
-# Tables
 
 +++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/ymqRbehUKoadkxNWDdRC.1"}
 
@@ -36,9 +33,9 @@ Tables can be added throughout your Curvenote content. After creating the standa
 
 While in Draft Mode for both your article and block, add a table using one of the following options:
 
-* Open the Insert menu ➕ in the editing toolbar at the top of your page
-  * Select **Table**
-* Using the command menu type `/table`
+- Open the Insert menu ➕ in the editing toolbar at the top of your page
+  - Select **Table**
+- Using the command menu type `/table`
 
 ```{figure} images/MshxlXndaLsk3WbJ0ZGy-aoLFYBkrMfIKCC0R0Dv9-v1.gif
 :name: a6716b8d
@@ -65,16 +62,16 @@ You can adjust the formatting to create a table that meets your needs by adjusti
 
 You can insert rows and columns anywhere in your table. To do this:
 
-* Place your cursor in a cell in your table
-* Use one of the following options
-  * **Table Toolbar** located at the bottom of the table
-  * **Table Options** located in the editing toolbar at the top of the page
-  * **Command Menu** - start typing `/` inline
-* Select one of the four insert options from your current cell
-  * Insert a row above
-  * Insert a row below
-  * Insert a column to the left
-  * Insert a column to the right
+- Place your cursor in a cell in your table
+- Use one of the following options
+  - **Table Toolbar** located at the bottom of the table
+  - **Table Options** located in the editing toolbar at the top of the page
+  - **Command Menu** - start typing `/` inline
+- Select one of the four insert options from your current cell
+  - Insert a row above
+  - Insert a row below
+  - Insert a column to the left
+  - Insert a column to the right
 
 ```{figure} images/MshxlXndaLsk3WbJ0ZGy-U6dTw1VL4XSW3OJdODqB-v1.gif
 :name: a8ab449e
@@ -86,14 +83,14 @@ You can insert rows and columns anywhere in your table. To do this:
 
 You can also delete entire rows and columns from your table. To do this:
 
-* Place your cursor in a cell in your table
-* Use one of the following options
-  * **Table Toolbar** located at the bottom of the table
-  * **Table Options** located in the editing toolbar at the top of the page
-  * **Command Menu** - start typing `/` inline
-* Select one of the two delete options from your current cell
-  * Delete a row
-  * Delete a column
+- Place your cursor in a cell in your table
+- Use one of the following options
+  - **Table Toolbar** located at the bottom of the table
+  - **Table Options** located in the editing toolbar at the top of the page
+  - **Command Menu** - start typing `/` inline
+- Select one of the two delete options from your current cell
+  - Delete a row
+  - Delete a column
 
 ```{figure} images/MshxlXndaLsk3WbJ0ZGy-pxHYIdGF0xpxweDLzCGL-v1.gif
 :name: afcf858c
@@ -105,9 +102,9 @@ You can also delete entire rows and columns from your table. To do this:
 
 To adjust the width of a column:
 
-* Hover over the line between columns
-  * The line with highlight blue and a sliding arrow will replace your cursor
-* Click on the line and drag the column to your desired width
+- Hover over the line between columns
+  - The line with highlight blue and a sliding arrow will replace your cursor
+- Click on the line and drag the column to your desired width
 
   ```{figure} images/MshxlXndaLsk3WbJ0ZGy-EE4ECVpoK6Km4SF2shvY-v1.gif
   :name: a5b30335
@@ -127,14 +124,14 @@ When you create a table, the top row will automatically be formatted as a header
 
 To update the header formatting of a row column or cell:
 
-* Place your cursor in a cell in your table
-* Use one of the following options
-  * **Table Options** located in the editing toolbar at the top of the page
-  * **Command Menu** - start typing `/` inline
-* Select one of the three Toggle Header options
-  * Toggle header column
-  * Toggle header row
-  * Toggle head cell
+- Place your cursor in a cell in your table
+- Use one of the following options
+  - **Table Options** located in the editing toolbar at the top of the page
+  - **Command Menu** - start typing `/` inline
+- Select one of the three Toggle Header options
+  - Toggle header column
+  - Toggle header row
+  - Toggle head cell
 
 ```{figure} images/MshxlXndaLsk3WbJ0ZGy-2nosffxc3AC8S54Ch9zb-v1.gif
 :name: a8c7fc15
@@ -153,9 +150,9 @@ Cells within a table can be merged. Cells that were previously merged can be spl
 
 To merge multiple cells:
 
-* Highlight and select the cells you want to merge
-* Click on the Table Options icon in the editing toolbar
-  * Select **Merge Cells**
+- Highlight and select the cells you want to merge
+- Click on the Table Options icon in the editing toolbar
+  - Select **Merge Cells**
 
 ````{note}
 When two cells in the same column are merged, the content will be listed on two separate lines.
@@ -164,9 +161,9 @@ When two cells in the same column are merged, the content will be listed on two 
 
 To split cells that were previously:
 
-* Highlight and select the cells you want to split
-* Click on the Table Options icon in the editing toolbar
-  * Select **Split Cells**
+- Highlight and select the cells you want to split
+- Click on the Table Options icon in the editing toolbar
+  - Select **Split Cells**
 
 ````{note}
 When a cell is split the content will remain in the original cell, even if it was previously in multiple cells before being merged.
@@ -188,12 +185,12 @@ Merging cells may cause issues when exporting to different formats! Currently me
 
 Tables can be deleted while in edit mode for both your article and block. To delete a table:
 
-* Place your cursor in a cell in your table
-* Use one of the following options
-  * **Table Toolbar** located at the bottom of the table
-  * **Table Options** located in the editing toolbar at the top of the page
-  * **Command Menu** - start typing `/` inline
-* Select the trashcan icon 🗑️ or **Delete Table** option
+- Place your cursor in a cell in your table
+- Use one of the following options
+  - **Table Toolbar** located at the bottom of the table
+  - **Table Options** located in the editing toolbar at the top of the page
+  - **Command Menu** - start typing `/` inline
+- Select the trashcan icon 🗑️ or **Delete Table** option
 
 ```{figure} images/MshxlXndaLsk3WbJ0ZGy-XcE3RANRNDtLZVGrSO86-v1.gif
 :name: a24c976c

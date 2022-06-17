@@ -2,14 +2,6 @@
 title: Authorization
 description: ""
 date: 2022-01-17T00:46:35.123Z
-authors:
-  - name: Rowan Cockett
-    userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
-    orcid: 0000-0002-7859-8394
-    corresponding: null
-    email: null
-    roles: null
-    affiliations: null
 name: authorization
 oxa: oxa:EplL6AlILV3RGEDPzj5U/RzBCtk3yOrXhAVY2z2Bw
 ---

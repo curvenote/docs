@@ -2,14 +2,6 @@
 title: Jupyter Book
 description: Export your Curvenote project as a Jupyter Book
 date: 2022-01-19T03:37:50.032Z
-authors:
-  - name: Rowan Cockett
-    userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
-    orcid: 0000-0002-7859-8394
-    corresponding: null
-    email: null
-    roles: null
-    affiliations: null
 name: jupyter-book
 oxa: oxa:EplL6AlILV3RGEDPzj5U/PH80omWOCDLi0rYkdu6i
 ---
@@ -61,12 +53,12 @@ We are currently working to improve our documentation and support for Jupyter Bo
 ````{important}
 At this time:
 
-* Curvenote will not create or overwrite a `requirements.txt` file
-* Curvenote does not create a logo or `favicon.ico` file for you
+- Curvenote will not create or overwrite a `requirements.txt` file
+- Curvenote does not create a logo or `favicon.ico` file for you
 
 ````
 
 **Current limitations:**
 
-* You can only sync from curvenote → local at the moment. We expect this to change by April, 2022.
+- You can only sync from curvenote → local at the moment. We expect this to change by April, 2022.
 
