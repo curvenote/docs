@@ -46,6 +46,8 @@ To embed this sort of content, or any other IFrame content, find the `Embed` but
 
 ```{figure} images/Z1isOjJQGvM22q5fhunb-wiB2XfFaM8HMk1pHi9YF-v1.png
 :name: VpqS8wXfb2
+:align: center
+:width: 70%
 
 Curvenote only uses the specific link to the content, not any of the code provided.
 ```
@@ -58,6 +60,8 @@ You can embed Google Slides, using the **File → Publish to Web** in Google Sli
 
 ```{figure} images/Z1isOjJQGvM22q5fhunb-dZGczZZLuRQTfjBmQOMH-v1.png
 :name: BW7o9WpXSQ
+:align: center
+:width: 30%
 ```
 
 For example, here is a seminar talk:

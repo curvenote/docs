@@ -32,6 +32,8 @@ In Curvenote, almost everything is a “block”, including images, interactive 
 
 ```{figure} images/Z1isOjJQGvM22q5fhunb-P1iPE83WBok2YzKCik8x-v1.png
 :name: vWV0705sIg
+:align: center
+:width: 70%
 
 The purple block, a figure, is created in a computational notebook and subsequently copied into a presentation, textbook, and scientific article. In Curvenote these are connected, and an update to the figure propagates to other places that it is used.
 ```
@@ -50,6 +52,8 @@ To create a block:
 
 ```{figure} images/MshxlXndaLsk3WbJ0ZGy-Ec4xhxdQM0LDveou0h7D-v2.gif
 :name: acad45cf
+:align: center
+:width: 80%
 ```
 
 ````{note}
@@ -93,6 +97,8 @@ In some instances it’s beneficial to include additional information with a blo
 
 ```{figure} images/MshxlXndaLsk3WbJ0ZGy-e8ekRJBORLYbCbelLaun-v2.gif
 :name: a0b47325
+:align: center
+:width: 80%
 ```
 
 ````{note}
@@ -100,6 +106,8 @@ The block thumbnail, title, description are visible when you share or hover over
 
 ```{figure} images/MshxlXndaLsk3WbJ0ZGy-W3s92muGwSFnZZYW5ERy-v1.png
 :name: a9456a11
+:align: center
+:width: 40%
 ```
 
 ````
@@ -117,6 +125,8 @@ Because blocks can be reused throughout Curvenote, they are rarely deleted perma
 
 ```{figure} images/MshxlXndaLsk3WbJ0ZGy-I2avfquiBN3Zps19ShcK-v3.gif
 :name: acb9937c
+:align: center
+:width: 90%
 ```
 
 ````{danger}

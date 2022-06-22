@@ -43,6 +43,8 @@ To reference an article:
 
 ```{figure} images/MshxlXndaLsk3WbJ0ZGy-UmpcpZPk1pdSYgvZQjTV-v2.gif
 :name: a80e8f4f
+:align: center
+:width: 70%
 ```
 
 To reference a notebook:
@@ -51,6 +53,8 @@ To reference a notebook:
 
 ```{figure} images/MshxlXndaLsk3WbJ0ZGy-OKUZNxbRweAfJoegWvU0-v2.gif
 :name: a55259c0
+:align: center
+:width: 70%
 ```
 
 ````{note}
@@ -65,6 +69,8 @@ You can reference articles and notebooks that are not in the current project by 
 ````{margin}
 ```{figure} images/MshxlXndaLsk3WbJ0ZGy-xl8KloUEujO3GYdbZOT8-v2.gif
 :name: aa8533b0
+:align: center
+:width: 80%
 ```
 
 ````
@@ -84,6 +90,8 @@ Currently only sections that are numbered can be referenced accurately. Only sec
 
 ```{figure} images/Z1isOjJQGvM22q5fhunb-olFrGPqGl9z9MsIml2ok-v1.png
 :name: tZToKTzD5s
+:align: center
+:width: 70%
 ```
 
 +++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/dgkFV5Gli6wnjyPcwRMs.1"}
@@ -98,6 +106,8 @@ To reference a figure:
 
 ```{figure} images/Z1isOjJQGvM22q5fhunb-9NmCaj4w3D0gphg971Zs-v1.png
 :name: KptVPtJYu0
+:align: center
+:width: 70%
 ```
 
 +++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/oS2aAOxbAh3f3vkVif4R.1"}
@@ -110,5 +120,7 @@ Equations that are **numbered** and on the current page will be displayed in the
 
 ```{figure} images/Z1isOjJQGvM22q5fhunb-eHbtJLS6TSuK9IF4WtYe-v1.png
 :name: a3QXjZhCX6
+:align: center
+:width: 70%
 ```
 

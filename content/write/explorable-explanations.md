@@ -78,6 +78,8 @@ To do this:
 
 ```{figure} images/MshxlXndaLsk3WbJ0ZGy-qzJE2pr4T0szcURBoifM-v1.gif
 :name: 3296f741
+:align: left
+:width: 20%
 ```
 
 ````{warning}
@@ -85,6 +87,8 @@ To do this:
 
 ```{figure} images/MshxlXndaLsk3WbJ0ZGy-YD1bKNmYx9ZKSNpSqVUq-v1.png
 :name: abb8d8b8
+:align: center
+:width: 30%
 ```
 
 ````
@@ -96,6 +100,8 @@ To do this:
 ````{margin}
 ```{figure} images/MshxlXndaLsk3WbJ0ZGy-82wWQCbIQvIYtnRIBXWC-v1.gif
 :name: a63d8479
+:align: center
+:width: 100%
 ```
 
 ````
@@ -114,6 +120,8 @@ To display a variable:
 ````{margin}
 ```{figure} images/MshxlXndaLsk3WbJ0ZGy-pqVWAopZHYlNkgMj5B0I-v1.gif
 :name: ac1c2e38
+:align: center
+:width: 100%
 ```
 
 ````
@@ -134,6 +142,8 @@ You can link your variables to sliders, which will update any variable displays 
 ````{margin}
 ```{figure} images/MshxlXndaLsk3WbJ0ZGy-TYqrFb40GPrP8L9XuTau-v1.gif
 :name: a23f3fd0
+:align: center
+:width: 100%
 ```
 
 ````

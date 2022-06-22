@@ -1,20 +1,17 @@
 ---
 title: Export
 description: ""
-date: 2022-03-11T23:55:24.736Z
 authors:
-  - name: Rowan Cockett
-    userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
+  - userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
+    name: Rowan Cockett
     orcid: 0000-0002-7859-8394
-    corresponding: null
-    email: null
-    roles: null
-    affiliations: null
+    corresponding: false
+    roles: []
+    affiliations: []
+date: 2022-03-11T23:55:24.736Z
 name: index
 oxa: oxa:TnCP56I5qhrKLeVufPL4/kB2bibTErBixcuHoGbcs
 ---
-
-# Export
 
 +++ {"oxa":"oxa:TnCP56I5qhrKLeVufPL4/pFQR1JpvtZfMxQo4FVVK.1"}
 

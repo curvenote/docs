@@ -1,20 +1,11 @@
 ---
 title: Support
 description: ""
+authors: []
 date: 2022-03-11T23:24:32.294Z
-authors:
-  - name: Rowan Cockett
-    userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
-    orcid: 0000-0002-7859-8394
-    corresponding: null
-    email: null
-    roles: null
-    affiliations: null
 name: support
 oxa: oxa:w6jXebeTS6WGaVFDIEz9/DM0IJsgjkqqJpQZcWwsi
 ---
-
-# Support
 
 +++ {"oxa":"oxa:w6jXebeTS6WGaVFDIEz9/oQGWNuvfkYdP9IRuw6eL.1"}
 
@@ -39,6 +30,8 @@ The Curvenote founders and team are online daily across EU and North American ti
 
 ```{figure} images/w6jXebeTS6WGaVFDIEz9-JPSa2Pp2KNiE6mITKLpn-v1.png
 :name: fdQE18fa0N
+:align: center
+:width: 70%
 ```
 
 +++ {"oxa":"oxa:w6jXebeTS6WGaVFDIEz9/UVX1dwiP9fkxM0Z9F42i.1"}
@@ -49,6 +42,8 @@ You can give support access to your project by adding the support user as a coll
 
 ```{figure} images/w6jXebeTS6WGaVFDIEz9-dB0zGvlqHeHHKr9tQ94G-v1.gif
 :name: aiZ5vurJ22
+:align: center
+:width: 70%
 
 Access your list of collaborators from the project settings dialog, add `support` from the list there.
 ```
@@ -57,6 +52,8 @@ Once added, support will be notified and you can also point us to particular pla
 
 ```{figure} images/w6jXebeTS6WGaVFDIEz9-tQHZIzPgaoRxV7aQY2ij-v1.gif
 :name: oQmXWQpZHs
+:align: center
+:width: 70%
 
 Mention `@support` in a comment to send additional notifications to specific locations in your project
 ```

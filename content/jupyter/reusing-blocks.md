@@ -1,20 +1,17 @@
 ---
 title: Reusing Blocks
 description: ""
-date: 2022-03-12T04:52:05.298Z
 authors:
-  - name: Rowan Cockett
-    userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
+  - userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
+    name: Rowan Cockett
     orcid: 0000-0002-7859-8394
-    corresponding: null
-    email: null
-    roles: null
-    affiliations: null
+    corresponding: false
+    roles: []
+    affiliations: []
+date: 2022-03-12T04:52:05.298Z
 name: reusing-blocks
 oxa: oxa:m59m7JQmWVyPjlASj9v3/93FoBDnslDe5zX30YhHW
 ---
-
-# Reusing Blocks
 
 +++ {"oxa":"oxa:m59m7JQmWVyPjlASj9v3/c5NnJo1SYaZxNLDXWrTT.1"}
 
@@ -32,20 +29,22 @@ Blocks can be copied and pasted/imported on both Curvenote and Jupyter using the
 
 To copy a link to the current saved version of a cell:
 
-* Open the $\mathbf{\vdots}$ **Curvenote Options** menu for the cell.
-  * Select **Copy Link**.
-* A black box will appear in the bottom left of your screen saying your link is copied.
+- Open the $\mathbf{\vdots}$ **Curvenote Options** menu for the cell.
+  - Select **Copy Link**.
+- A black box will appear in the bottom left of your screen saying your link is copied.
 
 To copy a link to a specific version of cell:
 
-* Select a cell.
-* Access the **Selected Cell** section of the Curvenote Jupyter Extension Panel.
-* Open the version $\mathbf{\vdots}$ **Options** menu.
-  * Select **Copy Link**
-* A black box will appear in the bottom left of your screen saying your link is copied.
+- Select a cell.
+- Access the **Selected Cell** section of the Curvenote Jupyter Extension Panel.
+- Open the version $\mathbf{\vdots}$ **Options** menu.
+  - Select **Copy Link**
+- A black box will appear in the bottom left of your screen saying your link is copied.
 
 ```{figure} images/m59m7JQmWVyPjlASj9v3-W0szLYQs387X1G7UfN0I-v1.gif
 :name: BXi9IaZISY
+:align: center
+:width: 100%
 ```
 
 ````{warning}
@@ -57,15 +56,17 @@ The oxa link includes the version number after the . at the end of the link. For
 
 To import a cell:
 
-* Add a new cell with Jupyter where you want to import the cell.
-  * This cell {u}`cannot` be already linked to Curvenote!
-  * Any content in the cell will be overwritten upon import.
-* Access the **Selected Cell** section of the Curvenote Jupyter Extension Panel.
-* Paste the oxa link into the **Import Cell** section.
-  * Click **IMPORT CELL**.
+- Add a new cell with Jupyter where you want to import the cell.
+  - This cell {u}`cannot` be already linked to Curvenote!
+  - Any content in the cell will be overwritten upon import.
+- Access the **Selected Cell** section of the Curvenote Jupyter Extension Panel.
+- Paste the oxa link into the **Import Cell** section.
+  - Click **IMPORT CELL**.
 
 ```{figure} images/m59m7JQmWVyPjlASj9v3-ABUc36s5ptfrB6EaWf9r-v1.gif
 :name: q0t5oa3Ymp
+:align: center
+:width: 100%
 ```
 
 ````{warning}
@@ -81,27 +82,29 @@ To copy a link to the current saved version of a block you can either use keyboa
 
 **To copy a link via keyboard shortcuts**:
 
-* Select a block.
-  * When your block is in Draft Mode you will need to either click on the block selection tab or hit `ESC` until you have selected the block, not the content within it.
-  * Selecting a block will slightly darken the blue of the block selection tab.
-* Use the appropriate **copy** keyboard shortcut: `CTRL-C`, `⌘-C`
+- Select a block.
+  - When your block is in Draft Mode you will need to either click on the block selection tab or hit `ESC` until you have selected the block, not the content within it.
+  - Selecting a block will slightly darken the blue of the block selection tab.
+- Use the appropriate **copy** keyboard shortcut: `CTRL-C`, `⌘-C`
 
 **To copy a link via the Curvenote menus:**
 
-* Open the $\mathbf{\vdots}$ **Options** menu for the block.
-  * Select **Copy Link**.
+- Open the $\mathbf{\vdots}$ **Options** menu for the block.
+  - Select **Copy Link**.
 
 **To copy a link to a specific version of cell:**
 
-* Select a block.
-* Expand the Block Details Panel.
-* Open the version $\mathbf{\vdots}$ **Options** menu.
-  * Select **Copy Link.**
+- Select a block.
+- Expand the Block Details Panel.
+- Open the version $\mathbf{\vdots}$ **Options** menu.
+  - Select **Copy Link.**
 
 When you have copied the link a black box will appear in the bottom left of your screen saying your link is copied!
 
 ```{figure} images/m59m7JQmWVyPjlASj9v3-t9dXtlwVXKLTa2veZl9I-v1.gif
 :name: icLR2JsuRp
+:align: center
+:width: 70%
 ```
 
 +++ {"oxa":"oxa:m59m7JQmWVyPjlASj9v3/4MsUNEyMFbf5oKR609JL.1"}
@@ -110,21 +113,23 @@ To import a block you must be in Draft Mode (if not, click **EDIT** in the app b
 
 **To import a block via keyboard shortcuts**:
 
-* Select the block **above** where you want to import your block.
-  * When your block is in Draft Mode you will need to either click on the block selection tab or hit `ESC` until you have selected the block, not the content within it.
-  * Selecting a block will slightly darken the blue of the block selection tab.
-* Use the appropriate **paste** keyboard shortcut: `CTRL-V`, `⌘-V`
+- Select the block **above** where you want to import your block.
+  - When your block is in Draft Mode you will need to either click on the block selection tab or hit `ESC` until you have selected the block, not the content within it.
+  - Selecting a block will slightly darken the blue of the block selection tab.
+- Use the appropriate **paste** keyboard shortcut: `CTRL-V`, `⌘-V`
 
 **To import a block via the Curvenote menus:**
 
-* Select the block you want to add a block above or below.
-* Open the $\mathbf{\vdots}$ **More Options** menu to the right of the ➕ corresponding to the location you want to import the block.
-  * Select **Import Block**.
-* Paste the oxa link in the pop-up window.
-  * Click **INSERT BLOCK**
+- Select the block you want to add a block above or below.
+- Open the $\mathbf{\vdots}$ **More Options** menu to the right of the ➕ corresponding to the location you want to import the block.
+  - Select **Import Block**.
+- Paste the oxa link in the pop-up window.
+  - Click **INSERT BLOCK**
 
 ```{figure} images/m59m7JQmWVyPjlASj9v3-7CcYz8tQ6zEhRb67dUEw-v1.gif
 :name: xsrcEYh25q
+:align: center
+:width: 70%
 ```
 
 +++ {"oxa":"oxa:m59m7JQmWVyPjlASj9v3/lMTj9KZqAB6tSrKlYXpB.1"}
@@ -135,6 +140,8 @@ Most interactive output cells from Jupyter will remain interactive when viewed o
 
 ```{figure} images/m59m7JQmWVyPjlASj9v3-xuXH7Ccnnc6LC0afMtPn-v1.gif
 :name: jV2whkz2Eq
+:align: center
+:width: 100%
 ```
 
 Learn more and explore examples of interactive plotting on Curvenote ➡️ [Example Notebooks](https://curvenote.com/@curvenote/example-notebooks)
@@ -145,13 +152,13 @@ Learn more and explore examples of interactive plotting on Curvenote ➡️ [Exa
 
 Often you may want to reuse or start from code you or someone else has already written. Curvenote makes this process easy!
 
-* To reuse content {u}`you` have already written that is saved on Curvenote:
-  * Simply import the cells you want to use following the instructions above. The cells are linked to communicate changes across all copies.
-* To use content you or someone else has written as a template for a new notebook, and remove the communication of changes between cells:
-  * You will need to import and unlink the cell. Unlinking the imported cell from the original copy, will leave the current content within the cell but remove the previous versions. Versioning will restart when you save your notebook. Learn more [Unlinking Notebooks](oxa:m59m7JQmWVyPjlASj9v3/NdljohZBrFlaf0p1xeAs "Unlinking Notebooks")
-* To use content someone else has written that is not saved on Curvenote:
-  * Add their notebook to Curvenote then import! Learn more [Add & Link Notebooks](oxa:m59m7JQmWVyPjlASj9v3/SiW5BdJkvLNs1kVQxnx0 "Add & Link Notebooks")
-  * Learn more about how Curvenote works with notebooks available on [Binder](https://mybinder.org/) [Curvenote & Binder](oxa:m59m7JQmWVyPjlASj9v3/zb0bOrpIpkWMjuF3oAOK "Curvenote & Binder")
+- To reuse content {u}`you` have already written that is saved on Curvenote:
+  - Simply import the cells you want to use following the instructions above. The cells are linked to communicate changes across all copies.
+- To use content you or someone else has written as a template for a new notebook, and remove the communication of changes between cells:
+  - You will need to import and unlink the cell. Unlinking the imported cell from the original copy, will leave the current content within the cell but remove the previous versions. Versioning will restart when you save your notebook. Learn more [Unlinking Notebooks](oxa:m59m7JQmWVyPjlASj9v3/NdljohZBrFlaf0p1xeAs "Unlinking Notebooks")
+- To use content someone else has written that is not saved on Curvenote:
+  - Add their notebook to Curvenote then import! Learn more [Add & Link Notebooks](oxa:m59m7JQmWVyPjlASj9v3/SiW5BdJkvLNs1kVQxnx0 "Add & Link Notebooks")
+  - Learn more about how Curvenote works with notebooks available on [Binder](https://mybinder.org/) [Curvenote & Binder](oxa:m59m7JQmWVyPjlASj9v3/zb0bOrpIpkWMjuF3oAOK "Curvenote & Binder")
 
 ````{warning}
 Cells shared publicly on Curvenote have an oxa link that can be copied by anyone. To make edits and version these cells, you will need to unlink the cells from their original project. This is equivalent to copying the content of their cell into a new cell in your notebook.

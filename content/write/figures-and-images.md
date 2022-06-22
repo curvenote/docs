@@ -52,6 +52,8 @@ To add an image/GIF to an existing content block:
 
 ```{figure} images/MshxlXndaLsk3WbJ0ZGy-6tCunwqTLaRQ4uPQWXdt-v4.gif
 :name: a7debcd4
+:align: center
+:width: 80%
 ```
 
 To display an image/GIF as its own block:
@@ -65,6 +67,8 @@ To display an image/GIF as its own block:
 
 ```{figure} images/MshxlXndaLsk3WbJ0ZGy-BWIOxL2RX6ie3sOtxiWD-v2.gif
 :name: a4128a09
+:align: center
+:width: 70%
 ```
 
 +++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/uT5nmaucpAwgYPwEtwFy.1"}
@@ -75,6 +79,8 @@ Once your image, GIF, video or IFrame has uploaded, you’ll see a toolbar which
 
 ```{figure} images/MshxlXndaLsk3WbJ0ZGy-3rhzDHFG0VrL2BGcyxtP-v2.gif
 :name: aa1b57af
+:align: center
+:width: 80%
 ```
 
 +++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/YdwI0PtlOIH0hDqMl4bX.1"}
@@ -102,6 +108,8 @@ To use a different version of an image/GIF:
 
 ```{figure} images/MshxlXndaLsk3WbJ0ZGy-kSwgghFsBCgaR4AQDxaJ-v2.gif
 :name: af71c7fb
+:align: center
+:width: 70%
 ```
 
 +++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/8ZwlTTtR2XPBQ4OKQgvn.1"}
@@ -142,6 +150,8 @@ For figures displayed within a content block, when the caption is toggled on, th
 
 ```{figure} images/MshxlXndaLsk3WbJ0ZGy-tXgnas8Aq8TB2u6icIWN-v2.gif
 :name: adb9b1b0
+:align: center
+:width: 70%
 ```
 
 Figures can be referenced by their numbers within the text using either the command menu or keyboard shortcuts. To reference a figure use one of the following two commands, then select the figure you want to reference from the drop down menu. When you click on the reference a preview of the image and its caption is displayed. Learn about internal references [Internal References](oxa:Z1isOjJQGvM22q5fhunb/kM7RCPH0vEYtXYMgTN6G "Internal References")
@@ -150,6 +160,8 @@ Figures can be referenced by their numbers within the text using either the comm
 
 ```{figure} images/MshxlXndaLsk3WbJ0ZGy-zQosMjGOJf0PQiemKonH-v2.gif
 :name: a949200b
+:align: center
+:width: 70%
 ```
 
 ````{note}

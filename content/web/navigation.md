@@ -11,6 +11,8 @@ oxa: oxa:Eh6WvY9NT46Ds4lE3OqJ/jrOoppptNKmkpA5FmGTU
 
 ```{figure} images/Eh6WvY9NT46Ds4lE3OqJ-zMkH2pW99k4pjkNGDzXE-v1.png
 :name: oJsO3gxHdB
+:align: center
+:width: 100%
 ```
 
 +++ {"oxa":"oxa:Eh6WvY9NT46Ds4lE3OqJ/MQYAixblESzHq8PyyKTq.2"}

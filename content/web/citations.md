@@ -24,7 +24,7 @@ Provided the `doi` is formatted correctly, this will be changed during the build
 
 Providing your DOIs as links has the advantage that on other rendering platforms, your citation will still be shown as a link. If you have many citations, however, this can slow down the build process as the citation information is fetched dynamically.
 
-+++ {"oxa":"oxa:Eh6WvY9NT46Ds4lE3OqJ/NIZuEllpI413NBP1aWcJ.2"}
++++ {"oxa":"oxa:Eh6WvY9NT46Ds4lE3OqJ/NIZuEllpI413NBP1aWcJ.3"}
 
 ## Including BibTex
 
@@ -38,6 +38,12 @@ You can also use a narrative citation with {cite:t}`purves2014`.
 ```
 
 This is the difference between: {cite:p}`Purves2014Phase` and {cite:t}`Purves2014Phase`. You can have many citation keys in a single role, by separating them with a `;`.
+
+You can also include DOIs in citations (`cite`, `cite:t`, and `cite:p`) which will be linked in the same way as a simple markdown link, but will match the reference style of the project.
+
+```text
+This will be a citation: {cite}`10.7554/eLife.59045`.
+```
 
 +++ {"oxa":"oxa:Eh6WvY9NT46Ds4lE3OqJ/KctIE4pPkAGEYsTcLRkL.2"}
 

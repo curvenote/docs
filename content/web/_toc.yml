@@ -6,6 +6,7 @@ root: index
 parts:
   - caption: Tutorials
     chapters:
+      - file: launchpad
       - file: tutorial-deploy-project
       - file: tutorial-deploy-local
   - caption: Guides

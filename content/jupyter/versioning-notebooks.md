@@ -1,20 +1,17 @@
 ---
 title: Versioning Notebooks
 description: ""
-date: 2022-03-12T04:55:03.909Z
 authors:
-  - name: Rowan Cockett
-    userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
+  - userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
+    name: Rowan Cockett
     orcid: 0000-0002-7859-8394
-    corresponding: null
-    email: null
-    roles: null
-    affiliations: null
+    corresponding: false
+    roles: []
+    affiliations: []
+date: 2022-03-12T04:55:03.909Z
 name: versioning-notebooks
 oxa: oxa:m59m7JQmWVyPjlASj9v3/Yrl2kvZZj18nd7LDtbBe
 ---
-
-# Versioning Notebooks
 
 +++ {"oxa":"oxa:m59m7JQmWVyPjlASj9v3/xS0THkfJNPpzj9TQTpMF.1"}
 
@@ -32,11 +29,13 @@ You can save versions, track changes, and switch to previous versions within the
 
 When working in Jupyter and using the Curvenote Jupyter extension, a new version can be saved after changes have been made since the last saved version. To save a new version of your notebook you can either:
 
-* Click the **SAVE** button in the top right of the Jupyter toolbar.
-* Click the **SAVE NEW VERSION** button at the top of the Curvenote Jupyter extension panel.
+- Click the **SAVE** button in the top right of the Jupyter toolbar.
+- Click the **SAVE NEW VERSION** button at the top of the Curvenote Jupyter extension panel.
 
 ```{figure} images/m59m7JQmWVyPjlASj9v3-kS96f4AI7F97QmTtrDSs-v1.png
 :name: xiRgF45YiE
+:align: center
+:width: 70%
 ```
 
 ````{note}
@@ -52,28 +51,36 @@ Saving a new version of your notebook will save a new version of any cells withi
 
 The icons, located to the left of the version number in the Jupyter toolbar indicate the status of changes made within the notebook. The following status options are possible:
 
-* The current notebook is the latest saved version and there are no changes since the notebook has been saved. The save button is unavailable due to the lack of new changes to save.
+- The current notebook is the latest saved version and there are no changes since the notebook has been saved. The save button is unavailable due to the lack of new changes to save.
 
   ```{figure} images/m59m7JQmWVyPjlASj9v3-1ZDEZ89gHcUo08J8IoEh-v1.png
   :name: qNMd6YZfWz
+  :align: center
+  :width: 40%
 
   ```
-* Changes exist in the notebook since the last saved version. If you hover over the icon the type of change(s) is specified as different number of cells, cell contents, new cells, and/or outputs. The save button is available to save a new version with these changes.
+- Changes exist in the notebook since the last saved version. If you hover over the icon the type of change(s) is specified as different number of cells, cell contents, new cells, and/or outputs. The save button is available to save a new version with these changes.
 
 ```{figure} images/m59m7JQmWVyPjlASj9v3-gj9rRhCXhi86tJfFmZxh-v1.png
 :name: zEEXfLGNp5
+:align: center
+:width: 40%
 ```
 
-* Newer saved versions of the notebook exist, but currently the notebook displays Version 10 without any changes from when that version was saved. The save button is unavailable due to the lack of new changes to save.
+- Newer saved versions of the notebook exist, but currently the notebook displays Version 10 without any changes from when that version was saved. The save button is unavailable due to the lack of new changes to save.
 
 ```{figure} images/m59m7JQmWVyPjlASj9v3-Xq75iiolQofdiZ6qxDDx-v1.png
 :name: x4DvKL3ofg
+:align: center
+:width: 40%
 ```
 
-* Newer saved versions of the notebook exist, but currently the notebook displays Version 10 with changes. If you hover over the icon the type of change(s) is specified as different number of cells, cell contents, new cells, and/or outputs. The save button is available to save a new version with these changes.
+- Newer saved versions of the notebook exist, but currently the notebook displays Version 10 with changes. If you hover over the icon the type of change(s) is specified as different number of cells, cell contents, new cells, and/or outputs. The save button is available to save a new version with these changes.
 
   ```{figure} images/m59m7JQmWVyPjlASj9v3-ef9GHooApw2KZ5g7ce8Z-v1.png
   :name: bXNEWgouU7
+  :align: center
+  :width: 40%
 
   ```
 
@@ -90,12 +97,12 @@ Before switching versions you can preview a previous version by opening the vers
 
 To switch to a different version:
 
-* Click on the **Version** **#** you want to use and either:
-  * Click on the $\mathbf{\vdots}$ **Options** menu for the version.
-    * Select **Use Version.**
-  * Click the **USE VERSION #** button at the top of the panel.
-* A **Warning** will appear.
-  * If you are ready to switch versions, click **CONFIRM.**
+- Click on the **Version** **#** you want to use and either:
+  - Click on the $\mathbf{\vdots}$ **Options** menu for the version.
+    - Select **Use Version.**
+  - Click the **USE VERSION #** button at the top of the panel.
+- A **Warning** will appear.
+  - If you are ready to switch versions, click **CONFIRM.**
 
 ````{warning}
 If you want to switch to the latest version, you can simply click the **USE LATEST VERSION** button at the top of the panel.
@@ -104,6 +111,8 @@ If you want to switch to the latest version, you can simply click the **USE LATE
 
 ```{figure} images/m59m7JQmWVyPjlASj9v3-FOVu5pdTYPMweABgyOYu-v1.gif
 :name: DMLlrdqgpi
+:align: center
+:width: 70%
 ```
 
 ````{danger}
@@ -136,13 +145,15 @@ To make changes to your notebook on Curvenote, requires you to be in Draft Mode,
 
 To save a new version of your notebook on Curvenote:
 
-* Click **SAVE VERSION** in the app bar (left).
-  * Saving a new version of your notebook will save a new version of any blocks/cells within your notebook that were also in Draft Mode and had changes.
-* You will be redirected out of Draft Mode, and into a view of your newly saved version.
-  * This version is available in the Curvenote Jupyter extension.
+- Click **SAVE VERSION** in the app bar (left).
+  - Saving a new version of your notebook will save a new version of any blocks/cells within your notebook that were also in Draft Mode and had changes.
+- You will be redirected out of Draft Mode, and into a view of your newly saved version.
+  - This version is available in the Curvenote Jupyter extension.
 
 ```{figure} images/m59m7JQmWVyPjlASj9v3-4PPpusAuhG9oRiMVAUrK-v1.gif
 :name: Ge2OFa6CYv
+:align: center
+:width: 70%
 ```
 
 +++ {"oxa":"oxa:m59m7JQmWVyPjlASj9v3/adwYsYwU7pQesc0kTfB9.1"}
@@ -151,14 +162,16 @@ To save a new version of your notebook on Curvenote:
 
 In Curvenote you can preview previous versions of your notebook, but you are {u}`not` able to select and use previous versions of your entire notebook, as you were in Jupyter. To view previous versions of your notebook:
 
-* You must be in **View Mode.**
-  * If you are in **Draft Mode** you must either click **STOP EDITING** or **SAVE VERSION** to exit.
-* Expand the **Block Details Panel**. ◀️
-  * The previous versions are listed by number, with their save date and time included.
-* Click on the **Version #** you wish to preview.
+- You must be in **View Mode.**
+  - If you are in **Draft Mode** you must either click **STOP EDITING** or **SAVE VERSION** to exit.
+- Expand the **Block Details Panel**. ◀️
+  - The previous versions are listed by number, with their save date and time included.
+- Click on the **Version #** you wish to preview.
 
 ```{figure} images/m59m7JQmWVyPjlASj9v3-7FvmX96vDLEcsWHtJZ5I-v1.gif
 :name: DjsA83e2jn
+:align: center
+:width: 70%
 ```
 
 ````{warning}
@@ -172,16 +185,16 @@ You can select and use different versions of the individual blocks/cells within 
 
 When working with others on a notebook, it is possible that multiple people are editing and saving versions at the same time. If you are in Draft Mode when someone else saves a version of the notebook, you will be warned that you are now editing a stale draft and should discard the draft. To discard a stale draft:
 
-* A warning will appear at the top of the Editor which reads:
-  * $\bf\textcircled{!}$` editing stale draft on v# `$\bf\textcircled{\times}$.
-  * The notebook version number and draft mode icon ✏️ will change from yellow to red.
-  * If you hover the warning, it reads:
-    * `The draft is stale, you should discard it before continuing. To discard, press the ‘`$\times$`’ icon here. If in doubt contact support.`
-* Click the $\bf\textcircled{\times}$.
-* If you are certain that you want to delete the draft, click **DELETE** in the pop-up window.
-* The draft will be discarded and the page should automatically reload.
-  * You can manually reload the page by refreshing or clicking **RELOAD** in the pop-up window.
-* To continue editing your notebook you will need to reenter Draft Mode.
+- A warning will appear at the top of the Editor which reads:
+  - $\bf\textcircled{!}$` editing stale draft on v# `$\bf\textcircled{\times}$.
+  - The notebook version number and draft mode icon ✏️ will change from yellow to red.
+  - If you hover the warning, it reads:
+    - `The draft is stale, you should discard it before continuing. To discard, press the ‘`$\times$`’ icon here. If in doubt contact support.`
+- Click the $\bf\textcircled{\times}$.
+- If you are certain that you want to delete the draft, click **DELETE** in the pop-up window.
+- The draft will be discarded and the page should automatically reload.
+  - You can manually reload the page by refreshing or clicking **RELOAD** in the pop-up window.
+- To continue editing your notebook you will need to reenter Draft Mode.
 
 ````{danger}
 Any unsaved changes that were made, will be lost when the draft is discarded! If a block/cell already exists you can save a version of it individually versions, and retain access to that saved version after the notebook draft is discarded. Changes made at the notebook level such as adding or removing blocks/cells will be lost.
@@ -190,5 +203,7 @@ Any unsaved changes that were made, will be lost when the draft is discarded! If
 
 ```{figure} images/m59m7JQmWVyPjlASj9v3-FCHSm9GHG2XzoT0pEpMu-v1.gif
 :name: d7h6j6tdKE
+:align: center
+:width: 70%
 ```
 

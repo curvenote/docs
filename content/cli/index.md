@@ -6,7 +6,7 @@ name: index
 oxa: oxa:EplL6AlILV3RGEDPzj5U/qO37OgRXvWSbykWGvaDR
 ---
 
-+++ {"oxa":"oxa:EplL6AlILV3RGEDPzj5U/IaFX0NQNRnPdm5tvByQ2.7"}
++++ {"oxa":"oxa:EplL6AlILV3RGEDPzj5U/IaFX0NQNRnPdm5tvByQ2.8"}
 
 `curvenote` is a command line interface (CLI) that provides modern tooling for technical writing and reproducible science. Our [mission](https://curvenote.com/why) is to help in transitioning scientific communication out of static documents and promote more connections between how researchers work, and how they share that work.
 
@@ -21,6 +21,8 @@ The CLI and all dependencies made by Curvenote are open-source (MIT License) and
 
 ```{figure} images/EplL6AlILV3RGEDPzj5U-w79Q3PBPisuiWVOa3fxn-v1.png
 :name: ijG6PKDM8f
+:align: center
+:width: 70%
 
 Get started with a `curvenote init` to quickly see your content rendered.
 ```

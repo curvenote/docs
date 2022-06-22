@@ -1,20 +1,17 @@
 ---
 title: Blocks & Cells
 description: ""
-date: 2022-03-12T04:52:50.776Z
 authors:
-  - name: Rowan Cockett
-    userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
+  - userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
+    name: Rowan Cockett
     orcid: 0000-0002-7859-8394
-    corresponding: null
-    email: null
-    roles: null
-    affiliations: null
+    corresponding: false
+    roles: []
+    affiliations: []
+date: 2022-03-12T04:52:50.776Z
 name: blocks-and-cells
 oxa: oxa:m59m7JQmWVyPjlASj9v3/ivAEvDKvkkhID0pZl77T
 ---
-
-# Blocks & Cells
 
 +++ {"oxa":"oxa:m59m7JQmWVyPjlASj9v3/eYhW85dRjoelYF6BUlKq.1"}
 
@@ -58,12 +55,14 @@ The cell version number is displayed on the far right of the cell in Jupyter. Th
 
 ```{figure} images/m59m7JQmWVyPjlASj9v3-80IvszQcVCQFoOJtdD0D-v1.png
 :name: FBfwFqdqND
+:align: center
+:width: 10%
 ```
 
-* The cell the latest saved version and there are no changes since the notebook has been saved.
-* Changes exist in the cell since the last saved version. If you hover over the icon the type of change(s) is specified as content/code, outputs, or local outputs, depending on the type of cell.
-* Newer saved versions of the cell exist, but currently the cell displayed is Version 3, without any changes from when that version was saved.
-* Newer saved versions of the cell exist, but currently the cell displayed is Version 2 with changes. If you hover over the icon the type of change(s) is specified as content/code, outputs, or local outputs, depending on the type of cell.
+- The cell the latest saved version and there are no changes since the notebook has been saved.
+- Changes exist in the cell since the last saved version. If you hover over the icon the type of change(s) is specified as content/code, outputs, or local outputs, depending on the type of cell.
+- Newer saved versions of the cell exist, but currently the cell displayed is Version 3, without any changes from when that version was saved.
+- Newer saved versions of the cell exist, but currently the cell displayed is Version 2 with changes. If you hover over the icon the type of change(s) is specified as content/code, outputs, or local outputs, depending on the type of cell.
 
 +++ {"oxa":"oxa:m59m7JQmWVyPjlASj9v3/59iBUfy1RHVE5JOQNSAt.1"}
 
@@ -78,18 +77,18 @@ If newer versions of the current cell exist, you can compare the current cell to
 
 To compare and/or switch between two versions of a cell:
 
-* Select the cell.
-* Expand the **Curvenote Jupyter extension panel**.
-  * Expand the **Selected Cell** section.
-* Select the **Version #** you want to compare to the current version.
-  * A side-by-side comparison window will appear below the selected cell.
-  * The differences between the two versions are highlighted.
-* You can make changes to the current version of the cell (right panel).
-  * To add these changes to the current version, click **UPDATE CELL.**
-* If you wish to use the selected **Version #** (left panel) either:
-  * Click **USE VERSION #** at the bottom of the comparison.
-  * Open the $\mathbf{\vdots}$ **Options** menu for the version in the extension panel.
-    * Select **Use Version.**
+- Select the cell.
+- Expand the **Curvenote Jupyter extension panel**.
+  - Expand the **Selected Cell** section.
+- Select the **Version #** you want to compare to the current version.
+  - A side-by-side comparison window will appear below the selected cell.
+  - The differences between the two versions are highlighted.
+- You can make changes to the current version of the cell (right panel).
+  - To add these changes to the current version, click **UPDATE CELL.**
+- If you wish to use the selected **Version #** (left panel) either:
+  - Click **USE VERSION #** at the bottom of the comparison.
+  - Open the $\mathbf{\vdots}$ **Options** menu for the version in the extension panel.
+    - Select **Use Version.**
 
 The version you have selected to use will now appear in place of the cell. If that cell had an associated output, that output will also be visible. Output versions {u}`cannot` be viewed and compared in Jupyter.
 
@@ -100,6 +99,8 @@ If you have made changes to the cell, you can view the differences since the sav
 
 ```{figure} images/m59m7JQmWVyPjlASj9v3-iClJwBShgn8b8NZoWKXG-v1.gif
 :name: JI90IvvHYn
+:align: center
+:width: 70%
 ```
 
 ````{danger}
@@ -121,32 +122,34 @@ To make changes to your notebook on Curvenote, you must be in Draft Mode. If you
 
 To add/import a block (Markdown cell) to your notebook:
 
-* Select the block you want to add a block above or below.
-  * To add a new block, click the corresponding ➕ to where you want to add a new block (above or below).
-  * To import a block, open the $\mathbf{\vdots}$ **More Options** menu to the right of the ➕.
-    * Select Import Block.
-    * Paste the oxa link to the block you want to import. Learn more about importing and reusing blocks/cells [Reusing Blocks](oxa:m59m7JQmWVyPjlASj9v3/93FoBDnslDe5zX30YhHW "Reusing Blocks").
-* Make the desired changes.
-* For these changes to be available in Jupyter, save a new version of the notebook by clicking **SAVE VERSION** in the app bar at the top of the page.
+- Select the block you want to add a block above or below.
+  - To add a new block, click the corresponding ➕ to where you want to add a new block (above or below).
+  - To import a block, open the $\mathbf{\vdots}$ **More Options** menu to the right of the ➕.
+    - Select Import Block.
+    - Paste the oxa link to the block you want to import. Learn more about importing and reusing blocks/cells [Reusing Blocks](oxa:m59m7JQmWVyPjlASj9v3/93FoBDnslDe5zX30YhHW "Reusing Blocks").
+- Make the desired changes.
+- For these changes to be available in Jupyter, save a new version of the notebook by clicking **SAVE VERSION** in the app bar at the top of the page.
 
 ---
 
 To edit a block (Markdown cell) in your notebook:
 
-* Open a draft of the block via one of the following:
-  * Double click on the block
-  * Select the cell and hit ENTER.
-  * Open the block $\mathbf{\vdots}$ **Options** menu and select **Edit**.
-* Make the desired changes.
-* For the changes to be available in Jupyter, you can either save a version of the block or the notebook.
-  * To save only a version of the cell:
-    * Click **SAVE VERSION** in the block details panel.
-    * Open the block $\mathbf{\vdots}$ **Options** menu and select **Save Version.**
-  * To save a version of the notebook:
-    * Click **SAVE VERSION** in the app bar at the top of the page.
+- Open a draft of the block via one of the following:
+  - Double click on the block
+  - Select the cell and hit ENTER.
+  - Open the block $\mathbf{\vdots}$ **Options** menu and select **Edit**.
+- Make the desired changes.
+- For the changes to be available in Jupyter, you can either save a version of the block or the notebook.
+  - To save only a version of the cell:
+    - Click **SAVE VERSION** in the block details panel.
+    - Open the block $\mathbf{\vdots}$ **Options** menu and select **Save Version.**
+  - To save a version of the notebook:
+    - Click **SAVE VERSION** in the app bar at the top of the page.
 
 ```{figure} images/m59m7JQmWVyPjlASj9v3-TJortLQ3wxGy5T2Tovj7-v1.gif
 :name: k62oE6T5d6
+:align: center
+:width: 70%
 ```
 
 ````{warning}
@@ -160,18 +163,20 @@ Any block, independent of cell type, can be removed from your notebook on Curven
 
 You can preview and switch between different versions of a block/cell on Curvenote, not matter the type of cell. To preview and/or use a different version:
 
-* Select a block.
-* Expand the Block Details Panel.
-* Select a **Version #**.
-  * This version will appear in place of the current version of the block as a preview.
-* If you do not want to switch versions:
-  * Click **CLEAR PREVIEW** either on the block or in the Block Details Panel.
-* If you want to switch to the selected version, either:
-  * Click the **USE VERSION #** button at the top of the Block Details Panel
-  * Open the version $\mathbf{\vdots}$ **Options** menu and select **Use Version.**
+- Select a block.
+- Expand the Block Details Panel.
+- Select a **Version #**.
+  - This version will appear in place of the current version of the block as a preview.
+- If you do not want to switch versions:
+  - Click **CLEAR PREVIEW** either on the block or in the Block Details Panel.
+- If you want to switch to the selected version, either:
+  - Click the **USE VERSION #** button at the top of the Block Details Panel
+  - Open the version $\mathbf{\vdots}$ **Options** menu and select **Use Version.**
 
 ```{figure} images/m59m7JQmWVyPjlASj9v3-AVXtTWOUjmvLopTmCQ8n-v1.gif
 :name: cXSbvF2B57
+:align: center
+:width: 70%
 ```
 
 ````{warning}
@@ -185,17 +190,19 @@ If you are using a previous version of a block, the **USE LATEST** button will a
 
 Blocks can viewed, edited, and reused on their own. In some instances it’s beneficial to include additional information with a block. The block settings allow you to add or update the URL, tag, and thumbnail. To update the block settings:
 
-* Open the block $\mathbf{\vdots}$ **Options** menu below the version number.
-  * Select ⚙️ **Block Settings**.
-* Update the URL and tags.
-  * To add a tag, hit **ENTER** after you are finished add the tag text. To remove the tag, click the $\mathbf{\times}$ to the right of the text.
-  * Click **UPDATE SETTINGS**.
-* Drag and drop or click **Browse** to add an image from your computer.
-  * Adjust your image.
-  * Click **UPLOAD**.
+- Open the block $\mathbf{\vdots}$ **Options** menu below the version number.
+  - Select ⚙️ **Block Settings**.
+- Update the URL and tags.
+  - To add a tag, hit **ENTER** after you are finished add the tag text. To remove the tag, click the $\mathbf{\times}$ to the right of the text.
+  - Click **UPDATE SETTINGS**.
+- Drag and drop or click **Browse** to add an image from your computer.
+  - Adjust your image.
+  - Click **UPLOAD**.
 
     ```{figure} images/m59m7JQmWVyPjlASj9v3-HJ03JtvrtUj0wozihaM8-v1.gif
     :name: xHYdtotmqZ
+    :align: center
+    :width: 70%
 
     ```
 

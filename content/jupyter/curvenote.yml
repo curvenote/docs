@@ -1,10 +1,11 @@
 version: 1
 project:
-  title: Jupyter Integration
+  title: Jupyter
   remote: m59m7JQmWVyPjlASj9v3
   link: https://curvenote.com/@docs/jupyter
   subject: Jupyter Integration
   numbering: false
-  license:
-    content: CC-BY-4.0
+  license: CC-BY-4.0
   open_access: true
+  description: ''
+  name: jupyter

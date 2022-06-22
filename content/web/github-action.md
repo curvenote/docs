@@ -40,6 +40,8 @@ Curvenote provides a deployment action in the GitHub Marketplace, allowing you t
 
 ```{figure} images/Eh6WvY9NT46Ds4lE3OqJ-xAQ7dOyRVASM2PDWJBDg-v1.png
 :name: QF7z0XV7wO
+:align: center
+:width: 80%
 
 Curvenote Deploy action on the [GitHub Marketplace](https://github.com/marketplace/actions/curvenote-deploy)
 ```
@@ -78,6 +80,8 @@ If you have not already, commit your changes and push to `main`. The github acti
 
 ```{figure} images/Eh6WvY9NT46Ds4lE3OqJ-1phwIyExAdZmNQk0O8XM-v1.png
 :name: AzfNhoF8ot
+:align: center
+:width: 100%
 
 You can see the status of your deployments in the Actions tab on your repository in GitHub. On any failure ❌ you will need to click on the action and check the logs to debug the issue.
 ```

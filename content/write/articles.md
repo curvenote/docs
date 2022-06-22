@@ -33,6 +33,8 @@ Articles must live within projects. To create a new article in a project:
 
     ```{figure} images/MshxlXndaLsk3WbJ0ZGy-tstqdKcgZc5rP6CVdWS3-v4.gif
     :name: 9d6558d2
+    :align: center
+    :width: 100%
 
     ```
 
@@ -62,6 +64,8 @@ To edit your article:
 
 ```{figure} images/MshxlXndaLsk3WbJ0ZGy-ZiqlKcmXXfb30mlOCaCA-v3.gif
 :name: a1ab9b36
+:align: center
+:width: 90%
 ```
 
 +++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/ywwFAdnt8yUatuZrSjq0.1"}
@@ -76,6 +80,8 @@ All your changes are saved locally, and are available at the bottom of the versi
 
 ```{figure} images/Z1isOjJQGvM22q5fhunb-vXJJZwpdh3awDydAIHu1-v1.png
 :name: vcGDSLUsa2
+:align: center
+:width: 50%
 ```
 
 +++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/37h7eli34zE3kllEJ5iN.1"}
@@ -102,6 +108,8 @@ If you change the article URL, previously created links to the article will be b
 
 ```{figure} images/MshxlXndaLsk3WbJ0ZGy-cqaNdAMtr7daU4LeCV2m-v4.gif
 :name: a72d4290
+:align: center
+:width: 60%
 ```
 
 ````{note}
@@ -126,6 +134,8 @@ This will **permanently** delete the article including all of its blocks, histor
 
 ```{figure} images/MshxlXndaLsk3WbJ0ZGy-Dq4Q0S946TI0JARnu2DE-v1.gif
 :name: Xv4y8DwTnZ
+:align: center
+:width: 80%
 ```
 
 ````{note}

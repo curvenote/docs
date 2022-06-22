@@ -29,24 +29,32 @@ Curvenote is being used to create all sorts of content:
 
 ```{figure} images/Eh6WvY9NT46Ds4lE3OqJ-BPUsfKGKYjkbeVep7pas-v1.png
 :name: flLmapkISC
+:align: center
+:width: 70%
 
 [Transform 2022](https://transform.softwareunderground.org/) used Curvenote to create a conference website.
 ```
 
 ```{figure} images/Eh6WvY9NT46Ds4lE3OqJ-P4CT5O933tyXwd3EI7bU-v1.gif
 :name: P6XPRTIpNr
+:align: center
+:width: 70%
 
 A [PhD thesis](https://phd.row1.ca/) by Rowan Cockett using Curvenote!
 ```
 
 ```{figure} images/Eh6WvY9NT46Ds4lE3OqJ-MElmpFAv0wsWkfbS0YLb-v1.gif
 :name: ydbp0q09nv
+:align: center
+:width: 70%
 
 Interactive notebooks in a [blog by Steve Purves](https://www.stevejpurves.com/la-palma-earthquakes/interactive-timelines-altair).
 ```
 
 ```{figure} images/Eh6WvY9NT46Ds4lE3OqJ-75ClmoHck3X9LbuLYFLc-v1.png
 :name: P4Bj78w1W3
+:align: center
+:width: 70%
 
 A 250 page report for the EU on [soil management and climate change](https://climasoma.curve.space/report/summary).
 ```

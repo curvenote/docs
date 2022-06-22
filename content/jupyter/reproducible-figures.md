@@ -1,20 +1,17 @@
 ---
 title: Reproducible Figures
 description: ""
-date: 2022-03-15T02:36:13.958Z
 authors:
-  - name: Rowan Cockett
-    userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
+  - userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
+    name: Rowan Cockett
     orcid: 0000-0002-7859-8394
-    corresponding: null
-    email: null
-    roles: null
-    affiliations: null
+    corresponding: false
+    roles: []
+    affiliations: []
+date: 2022-03-15T02:36:13.958Z
 name: reproducible-figures
 oxa: oxa:m59m7JQmWVyPjlASj9v3/bbyR5iLfxLsNsn7JUlHs
 ---
-
-# Reproducible Figures
 
 +++ {"oxa":"oxa:m59m7JQmWVyPjlASj9v3/LMz6lb3j88YJsVIexNIZ.1"}
 
@@ -42,14 +39,14 @@ When a notebook is added to Curvenote, the cells in Jupyter are considered block
 
 To bring an output cell into your Curvenote article:
 
-* Copy the oxa link for the block/cell on either Curvenote or Jupyter.
-  * Open the $\mathbf{\vdots}$ **Options** menu in the upper right of the block/cell
-  * Select **Copy Link**.
-* Open your article in Draft Mode.
-* Select the location to add the output cell.
-* To import the cell you can either
-  * Paste the link and add the cell below the selected block.
-  * Open the $\mathbf{\vdots}$ **More** **Options** menu, select **Import Block,** paste the link, and click **INSERT BLOCK**.
+- Copy the oxa link for the block/cell on either Curvenote or Jupyter.
+  - Open the $\mathbf{\vdots}$ **Options** menu in the upper right of the block/cell
+  - Select **Copy Link**.
+- Open your article in Draft Mode.
+- Select the location to add the output cell.
+- To import the cell you can either
+  - Paste the link and add the cell below the selected block.
+  - Open the $\mathbf{\vdots}$ **More** **Options** menu, select **Import Block,** paste the link, and click **INSERT BLOCK**.
 
 +++ {"oxa":"oxa:m59m7JQmWVyPjlASj9v3/hRPnFjIA5iNeDoW9NXHA.2"}
 
@@ -65,8 +62,8 @@ A new version of a block/cell is indicated by the icon next to the version numbe
 
 To preview and switch to another version of the cell:
 
-* Click on the **version number** **icon** in the top-right of the block to expand the Block Details Panel.
-* Click on a version for the preview to appear.
-* When you have chosen a version click **USE VERSION #**.
-  * If you want to use the latest version, you can simply click **USE LATEST**.
+- Click on the **version number** **icon** in the top-right of the block to expand the Block Details Panel.
+- Click on a version for the preview to appear.
+- When you have chosen a version click **USE VERSION #**.
+  - If you want to use the latest version, you can simply click **USE LATEST**.
 

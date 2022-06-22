@@ -3,20 +3,15 @@ title: Jupyter
 description: Directly integrate your Jupyter Notebooks with Curvenote articles
   and add collaboration, comments and version control to your Jupyter
   environment.
-date: 2021-08-25T20:06:05.379Z
 authors:
-  - name: ""
-    userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
-    orcid: null
-    corresponding: null
-    email: null
-    roles: null
-    affiliations: null
+  - userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
+    corresponding: false
+    roles: []
+    affiliations: []
+date: 2021-08-25T20:06:05.379Z
 name: index
 oxa: oxa:m59m7JQmWVyPjlASj9v3/lK8F5L5UUIjx2E6Cuv5L
 ---
-
-# Jupyter
 
 +++ {"oxa":"oxa:m59m7JQmWVyPjlASj9v3/D4heNKysDfjWzelGyy4v.2"}
 

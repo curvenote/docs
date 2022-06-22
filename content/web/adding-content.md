@@ -48,6 +48,8 @@ The corresponding website looks like this:
 
 ```{figure} images/Eh6WvY9NT46Ds4lE3OqJ-r777qnOcE1fKiEHaozw8-v1.png
 :name: Kmu0HNj2md
+:align: center
+:width: 100%
 
 A [curve.space](https://curve.space) website created from content pulled from a single linked Curvenote project
 ```
@@ -109,6 +111,8 @@ curvenote.yml
 
 ```{figure} images/Eh6WvY9NT46Ds4lE3OqJ-Sn10EXtZHXfzkvaLmXDN-v1.png
 :name: iCdLf4niTo
+:align: center
+:width: 100%
 
 Example website based on a root project `myblog` that has had content from an additional two projects (`geoscience`, `Computational Finance`) added to it. When a project is “added” it remained linked in the root site configuration which is stored in the `curvenote.yml` file in the root folder.
 ```
@@ -197,6 +201,8 @@ When we added projects to our site, they were automatically added as individual 
 
 ```{figure} images/Eh6WvY9NT46Ds4lE3OqJ-xjiptpnTXElB9Mjs7Jvd-v1.png
 :name: TfjJYgQ4go
+:align: center
+:width: 100%
 ```
 
 Alternatively, projects can be grouped together, which can be helpful to manage space on the Navigation bar when there is a lot of linked content and organise similar content together. To do this change the `nav` section in the `curvenote.yml` file from:
@@ -229,6 +235,8 @@ This results in a new Navigation layout like this:
 
 ```{figure} images/Eh6WvY9NT46Ds4lE3OqJ-X1raQe1x46aibONnkcSw-v1.gif
 :name: bj1YQANn54
+:align: center
+:width: 100%
 ```
 
 Find out more about customization in [Navigation & actions](oxa:Eh6WvY9NT46Ds4lE3OqJ/jrOoppptNKmkpA5FmGTU "Navigation & actions") .

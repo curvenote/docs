@@ -6,9 +6,9 @@ name: hosting
 oxa: oxa:Eh6WvY9NT46Ds4lE3OqJ/6xTpl07Az7VN9tdldJAt
 ---
 
-+++ {"oxa":"oxa:Eh6WvY9NT46Ds4lE3OqJ/PyDULH3a8HFB5GyVuj10.1"}
++++ {"oxa":"oxa:Eh6WvY9NT46Ds4lE3OqJ/PyDULH3a8HFB5GyVuj10.2"}
 
-Curvenote provides a free domains for your sites, called curve.space, so that you can easily share your work with the world. There are two sub-domain patterns available that allow you to deploy multiple sites at the same time:
+Curvenote provides a free domain for your sites, called curve.space, so that you can easily share your work with the world. There are two sub-domain patterns available that allow you to deploy multiple sites at the same time:
 
 - `username.curve.space`; or
 - `username-project.curve.space`

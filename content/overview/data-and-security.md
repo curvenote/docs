@@ -1,20 +1,11 @@
 ---
 title: Data and Security
 description: ""
+authors: []
 date: 2022-03-11T23:24:36.037Z
-authors:
-  - name: Rowan Cockett
-    userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
-    orcid: 0000-0002-7859-8394
-    corresponding: null
-    email: null
-    roles: null
-    affiliations: null
 name: data-and-security
 oxa: oxa:w6jXebeTS6WGaVFDIEz9/nmIgTLQ42YuyjOUqL4C4
 ---
-
-# Data and Security
 
 +++ {"oxa":"oxa:w6jXebeTS6WGaVFDIEz9/dWNb48Y3UqNymCN3dK04.2"}
 
@@ -64,12 +55,12 @@ We run automated backups nightly that backup all content, images and notebooks o
 
 Curvenote leverages the following 3rd-party services and APIs:
 
-* [Segment](https://segment.com/), [Amplitude](https://amplitude.com/) and [Google Analytics](https://www.google.com/analytics/) for analytics
-* [Google Cloud](https://cloud.google.com/) for hosting (data & compute)
-* [Vercel](https://vercel.com/) for hosting of static sites
-* [SendGrid](https://sendgrid.com/) for emails
-* [MagicBell](https://magicbell.io/) for notifications
-* [Stripe](https://stripe.com/) for payments
+- [Segment](https://segment.com/), [Amplitude](https://amplitude.com/) and [Google Analytics](https://www.google.com/analytics/) for analytics
+- [Google Cloud](https://cloud.google.com/) for hosting (data & compute)
+- [Vercel](https://vercel.com/) for hosting of static sites
+- [SendGrid](https://sendgrid.com/) for emails
+- [MagicBell](https://magicbell.io/) for notifications
+- [Stripe](https://stripe.com/) for payments
 
 These services provide the highest standards and are regularly externally audited, Curvenote does not audit them by its own means.
 

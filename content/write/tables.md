@@ -39,6 +39,8 @@ While in Draft Mode for both your article and block, add a table using one of th
 
 ```{figure} images/MshxlXndaLsk3WbJ0ZGy-aoLFYBkrMfIKCC0R0Dv9-v1.gif
 :name: a6716b8d
+:align: center
+:width: 70%
 ```
 
 ````{note}
@@ -46,6 +48,8 @@ When your cursor is placed within the table, a table icon will appear in the edi
 
 ```{figure} images/MshxlXndaLsk3WbJ0ZGy-7TDdHxX6mewUbeqVQZUz-v1.png
 :name: ae49c105
+:align: center
+:width: 70%
 ```
 
 ````
@@ -75,6 +79,8 @@ You can insert rows and columns anywhere in your table. To do this:
 
 ```{figure} images/MshxlXndaLsk3WbJ0ZGy-U6dTw1VL4XSW3OJdODqB-v1.gif
 :name: a8ab449e
+:align: center
+:width: 70%
 ```
 
 +++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/C7as7P43hRjt5rnNDJBp.1"}
@@ -94,6 +100,8 @@ You can also delete entire rows and columns from your table. To do this:
 
 ```{figure} images/MshxlXndaLsk3WbJ0ZGy-pxHYIdGF0xpxweDLzCGL-v1.gif
 :name: afcf858c
+:align: center
+:width: 80%
 ```
 
 +++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/CXSqECwWsAaIDpdv6VdJ.1"}
@@ -108,6 +116,8 @@ To adjust the width of a column:
 
   ```{figure} images/MshxlXndaLsk3WbJ0ZGy-EE4ECVpoK6Km4SF2shvY-v1.gif
   :name: a5b30335
+  :align: center
+  :width: 70%
 
   ```
 
@@ -135,6 +145,8 @@ To update the header formatting of a row column or cell:
 
 ```{figure} images/MshxlXndaLsk3WbJ0ZGy-2nosffxc3AC8S54Ch9zb-v1.gif
 :name: a8c7fc15
+:align: center
+:width: 70%
 ```
 
 ````{note}
@@ -172,6 +184,8 @@ When a cell is split the content will remain in the original cell, even if it wa
 
 ```{figure} images/MshxlXndaLsk3WbJ0ZGy-JExlM0Uz8Kady1ZX4Hq7-v1.gif
 :name: a9da3263
+:align: center
+:width: 70%
 ```
 
 ````{danger}
@@ -194,5 +208,7 @@ Tables can be deleted while in edit mode for both your article and block. To del
 
 ```{figure} images/MshxlXndaLsk3WbJ0ZGy-XcE3RANRNDtLZVGrSO86-v1.gif
 :name: a24c976c
+:align: center
+:width: 70%
 ```
 

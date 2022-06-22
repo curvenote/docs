@@ -175,6 +175,8 @@ The example site in this tutorial only has three pages and by default looks like
 
 ```{figure} images/Eh6WvY9NT46Ds4lE3OqJ-daYcX79Sb0FQmmtZS5DS-v1.png
 :name: tJVYC0zweb
+:align: center
+:width: 100%
 ```
 
 +++ {"oxa":"oxa:Eh6WvY9NT46Ds4lE3OqJ/IYgmz3vsEisaxXxsUMc0.2"}
@@ -263,6 +265,8 @@ Your browser is very good at caching image assets like this, you may need to har
 
 ```{figure} images/Eh6WvY9NT46Ds4lE3OqJ-aD5FHgaNqHuAnkrjgGGF-v1.png
 :name: z6PgRod3mZ
+:align: center
+:width: 100%
 ```
 
 ## Changing Actions
@@ -277,6 +281,8 @@ When building your site the Curvenote CLI tries to resolve the title for your pa
 
 ```{figure} images/Eh6WvY9NT46Ds4lE3OqJ-8NS6zk7OlPLLBlbcjxOo-v1.png
 :name: U6PCeeIEzD
+:align: center
+:width: 100%
 ```
 
 In the example above, the `index.md` file contains a Heading with the text “Welcome” which has been used for the default page title. However, the other two files `my-first-notebook.ipynb` and `my-first-post.md` do not contain any markdown headings, so the filename has been used directly. We can modify these default choices to suit our needs by adding [Frontmatter](oxa:Eh6WvY9NT46Ds4lE3OqJ/ZS5jFLjvnEdoTjlf1d7S "Frontmatter") to our content files.
@@ -309,6 +315,8 @@ Once we save, the website will update and we’ll see the following changes and 
 
 ```{figure} images/Eh6WvY9NT46Ds4lE3OqJ-kGcLMaFQ5v7WKxLdz3Ge-v1.png
 :name: OEU3wDs6Mf
+:align: center
+:width: 100%
 ```
 
 Note that, the title has been updated in the [Table of contents](oxa:Eh6WvY9NT46Ds4lE3OqJ/FrJ3eDvWP2LO3o40n4du "Table of contents") as well as at the top of the page, and the author and affiliation also now appear in the page header. There is a growing number of options available, check [Frontmatter](oxa:Eh6WvY9NT46Ds4lE3OqJ/ZS5jFLjvnEdoTjlf1d7S "Frontmatter") for more details on them all.

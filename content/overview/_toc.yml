@@ -8,6 +8,7 @@ chapters:
   - file: profile
   - file: teams
   - file: projects
+  - file: collaboration
   - file: support
   - file: data-and-security
 

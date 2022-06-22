@@ -1,20 +1,11 @@
 ---
 title: Teams
 description: ""
+authors: []
 date: 2022-03-15T02:49:24.044Z
-authors:
-  - name: Rowan Cockett
-    userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
-    orcid: 0000-0002-7859-8394
-    corresponding: null
-    email: null
-    roles: null
-    affiliations: null
 name: teams
 oxa: oxa:w6jXebeTS6WGaVFDIEz9/REipmoZAgXHBPDKdLEC5
 ---
-
-# Teams
 
 +++ {"oxa":"oxa:w6jXebeTS6WGaVFDIEz9/ubFpLUiJ2W9frmbeUDXf.1"}
 
@@ -37,20 +28,24 @@ You can create teams with other Curvenote users, so you can easily collaborate o
 ````{margin}
 ```{figure} images/MshxlXndaLsk3WbJ0ZGy-CikNSvrP8ng6ODaTeLHi-v2.gif
 :name: d3e976f9
+:align: center
+:width: 60%
 ```
 
 ````
 
 To create a Curvenote team:
 
-* In the app bar, click your **Profile Image**
-  * Select **Create New Team**
-* Enter in the Display Name and Team Name for your team
-* Click **CONTINUE 🚀**
-* A new team page will be created!
+- In the app bar, click your **Profile Image**
+  - Select **Create New Team**
+- Enter in the Display Name and Team Name for your team
+- Click **CONTINUE 🚀**
+- A new team page will be created!
 
 ```{figure} images/MshxlXndaLsk3WbJ0ZGy-lWDGADTb743zXUaNfUsr-v2.png
 :name: a56fb76a
+:align: center
+:width: 50%
 ```
 
 ````{warning}
@@ -64,16 +59,18 @@ When you create a team, you will be automatically made the team admin.
 
 From your team profile, to add a team member:
 
-* Select the **MEMBERS** tab
-* Select **ADD TEAM MEMBER**
-* Enter in the username of the person you’d like to invite
-* Select **INVITE TO TEAM 🤝**
-* Let the person know you’ve invited them, as Curvenote does not have email notifications yet.
+- Select the **MEMBERS** tab
+- Select **ADD TEAM MEMBER**
+- Enter in the username of the person you’d like to invite
+- Select **INVITE TO TEAM 🤝**
+- Let the person know you’ve invited them, as Curvenote does not have email notifications yet.
 
 Any added team members can view, create, and edit projects and their content within that team.
 
 ```{figure} images/MshxlXndaLsk3WbJ0ZGy-iuYTk8ZTIDHMGh8Oa0D8-v2.gif
 :name: acb85245
+:align: center
+:width: 80%
 ```
 
 ````{warning}
@@ -91,12 +88,14 @@ You can modify team profiles the same way you modify your personal profile, such
 
 Profile images will be shown as a badge on your personal profile image, when you’re working in that team space. To upload a profile image:
 
-* Navigate to the **SETTINGS** tab
-* In the profile image area, drag and drop the image you’d like or follow the prompts to upload a new image
-* (Optional) adjust the image to your preference
+- Navigate to the **SETTINGS** tab
+- In the profile image area, drag and drop the image you’d like or follow the prompts to upload a new image
+- (Optional) adjust the image to your preference
 
 ```{figure} images/MshxlXndaLsk3WbJ0ZGy-WFz7GdbOXwfnKxnmunYq-v2.gif
 :name: a327712f
+:align: center
+:width: 40%
 ```
 
 ---
@@ -105,10 +104,10 @@ Profile images will be shown as a badge on your personal profile image, when you
 
 To update your banner image:
 
-* Hover over the banner image area
-* Following the prompts to upload a new image or drag and drop one from your computer
-* Use the image editor to position your image
-* Click **UPLOAD IMAGE**
+- Hover over the banner image area
+- Following the prompts to upload a new image or drag and drop one from your computer
+- Use the image editor to position your image
+- Click **UPLOAD IMAGE**
 
 ---
 
@@ -116,13 +115,15 @@ To update your banner image:
 
 To make changes to the details on your team profile:
 
-* Navigate to the **Settings** tab
-  * Scroll down to **Public Team Profile**
-* Fill in the details you want on your team profile
-* Click **UPDATE PROFILE**
+- Navigate to the **Settings** tab
+  - Scroll down to **Public Team Profile**
+- Fill in the details you want on your team profile
+- Click **UPDATE PROFILE**
 
 ```{figure} images/MshxlXndaLsk3WbJ0ZGy-E5PqoHssivmu8Pt8Smnj-v2.png
 :name: af86bfe6
+:align: center
+:width: 50%
 ```
 
 ````{warning}
@@ -136,8 +137,8 @@ Your team’s banner image, profile image, and profile details are publicly visi
 
 If you want to view the Curvenote page for any of the teams you’ve joined:
 
-* Click your **Profile Image** in the app bar
-* Select the team page you’d like to view
+- Click your **Profile Image** in the app bar
+- Select the team page you’d like to view
 
 You will be taken to the team page. A badge (which will be the public profile image of that team) will also be added to your profile image in the top banner. This allows you to easily check what team space you’re working in.
 

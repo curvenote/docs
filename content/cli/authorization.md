@@ -30,6 +30,8 @@ API Tokens allow you to access your Curvenote content programatically.
 
 ```{figure} images/EplL6AlILV3RGEDPzj5U-J2W6tvysedRCez3ZnJHV-v1.png
 :name: FdFCmj6QcJ
+:align: center
+:width: 70%
 
 Access the API Token by navigating to your **Personal Settings** by clicking on your avatar in the top right.
 ```
@@ -38,6 +40,8 @@ Access the API Token by navigating to your **Personal Settings** by clicking on 
 
 ```{figure} images/EplL6AlILV3RGEDPzj5U-q7XRxunBRCnETNbr4o6A-v1.png
 :name: rm1dO7qLHx
+:align: center
+:width: 70%
 
 Ensure that you copy your token for the next step. You will not be able to access this token again.
 ```

@@ -22,6 +22,8 @@ The project sidebar helps with organizing all of the documents in your project. 
 ````{margin}
 ```{figure} images/MshxlXndaLsk3WbJ0ZGy-0Nvarrph0pLsC0puEfKG-v4.gif
 :name: 6c513ba9
+:align: center
+:width: 80%
 ```
 
 ````
@@ -42,6 +44,8 @@ Your project navigation panel view will vary depending on the project visibility
 
 ```{figure} images/MshxlXndaLsk3WbJ0ZGy-hxyPcG2rnMyKr6ZHDn7X-v4.png
 :name: b3069169
+:align: center
+:width: 30%
 ```
 
 +++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/3LZeDup7jYUBT2iNCvSt.1"}
@@ -52,6 +56,8 @@ You can add groups to your content by clicking on the `+` button at the bottom o
 
 ```{figure} images/9Kv3iYv0uCgaG0zl4WDZ-FylibgMGpswcXzVie119-v1.png
 :name: Is1NCJuvOS
+:align: center
+:width: 40%
 ```
 
 +++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/c3SFKrd5LyuPFlvf4cAI.1"}
@@ -62,5 +68,7 @@ When you hover over a navigation item, a shortcut is shown to create a new artic
 
 ```{figure} images/Z1isOjJQGvM22q5fhunb-VOWVwzyjhamYc3tLg3pk-v1.gif
 :name: BEieyT2e7C
+:align: center
+:width: 50%
 ```
 

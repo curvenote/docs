@@ -23,6 +23,8 @@ The command menu can be accessed by simply typing `/`, the command menu will app
 
 ```{figure} images/MshxlXndaLsk3WbJ0ZGy-xbuscBaLDjx7V03omwY2-v3.gif
 :name: a6eaf62f
+:align: center
+:width: 70%
 
 Use the `/` command to access any of the actions you can complete in Curvenote.
 ```

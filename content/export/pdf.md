@@ -1,20 +1,17 @@
 ---
 title: PDF
 description: ""
-date: 2022-03-11T23:56:07.938Z
 authors:
-  - name: Rowan Cockett
-    userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
+  - userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
+    name: Rowan Cockett
     orcid: 0000-0002-7859-8394
-    corresponding: null
-    email: null
-    roles: null
-    affiliations: null
+    corresponding: false
+    roles: []
+    affiliations: []
+date: 2022-03-11T23:56:07.938Z
 name: pdf
 oxa: oxa:TnCP56I5qhrKLeVufPL4/Xi66LWky7I4KKmKwX6fy
 ---
-
-# PDF
 
 +++ {"oxa":"oxa:TnCP56I5qhrKLeVufPL4/UVU737bhs06NifUMRRz6.1"}
 
@@ -38,21 +35,25 @@ Only a saved version of an article can be exported for download. If you are edit
 
 ```{figure} images/TnCP56I5qhrKLeVufPL4-d94DK2WzsIyus8Hqb4pq-v1.png
 :name: FTqjXnSpDo
+:align: center
+:width: 100%
 ```
 
 To export and download your article with the most recent changes made in **draft mode**:
 
 ```{figure} images/TnCP56I5qhrKLeVufPL4-XzFgTi9vwrgRY5S1SlIP-v1.png
 :name: jrRmz8V6Ep
+:align: center
+:width: 100%
 ```
 
-* Click **SAVE VERSION** in the header👆
-  * This will create a new version of your article
+- Click **SAVE VERSION** in the header👆
+  - This will create a new version of your article
 
 To export and download the most recently **saved** version of your article - any changes made in **draft mode** will not be included:
 
-* Click **STOP EDITING** in the header👆
-  * This will return you to a view of the last saved version of your article
+- Click **STOP EDITING** in the header👆
+  - This will return you to a view of the last saved version of your article
 
 +++ {"oxa":"oxa:TnCP56I5qhrKLeVufPL4/XzmNkItt5xlAI7DkHabz.1"}
 
@@ -65,32 +66,34 @@ To export and download the most recently **saved** version of your article - any
 
 You can now export and download your article! To do this:
 
-* Click the download {u}`⬇ `icon.
-* Click **Export As**.
-* Choose **PDF** format
-  * Click **Next**.
-* Select a **Template**.
-  * Hover over the thumbnail on the left for an expanded preview of the template layout.
-  * Click **Select**.
-* Complete the template specific instructions for Template Options.
-  * Each template has a variety of required and optional options to include such as author name, affiliation, email, etc. Learn more [Template Options](oxa:TnCP56I5qhrKLeVufPL4/BTQbtvjluVAg2HfrZa5v "Template Options").
-  * Click **Next**.
-  * Other requirements such as abstracts and acknowledgements use tagged content. Learn more [Tagging Blocks](oxa:TnCP56I5qhrKLeVufPL4/e5eN6eaP9xLRDRzEK1t7 "Tagging Blocks").
-* Click **EXPORT**.
-* Your article export is now processing.
-  * You can exit the window during processing. You will notified when your export is complete.
-* To **download** your PDF:
-  * In the original Exports pop-up:
-    * Click the ☁️⬇️ icon.
-  * If you have closed the pop-up:
-    * Click the download {u}`⬇ `icon**:**.
-    * Select $\textcircled{\checkmark}$ **Download PDF**.
-  * You can also download the log file for the PDF export.
-* Your exported article will be available for download by you or any of your collaborators until you save a new version.
-  * You will need to repeat this process for that version.
+- Click the download {u}`⬇ `icon.
+- Click **Export As**.
+- Choose **PDF** format
+  - Click **Next**.
+- Select a **Template**.
+  - Hover over the thumbnail on the left for an expanded preview of the template layout.
+  - Click **Select**.
+- Complete the template specific instructions for Template Options.
+  - Each template has a variety of required and optional options to include such as author name, affiliation, email, etc. Learn more [Template Options](oxa:TnCP56I5qhrKLeVufPL4/BTQbtvjluVAg2HfrZa5v "Template Options").
+  - Click **Next**.
+  - Other requirements such as abstracts and acknowledgements use tagged content. Learn more [Tagging Blocks](oxa:TnCP56I5qhrKLeVufPL4/e5eN6eaP9xLRDRzEK1t7 "Tagging Blocks").
+- Click **EXPORT**.
+- Your article export is now processing.
+  - You can exit the window during processing. You will notified when your export is complete.
+- To **download** your PDF:
+  - In the original Exports pop-up:
+    - Click the ☁️⬇️ icon.
+  - If you have closed the pop-up:
+    - Click the download {u}`⬇ `icon**:**.
+    - Select $\textcircled{\checkmark}$ **Download PDF**.
+  - You can also download the log file for the PDF export.
+- Your exported article will be available for download by you or any of your collaborators until you save a new version.
+  - You will need to repeat this process for that version.
 
 ```{figure} images/TnCP56I5qhrKLeVufPL4-LQG9wOZEfSBC3Zh63b5l-v1.gif
 :name: k1GZtH4WgY
+:align: center
+:width: 70%
 ```
 
 ````{note}

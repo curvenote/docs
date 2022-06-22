@@ -19,6 +19,8 @@ Search for authors by their user name or create them directly and add additional
 
 ```{figure} images/Z1isOjJQGvM22q5fhunb-ssL7lufk409dGJ2Qb6r0-v1.gif
 :name: FVcx77ottY
+:align: center
+:width: 70%
 ```
 
 +++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/jh7AXqKMEQvPyG5OGnpc.2"}
@@ -29,6 +31,8 @@ You can add or edit authors for an article when you are in edit mode, and click 
 
 ```{figure} images/Z1isOjJQGvM22q5fhunb-AM3aJvN6YUkQPRoZWoRg-v1.png
 :name: IGpi9HPRiK
+:align: center
+:width: 40%
 ```
 
 ````{warning}
@@ -44,6 +48,8 @@ Author affiliations are saved to your project, so those can be edited or updated
 
 ```{figure} images/Z1isOjJQGvM22q5fhunb-UjRFdgVs5OTnZQApy2Yx-v1.png
 :name: IXfdlO26Za
+:align: center
+:width: 70%
 ```
 
 To add multiple affiliations, select the affiliation using arrow keys or your mouse and then use the input to continue to type and search for the next affiliation that the author is associated with.

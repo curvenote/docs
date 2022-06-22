@@ -1,20 +1,17 @@
 ---
 title: User Interface
 description: ""
-date: 2022-03-15T05:34:41.698Z
 authors:
-  - name: Rowan Cockett
-    userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
+  - userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
+    name: Rowan Cockett
     orcid: 0000-0002-7859-8394
-    corresponding: null
-    email: null
-    roles: null
-    affiliations: null
+    corresponding: false
+    roles: []
+    affiliations: []
+date: 2022-03-15T05:34:41.698Z
 name: extension
 oxa: oxa:m59m7JQmWVyPjlASj9v3/QRVqx2VEKdhjmlIwnaU7
 ---
-
-# User Interface
 
 +++ {"oxa":"oxa:m59m7JQmWVyPjlASj9v3/HiMSJNxfnd8Kv0J35Yxi.1"}
 
@@ -36,20 +33,24 @@ This article will walk you through using the Curvenote extension with the Jupyte
 
 In both environments, the extension is shown on the top-right of the interface, and has the following features:
 
-* The Notebook version
-* Open in Curvenote
-* Save any changes in the Notebook
-* Open / close the Curvenote panel (shows the team, project, versioning, comments, cells, contact us, etc.)
+- The Notebook version
+- Open in Curvenote
+- Save any changes in the Notebook
+- Open / close the Curvenote panel (shows the team, project, versioning, comments, cells, contact us, etc.)
 
 Here’s how the extension looks in JupyterLab:
 
 ```{figure} images/m59m7JQmWVyPjlASj9v3-NCVsOSsZQQSvqUtMeYAR-v1.png
 :name: vYKYP8plaz
+:align: center
+:width: 100%
 ```
 
 And how it looks in Jupyter Notebook:
 
 ```{figure} images/m59m7JQmWVyPjlASj9v3-iTHC9kpBGPutIaVG91zM-v1.png
 :name: u5hazXrO3J
+:align: center
+:width: 100%
 ```
 

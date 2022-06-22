@@ -94,6 +94,8 @@ The DOI is usually included with the article content. However, if you cannot fin
 
 ```{figure} images/MshxlXndaLsk3WbJ0ZGy-tZmadZXYnXoMbmz0nAwm-v2.gif
 :name: 17800507
+:align: center
+:width: 70%
 ```
 
 Your citation will now be added to your citation library for that project, and can be inserted into your articles without having to re-add the DOI.
@@ -106,6 +108,8 @@ The bibtex (`*.bib`) file format is a storage format for citations, it is common
 
 ```{figure} images/MshxlXndaLsk3WbJ0ZGy-RaR3QGIKD1ek3VXMAX31-v3.gif
 :name: adaa6acf
+:align: center
+:width: 70%
 
 Import your references from a `*.bib` file, and easily update your references if you need to!
 ```
@@ -131,6 +135,8 @@ The citations will now be added!
 
 ```{figure} images/MshxlXndaLsk3WbJ0ZGy-V58UiaFTTyA5qx1tti7D-v1.png
 :name: bb7026ea
+:align: center
+:width: 60%
 ```
 
 +++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/pgGJDjMRuvM2SW9L0tML.1"}
@@ -141,6 +147,8 @@ By default when citations are added through the `[[cite:` command, they are adde
 
 ```{figure} images/MshxlXndaLsk3WbJ0ZGy-jTbSRxmzUrpQhHBo3ZuF-v3.gif
 :name: a25010aa
+:align: center
+:width: 70%
 
 Use the `[]` button to toggle the brackets around the citation. You can drag citations into different groups, or rearrange them in order.
 ```

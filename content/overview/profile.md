@@ -1,20 +1,11 @@
 ---
 title: Your Profile
 description: ""
+authors: []
 date: 2022-03-11T23:24:19.566Z
-authors:
-  - name: Rowan Cockett
-    userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
-    orcid: 0000-0002-7859-8394
-    corresponding: null
-    email: null
-    roles: null
-    affiliations: null
 name: profile
 oxa: oxa:w6jXebeTS6WGaVFDIEz9/xLjZR52Ymo6MD45VSO3t
 ---
-
-# Your Profile
 
 +++ {"oxa":"oxa:w6jXebeTS6WGaVFDIEz9/gitMyMzlXNHwZCQx41sk.2"}
 
@@ -38,6 +29,8 @@ The standard view of your profile shows your profile information and projects yo
 
 ```{figure} images/w6jXebeTS6WGaVFDIEz9-fWeMJg0Mnxq5utpk2Itt-v1.png
 :name: pATLBfLoEC
+:align: center
+:width: 90%
 ```
 
 Learn more about [Projects](oxa:w6jXebeTS6WGaVFDIEz9/9d32qzwBWH2BsgNBGwEP "Projects")
@@ -52,12 +45,14 @@ You can view and make changes to your public-facing profile, and update your pla
 
 To add or update your profile image:
 
-* Drag and drop or browse and select an image from your computer.
-* Use the image editor to position your image
-* Click **UPLOAD IMAGE**
+- Drag and drop or browse and select an image from your computer.
+- Use the image editor to position your image
+- Click **UPLOAD IMAGE**
 
 ```{figure} images/w6jXebeTS6WGaVFDIEz9-rYM8f43IbOBLnnEDu2fX-v1.gif
 :name: XyNkmwRvO9
+:align: center
+:width: 70%
 ```
 
 ````{note}
@@ -71,16 +66,18 @@ To update your profile information, change any of the content in the following f
 
 ```{figure} images/w6jXebeTS6WGaVFDIEz9-5peU6BHrrktOTokuGu9D-v1.png
 :name: h6K3DESbuF
+:align: center
+:width: 60%
 ```
 
 ### Banner image
 
 You can add or update your banner image. To do this:
 
-* Hover over the banner image area
-* Following the prompts to upload a new image or drag and drop one from your computer
-* Use the image editor to position your image
-* Click **UPLOAD IMAGE**
+- Hover over the banner image area
+- Following the prompts to upload a new image or drag and drop one from your computer
+- Use the image editor to position your image
+- Click **UPLOAD IMAGE**
 
 ````{warning}
 Your banner image will be public, and will be seen by individuals who visit your profile.
@@ -89,5 +86,7 @@ Your banner image will be public, and will be seen by individuals who visit your
 
 ```{figure} images/w6jXebeTS6WGaVFDIEz9-PsiBBn80LAesPKOKb57y-v1.gif
 :name: sQeWYmnN6J
+:align: center
+:width: 90%
 ```
 

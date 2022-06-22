@@ -55,6 +55,8 @@ You can create a callout panel with the `/callout` command.
 
 ```{figure} images/Z1isOjJQGvM22q5fhunb-gDTBpd8sdcjFewD9KRYT-v1.png
 :name: EkfyBTbeLt
+:align: center
+:width: 70%
 ```
 
 - To exit the callout panel, type enter twice at the bottom of the panel.

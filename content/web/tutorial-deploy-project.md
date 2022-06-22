@@ -138,6 +138,8 @@ If you are following with the defaults your website should look something like {
 
 ```{figure} images/Eh6WvY9NT46Ds4lE3OqJ-foDLk9A6yZ47hp3M69JG-v1.png
 :name: dIaGzZPj3x
+:align: center
+:width: 70%
 
 Using the default project should bring up a site in your browser that looks something like this figure!
 ```
@@ -181,6 +183,8 @@ The site will live-reload in a few milliseconds (without loosing your scroll pos
 
 ```{figure} images/Eh6WvY9NT46Ds4lE3OqJ-gQwGHN7jcOakbnGuvEad-v1.gif
 :name: Ykb7g8lVu4
+:align: center
+:width: 100%
 
 Live-reload of changes to title and content showing an editor in VSCode on the left and the curve.space site on the top-right with the `curvenote start` command in the bottom-right.
 ```
@@ -205,6 +209,8 @@ Many of the interactive visualizations in Jupyter work out of the box in a curve
 
 ```{figure} images/Eh6WvY9NT46Ds4lE3OqJ-Hax3EL4KLyCP6j0WuZWp-v1.gif
 :name: pnvb2HiPh0
+:align: center
+:width: 100%
 
 Live reload of notebooks with interactive visualizations like Altair plots.
 ```

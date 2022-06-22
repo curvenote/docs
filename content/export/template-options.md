@@ -1,20 +1,17 @@
 ---
 title: Template Options
 description: ""
-date: 2022-03-11T23:56:16.204Z
 authors:
-  - name: Rowan Cockett
-    userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
+  - userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
+    name: Rowan Cockett
     orcid: 0000-0002-7859-8394
-    corresponding: null
-    email: null
-    roles: null
-    affiliations: null
+    corresponding: false
+    roles: []
+    affiliations: []
+date: 2022-03-11T23:56:16.204Z
 name: template-options
 oxa: oxa:TnCP56I5qhrKLeVufPL4/BTQbtvjluVAg2HfrZa5v
 ---
-
-# Template Options
 
 +++ {"oxa":"oxa:TnCP56I5qhrKLeVufPL4/B550Blr4jFGswjfXFRAr.1"}
 
@@ -28,13 +25,15 @@ After selecting a template, you will proceed to the Template Options page(s). Th
 
 Read through the option fields carefully and include the appropriate information.
 
-* If the 🔴 **Required** text is red and the 🟠 **Optional** text is orange, there is required information missing.
-  * You must fulfill these requirements before export.
-  * The field corresponding to the required option(s) is indicated in red, and details for the incomplete option(s) are displayed at the bottom of the window.
-  * Some options on the second page (abstract, summary, acknowledgements) may required tagged content. Learn more [Tagging Blocks](oxa:TnCP56I5qhrKLeVufPL4/e5eN6eaP9xLRDRzEK1t7 "Tagging Blocks").
-* Once you have fulfilled the required options, the text for both 🟢 **Required** and 🟢 **Optional** will turn green, and the **NEXT** button will be available.
+- If the 🔴 **Required** text is red and the 🟠 **Optional** text is orange, there is required information missing.
+  - You must fulfill these requirements before export.
+  - The field corresponding to the required option(s) is indicated in red, and details for the incomplete option(s) are displayed at the bottom of the window.
+  - Some options on the second page (abstract, summary, acknowledgements) may required tagged content. Learn more [Tagging Blocks](oxa:TnCP56I5qhrKLeVufPL4/e5eN6eaP9xLRDRzEK1t7 "Tagging Blocks").
+- Once you have fulfilled the required options, the text for both 🟢 **Required** and 🟢 **Optional** will turn green, and the **NEXT** button will be available.
 
 ```{figure} images/TnCP56I5qhrKLeVufPL4-Li4DpZe8u0zoVDyN9Pk9-v1.gif
 :name: QMyEXDFFOx
+:align: center
+:width: 100%
 ```
 

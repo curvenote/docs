@@ -1,20 +1,17 @@
 ---
 title: Interactive Outputs
 description: ""
-date: 2022-03-15T02:36:21.508Z
 authors:
-  - name: Rowan Cockett
-    userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
+  - userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
+    name: Rowan Cockett
     orcid: 0000-0002-7859-8394
-    corresponding: null
-    email: null
-    roles: null
-    affiliations: null
+    corresponding: false
+    roles: []
+    affiliations: []
+date: 2022-03-15T02:36:21.508Z
 name: interactive-outputs
 oxa: oxa:m59m7JQmWVyPjlASj9v3/p25knjQanZEYoTll6cty
 ---
-
-# Interactive Outputs
 
 +++ {"oxa":"oxa:m59m7JQmWVyPjlASj9v3/yjUETJXoi8klnXyDqcSI.1"}
 

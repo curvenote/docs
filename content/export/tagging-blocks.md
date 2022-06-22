@@ -1,20 +1,17 @@
 ---
 title: Tagging Blocks
 description: ""
-date: 2022-03-11T23:56:20.293Z
 authors:
-  - name: Rowan Cockett
-    userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
+  - userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
+    name: Rowan Cockett
     orcid: 0000-0002-7859-8394
-    corresponding: null
-    email: null
-    roles: null
-    affiliations: null
+    corresponding: false
+    roles: []
+    affiliations: []
+date: 2022-03-11T23:56:20.293Z
 name: tagging-blocks
 oxa: oxa:TnCP56I5qhrKLeVufPL4/e5eN6eaP9xLRDRzEK1t7
 ---
-
-# Tagging Blocks
 
 +++ {"oxa":"oxa:TnCP56I5qhrKLeVufPL4/Ul9KyR4QvpxhD0uwFydz.1"}
 
@@ -30,6 +27,8 @@ The number of **Required** and **Optional** content options varies depending on 
 
 ```{figure} images/TnCP56I5qhrKLeVufPL4-6UrXMxt72VzUjdBrsQBO-v1.png
 :name: me21Hypxfe
+:align: center
+:width: 70%
 ```
 
 +++ {"oxa":"oxa:TnCP56I5qhrKLeVufPL4/Wo7z9nWHBJjrOtYpV87H.1"}
@@ -40,17 +39,19 @@ If the 🔴 **Required** text is red and the 🟠 **Optional** text is orange, t
 
 To tag a your content:
 
-* Select the block that contains your content that needs to be tagged.
-* Open the $\bf\vdots$ **Options** menu in the upper right of the block.
-  * Select **⚙️ Block Settings**.
-* Click on the **Tags** field.
-* Start typing or select from the drop down list of available tags.
-  * Click **UPDATE SETTINGS**.
-  * Your block is now tagged. Some tags will display in small text in the upper left corner of the block.
+- Select the block that contains your content that needs to be tagged.
+- Open the $\bf\vdots$ **Options** menu in the upper right of the block.
+  - Select **⚙️ Block Settings**.
+- Click on the **Tags** field.
+- Start typing or select from the drop down list of available tags.
+  - Click **UPDATE SETTINGS**.
+  - Your block is now tagged. Some tags will display in small text in the upper left corner of the block.
 
 Once you have tagged the required content options and initiate the export process again, the text for 🟢**Required** options will turn green, and the **EXPORT** button will be available.
 
 ```{figure} images/TnCP56I5qhrKLeVufPL4-9h3zpNZb5kn42JwHzdq9-v1.gif
 :name: QuC0iu0wFx
+:align: center
+:width: 70%
 ```
 

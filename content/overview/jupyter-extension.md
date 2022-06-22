@@ -1,20 +1,11 @@
 ---
 title: Jupyter Extension
 description: ""
+authors: []
 date: 2022-03-11T23:24:24.891Z
-authors:
-  - name: Rowan Cockett
-    userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
-    orcid: 0000-0002-7859-8394
-    corresponding: null
-    email: null
-    roles: null
-    affiliations: null
 name: jupyter-extension
 oxa: oxa:w6jXebeTS6WGaVFDIEz9/NHRaPHwzFTYQGwNWJL29
 ---
-
-# Jupyter Extension
 
 +++ {"oxa":"oxa:w6jXebeTS6WGaVFDIEz9/fqjECd4OmeXhmNdWiHZQ.1"}
 
@@ -26,19 +17,21 @@ Learn how to install the extension and take a tour of the features below!
 
 To install the Curvenote Jupyter Extension:
 
-* Open Google Chrome, Brave, or Microsoft Edge
-* Go to [Jupyter Versioning & Comments](https://chrome.google.com/webstore/detail/jupyter-versioning-commen/egkbkefajoeehbmjgelpmdnpgnleknka) or search **Curvenote** in the Google Chrome Web Store.
-* Click **Add to Chrome**
-  * In the pop-up, click **Add Extension**
-* Pin the extension.
-  * Click the 🧩 **Extensions** menu in the top right of Chrome
-  * Scroll to the Curvenote extension and click the 📌 pin.
-* Sign in to your Curvenote profile.
-  * Click on the Curvenote extension in the Chrome toolbar.
-  * Sign in with Google or email.
+- Open Google Chrome, Brave, or Microsoft Edge
+- Go to [Jupyter Versioning & Comments](https://chrome.google.com/webstore/detail/jupyter-versioning-commen/egkbkefajoeehbmjgelpmdnpgnleknka) or search **Curvenote** in the Google Chrome Web Store.
+- Click **Add to Chrome**
+  - In the pop-up, click **Add Extension**
+- Pin the extension.
+  - Click the 🧩 **Extensions** menu in the top right of Chrome
+  - Scroll to the Curvenote extension and click the 📌 pin.
+- Sign in to your Curvenote profile.
+  - Click on the Curvenote extension in the Chrome toolbar.
+  - Sign in with Google or email.
 
 ```{figure} images/w6jXebeTS6WGaVFDIEz9-Dy2tPxWyr0DuiPo10Y5g-v1.png
 :name: ibzcsx5dUF
+:align: center
+:width: 70%
 ```
 
 +++ {"oxa":"oxa:w6jXebeTS6WGaVFDIEz9/6BJybvPz1YtFNtF7wlma.1"}
@@ -57,12 +50,16 @@ The Curvenote Extension can be used with both JupyterLab and the classic Jupyter
 
 ```{figure} images/w6jXebeTS6WGaVFDIEz9-nacoRHWutgzUfAFGyTPs-v1.png
 :name: BsgXdX3VGh
+:align: center
+:width: 70%
 
 Using the Curvenote Extension in Jupyter Lab.
 ```
 
 ```{figure} images/w6jXebeTS6WGaVFDIEz9-Aznidy08UHewvtmqTpZB-v1.png
 :name: uMKAG3Lij0
+:align: center
+:width: 70%
 
 Using the Curvenote Extension in the classic Jupyter Notebook.
 ```

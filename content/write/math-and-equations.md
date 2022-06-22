@@ -39,6 +39,8 @@ You can create math equations inline with the rest of your text in Curvenote suc
 
 ```{figure} images/MshxlXndaLsk3WbJ0ZGy-DwJwFluqdLMIcV1UCKOe-v2.gif
 :name: a7256801
+:align: center
+:width: 90%
 ```
 
 ````{note}
@@ -66,6 +68,8 @@ Equations can be created using
 
 ```{figure} images/MshxlXndaLsk3WbJ0ZGy-KquePozuECEFRimjQu9q-v1.gif
 :name: hvamNcdPZf
+:align: center
+:width: 80%
 ```
 
 Learn more [Editing Toolbar](oxa:Z1isOjJQGvM22q5fhunb/FXp6KALoOyrnk0w5XgQT "Editing Toolbar"), [Command Menu](oxa:Z1isOjJQGvM22q5fhunb/gKX5CnZEMGcUbygsA0dh "Command Menu")
@@ -80,6 +84,8 @@ Then select the equation you want to reference from the drop down menu. When you
 
 ```{figure} images/MshxlXndaLsk3WbJ0ZGy-FOWw39AFB4LiLz4aEmJ0-v1.gif
 :name: AZ2kAH8Uo0
+:align: center
+:width: 80%
 ```
 
 Learn about [Internal References](oxa:Z1isOjJQGvM22q5fhunb/kM7RCPH0vEYtXYMgTN6G "Internal References").
