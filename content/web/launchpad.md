@@ -1,50 +1,27 @@
 ---
-title: Start with a Launchpad website
+title: Start from try.curvenote.com
 description: ""
 date: 2022-06-21T12:53:49.052Z
 name: launchpad
 oxa: oxa:Eh6WvY9NT46Ds4lE3OqJ/RFA67yjx48ng2e6gvsIx
 ---
 
-+++ {"oxa":"oxa:Eh6WvY9NT46Ds4lE3OqJ/OS7PuLIn8xD3iZKIpeS7.3"}
-
-Curvenote provides a service called Launchpad, hosted at <https://try.curvenote.com>, that allows you to generate a website directly from a GitHub or GitLab repo.
-
-```{figure} images/Eh6WvY9NT46Ds4lE3OqJ-9Qc1sO8r16rUrnR3rC6J-v1.png
-:name: pBJxkN1058
-:align: center
-:width: 50%
-```
-
-**Use Launchpad to:**
-
-- Quickly and easily share materials in markdown and notebooks on a unique randomized URL.
-- Try out Curvenote’s website generation on your material before deploying a permanent website that you can maintain and update.
++++ {"oxa":"oxa:Eh6WvY9NT46Ds4lE3OqJ/RyPB6QMsRf8DJaTuT4iA.9"}
 
 ````{important}
-**Help us spread the word!**
+**Success!**
 
-Like the launchpad service? Help us spread the word and tweet a link to your website once it’s ready.
+So you have already launched a website from your git repository using <https://try.curvenote.com/>!
 
-```{figure} images/Eh6WvY9NT46Ds4lE3OqJ-SaYD1x6SiVVGe5IwBuhU-v1.png
-:name: S9p17sxaVB
-:align: center
-:width: 70%
-```
+Now let’s customize it and make a permanent deployment:
+
+1. [Install the Curvenote CLI](https://curvenote.com/oxa:EplL6AlILV3RGEDPzj5U/k4G4ZrOcTIx3szxGNEFb)
+2. Clone your GitHub repo
+3. Follow the tutorial: [Start with a local folder](oxa:Eh6WvY9NT46Ds4lE3OqJ/awl1FKZAY7CpiX7GWWXS "Start with a local folder")
+4. [Get an API Key](https://curvenote.com/oxa:EplL6AlILV3RGEDPzj5U/RzBCtk3yOrXhAVY2z2Bw)
+5. Setup [deployment from GitHub](oxa:Eh6WvY9NT46Ds4lE3OqJ/rVruBYk1hDZL2Ca9a6UQ "Deploying from GitHub")
 
 ````
-
-+++ {"oxa":"oxa:Eh6WvY9NT46Ds4lE3OqJ/RyPB6QMsRf8DJaTuT4iA.2"}
-
-## Transitioning to a permanent website
-
-If you have already launched your temporary website from your git repository, you’ll be able to see how well your content maps into the default layout, [Table of Contents](oxa:Eh6WvY9NT46Ds4lE3OqJ/FrJ3eDvWP2LO3o40n4du "Table of Contents") and [Navigation](oxa:Eh6WvY9NT46Ds4lE3OqJ/jrOoppptNKmkpA5FmGTU "Navigation and actions"). You might also see things areas which you’d like to change and add. The good news is that there are many ways to customize the site; including [Frontmatter](oxa:Eh6WvY9NT46Ds4lE3OqJ/ZS5jFLjvnEdoTjlf1d7S "Frontmatter") for authors, affiliations, licenses, DOIs and much more.
-
-Curvenote allows you to publish websites to either a subdomain of your choice or on a [Custom Domain](oxa:Eh6WvY9NT46Ds4lE3OqJ/Qn9rzCukuPlbwhKl8qA0 "Custom Domains"), these sites don’t expire and can be easily customized, updated and maintained.
-
-To begin making your website permanent, follow the [Start with a local folder](oxa:Eh6WvY9NT46Ds4lE3OqJ/awl1FKZAY7CpiX7GWWXS "Start with a local folder") tutorial.
-
-If you’d like to take a different approach to build your website, via Curvenote’s online editor then follow the [Start with a Curvenote project](oxa:Eh6WvY9NT46Ds4lE3OqJ/cMzSX755ZfawTQbU41BV "Start with a Curvenote project") tutorial.
 
 +++ {"oxa":"oxa:Eh6WvY9NT46Ds4lE3OqJ/E0kVL5xng8AFPRzCXVsT.4"}
 

@@ -6,9 +6,9 @@ root: index
 parts:
   - caption: Tutorials
     chapters:
-      - file: launchpad
       - file: tutorial-deploy-project
       - file: tutorial-deploy-local
+      - file: launchpad
   - caption: Guides
     chapters:
       - file: markdown
@@ -33,4 +33,5 @@ parts:
     chapters:
       - file: config
       - file: folder-structure
+      - file: try-curvenote
 

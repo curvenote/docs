@@ -10,7 +10,7 @@ oxa: oxa:Eh6WvY9NT46Ds4lE3OqJ/FrJ3eDvWP2LO3o40n4du
 
 The Table of Contents is the left-hand navigation for your site. It can either be auto-generated, following some simple heuristics described below, or can be explicitly defined in a `_toc.yml` using the `jb-book` format.
 
-+++ {"oxa":"oxa:Eh6WvY9NT46Ds4lE3OqJ/Ezn1YpcnhyJKMNIXhMbm.3"}
++++ {"oxa":"oxa:Eh6WvY9NT46Ds4lE3OqJ/Ezn1YpcnhyJKMNIXhMbm.4"}
 
 ## Auto-generating a Table of Contents
 
@@ -36,10 +36,12 @@ The “root” of a site is the page displayed when someone browses to `https://
 
 1. `index.md`
 2. `README.md`
-3. The first `.md` file found alphabetically
-4. `index.ipynb`
-5. `README.ipynb`
-6. The first `.ipynb` file found alphabetically
+3. `main.md`
+4. The first `.md` file found alphabetically
+5. `index.ipynb`
+6. `README.ipynb`
+7. `main.ipynb`
+8. The first `.ipynb` file found alphabetically
 
 ````{important}
 **Note**

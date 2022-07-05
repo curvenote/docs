@@ -10,7 +10,7 @@ authors:
     roles:
       - Conceptualization
     affiliations:
-      - Curvenote
+      - name: Curvenote
 date: 2022-03-12T04:04:15.885Z
 name: deleting-notebooks
 oxa: oxa:m59m7JQmWVyPjlASj9v3/ymnujT56Vc4SgF65fOkC

@@ -14,9 +14,3 @@ parts:
     chapters:
       - file: latex-and-pdfs
       - file: jupyter-book
-      - file: sphinx
-  - caption: Reference
-    chapters:
-      - file: use-cases
-      - file: commands
-
