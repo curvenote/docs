@@ -1,0 +1,16 @@
+format: jb-book
+root: overview
+chapters:
+  - file: solutions
+    sections:
+      - file: journals
+  - file: authoring
+    sections:
+      - file: authoring-in-myst
+      - file: authoring-in-latex
+      - file: authoring-in-jupyter
+  - file: reference
+    sections:
+      - file: installing
+      - file: installing-prerequisites
+      - file: authentication
