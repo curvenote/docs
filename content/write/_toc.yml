@@ -6,6 +6,13 @@ root: index
 parts:
   - caption: Overview
     chapters:
+      - file: curvenote-profile
+      - file: curvenote-teams
+      - file: curvenote-projects
+      - file: collaboration
+      - file: jupyter-extension
+  - caption: Curvenote Writing
+    chapters:
       - file: editing
       - file: command-menu
       - file: markdown-accelerators
@@ -31,4 +38,30 @@ parts:
       - file: internal-references
       - file: citation-style
       - file: reference-style
-
+  - caption: Export
+    chapters:
+      - file: export-microsoft-word
+      - file: export-pdf
+      - file: export-latex
+      - file: export-template-options
+      - file: export-tagging-blocks
+      - file: export-cli-latex-and-pdfs
+      - file: export-cli-jupyter-book
+  - caption: Jupyter Extension
+    chapters:
+      - file: jupyter-extension-overview
+      - file: install-jupyter-extension
+      - file: reproducible-figures
+      - file: interactive-outputs-in-jupyter
+      - file: versioning-notebooks
+      - file: blocks-and-cells
+      - file: reusing-blocks
+      - file: add-and-link-notebooks
+      - file: unlinking-notebooks
+      - file: deleting-notebooks
+      - file: curvenote-and-binder
+      - file: notebook-settings
+  - caption: Reference
+    chapters:
+      - file: support
+      - file: data-and-security

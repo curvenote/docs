@@ -1,6 +1,6 @@
 ---
 title: Blocks
-description: ""
+description: ''
 authors:
   - userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
     name: Rowan Cockett
@@ -8,9 +8,10 @@ authors:
     corresponding: false
     roles: []
     affiliations: []
-date: 2022-03-15T04:46:51.780Z
+date: '2022-03-15T04:46:51.780Z'
 name: blocks
 oxa: oxa:Z1isOjJQGvM22q5fhunb/dX2scJKs5ZrcWJLgLvVs
+tags: []
 ---
 
 +++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/cKUoPqx7xs8N6ckFw8T3.1"}
@@ -23,11 +24,11 @@ Content on Curvenote is separated into distinct units called blocks. Blocks are 
 
 Blocks are groups of logically related content that can then be individually edited, saved, reused, and commented on. Your block can contain as much or as little content as you like, and can contain all types of content - including images, hyperlinks, interactive elements, videos, and more!
 
-+++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/0xpHRo0L6hQaHgFOVhTj.1"}
++++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/0xpHRo0L6hQaHgFOVhTj.2"}
 
-In Curvenote, almost everything is a “block”, including images, interactive Jupyter outputs, and sections of text. This modularity allows you to compose your content from existing pieces or even import blocks of content from another project. In {numref}`Figure %s <vWV0705sIg>` we are showing the purple block that is an output from a Jupyter Notebook that can be brought into other documents. To read an article on how we think about version control and blocks see an article by [Steve Purves](https://blog.curvenote.com/2021/version-control-for-scientists). The rest of this article will focus on text blocks!
+In Curvenote, almost everything is a “block”, including images, interactive Jupyter outputs, and sections of text. This modularity allows you to compose your content from existing pieces or even import blocks of content from another project. In {numref}`Figure %s <vWV0705sIg>` we are showing the purple block that is an output from a Jupyter Notebook that can be brought into other documents. To read an article on how we think about version control and blocks see an article by [Steve Purves](https://curvenote.com/blog/version-control-for-scientists). The rest of this article will focus on text blocks!
 
-```{link-block} https://blog.curvenote.com/2021/version-control-for-scientists
+```{link-block} https://curvenote.com/blog/version-control-for-scientists
 ```
 
 ```{figure} images/Z1isOjJQGvM22q5fhunb-P1iPE83WBok2YzKCik8x-v1.png

@@ -1,3 +1,0 @@
----
-title: Curvenote Journals
----

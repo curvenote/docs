@@ -1,6 +1,6 @@
 ---
 title: Math & Equations
-description: ""
+description: ''
 authors:
   - userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
     name: Rowan Cockett
@@ -8,9 +8,10 @@ authors:
     corresponding: false
     roles: []
     affiliations: []
-date: 2022-03-15T04:44:47.994Z
+date: '2022-03-15T04:44:47.994Z'
 name: math-and-equations
 oxa: oxa:Z1isOjJQGvM22q5fhunb/Y0cAWcbYJy11ZBXmGSAm
+tags: []
 ---
 
 +++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/uUQGBB4or5EqB538NldB.1"}

@@ -1,0 +1,46 @@
+format: jb-book
+root: overview
+parts:
+  - caption: Solutions
+    chapters:
+      - file: solutions
+      - file: journals
+  - caption: Authoring
+    chapters:
+      - file: authoring
+      - file: authoring-in-myst
+      - file: authoring-in-latex
+      - file: authoring-in-jupyter
+  - caption: Tutorials
+    chapters:
+      - file: tutorial-deploy-project
+      - file: tutorial-deploy-local
+      - file: launchpad
+  - caption: Guides
+    chapters:
+      - file: notebooks
+      - file: working-with-projects
+      - file: adding-content
+      - file: github-action
+  - caption: Features
+    chapters:
+      - file: navigation
+      - file: toc
+      - file: citations
+      - file: frontmatter
+      - file: logo-and-branding
+      - file: themes
+      - file: hosting
+      - file: custom-domains
+      - file: analytics
+  - caption: Command Line Tools
+    chapters:
+      - file: cli-overview
+      - file: installing
+      - file: installing-prerequisites
+      - file: authentication
+      - file: cli-commands
+  - caption: Reference
+    chapters:
+      - file: folder-structure
+      - file: try-curvenote
