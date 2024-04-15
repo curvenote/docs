@@ -5,31 +5,23 @@ parts:
     chapters:
       - file: solutions
       - file: journals
+  - caption: Tutorials
+    chapters:
+      - file: tutorial-deploy-project
+      - file: tutorial-deploy-local
+      - file: launchpad
   - caption: Authoring
     chapters:
       - file: authoring
       - file: authoring-in-myst
       - file: authoring-in-latex
       - file: authoring-in-jupyter
-  - caption: Tutorials
+  - caption: MyST Websites
     chapters:
-      - file: tutorial-deploy-project
-      - file: tutorial-deploy-local
-      - file: launchpad
-  - caption: Guides
-    chapters:
-      - file: notebooks
-      - file: github-action
-  - caption: Features
-    chapters:
+      - file: curvespace
       - file: navigation
-      - file: directives
-      - file: toc
-      - file: citations
-      - file: frontmatter
-      - file: logo-and-branding
-      - file: themes
       - file: hosting
+      - file: deploying-myst-from-github
       - file: custom-domains
       - file: analytics
   - caption: Command Line Tools
@@ -39,10 +31,18 @@ parts:
       - file: installing-prerequisites
       - file: authentication
       - file: cli-commands
+  - caption: Features
+    chapters:
+      - file: directives
+      - file: toc
+      - file: citations
+      - file: frontmatter
+      - file: logo-and-branding
+      - file: themes
   - caption: Reference
     chapters:
       - file: folder-structure
       - file: try-curvenote
-  - caption: curvenote.com
+  - caption: Old / to rewrite
     chapters:
       - file: adding-content

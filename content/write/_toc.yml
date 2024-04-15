@@ -47,6 +47,7 @@ parts:
       - file: export-tagging-blocks
       - file: export-cli-latex-and-pdfs
       - file: export-cli-jupyter-book
+      - file: export-hosting
   - caption: Jupyter Extension
     chapters:
       - file: jupyter-extension-overview
