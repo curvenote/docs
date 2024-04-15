@@ -1,7 +1,8 @@
 ---
 title: Hosting your Website
 description: ''
-subject: MyST Websites
+subject: How To
+venue: MyST Websites
 tags: []
 ---
 

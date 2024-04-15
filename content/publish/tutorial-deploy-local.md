@@ -6,7 +6,8 @@ description: >-
 date: '2022-05-26T10:56:00.000Z'
 name: tutorial-deploy-local
 oxa: oxa:Eh6WvY9NT46Ds4lE3OqJ/awl1FKZAY7CpiX7GWWXS
-short_title: ''
+subject: Tutorial
+venue: MyST Websites
 tags:
   - tutorial
 thumbnail: thumbnails/tutorial-deploy-local.png

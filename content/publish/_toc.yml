@@ -7,8 +7,6 @@ parts:
       - file: journals
   - caption: Tutorials
     chapters:
-      - file: tutorial-deploy-project
-      - file: tutorial-deploy-local
       - file: launchpad
   - caption: Authoring
     chapters:
@@ -19,6 +17,7 @@ parts:
   - caption: MyST Websites
     chapters:
       - file: curvespace
+      - file: tutorial-deploy-local
       - file: navigation
       - file: hosting
       - file: deploying-myst-from-github
@@ -46,3 +45,4 @@ parts:
   - caption: Old / to rewrite
     chapters:
       - file: adding-content
+      - file: tutorial-deploy-project

@@ -1,6 +1,7 @@
 ---
 title: curve.space
-subject: MyST Websites
+subject: Overview
+venue: MyST Websites
 ---
 
 Using the Curvenote CLI to deploy your MyST website is the fastest and easiest way to get your content online. [curve.space](https://curve.space) is a free dedicated hosting service for MyST websites that is linked with your account on https://curvenote.com.

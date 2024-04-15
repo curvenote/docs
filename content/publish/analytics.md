@@ -1,6 +1,8 @@
 ---
 title: Analytics
 description: ''
+subject: How To
+venue: MyST Websites
 tags: []
 ---
 
