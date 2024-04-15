@@ -34,6 +34,8 @@ project:
     API: Application Programming Interface
     JSON: JavaScript Object Notation
     OA: Open Access
+  plugins:
+    - directives.mjs
 site:
   template: book-theme
   nav: []
