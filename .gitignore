@@ -1,3 +1,4 @@
+node_modules/
 _build
 content/cli/images
 content/jupyter/images

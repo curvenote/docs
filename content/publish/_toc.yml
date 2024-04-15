@@ -19,12 +19,11 @@ parts:
   - caption: Guides
     chapters:
       - file: notebooks
-      - file: working-with-projects
-      - file: adding-content
       - file: github-action
   - caption: Features
     chapters:
       - file: navigation
+      - file: directives
       - file: toc
       - file: citations
       - file: frontmatter
@@ -44,3 +43,6 @@ parts:
     chapters:
       - file: folder-structure
       - file: try-curvenote
+  - caption: curvenote.com
+    chapters:
+      - file: adding-content
