@@ -5,9 +5,9 @@ parts:
     chapters:
       - file: solutions
       - file: journals
-  - caption: Tutorials
+  - caption: Guides
     chapters:
-      - file: launchpad
+      - file: submitting-your-work
   - caption: Authoring
     chapters:
       - file: authoring
@@ -17,7 +17,6 @@ parts:
   - caption: MyST Websites
     chapters:
       - file: curvespace
-      - file: tutorial-deploy-local
       - file: navigation
       - file: hosting
       - file: deploying-myst-from-github
@@ -46,3 +45,4 @@ parts:
     chapters:
       - file: adding-content
       - file: tutorial-deploy-project
+      - file: tutorial-launchpad
