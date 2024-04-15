@@ -28,4 +28,7 @@ Universities
 Lab groups
 : Take control over your online research sharing, embracing a modern approach that emphasizes computational reproducibility.
 
+Individual Researchers
+: Easily publish your preprints, tutorials, theses and reports on Curvenote's MyST website hosting infrastructure.
+
 Curvenote's research publishing platform helps to make the entire research workflow more collaborative, transparent, and efficient for stakeholders across the spectrum of academic and professional research.

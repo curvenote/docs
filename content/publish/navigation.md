@@ -3,6 +3,8 @@ title: Navigation and Actions
 description: >-
   Set the navigation and action links on your Curvenote website, including being
   able to link to static content.
+subject: How To
+venue: MyST Websites
 tags: []
 thumbnail: thumbnails/navigation.png
 ---

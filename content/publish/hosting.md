@@ -1,6 +1,8 @@
 ---
 title: Hosting your Website
 description: ''
+subject: How To
+venue: MyST Websites
 tags: []
 ---
 
@@ -11,37 +13,9 @@ Curvenote provides a free domain for your sites, on a `*.curve.space` subdomain,
 - `username.curve.space`; or
 - `username-project.curve.space`
 
-You can deploy and integrate together projects across multiple sites.
-
-+++ {"oxa":"oxa:Eh6WvY9NT46Ds4lE3OqJ/q9BSBxYXiUrncXgW9mDT.1"}
-
-## Setting up a Curvenote Project
-
-You can configure the domains your project will deploy to through the Curvenote site settings in your Project Settings. These configuration options will be synced when you `pull` or `clone` your project.
-
-```{figure} images/Eh6WvY9NT46Ds4lE3OqJ-Bs3wl8asleRr4Dwa8twF-v1.png
-:name: HAEx4wWvHe
-:align: center
-:width: 70%
-
-Curvenote Site Configuration for setting subdomains.
-```
-
-Once you have configured your project domains, you can save your article and click the publish button in the top right navigation. This will take a few seconds to publish the site, and then you can share your work using a blazing fast site with all of your content on it!
-
-```{figure} images/Eh6WvY9NT46Ds4lE3OqJ-SroaOP628AAjDT0dKeIg-v1.png
-:name: FRzrc9CrZT
-:align: center
-:width: 70%
-
-Publish your Curvenote project in a single click.
-```
-
-+++ {"oxa":"oxa:Eh6WvY9NT46Ds4lE3OqJ/8IcIHNGe4Rg0hJRRGbZv.2"}
-
 ## Configuration
 
-When working through the command-line, domains can be added to your `site.domains` list in your `curvenote.yml`\:
+Domains can be added to your `site.domains` list in your `curvenote.yml`\:
 
 ```yaml
 version: 1
@@ -51,7 +25,7 @@ site:
     - your-project.curve.space
 ```
 
-When you call `curvenote deploy` each of these domains will have the latest changes. You can also put [Custom Domains](oxa:Eh6WvY9NT46Ds4lE3OqJ/Qn9rzCukuPlbwhKl8qA0 'Custom Domains') in here, although that requires more work to setup initially.
+When you call `curvenote deploy` each of these domains will have the latest changes. You can also put [Custom Domains](oxa:Eh6WvY9NT46Ds4lE3OqJ/Qn9rzCukuPlbwhKl8qA0 'Custom Domains') in here, although you will need to contact support@curvenote.com to the configuration for your custom domain.
 
 +++ {"oxa":"oxa:Eh6WvY9NT46Ds4lE3OqJ/uB4SVLB8htUPquRn4up0.1"}
 
@@ -63,3 +37,13 @@ A team behaves the same way as a user, and can deploy sites to:
 - `team-project.curve.space`
 
 The security for deploying these is controlled by anyone that can create a project.
+
+## Deployment
+
+Once your `curvenote.yml` is correctly configured you can deploy from the command line using:
+
+```bash
+curvenote deploy
+```
+
+and following the prompts.

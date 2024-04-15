@@ -1,8 +1,11 @@
 ---
-title: Deploying from GitHub
+title: Deploying to curve.space from GitHub
+short_title: Deploying from GitHub
 description: >-
   Curvenote provides a deployment action in the GitHub Marketplace, allowing you
   to easily add automated deployment to your repository.
+subject: How To
+venue: MyST Websites
 thumbnail: thumbnails/github-action.png
 ---
 
