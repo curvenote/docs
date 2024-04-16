@@ -14,13 +14,13 @@ If you have piece of work you are trying to submit for real, following this guid
 If not then you can follow this guide with any MyST Project that builds to a website without issue and submit this to the `cn-testing` venue. If you don't have a project you can use the [MyST quickstart project](https://github.com/executablebooks/mystmd-quickstart).
 ```
 
-## PreRequisites
+## Pre-requisites
 
 If you have not already done so:
 
 - [Install the Curvenote CLI](installing.md) and setup your [API Token](authentication.md)
 - Prepare a local folder containing your MyST submission OR clone the [quickstart project](https://github.com/executablebooks/mystmd-quickstart)
-- and `cd` into that folder
+- Open a terminal / command prompt and `cd` into that folder
 
 ## Check your build
 
@@ -34,19 +34,13 @@ You should check that no errors appear on in the terminal after running `curveno
 
 ## The Venue
 
-On Curvenote's platform you submit a work to a `venue`. Venue is a catch all term that may refer to a journal, conference website, research group or private site.
+On Curvenote's platform you submit a work to a _"venue"_ ([learn about venues](preparing-for-submission.md#the-venue)).
 
-Each `venue` has it's own different rules on:
+In this guide, we'll assume the venue is a scientific journal that uses collections to organize it's publications by year and that at least one currently open for submission.
 
-- who can submit to the `venue`
-- If submissions to a `venue` or one of it's `collections` are open
-- which submission `kinds` can be accepted, e.g. Abstract or a Journal Article
+To proceed with a submission, ensure your know the venue and `collection` names and any other relevant information provided in the submission instructions by the venue.
 
-In this guide, we'll assume the `venue` is a scientific journal that uses collections to organize it's publications by year and that at least one currently open for submission.
-
-To proceed with a submission, ensure your know the `venue` and `collection` names and any other relevant information provided in the submission instructions by the venue.
-
-If you are just practicing with a dummy submission, you can submit to the venue ` cn-testing`.
+If you are just practicing with a dummy submission, you can submit to `cn-testing`.
 
 ```{warning} Venues with restricted submission
 :class: dropdown
@@ -54,26 +48,6 @@ Venues such as research group or private sites restrict submissions to a specifi
 
 If this is the first time you are submitting to one of these venues you'll may need to contact your site administrator and ensure that your Curvenote user account has been added to the publishing team.
 ```
-
-## Check your work against a venue's requirements
-
-Curvenote runs a set of automated checks on any submission. This speeds up the submission process for both authors and the venue, and reduces the chances of rejection.
-
-Checks are set by the venue and can include checks submission structure, integrity, plagarism and manuscipt content to ensure that the manuscript will meet their submission requirements.
-
-You can run the checks for a given venue at any time using the `curvenote check <venue>` command. For example, running:
-
-```bash
-% curvenote check scipy
-```
-
-Results in the following report in your terminal:
-
-```{figure} images/curvenote-check-scipy.png
-The result of running `curvenote check <venue>` on a local folder containin a MyST project. The **Corresponding Author** check fails and red signifies that a _required_ check has failed, while **ORCID** and **CRediT Roles** check flag missing _optional_ metadata. The content of the manuscript also contains a DOI which has been validated.
-```
-
-In this case there is one issue that must addressed before submitting and two optional issues that addressing could improve your submission and get closer to the venue's recommedned submission guidelines.
 
 ## Submit a draft
 
@@ -109,11 +83,11 @@ Clicking on the _Preview_ button will open your submission in preview mode, wher
 A preview of the draft submission.
 ```
 
-You can use this to check that all parts of your submission are present and correct, including additional pages of supporting information. If you have submitted a Computational Article or Notebook based Report then you will also be able to test launching a Jupyter instance and any interactive figures or inline notebook computation that the `venue` enables.
+You can use this to check that all parts of your submission are present and correct, including additional pages of supporting information. If you have submitted a Computational Article or Notebook based Report then you will also be able to test launching a Jupyter instance and any interactive figures or inline notebook computation that the venue enables.
 
 ## Submit your work (for real)
 
-Once you have are happy with your submission, all your required checks pass and you have reviewed a draft submission - then it's time to submit for real. Once your submission is received by the `venue` their editorial team will be notified and process it according to their editorial workflow.
+Once you have are happy with your submission, all your required checks pass and you have reviewed a draft submission - then it's time to submit for real. Once your submission is received by the venue their editorial team will be notified and process it according to their editorial workflow.
 
 To make your submission for real simply type:
 
