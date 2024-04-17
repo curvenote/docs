@@ -7,6 +7,7 @@ parts:
       - file: journals
   - caption: Guides
     chapters:
+      - file: preparing-for-submission
       - file: submitting-your-work
   - caption: Authoring
     chapters:
