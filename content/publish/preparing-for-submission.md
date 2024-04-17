@@ -165,17 +165,92 @@ thumbnail
 Add a marked up image here
 ```
 
-## Computational Environment
+## Integrated Computation
 
-- binderhub and rees - an initial test
+The Curvenote platform supports publication back by computation, using Jupyter based infrastructure.
 
-- frontmatter
+It is possible to include interactivity and computation in publications by simply including one or more notebooks and ensuring that the reproducible computational environment is set up correctly.
 
-  - jupyter: true
-  - export: meca
-  - requirements
-  - resources
+Two common patterns are the Computational Article and the Computaional Report. Each are slightly different in both their purpose and in how they present content, interactivity and computational features to the reader.
 
-- testing on my computer
+Computational Articles
+: Structuted around a core manuscript with attached supporting materials, this pattern focusses more in providing inline and so in-context interactive figures, and notebooks with a strong narrative flow. Interactive figures can be executed independently, as can any notebooks that are included. A separate Jupyter lab environment can also be launched by the reader to both explore fully and begin to aid re-use.
 
-- testing in the Venue's environment
+Computational Reports
+: Reports can have the same interactive features are computational articles and have a main report document as the entry point but they are structured in more of a "book" format, presenting a collection of notebooks as part of the report. Launching a Jupyter lab instance is usually more prominent in this pattern, but optionally notebooks can also be executed in place and any markdown based parts of the report can include interacive figures.
+
+In both cases the computational environment for the Article or Report needs to be considered careful during when preparing the submission. No matter which code ecosystem you are working in Python, Julia or R this means applying best practices for dependency management and reproducibility.
+
+```{tip}
+The remainder of this section is only relevant if you are preparing a Computational Article or Report.
+```
+
+### BinderHub and REES
+
+To continue you should be familar with the public My Binder service, hosted at https://mybinder.org, if not please [read the docs](https://mybinder.readthedocs.io/en/latest/) and try using it.
+
+Your Computational Article or Report will be using a version of Binder (BinderHub) behind the scenes.
+
+BinderHub supports a range of different configuration files and options that are designed to help you get a collection of code and notebooks running in a reproducible manner. The specification for that is called REES and you can read more about [the different configuration files here](https://repo2docker.readthedocs.io/en/latest/config_files.html).
+
+You'll see that many of these are just the standard dependency management files (like `requirements.txt` or `environment.yml`) that you will beused to from working in a python or R environment.
+
+#### Add MyST Markdown support to Jupyter Lab
+
+To include support for MyST Markdown in you can simply add `jupyterlab-myst` as a dependency in your `requirements.txt` or `environment.yml` files. This will mean that any MyST markdown syntax in your `.md` files or notebooks will be properyl rendered.
+
+### Running on mybinder.org
+
+A good initial test of your compututational environment setup is to ensure that your code and notebooks work on mybinder.org - that should be your first step and probably means getting your work into a public repo on GitHub.
+
+```{tip}
+If you are not able to use the public mybinder.org service, perhaps because you cannot make your work public, then you can still proceed with the foloowing steps and use Curvenote's [draft submissions](#submit-a-draft) for testing.
+```
+
+### Configuration via Frontmatter
+
+Beyond running on the mybinder.org service, your environment needs a little more configuration before it is ready for use as an Article or Report. This is a matter of including additional frontmatter fields in your `curvenote.yml` or `myst.yml`.
+
+Here is an example:
+
+```yaml
+version: 1
+project:
+  ...
+  jupyter: true
+  exports:
+    - format: meca
+  requirements:
+    - requirements.txt
+    - apt.txt
+  resources:
+    - src/**/*
+    - example.csv
+    - model.pkl
+```
+
+`jupyter`
+: (boolean) Enables or disables computation
+
+`exports[format:meca]`
+: ([list:exports](https://mystmd.org/guide/frontmatter#frontmatter-exports)) The `exports` list should include a `meca` export. You may have other exports listed, like `pdf`, that is fine too. The MECA archive is used to collect and store the entire reproducible environment behind your article or report
+
+`requirements`
+: (list:string) This is a list of the REES compatible files that should be included in your submission
+
+`resources`
+: This is a list of files, folders, or glob patterns, that should be included in your submission. Note that all files listed in your `_toc.yml` will be automatically included.
+
+### Testing on my computer
+
+To confirm that your submission builds run:
+
+```bash
+curvenote export meca
+```
+
+You will be able to see a `*.zip` file in the `_build/exports` folder, confirm that this zip file contains your expected environment.
+
+### Testing in the Venue's environment
+
+Next you can test your submission in the Venue's environment by submiting a _Draft_. To start working with draft submissions go to the [Submitting you Work](submitting-your-work.md) guide.
