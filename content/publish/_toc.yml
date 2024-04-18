@@ -9,6 +9,7 @@ parts:
     chapters:
       - file: preparing-for-submission
       - file: submitting-your-work
+      - file: submissions-using-github
   - caption: Authoring
     chapters:
       - file: authoring
@@ -42,6 +43,7 @@ parts:
     chapters:
       - file: folder-structure
       - file: try-curvenote
+      - file: glossary
   - caption: Old / to rewrite
     chapters:
       - file: adding-content

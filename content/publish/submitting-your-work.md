@@ -34,7 +34,7 @@ You should check that no errors appear on in the terminal after running `curveno
 
 ## The Venue
 
-On Curvenote's platform you submit a work to a _"venue"_ ([learn about venues](preparing-for-submission.md#the-venue)).
+On Curvenote's platform you submit a work to a {term}`venue` ([learn about venues](#doc:venue)).
 
 In this guide, we'll assume the venue is a scientific journal that uses collections to organize it's publications by year and that at least one currently open for submission.
 
@@ -49,11 +49,13 @@ Venues such as research group or private sites restrict submissions to a specifi
 If this is the first time you are submitting to one of these venues you'll may need to contact your site administrator and ensure that your Curvenote user account has been added to the publishing team.
 ```
 
+(doc:draft)=
+
 ## Submit a draft
 
 So far using `curvenote start` and `curvenote check` has allowed you to screen for issues locally.
 
-You can also submit a _"draft"_ to the venue which will allow you to check your submission using the venue's build system, preview it on the venue's website and if you are submitting a Computational Article or Notebook based Report, test the computational environment configuration is working correctly the venue's servers.
+You can also submit a {term}`draft` to the venue which will allow you to check your submission using the venue's build system, preview it on the venue's website and if you are submitting a Computational Article or Notebook based Report, test the computational environment configuration is working correctly the venue's servers.
 
 Drafts are completely standalone. They are not visible to or received by the venue's editorial team and are removed after 30 days. You can make as many draft submissions as you like and they are only accessible using the link that it returned by the CLI.
 
@@ -71,7 +73,7 @@ Final parts of the output from the `curvenote submit <venue> --draft` command sh
 
 This like: https://sites.curvenote.com/build/018ee71b-9d20-760c-9090-d9e43d674112 to the _"build"_ information for your submission.
 
-The build page lists some of the metadata from your submission, includes a _Preview_ link and lists all of the passing and failing checks on your submission. Additional detail and documentation is included for each check, which you can use to resolve remaining issues or satisfy optional requirements from the venue.
+The build page lists some of the metadata from your submission, includes a {term}`preview` link and lists all of the passing and failing checks on your submission. Additional detail and documentation is included for each check, which you can use to resolve remaining issues or satisfy optional requirements from the venue.
 
 ```{figure} images/curvenote-build-page.png
 The build page for the `--draft` submission, although all submissions will generate a associated build page where you can access the preview and check summary.
@@ -111,7 +113,10 @@ An toy example of a venue with multiple collections open for submission.
 
 Every MyST project has a unique `id`, and you can find this in the `curvenote.yml` or `myst.yml` file in your local folder. If you want to take a look, check for:
 
-```yaml
+```{code-block} yaml
+:filename: myst.yml or curvenote.yml
+:linenos:
+:emphasize-lines: 2
 project:
     id: 838af10b-c919-48f8-98da-aadef3dab121
     ...
@@ -121,7 +126,7 @@ If you haven't yet committed your `curvenote/myst.yml` file to version control, 
 
 ````{tip} Moving Faster
 :class: dropdown
-Once you are exerienced with submitting using the CLI you may want to speed up the process. In which case you can make use of the additional command line arguments to minimize prompting.
+Once you are experienced with submitting using the CLI you may want to speed up the process. In which case you can make use of the additional command line arguments to minimize prompting.
 
 To get help on the available options run:
 

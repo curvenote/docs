@@ -34,6 +34,7 @@ project:
     API: Application Programming Interface
     JSON: JavaScript Object Notation
     OA: Open Access
+    JOSS: Journal of Open Source Software
   plugins:
     - directives.mjs
 site:

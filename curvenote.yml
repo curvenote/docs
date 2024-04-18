@@ -3,14 +3,16 @@ site:
   title: Curvenote Docs
   domains:
     - docs.curvenote.com
-  logo: public/logo.svg
-  logo_text: Curvenote Docs
-  twitter: curvenote
+  venue: Curvenote Docs
+  options:
+    logo: public/logo.svg
+    logo_text: Curvenote Docs
+    twitter: curvenote
+    hide_authors: true
+    analytics_google: G-WENBZHW9JR
   actions:
     - title: Sign Up
       url: https://curvenote.com/signup
-  options:
-    hide_authors: true
   nav:
     - title: Publish
       url: /publish
@@ -21,5 +23,3 @@ site:
       slug: publish
     - path: content/write
       slug: write
-  analytics_google: G-WENBZHW9JR
-  venue: Curvenote Docs
