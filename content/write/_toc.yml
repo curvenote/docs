@@ -30,6 +30,7 @@ parts:
       - file: figures-and-images
       - file: math-and-equations
       - file: tables
+      - file: adding-an-appendix
       - file: interactive-outputs
       - file: videos-and-iframes
   - caption: References & Citations
