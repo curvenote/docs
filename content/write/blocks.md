@@ -1,45 +1,27 @@
 ---
 title: Blocks
 description: ''
-authors:
-  - userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
-    name: Rowan Cockett
-    orcid: 0000-0002-7859-8394
-    corresponding: false
-    roles: []
-    affiliations: []
-date: '2022-03-15T04:46:51.780Z'
-name: blocks
-oxa: oxa:Z1isOjJQGvM22q5fhunb/dX2scJKs5ZrcWJLgLvVs
-tags: []
 ---
 
-+++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/cKUoPqx7xs8N6ckFw8T3.1"}
-
 Content on Curvenote is separated into distinct units called blocks. Blocks are individually versioned so you can easily switch between previous saved versions and track changes made by you and your collaborators. You can easily copy and import blocks across Curvenote projects. All copies of a block are linked, meaning if you save a version of a block in one location, that version is available for use in all other instances of the block. Blocks make it easy create sections of content, reuse your previous work, and work with collaborators!
-
-+++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/krtdiaaxq2W74kdwueCe.2"}
 
 ## What’s a block?
 
 Blocks are groups of logically related content that can then be individually edited, saved, reused, and commented on. Your block can contain as much or as little content as you like, and can contain all types of content - including images, hyperlinks, interactive elements, videos, and more!
 
-+++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/0xpHRo0L6hQaHgFOVhTj.2"}
+In Curvenote, almost everything is a “block”, including images, interactive Jupyter outputs, and sections of text. This modularity allows you to compose your content from existing pieces or even import blocks of content from another project. In [Figure %s](#fig:reuse) we are showing the purple block that is an output from a Jupyter Notebook that can be brought into other documents. To read an article on how we think about version control and blocks see an article by [Steve Purves](https://curvenote.com/blog/version-control-for-scientists). The rest of this article will focus on text blocks!
 
-In Curvenote, almost everything is a “block”, including images, interactive Jupyter outputs, and sections of text. This modularity allows you to compose your content from existing pieces or even import blocks of content from another project. In {numref}`Figure %s <vWV0705sIg>` we are showing the purple block that is an output from a Jupyter Notebook that can be brought into other documents. To read an article on how we think about version control and blocks see an article by [Steve Purves](https://curvenote.com/blog/version-control-for-scientists). The rest of this article will focus on text blocks!
-
-```{link-block} https://curvenote.com/blog/version-control-for-scientists
+```{card} 📖 Version Control for Scientists
+:link: https://curvenote.com/blog/version-control-for-scientists
+Version control systems allow people to work iteratively on content, code, and materials with the confidence that their work won’t be lost and that earlier work can be easily revisited and reproduced. Read an article on how we think about version control and blocks.
 ```
 
-```{figure} images/Z1isOjJQGvM22q5fhunb-P1iPE83WBok2YzKCik8x-v1.png
-:name: vWV0705sIg
-:align: center
+:::{figure} images/Z1isOjJQGvM22q5fhunb-P1iPE83WBok2YzKCik8x-v1.png
+:name: fig:reuse
 :width: 70%
 
 The purple block, a figure, is created in a computational notebook and subsequently copied into a presentation, textbook, and scientific article. In Curvenote these are connected, and an update to the figure propagates to other places that it is used.
-```
-
-+++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/OZpIy4EjOeBCoXNRNX1R.1"}
+:::
 
 ## Create a Block
 
@@ -57,12 +39,9 @@ To create a block:
 :width: 80%
 ```
 
-````{note}
+:::{note}
 Once created in an article or notebook, blocks can be viewed as their own page on Curvenote. To open a block as a page, open the block $\mathbf{\vdots}$ **Options** menu below the version number and select **Open as Page**. The Editor view is similar to the view for an article.
-
-````
-
-+++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/kbDFr5QaKhRCxPuR4Vbe.1"}
+:::
 
 ## Edit a Block
 
@@ -72,14 +51,11 @@ Similar to how you enter Draft Mode for an article, you must also open a draft v
 - Select the block and hit ENTER.
 - Open the block $\mathbf{\vdots}$ **Options** menu and select **Edit**.
 
-You can now make changes to the block in a draft version. Learn more ➡️ [Block Drafts and Versions](oxa:MshxlXndaLsk3WbJ0ZGy/j2CWEfiYF7jy4ufhARH0 "Block Drafts and Versions")
+You can now make changes to the block in a draft version. Learn more ➡️ [Block Drafts and Versions](oxa:MshxlXndaLsk3WbJ0ZGy/j2CWEfiYF7jy4ufhARH0 'Block Drafts and Versions')
 
-````{note}
+:::{note}
 To enter draft mode for a block opened on its own page, click **EDIT** in the app bar at the top of the page. This is the same as entering Draft Mode for an article.
-
-````
-
-+++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/kqHu1kiQlAV8QbRfwfs8.1"}
+:::
 
 ## Settings
 
@@ -102,7 +78,7 @@ In some instances it’s beneficial to include additional information with a blo
 :width: 80%
 ```
 
-````{note}
+:::{note}
 The block thumbnail, title, description are visible when you share or hover over a link to your block on Curvenote.
 
 ```{figure} images/MshxlXndaLsk3WbJ0ZGy-W3s92muGwSFnZZYW5ERy-v1.png
@@ -111,9 +87,7 @@ The block thumbnail, title, description are visible when you share or hover over
 :width: 40%
 ```
 
-````
-
-+++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/h2XmCUJVvxigJF9cc4dI.1"}
+:::
 
 ## Remove a Block
 
@@ -130,8 +104,6 @@ Because blocks can be reused throughout Curvenote, they are rarely deleted perma
 :width: 90%
 ```
 
-````{danger}
+:::{danger}
 Blocks are permanently deleted when the project they were originally created in is deleted. Learn more about [Projects](https://curvenote.com/oxa:w6jXebeTS6WGaVFDIEz9/9d32qzwBWH2BsgNBGwEP).
-
-````
-
+:::

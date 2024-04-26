@@ -27,7 +27,6 @@ parts:
       - file: tutorial-deploy-local
       - file: try-curvespace
       - file: navigation
-      - file: hosting
       - file: deploying-myst-from-github
       - file: custom-domains
       - file: analytics
