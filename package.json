@@ -6,7 +6,7 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@curvenote/cli": "^0.8.54",
+    "@curvenote/cli-plugin": "latest",
     "cli-table": "^0.3.11",
     "cli-table3": "^0.6.4",
     "date-fns": "^2.30.0",

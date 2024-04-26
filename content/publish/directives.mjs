@@ -3,7 +3,7 @@ import { mystParse } from 'myst-parser';
 import { defaultDirectives } from 'myst-directives';
 import { defaultRoles } from 'myst-roles';
 import { fileError } from 'myst-common';
-import { plugin as curvenotePlugin } from '@curvenote/cli';
+import curvenotePlugin from '@curvenote/cli-plugin';
 
 /**
  * @param {import('myst-common').OptionDefinition} option
