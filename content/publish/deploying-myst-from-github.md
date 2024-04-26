@@ -6,10 +6,7 @@ description: >-
   to easily add automated deployment to your repository.
 subject: How To
 venue: MyST Websites
-thumbnail: thumbnails/github-action.png
 ---
-
-+++ {"oxa":"oxa:Eh6WvY9NT46Ds4lE3OqJ/fg97vLEiR1dtnqgL8oQj.5"}
 
 In this guide, we’ll take you through the steps of using GitHub to version your website and collaborate with others, while also using GitHub Actions to deploy your website.
 
@@ -73,7 +70,7 @@ This will run on any push to the `main` branch and requires an API token to work
 
 ### Generate a new API token
 
-It is good practice to use separate API tokens for your different environments, making it easy to remove one of needed whilst not affecting others. Generate a new API Token as described in [Authorization](https://curvenote.com/@docs/cli/authorization).
+It is good practice to use separate API tokens for your different environments, making it easy to remove one of needed whilst not affecting others. Generate a new API Token as described in [Authentication](./authentication.md).
 
 On GitHub, navigate to your repository and follow [this guide from GitHub](https://docs.github.com/en/actions/security-guides/encrypted-secrets#creating-encrypted-secrets-for-a-repository) to add a new “Repository Secret”. This secret should be named `CURVENOTE_TOKEN` and the value set to the API token string.
 
@@ -101,8 +98,6 @@ steps:
     with:
       pull: true
 ```
-
-+++ {"oxa":"oxa:Eh6WvY9NT46Ds4lE3OqJ/3Io0eVOdUPDPiXq6Feow.2"}
 
 ## Development practices
 

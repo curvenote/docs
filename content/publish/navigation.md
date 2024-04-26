@@ -5,8 +5,6 @@ description: >-
   able to link to static content.
 subject: How To
 venue: MyST Websites
-tags: []
-thumbnail: thumbnails/navigation.png
 ---
 
 You can customize various aspects of your Curvenote site including:
