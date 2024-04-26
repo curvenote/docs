@@ -1,6 +1,6 @@
 ---
 title: Adding Authors
-description: ""
+description: ''
 authors:
   - userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
     name: Rowan Cockett
@@ -8,9 +8,10 @@ authors:
     corresponding: false
     roles: []
     affiliations: []
-date: 2022-03-15T05:00:24.948Z
+date: '2022-03-15T05:00:24.948Z'
 name: authors
 oxa: oxa:Z1isOjJQGvM22q5fhunb/vXuPyvzh1s6hy49k0nrS
+tags: []
 ---
 
 +++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/p377jZM6RtFh7FRfahLI.2"}

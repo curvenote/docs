@@ -1,6 +1,6 @@
 ---
 title: Editing Content
-description: ""
+description: ''
 authors:
   - userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
     name: Rowan Cockett
@@ -8,9 +8,10 @@ authors:
     corresponding: false
     roles: []
     affiliations: []
-date: 2022-03-15T05:01:59.260Z
+date: '2022-03-15T05:01:59.260Z'
 name: editing
 oxa: oxa:Z1isOjJQGvM22q5fhunb/HQCUGQTuzNMdnK19cyEj
+tags: []
 ---
 
 +++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/up2itQz4pzmhj7ARdIWu.1"}

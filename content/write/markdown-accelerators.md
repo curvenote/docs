@@ -1,6 +1,6 @@
 ---
 title: Markdown Accelerators
-description: ""
+description: ''
 authors:
   - userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
     name: Rowan Cockett
@@ -8,9 +8,10 @@ authors:
     corresponding: false
     roles: []
     affiliations: []
-date: 2022-03-15T04:43:36.625Z
+date: '2022-03-15T04:43:36.625Z'
 name: markdown-accelerators
 oxa: oxa:Z1isOjJQGvM22q5fhunb/CR4x2BBf2tUF5l0BmMNK
+tags: []
 ---
 
 +++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/ruTcSLq6bg7OeJWO0f9N.1"}

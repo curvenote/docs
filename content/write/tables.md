@@ -1,6 +1,6 @@
 ---
 title: Tables
-description: ""
+description: How to add tables, rows, columns and merge or split cells in Curvenote.
 authors:
   - userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
     name: Rowan Cockett
@@ -8,9 +8,12 @@ authors:
     corresponding: false
     roles: []
     affiliations: []
-date: 2022-03-15T04:40:42.029Z
+date: '2022-03-15T04:40:42.029Z'
 name: tables
 oxa: oxa:Z1isOjJQGvM22q5fhunb/JYoz7Hw17JI9EZEHzv6Y
+short_title: ''
+tags: []
+thumbnail: thumbnails/tables.png
 ---
 
 +++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/ymqRbehUKoadkxNWDdRC.1"}
@@ -27,7 +30,7 @@ Tables can be added throughout your Curvenote content. After creating the standa
 :width: 80%
 ```
 
-+++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/hFRYMwIDen6iCbpndN5u.1"}
++++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/hFRYMwIDen6iCbpndN5u.2"}
 
 ## Create a Table
 
@@ -37,10 +40,10 @@ While in Draft Mode for both your article and block, add a table using one of th
   - Select **Table**
 - Using the command menu type `/table`
 
-```{figure} images/MshxlXndaLsk3WbJ0ZGy-aoLFYBkrMfIKCC0R0Dv9-v1.gif
-:name: a6716b8d
+```{figure} images/Z1isOjJQGvM22q5fhunb-Zd48bTeHWsEuc1IGNAE7-v1.png
+:name: BnR3nCZSBm
 :align: center
-:width: 70%
+:width: 40%
 ```
 
 ````{note}
@@ -60,7 +63,7 @@ When your cursor is placed within the table, a table icon will appear in the edi
 
 You can adjust the formatting to create a table that meets your needs by adjusting the rows, columns, header formatting, and more.
 
-+++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/WbuM4iBtSvOcdpIGA83j.1"}
++++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/WbuM4iBtSvOcdpIGA83j.2"}
 
 ### Insert Rows or Columns
 
@@ -77,13 +80,7 @@ You can insert rows and columns anywhere in your table. To do this:
   - Insert a column to the left
   - Insert a column to the right
 
-```{figure} images/MshxlXndaLsk3WbJ0ZGy-U6dTw1VL4XSW3OJdODqB-v1.gif
-:name: a8ab449e
-:align: center
-:width: 70%
-```
-
-+++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/C7as7P43hRjt5rnNDJBp.1"}
++++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/C7as7P43hRjt5rnNDJBp.2"}
 
 ### Delete Rows or Columns
 
@@ -98,13 +95,13 @@ You can also delete entire rows and columns from your table. To do this:
   - Delete a row
   - Delete a column
 
-```{figure} images/MshxlXndaLsk3WbJ0ZGy-pxHYIdGF0xpxweDLzCGL-v1.gif
-:name: afcf858c
+```{figure} images/Z1isOjJQGvM22q5fhunb-yxGqiyleZAF3ygpWrkl0-v1.png
+:name: QWkV38UiO0
 :align: center
-:width: 80%
+:width: 50%
 ```
 
-+++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/CXSqECwWsAaIDpdv6VdJ.1"}
++++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/CXSqECwWsAaIDpdv6VdJ.2"}
 
 ### Resize Columns
 
@@ -114,19 +111,18 @@ To adjust the width of a column:
   - The line with highlight blue and a sliding arrow will replace your cursor
 - Click on the line and drag the column to your desired width
 
-  ```{figure} images/MshxlXndaLsk3WbJ0ZGy-EE4ECVpoK6Km4SF2shvY-v1.gif
-  :name: a5b30335
-  :align: center
-  :width: 70%
-
-  ```
+```{figure} images/Z1isOjJQGvM22q5fhunb-xbfU4BwkQwQ48gcT3W4b-v1.png
+:name: aKuKNL2o1U
+:align: center
+:width: 70%
+```
 
 ````{note}
 The height of a row is determined automatically by the content of that row. You can increase the height of a row by adding new lines.
 
 ````
 
-+++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/P8Rm0CyhD7VaKDiAL0VK.1"}
++++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/P8Rm0CyhD7VaKDiAL0VK.2"}
 
 ### Header Formatting
 
@@ -143,8 +139,8 @@ To update the header formatting of a row column or cell:
   - Toggle header row
   - Toggle head cell
 
-```{figure} images/MshxlXndaLsk3WbJ0ZGy-2nosffxc3AC8S54Ch9zb-v1.gif
-:name: a8c7fc15
+```{figure} images/Z1isOjJQGvM22q5fhunb-BNZcUtUgwMI2wl8EEzaN-v1.png
+:name: obkr76yXhw
 :align: center
 :width: 70%
 ```
@@ -154,7 +150,7 @@ If there is already a header cell in a row or column you are toggling, the heade
 
 ````
 
-+++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/B5mIDT8eeeRg99baxFy0.1"}
++++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/B5mIDT8eeeRg99baxFy0.2"}
 
 ### Merge & Split
 
@@ -182,8 +178,8 @@ When a cell is split the content will remain in the original cell, even if it wa
 
 ````
 
-```{figure} images/MshxlXndaLsk3WbJ0ZGy-JExlM0Uz8Kady1ZX4Hq7-v1.gif
-:name: a9da3263
+```{figure} images/Z1isOjJQGvM22q5fhunb-xs6B1TeN5ZiOAxObmFQR-v1.png
+:name: CRBq0CcGUH
 :align: center
 :width: 70%
 ```
@@ -193,7 +189,7 @@ Merging cells may cause issues when exporting to different formats! Currently me
 
 ````
 
-+++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/L6Lrw19XYtd5CNOma3e4.1"}
++++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/L6Lrw19XYtd5CNOma3e4.2"}
 
 ## Delete a Table
 
@@ -206,8 +202,8 @@ Tables can be deleted while in edit mode for both your article and block. To del
   - **Command Menu** - start typing `/` inline
 - Select the trashcan icon 🗑️ or **Delete Table** option
 
-```{figure} images/MshxlXndaLsk3WbJ0ZGy-XcE3RANRNDtLZVGrSO86-v1.gif
-:name: a24c976c
+```{figure} images/Z1isOjJQGvM22q5fhunb-TSvGJ9NUMEtWtfl1gNj2-v1.png
+:name: MTuKVoMlKz
 :align: center
 :width: 70%
 ```

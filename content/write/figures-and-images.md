@@ -1,6 +1,6 @@
 ---
 title: Figures & Images
-description: ""
+description: ''
 authors:
   - userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
     name: Rowan Cockett
@@ -8,9 +8,10 @@ authors:
     corresponding: false
     roles: []
     affiliations: []
-date: 2022-03-15T04:45:07.621Z
+date: '2022-03-15T04:45:07.621Z'
 name: figures-and-images
 oxa: oxa:Z1isOjJQGvM22q5fhunb/gzr0LnPie4uvL7GSEISJ
+tags: []
 ---
 
 +++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/yzxxmXYoC2ssXTONpDUd.1"}
@@ -27,7 +28,7 @@ Images and GIFs can be added into articles by dragging them into a content block
 :width: 90%
 ```
 
-+++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/zfVsfrWN4ffTwEqhvZG3.1"}
++++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/zfVsfrWN4ffTwEqhvZG3.2"}
 
 ## Add Image or GIF
 
@@ -50,12 +51,6 @@ To add an image/GIF to an existing content block:
     - Click within the box to browse and select your files
 - The transparency may pulse while the images/GIFs uploads.
 
-```{figure} images/MshxlXndaLsk3WbJ0ZGy-6tCunwqTLaRQ4uPQWXdt-v4.gif
-:name: a7debcd4
-:align: center
-:width: 80%
-```
-
 To display an image/GIF as its own block:
 
 - You must be in Draft Mode for the page.
@@ -65,25 +60,25 @@ To display an image/GIF as its own block:
 - Paste your image/GIF.
 - A new block will appear below that is just your image/GIF.
 
-```{figure} images/MshxlXndaLsk3WbJ0ZGy-BWIOxL2RX6ie3sOtxiWD-v2.gif
-:name: a4128a09
+```{figure} images/Z1isOjJQGvM22q5fhunb-N5l1Q6oYXvf6h3LU4dRz-v1.png
+:name: uqtMbuXPbG
 :align: center
 :width: 70%
 ```
 
-+++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/uT5nmaucpAwgYPwEtwFy.1"}
++++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/uT5nmaucpAwgYPwEtwFy.2"}
 
 ## Formatting
 
 Once your image, GIF, video or IFrame has uploaded, you’ll see a toolbar which will allow you to format your content. You’ll be able to adjust the alignment, change the width, or delete it.
 
-```{figure} images/MshxlXndaLsk3WbJ0ZGy-3rhzDHFG0VrL2BGcyxtP-v2.gif
-:name: aa1b57af
+```{figure} images/Z1isOjJQGvM22q5fhunb-Dp770ojYtbrTmXDe2Gy0-v1.png
+:name: CYtDPoRVUr
 :align: center
-:width: 80%
+:width: 70%
 ```
 
-+++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/YdwI0PtlOIH0hDqMl4bX.1"}
++++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/YdwI0PtlOIH0hDqMl4bX.2"}
 
 ## Image and GIF Settings
 
@@ -106,8 +101,8 @@ To use a different version of an image/GIF:
   - A preview of that version will appear in place of the current image/GIF.
 - Click **USE VERSION**.
 
-```{figure} images/MshxlXndaLsk3WbJ0ZGy-kSwgghFsBCgaR4AQDxaJ-v2.gif
-:name: af71c7fb
+```{figure} images/Z1isOjJQGvM22q5fhunb-XSFXHCb26Y6uqqkIhsXz-v1.png
+:name: PJnQP46ZMR
 :align: center
 :width: 70%
 ```
@@ -130,7 +125,7 @@ To update the image/GIF settings:
 - Update the settings.
 - Click **UPDATE SETTINGS**.
 
-+++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/T6oPr3XvE2dtXTY8YWiE.1"}
++++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/T6oPr3XvE2dtXTY8YWiE.2"}
 
 ### Figures
 
@@ -143,25 +138,14 @@ To toggle the caption and or numbering for an image/GIF:
   - Select the lines symbol for the **Show/Hide Caption** option.
   - When the caption is shown, you can then enable numbering by selecting the number icon for the **Toggle Numbering** option.
 
-````{note}
-For figures displayed within a content block, when the caption is toggled on, the caption can be edited directly by clicking the **EDIT** button on the image.
-
-````
-
-```{figure} images/MshxlXndaLsk3WbJ0ZGy-tXgnas8Aq8TB2u6icIWN-v2.gif
-:name: adb9b1b0
-:align: center
-:width: 70%
-```
-
 Figures can be referenced by their numbers within the text using either the command menu or keyboard shortcuts. To reference a figure use one of the following two commands, then select the figure you want to reference from the drop down menu. When you click on the reference a preview of the image and its caption is displayed. Learn about internal references [Internal References](oxa:Z1isOjJQGvM22q5fhunb/kM7RCPH0vEYtXYMgTN6G "Internal References")
 
 `/link to figure` `[[fig:`
 
-```{figure} images/MshxlXndaLsk3WbJ0ZGy-zQosMjGOJf0PQiemKonH-v2.gif
-:name: a949200b
+```{figure} images/Z1isOjJQGvM22q5fhunb-sIdK5tPBxpH5QPoljim3-v1.png
+:name: w1vNkL56vc
 :align: center
-:width: 70%
+:width: 50%
 ```
 
 ````{note}

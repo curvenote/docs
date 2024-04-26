@@ -1,6 +1,6 @@
 ---
 title: Formatting & Style
-description: ""
+description: ''
 authors:
   - userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
     name: Rowan Cockett
@@ -8,9 +8,10 @@ authors:
     corresponding: false
     roles: []
     affiliations: []
-date: 2022-03-15T05:28:14.757Z
+date: '2022-03-15T05:28:14.757Z'
 name: formatting-and-style
 oxa: oxa:Z1isOjJQGvM22q5fhunb/mejX29aqC6lQrauTK08F
+tags: []
 ---
 
 +++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/9GP9YY33LBKzcN25r890.2"}

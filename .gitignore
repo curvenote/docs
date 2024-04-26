@@ -1,2 +1,7 @@
+node_modules/
 _build
-**/images
+content/cli/images
+content/jupyter/images
+content/overview/images
+content/export/images
+content/web/images

@@ -1,0 +1,21 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {},
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@curvenote/cli-plugin": "latest",
+    "cli-table": "^0.3.11",
+    "cli-table3": "^0.6.4",
+    "date-fns": "^2.30.0",
+    "myst-common": "^1.1.35",
+    "myst-directives": "^1.2.3",
+    "myst-parser": "^1.2.3",
+    "myst-roles": "^1.2.3",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5",
+    "unist-builder": "^4.0.0"
+  }
+}

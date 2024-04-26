@@ -1,11 +1,8 @@
 version: 1
 project:
   title: Write
-  remote: Z1isOjJQGvM22q5fhunb
-  link: https://curvenote.com/@docs/write
   subject: Write
   numbering: false
   license: CC-BY-4.0
   open_access: true
   description: ''
-  name: write

@@ -1,6 +1,6 @@
 ---
 title: Citations
-description: ""
+description: ''
 authors:
   - userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
     name: Rowan Cockett
@@ -8,17 +8,18 @@ authors:
     corresponding: false
     roles: []
     affiliations: []
-date: 2022-03-15T04:45:48.038Z
+date: '2022-03-15T04:45:48.038Z'
 name: citations
 oxa: oxa:Z1isOjJQGvM22q5fhunb/Hpk0fVg52bmVZMyIjHv2
+tags: []
 ---
 
 +++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/74n6Q79GGPMmuKdPfXEv.1"}
 
 You can easily add citations to your Curvenote articles and have quick access to them while you are typing. There are currently two ways to add references:
 
-1. **From a DOI**: Simply search the document or article DOI, and add it to your article with one-click!
-2. **From a BibTex file**: Export from your reference manager (e.g. Zotero, Mendeley, etc.) as a BibTex file, and drag and drop into Curvenote. If you want easy access to a reference manager, without downloading anything we recommend <https://zbib.org/>.
+1. **From a DOI**\: Simply search the document or article DOI, and add it to your article with one-click!
+2. **From a BibTex file**\: Export from your reference manager (e.g. Zotero, Mendeley, etc.) as a BibTex file, and drag and drop into Curvenote. If you want easy access to a reference manager, without downloading anything we recommend <https://zbib.org/>.
 
 Once your citations have been added to your project, you can easily access them through the `/cite` command, and can click on the citation to see all the details - and you can click on it to navigate to the web article or document. For example, try clicking on this citation {cite:p}`Cockett2015SimPEG`.
 

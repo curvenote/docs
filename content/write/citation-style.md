@@ -1,6 +1,6 @@
 ---
 title: Citation Style
-description: ""
+description: ''
 authors:
   - userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
     name: Rowan Cockett
@@ -8,9 +8,10 @@ authors:
     corresponding: false
     roles: []
     affiliations: []
-date: 2022-03-15T04:45:58.188Z
+date: '2022-03-15T04:45:58.188Z'
 name: citation-style
 oxa: oxa:Z1isOjJQGvM22q5fhunb/matEyTKxn9SCqd3iE4Sy
+tags: []
 ---
 
 +++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/J6ic2bsDtFAgs6cxRESA.1"}

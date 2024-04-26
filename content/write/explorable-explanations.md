@@ -1,6 +1,6 @@
 ---
 title: Explorable Explanations
-description: ""
+description: ''
 authors:
   - userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
     name: Rowan Cockett
@@ -8,9 +8,10 @@ authors:
     corresponding: false
     roles: []
     affiliations: []
-date: 2022-03-15T04:49:45.092Z
+date: '2022-03-15T04:49:45.092Z'
 name: explorable-explanations
 oxa: oxa:Z1isOjJQGvM22q5fhunb/FKfeWxyvfKNO5EhqYaw0
+tags: []
 ---
 
 +++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/czx1Q44AwU2JQ11FlEbn.1"}

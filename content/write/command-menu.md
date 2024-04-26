@@ -1,6 +1,6 @@
 ---
 title: Command Menu
-description: ""
+description: ''
 authors:
   - userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
     name: Rowan Cockett
@@ -8,9 +8,10 @@ authors:
     corresponding: false
     roles: []
     affiliations: []
-date: 2022-03-15T05:02:34.595Z
+date: '2022-03-15T05:02:34.595Z'
 name: command-menu
 oxa: oxa:Z1isOjJQGvM22q5fhunb/gKX5CnZEMGcUbygsA0dh
+tags: []
 ---
 
 +++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/6x9vKGQUgpuzkl52IJVY.1"}

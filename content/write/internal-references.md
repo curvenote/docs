@@ -1,6 +1,6 @@
 ---
 title: Internal References
-description: ""
+description: ''
 authors:
   - userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
     name: Rowan Cockett
@@ -8,9 +8,10 @@ authors:
     corresponding: false
     roles: []
     affiliations: []
-date: 2022-03-15T04:45:43.120Z
+date: '2022-03-15T04:45:43.120Z'
 name: internal-references
 oxa: oxa:Z1isOjJQGvM22q5fhunb/kM7RCPH0vEYtXYMgTN6G
+tags: []
 ---
 
 +++ {"oxa":"oxa:Z1isOjJQGvM22q5fhunb/1MhOEGTFhBstovyQNt0Y.1"}
