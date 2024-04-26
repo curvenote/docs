@@ -27,6 +27,8 @@ If you have not already done so:
 Check that your work builds as expected by running `curvenote start` and opening the resulting link in your web browser.
 
 ```{figure} images/curvenote-start-warnings.png
+:label: fig:curvenote-start-warnings
+:class: framed
 The result of running `curvenote start` showing the link to the web based preview of the work and various outpu logs and in this case warnings. Errors and warnings such as those shown for broken cross references  should be addressed before making a submission.
 ```
 
@@ -68,6 +70,8 @@ To submit a draft simple include the `--draft` argument when submitting:
 Once the submit command is successfully completed, you will something like the following output:
 
 ```{figure} images/curvenote-submit-draft.png
+:label: fig:curvenote-submit-draft
+:class: framed
 Final parts of the output from the `curvenote submit <venue> --draft` command showing upload information and a link to the _"build"_ on Curvenote. Use this link to review the build outcome and access a preview of your draft submission on the venue's website.
 ```
 
@@ -76,12 +80,16 @@ This like: https://sites.curvenote.com/build/018ee71b-9d20-760c-9090-d9e43d67411
 The build page lists some of the metadata from your submission, includes a {term}`preview` link and lists all of the passing and failing checks on your submission. Additional detail and documentation is included for each check, which you can use to resolve remaining issues or satisfy optional requirements from the venue.
 
 ```{figure} images/curvenote-build-page.png
+:label: fig:curvenote-build-page
+:class: framed
 The build page for the `--draft` submission, although all submissions will generate a associated build page where you can access the preview and check summary.
 ```
 
 Clicking on the _Preview_ button will open your submission in preview mode, where you will be able to see it within the theme/style of the venue's website.
 
 ```{figure} images/curvenote-draft-preview.png
+:label: fig:curvenote-draft-preview
+:class: framed
 A preview of the draft submission.
 ```
 
@@ -106,6 +114,8 @@ Venues may use _Collections_ to organize their content and invite submissions fr
 If a venue you are submitting to has multiple Submission Kinds available or mulitple Collections open, you will be prompted to select a Collection and/or Submission Kind.
 
 ```{figure} images/curvenote-submit-collections.png
+:label: fig:curvenote-submit-collections
+:class: framed
 An toy example of a venue with multiple collections open for submission.
 ```
 

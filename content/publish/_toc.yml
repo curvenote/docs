@@ -1,24 +1,31 @@
 format: jb-book
-root: overview
+# root: overview
+root: solutions
 parts:
-  - caption: Solutions
-    chapters:
-      - file: solutions
-      - file: journals
-  - caption: Guides
+  # - caption: Solutions
+  #   chapters:
+  #     - file: solutions
+  #     - file: journals
+  - caption: Topic Guides
     chapters:
       - file: preparing-for-submission
       - file: submitting-your-work
       - file: submissions-using-github
-  - caption: Authoring
-    chapters:
-      - file: authoring
-      - file: authoring-in-myst
-      - file: authoring-in-latex
-      - file: authoring-in-jupyter
+      - file: authoring-in-myst # TODO: move below
+      - file: directives # TODO: move to features
+      # Old / to rewrite:
+      # - file: adding-content
+      # - file: tutorial-launchpad
+  # - caption: Authoring
+  #   chapters:
+  #     - file: authoring
+  #     - file: authoring-in-myst
+  #     - file: authoring-in-latex
+  #     - file: authoring-in-jupyter
   - caption: MyST Websites
     chapters:
-      - file: curvespace
+      - file: tutorial-deploy-local
+      - file: try-curvespace
       - file: navigation
       - file: hosting
       - file: deploying-myst-from-github
@@ -31,21 +38,14 @@ parts:
       - file: installing-prerequisites
       - file: authentication
       - file: cli-commands
-  - caption: Features
-    chapters:
-      - file: directives
-      - file: toc
-      - file: citations
-      - file: frontmatter
-      - file: logo-and-branding
-      - file: themes
+  # - caption: Features
+  #   chapters:
+  # - file: toc
+  # - file: citations
+  # - file: frontmatter
+  # - file: logo-and-branding
+  # - file: themes
   - caption: Reference
     chapters:
-      - file: folder-structure
-      - file: try-curvenote
+      - file: github-actions
       - file: glossary
-  - caption: Old / to rewrite
-    chapters:
-      - file: adding-content
-      - file: tutorial-deploy-project
-      - file: tutorial-launchpad

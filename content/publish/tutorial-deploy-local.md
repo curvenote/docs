@@ -3,14 +3,8 @@ title: Start with a local folder
 description: >-
   In this tutorial we will create a site by starting with local content, then
   customize the site locally and deploy it directly from your computer.
-date: '2022-05-26T10:56:00.000Z'
-name: tutorial-deploy-local
-oxa: oxa:Eh6WvY9NT46Ds4lE3OqJ/awl1FKZAY7CpiX7GWWXS
-subject: Tutorial
-venue: MyST Websites
 tags:
   - tutorial
-thumbnail: thumbnails/tutorial-deploy-local.png
 ---
 
 Curvenote allows you to easily publish content on the web as a fast, optimized site that preserves all interactive features in Curvenote, and can be hosted for free on a `*.curve.space` domain or on your own [custom domain](oxa:Eh6WvY9NT46Ds4lE3OqJ/Qn9rzCukuPlbwhKl8qA0 'Custom Domains').

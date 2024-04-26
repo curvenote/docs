@@ -1,14 +1,19 @@
 ---
-title: Solutions
-short_title: Solutions
+title: Curvenote Publishing
+subtitle: Communicate Modern Science
+short_title: Curvenote
 ---
 
-In the rapidly evolving landscape of scientific research and publication, Curvenote offers a suite of solutions designed to meet the diverse needs of journals, research institutes, conferences, private consortiums, universities, and lab groups.
+Curvenote is a platform for scientific publishing, in this documentation we will go through publishing, and administering a site as well as provide various tutorials geared for authors. Curvenote is designed to streamline the process of collaboration, creation, and dissemination of scientific knowledge, integrating seamlessly with computational notebooks, and interactive data visualizations with live computation. Whether you're drafting your next paper, highlighting the work of your lab group, hosting a conference, or managing a journal, Curvenote provides the tools and flexibility you need to communicate modern science.
+
+> Manage a journal, conference-proceedings or highlighting the work of your lab group
 
 :::{figure} ./images/use-cases.png
 :label: fig:use-cases
 Curvenote helps with publishing workflows for journals, research institutes, conferences, private consortiums, universities, and lab groups.
 :::
+
+## Solutions
 
 Journals
 : Curvenote streamlines the entire submission and publishing process, providing a seamless infrastructure that simplifies editorial workflows and enhances peer review. Curvenote provides an API and the entire publishing workflow can be connected to other editorial management platforms as well as GitHub.

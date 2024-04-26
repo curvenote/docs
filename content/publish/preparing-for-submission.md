@@ -54,7 +54,9 @@ The first step in preparing your submission is to check your MyST project for er
 Check that your work builds as expected by running `curvenote start` and opening the resulting link in your web browser.
 
 ```{figure} images/curvenote-start-warnings.png
-The result of running `curvenote start` showing the link to the web based preview of the work and various outpu logs and in this case warnings. Errors and warnings such as those shown for broken cross references  should be addressed before making a submission.
+:class: framed
+:label: fig:curvenote-start-warnings
+The result of running `curvenote start` showing the link to the web based preview of the work and various output logs and in this case warnings. Errors and warnings such as those shown for broken cross references  should be addressed before making a submission.
 ```
 
 You should check that no errors appear on in the terminal after running `curvenote start`. Errors and warnings can point to problems with your work that should be addressed before submission.
@@ -74,6 +76,8 @@ You can run the checks for a given Venue and Submission Kind at any time using t
 Results in the following report in your terminal:
 
 :::{figure} images/curvenote-check-scipy.png
+:class: framed
+:label: fig:curvenote-check-scipy
 The result of running `curvenote check <venue>` on a local folder containing a MyST project. The **Corresponding Author** check fails and red signifies that a _required_ check has failed, while **ORCID** and **CRediT Roles** check flag missing _optional_ metadata. The content of the manuscript also contains a DOI which has been validated.
 :::
 
@@ -150,20 +154,16 @@ license
 : Attaching an appropriate license to your work is recommended to your work prior to submission. Whether this is appropriate, will be honored or included as part of your final publication will submission will depend on the Venue's policies. Licenses can be specified for [the work or for code and content separately](https://mystmd.org/guide/frontmatter#licenses).
 
 github
-: Identify the a github repository relevant to your work, this may be the soure or your submission or a it's software repository.
+: Identify the a github repository relevant to your work, this may be the source or your submission or a it's software repository.
 
 doi
-: If your work has an existing DOI, when you should add it here. This field is more relevant for Venues such as Lab Groups, Research Hubs, Science Blogs or Private Sites. Journal and Conference publications are likely to create a new DOI at publication time, meaning this field wil likely be ignored.
+: If your work has an existing DOI, when you should add it here. This field is more relevant for Venues such as Lab Groups, Research Hubs, Science Blogs or Private Sites. Journal and Conference publications are likely to create a new DOI at publication time, meaning this field will likely be ignored.
 
 banner
 : An image that will be used for the background of the header section on the web based version of your published article. If you don't provide one the Venue may autogenerate a random one or leave this as blank. Not all Venue's require or allow a banner image.
 
 thumbnail
 : A thumbnail image that will be used in the Article listings on the Venue's website. If this is omitted one will be generated from the first figure or image included in your submission.
-
-:::{tip}
-Add a marked up image here
-:::
 
 ## Integrated Computation
 
