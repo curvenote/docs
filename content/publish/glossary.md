@@ -1,7 +1,60 @@
 ---
-title: Glossary
-description: List of terms in the Curvenote ecosystem
+title: Curvenote Glossary
+description: Product glossary for Curvenote and list of terms in the Curvenote ecosystem
 ---
+
+## Curvenote Solution
+
+There are multiple parts to a Curvenote Solution that allow for the authoring and publishing of content.
+
+:::{glossary}
+Curvenote Platform
+: Curvenote's submission and hosting system, handles the {term}`venue` generation, site theming, permission management, {term}`collection` and {term}`submission` management, persistent storage, authorization, and serves content and sites through APIs. Any submission can go through {term}`Curvenote Checks`, can be given a DOI, and archived.
+: ![](./images/infrastructure.mp4)
+
+Curvenote Editor
+: The online [Curvenote editor](https://curvenote.com) provides a WYSIWYG authoring experiences, with integrated references, real-time collaboration, version management, and commenting. A document can be exported to either a PDF, LaTeX or Word Document or published to a {term}`Curvenote Venue <Curvenote Venues>`. The editing experience works directly with Jupyter Notebooks, and can display {term}`Interactive Figures`.
+: ![](./images/writing.mp4)
+
+Curvenote Venues
+: Curvenote Venues are customized websites that can scale from a single paper, to a private lab-group website, to a research institute, to a full online library (multiple journals, micro-publications, protocols etc.). There are default themes for articles, books, conference-proceedings, lab-groups, private consortiums and journals.
+: ![](./images/venues.mp4)
+
+Command Line Tools
+: The Curvenote CLI allows you to interact with the {term}`Curvenote Platform`, submit, {term}`check a work <Curvenote Checks>`. The CLI has been open-sourced and upstreamed into the Jupyter Community (through {term}`MyST Markdown`) and includes all of Curvenote's templates for exporting to different journal formats or custom PDFs (~400 journals). While working on the command line, you can modify or check {term}`submission`s, publish or submit a new {term}`work` or website.
+: ![](./images/cli-check.mp4)
+:::
+
+## Modules
+
+:::{glossary}
+Reading Experience
+: We are building intuitive, reading experience that is designed around access to information where and when you need it: this includes citations, figures, equations, interactivity, and abbreviations. We are aiming for a delightful, web-first reading experience.
+: ![](./images/reading.mp4)
+
+Integrated Computation
+: Live graphs can be embedded directly in your documentation or articles with computation backed by Jupyter or JupyterLite – running locally, on Binder, or directly in your browser.
+: ![](./images/compute.mp4)
+
+Interactive Figures
+: Curvenote enables the sharing and publication of interactive figures, such as Plotly, Altair, Bokeh and others that contain their data and provide interactivity. These figures may not require live computation (i.e. a Jupyter Server to be running). It is also possible to have interactive figures through {term}`Integrated Computation`, which requires a live Jupyter environment (see {term}`Launch Jupyter`).
+: ![](./images/altair.mp4)
+
+Launch Jupyter
+: {term}`Interactive Figures` may require a computational server to be running, we use Jupyter to power computations.
+: ![](./images/launch-jupyter.mp4)
+
+Deep Dive Links
+: Deep-dive links allow you to get information to your reader as fast as possible, and they can deep-dive all the way to computations, code and {term}`interactive figures`.
+: ![](./images/links.mp4)
+
+Curvenote Checks
+: Curvenote provides checks for the structure of a document to ensure it meets automated quality controls for things like references, links, author identifiers (e.g. ORCID), or funding information. These checks can also include integrity or plagiarism checks or 3rd party integrations against the submitted content.
+: ![](./images/checks-ui.mp4)
+
+:::
+
+## Schema and Database Objects
 
 :::{glossary}
 
@@ -24,7 +77,7 @@ Checks
 : Checks are specific to the {term}`submission kind` and can include checks on structure, integrity, manuscript content, plagiarism, image-manipulation, etc.
 
 Notebook
-: A _"notebook"_ refers to an interactive document used for coding, data analysis, visualization, and narrative text. Commonly associated with Jupyter Notebooks or Markdown notebooks, these documents combine executable code blocks with rich text elements, such as equations, images, and annotations, allowing for dynamic and interactive educational or research presentations.
+: A _"notebook"_ refers to an interactive document used for coding, data analysis, visualization, and narrative text. Commonly associated with {term}`Jupyter` Notebooks or Markdown notebooks, these documents combine executable code blocks with rich text elements, such as equations, images, and annotations, allowing for dynamic and interactive educational or research presentations.
 
 Compendium
 : A research _compendium_ is a set of articles, {term}`notebooks <notebook>`, associated data and computational environment that is organized and presented in a comprehensive and accessible manner.
@@ -42,4 +95,73 @@ Collection
 Preview
 : A _"preview"_ is displayable or viewable version of a {term}`submission` that is used primarily for peer review purposes. The preview can be public or private, depending on the editorial workflow, and allows reviewers and potentially other stakeholders to see how the submission will appear upon publication, facilitating a thorough evaluation of its content, formatting, and overall presentation. The preview helps to ensure that the submission meets the required standards and guidelines of the {term}`venue` before final approval and publication.
 
+:::
+
+## External Tools
+
+:::{glossary}
+
+Jupyter
+: Jupyter is an open-source project that supports interactive data science and scientific computing across over 40 programming languages. Jupyter provides tools to create and share documents that contain live code, equations, visualizations, and narrative text. Uses for Jupyter include data cleaning and transformation, numerical simulation, statistical modeling, data visualization, machine learning, and much more. Jupyter has evolved to include several components, such as Jupyter {term}`Notebook`s, {term}`JupyterHub`, and {term}`JupyterLab`.
+
+Binder
+: A free, public service for running reproducible interactive computing environments. Binder is a 100% open source infrastructure that is run by members of the Jupyter community. The underlying technology behind the Binder project is BinderHub.
+
+BinderHub
+: The underlying technology of https://mybinder.org, BinderHub is an open source tool that runs on Kubernetes and utilizes a JupyterHub in order to provide live, reproducible interactive computing environments that users host on GitHub.
+
+Google Colab
+: A Jupyter Notebook service from Google that provides access to free computing resources, including GPUs and TPUs.
+
+JupyterLab
+: JupyterLab is a web-based interactive development environment for Jupyter notebooks, code, and data. It serves as the next-generation graphical user interface for Project Jupyter, offering all the familiar building blocks of the classic Jupyter Notebook (like notebooks, terminals, text editors, file browsers, rich outputs, etc.) in a flexible and powerful user interface. JupyterLab enables users to work with documents and activities such as Jupyter notebooks, text editors, terminals, and custom components in a more integrated and modular fashion, thereby providing a more comprehensive and integrated development environment for scientific computing and data science workflows.
+
+JupyterHub
+: A core open source tool from the Jupyter community, JupyterHub allows you to deploy an application that provides remote data science environments to multiple users. It can be deployed in the cloud, or on your own hardware.
+
+MyST Markdown
+: MyST is an ecosystem of open-source, community-driven tools designed to revolutionize scientific communication. The authoring framework supports blogs, online books, scientific papers, reports and journals articles.
+: The initial version of `mystmd` was release by Curvenote as the Curvenote {term}`Command Line Tools` under the MIT license, and later transferred to the ExecutableBooks team.
+
+MECA
+: Manuscript Exchange Common Approach NISO standard. https://www.niso.org/standards-committees/meca Paired with {term}`JATS`, Curvenote uses {term}`MECA` to package archived, reproducible bundles for all computational articles.
+
+JATS
+: Defines a set of XML elements and attributes for tagging journal articles and describes three article models. https://jats.nlm.nih.gov/
+
+:::
+
+## Technologies
+
+:::{glossary}
+
+CDN
+: Content delivery network is a network of servers or resources linked together with the aim of providing uniform replicated access to content as quickly and cost effectively as possible.
+
+Serverless Edge Network
+: Edge serverless is an evolution of cloud serverless where computing resources that deliver serverless functions are geographically closer to the end user.
+
+Shared Tenancy
+: A deployment or architecture where multiple customers (tenants) share the same application and infrastructure resources. Each tenant's data and configurations are logically separated but physically reside on the same servers. This model is often used to maximize resource utilization and reduce costs while ensuring data isolation and security between tenants.
+
+Single Tenancy
+: A deployment or architecture where each customer (tenant) has their own dedicated instance of the application and underlying infrastructure. This setup ensures that no two tenants share any resources, such as databases or servers. Single tenancy offers enhanced security, greater control over the environment, and customization options, but typically comes at a higher cost due to the dedicated resources required for each tenant.
+
+Google Cloud
+: A suite of cloud computing services offered by Google that runs on the same infrastructure that Google uses internally for its end-user products, such as Google Search, Gmail, file storage, and YouTube. Google Cloud provides a range of services including computing, data storage, data analytics, and machine learning.
+
+Firebase
+: A well established platform developed by Google for creating web applications. Firebase's primary functionality revolves around its real-time database and backend services, which includes real time client APIs, NoSQL databases and authentication (SSO) providers.
+
+PostgreSQL
+: An open-source, advanced object-relational database management system (DBMS) known for its stability, robustness, and performance with features that support both SQL (relational) and JSON (non-relational) querying. PostgreSQL is widely used by developers for a variety of applications, particularly in scenarios requiring complex queries, extensive data integrity, and compatibility with standards.
+
+Vercel
+: A cloud platform for static sites and Serverless Functions that provides developers with a collaborative and optimized deployment system. Vercel is designed to integrate with databases and modern web development frameworks, and excels at providing robust, fast, global access to web applications and content via it's {term}`Serverless Edge Network` technology.
+
+Supabase
+: An open-source alternative to {term}`Firebase`, Supabase provides developers with a suite of tools to quickly build and scale modern web applications. It offers features similar to Firebase but with a backend that leverages {term}`PostgreSQL`, allowing for powerful relational database management and real-time capabilities.
+
+Headless CMS
+: A Headless CMS (Content Management System) is a back-end-only content management system that separates the content repository ("body") from the presentation layer ("head"). It provides content via an API for display on different platforms or devices.
 :::
