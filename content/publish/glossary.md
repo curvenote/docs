@@ -10,19 +10,32 @@ There are multiple parts to a Curvenote Solution that allow for the authoring an
 :::{glossary}
 Curvenote Platform
 : Curvenote's submission and hosting system, handles the {term}`venue` generation, site theming, permission management, {term}`collection` and {term}`submission` management, persistent storage, authorization, and serves content and sites through APIs. Any submission can go through {term}`Curvenote Checks`, can be given a DOI, and archived.
-: ![](./images/infrastructure.mp4)
+
+    :::{figure} ./images/infrastructure.mp4
+    The Curvenote Platform dashboard to display various {term}`venue`s, and {term}`submission` management. This is showing content from the [2023 SciPy Proceedings](https://proceedings.scipy.org/) (CC-BY-3.0).
+    :::
 
 Curvenote Editor
 : The online [Curvenote editor](https://curvenote.com) provides a WYSIWYG authoring experiences, with integrated references, real-time collaboration, version management, and commenting. A document can be exported to either a PDF, LaTeX or Word Document or published to a {term}`Curvenote Venue <Curvenote Venues>`. The editing experience works directly with Jupyter Notebooks, and can display {term}`Interactive Figures`.
-: ![](./images/writing.mp4)
+
+    :::{figure} ./images/writing.mp4
+    The Curvenote Editor is a WYSIWYG authoring experience showing content from "The Clp1 R140H mutation alters tRNA metabolism and mRNA 3′ processing in mouse models of pontocerebellar hypoplasia" [@doi:10.1073/pnas.2110730118, CC-BY-4.0].
+    :::
 
 Curvenote Venues
 : Curvenote Venues are customized websites that can scale from a single paper, to a private lab-group website, to a research institute, to a full online library (multiple journals, micro-publications, protocols etc.). There are default themes for articles, books, conference-proceedings, lab-groups, private consortiums and journals.
-: ![](./images/venues.mp4)
+
+    :::{figure} ./images/venues.mp4
+    Various examples of content from the Curvenote ecosystem, including [AGU Showcase](https://agu.curve.space), [SciPy Proceedings](https://proceedings.scipy.org), [Applied Geophysics](https://appliedgeophysics.org), [Elemental Microscopy](https://elementalmicroscopy.com/), [Physiome](https://journal.physiomeproject.org/), [Agrogeo 2024, Conference Abstracts](https://agrogeo24.curve.space). All content shown is CC-BY-4.0.
+    :::
 
 Command Line Tools
-: The Curvenote CLI allows you to interact with the {term}`Curvenote Platform`, submit, {term}`check a work <Curvenote Checks>`. The CLI has been open-sourced and upstreamed into the Jupyter Community (through {term}`MyST Markdown`) and includes all of Curvenote's templates for exporting to different journal formats or custom PDFs (~400 journals). While working on the command line, you can modify or check {term}`submission`s, publish or submit a new {term}`work` or website.
-: ![](./images/cli-check.mp4)
+: The Curvenote CLI allows you to interact with the {term}`Curvenote Platform`, submit, {term}`check a work <Curvenote Checks>`. The CLI has been open-sourced and upstreamed into the Jupyter Community (through {term}`MyST Markdown`) this includes all of Curvenote's templates for exporting to different journal formats or custom PDFs (~400 journals). In addition to building websites and PDFs, you can modify or check {term}`submission`s, publish or submit a new {term}`work` or website.
+
+    :::{figure} ./images/cli-check.mp4
+    The command line tools for Curvenote running {term}`Curvenote Checks` for DOIs and structural information and metadata.
+    :::
+
 :::
 
 ## Modules
@@ -30,27 +43,45 @@ Command Line Tools
 :::{glossary}
 Reading Experience
 : We are building intuitive, reading experience that is designed around access to information where and when you need it: this includes citations, figures, equations, interactivity, and abbreviations. We are aiming for a delightful, web-first reading experience.
-: ![](./images/reading.mp4)
+
+    :::{figure} ./images/reading.mp4
+    Deep dive links in a research article, see [demo](https://agu.curve.space/articles/NN0001). (CC-BY-4.0)
+    :::
 
 Integrated Computation
 : Live graphs can be embedded directly in your documentation or articles with computation backed by Jupyter or JupyterLite – running locally, on Binder, or directly in your browser.
-: ![](./images/compute.mp4)
+
+    :::{figure} ./images/compute.mp4
+    Interactive physics in an article using SimPEG, see [demo](https://simpeg.xyz/tle-finitevolume/). (CC-BY-SA-3.0)
+    :::
 
 Interactive Figures
 : Curvenote enables the sharing and publication of interactive figures, such as Plotly, Altair, Bokeh and others that contain their data and provide interactivity. These figures may not require live computation (i.e. a Jupyter Server to be running). It is also possible to have interactive figures through {term}`Integrated Computation`, which requires a live Jupyter environment (see {term}`Launch Jupyter`).
-: ![](./images/altair.mp4)
+
+    :::{figure} ./images/altair.mp4
+    Interactive exploration of earthquake data in a paper by [Steve Purves](https://www.stevejpurves.com/la-palma-earthquakes/interactive-plots) (CC-BY-SA-4.0).
+    :::
 
 Launch Jupyter
 : {term}`Interactive Figures` may require a computational server to be running, we use Jupyter to power computations.
-: ![](./images/launch-jupyter.mp4)
+
+    :::{figure} ./images/launch-jupyter.mp4
+    Launching Jupyter from an interactive article for the _Notebooks Now!_ showcase, [see article](https://agu.curve.space/articles/NN0002) (CC-BY-NC-4.0, hosted by Curvenote).
+    :::
 
 Deep Dive Links
 : Deep-dive links allow you to get information to your reader as fast as possible, and they can deep-dive all the way to computations, code and {term}`interactive figures`.
-: ![](./images/links.mp4)
+
+    :::{figure} ./images/links.mp4
+    Deep dive links as shown in the [MyST Markdown documentation](https://mystmd.org) (CC-BY-4.0)
+    :::
 
 Curvenote Checks
 : Curvenote provides checks for the structure of a document to ensure it meets automated quality controls for things like references, links, author identifiers (e.g. ORCID), or funding information. These checks can also include integrity or plagiarism checks or 3rd party integrations against the submitted content.
-: ![](./images/checks-ui.mp4)
+
+    :::{figure} ./images/checks-ui.mp4
+    Administration of checks in the {term}`Curvenote Platform` dashboard.
+    :::
 
 :::
 
@@ -120,8 +151,8 @@ JupyterHub
 : A core open source tool from the Jupyter community, JupyterHub allows you to deploy an application that provides remote data science environments to multiple users. It can be deployed in the cloud, or on your own hardware.
 
 MyST Markdown
-: MyST is an ecosystem of open-source, community-driven tools designed to revolutionize scientific communication. The authoring framework supports blogs, online books, scientific papers, reports and journals articles.
-: The initial version of `mystmd` was release by Curvenote as the Curvenote {term}`Command Line Tools` under the MIT license, and later transferred to the ExecutableBooks team.
+: MyST Markdown (<https://mystmd.org>) is an ecosystem of open-source, community-driven tools designed to revolutionize scientific communication. The authoring framework supports blogs, online books, scientific papers, reports and journals articles.
+: The initial version of `mystmd` was release by Curvenote as the Curvenote {term}`Command Line Tools` under the MIT license, and later transferred to the ExecutableBooks team who run MyST Markdown.
 
 MECA
 : Manuscript Exchange Common Approach NISO standard. https://www.niso.org/standards-committees/meca Paired with {term}`JATS`, Curvenote uses {term}`MECA` to package archived, reproducible bundles for all computational articles.
