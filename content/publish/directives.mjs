@@ -3,7 +3,24 @@ import { mystParse } from 'myst-parser';
 import { defaultDirectives } from 'myst-directives';
 import { defaultRoles } from 'myst-roles';
 import { fileError } from 'myst-common';
-import curvenotePlugin from '@curvenote/cli-plugin';
+import cliPlugins from '@curvenote/cli-plugin';
+import extPerson from '@curvenote/ext-person';
+import extTemplate from '@curvenote/ext-template';
+import extBlog from '@curvenote/ext-blog';
+
+export function combinePlugins(plugins) {
+  return plugins.slice(1).reduce(
+    (base, next) => ({
+      directives: [...(base.directives ?? []), ...(next.directives ?? [])],
+      roles: [...(base.roles ?? []), ...(next.roles ?? [])],
+      transforms: [...(base.transforms ?? []), ...(next.transforms ?? [])],
+      checks: [...(base.checks ?? []), ...(next.checks ?? [])],
+    }),
+    plugins[0]
+  );
+}
+
+const plugins = combinePlugins([cliPlugins, extPerson, extTemplate, extBlog]);
 
 /**
  * @param {import('myst-common').OptionDefinition} option
@@ -71,9 +88,7 @@ const mystDirective = {
   },
   run(data, vfile) {
     const name = data.arg;
-    const directive = [...curvenotePlugin.directives, ...defaultDirectives].find(
-      (d) => d.name === name
-    );
+    const directive = [...plugins.directives, ...defaultDirectives].find((d) => d.name === name);
     if (!directive) {
       fileError(vfile, `myst:directive: Unknown myst directive "${name}"`);
       return [];
@@ -129,7 +144,7 @@ const mystRole = {
   },
   run(data, vfile) {
     const name = data.arg;
-    const role = [...curvenotePlugin.roles, ...defaultRoles].find((d) => d.name === name);
+    const role = [...plugins.roles, ...defaultRoles].find((d) => d.name === name);
     if (!role) {
       fileError(vfile, `myst:role: Unknown myst role "${name}"`);
       return [];

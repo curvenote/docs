@@ -38,6 +38,62 @@ project:
     JOSS: Journal of Open Source Software
   plugins:
     - directives.mjs
+  toc:
+    - file: solutions.md
+    - title: Designing your site
+      children:
+        - file: landing-pages.md
+        - file: navigation.md
+        - file: cards.md
+        - file: listings.md
+        - file: custom-domains.md
+        - file: curvenote-branding.md
+        - file: analytics.md
+        - file: custom-development.md
+    - title: Organizing content
+      children:
+        - file: venues.md
+        - file: kinds.md
+    - title: Preparing an article
+      children:
+        - file: authoring-in-myst.md
+        - file: metadata-essentials.md
+        - file: article-actions.md
+        - file: submitting-your-work.md
+        - file: tutorial-deploy-local.md
+        - file: try-curvespace.md
+        - file: deploying-myst-from-github.md
+    - title: Automation
+      children:
+        - file: submissions-using-github.md
+        - file: github-actions.md
+        - file: integrated-previews.md
+    - title: Integrity checks
+      children:
+        - file: integrity-checks.md
+    - title: Computational articles
+      children:
+        - file: computational-articles.md
+        - file: live-compute.md
+        - file: computational-tiers.md
+        - file: large-scale-data.md
+    - title: Editorial process
+      children:
+        - file: editorial-process.md
+    - title: Publishing an article
+      children:
+        - file: graceful-degradation.md
+    - title: Command line tools
+      children:
+        - file: cli-overview.md
+        - file: installing.md
+        - file: installing-prerequisites.md
+        - file: authentication.md
+        - file: cli-commands.md
+    - title: Reference
+      children:
+        - file: directives.md
+        - file: glossary.md
 site:
   template: book-theme
   nav: []

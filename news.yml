@@ -1,0 +1,24 @@
+news:
+  - title: Launch of Elemental Microscopy covered in Nature
+    url: https://www.nature.com/articles/d41586-024-02577-1
+    date: August 2024
+    image: https://media.nature.com/lw767/magazine-assets/d41586-024-02577-1/d41586-024-02577-1_27432946.jpg
+    description: |
+      Elemental Microscopy, a publication focused on reviews and methods tutorials, leverages an authoring and
+      publishing platform called Curvenote to create rich, interactive, digital papers
+      with coding and data analysis at their heart.
+    tags:
+      - journal
+      - interactive
+  - title: Curvenote Sponsors SciPy 2024 and supports the SciPy Proceedings
+    url: https://curvenote.com/news/curvenote-sponsors-scipy-proceedings-2024
+    date: April 8, 2024
+    image: ./images/scipy-2024-thumbnail.webp
+    description: |
+      Curvenote is hosting the SciPy proceedings and is a Gold-level sponsor of the SciPy 2024 conference.
+      The new proceedings, hosted by Curvenote, are web-first and interactive.
+      Curvenote is supporting the 2024 proceedings from automated submission, through to hosting and
+      metadata preparation including submission to scholarly infrastructure providers like CrossRef and ORCID.
+    tags:
+      - conference
+      - community

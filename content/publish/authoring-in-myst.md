@@ -1,5 +1,6 @@
 ---
 title: Writing a Scientific Paper using MyST
+short_title: MyST Markdown
 description: Curvenote uses a flavour of Markdown called MyST Markdown, which is designed to create publication-quality, computational documents written entirely in Markdown.
 ---
 

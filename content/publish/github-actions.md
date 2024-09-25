@@ -51,6 +51,13 @@ When set up for a `monorepo` (i.e. there is more than one submission in the GitH
 
 ### Action Options
 
+Curvenote’s integrated previews are highly customizable. You can configure your workflow to generate different types of previews based on your project's needs:
+
+- **Branch Previews**: Every commit on a branch generates a unique preview, allowing for easy tracking of changes in real-time.
+- **Pull Request**: When a pull request is opened, a **draft** preview can be generated. This draft can be reviewed, commented on, and iterated upon without affecting the main branch.
+
+By configuring the action, you can control the scope and depth of previews, ensuring that only necessary builds are triggered, reducing build times while still providing instant feedback on content changes.
+
 `monorepo` (boolean)
 : When `true` indicates that this repository contains multiple projects that should be published. For example, if you have multiple articles, or tutorials that should be previewed and submitted when there are changes in the repository.
 
