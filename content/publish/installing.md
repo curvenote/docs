@@ -3,16 +3,16 @@ title: Installing Curvenote CLI
 description: ''
 ---
 
-Curvenote is available through [NodeJS](oxa:EplL6AlILV3RGEDPzj5U/ok1vVkdB8m0EHgjdelbF 'Installing NodeJS') and the node package manager, `npm`. Node is used by Jupyter as well as many other Python packages so you may already have it installed on your _PATH_ and the following command may just work 🤞.
+Curvenote is available through [NodeJS](./installing-prerequisites.md) and the node package manager, `npm`. Node is used by Jupyter as well as many other Python packages so you may already have it installed on your _PATH_ and the following command may just work 🤞.
 
-🛠️ [Install NodeJS](oxa:EplL6AlILV3RGEDPzj5U/ok1vVkdB8m0EHgjdelbF 'Installing NodeJS') and run the following command:
+🛠️ [Install NodeJS](./installing-prerequisites.md) and run the following command:
 
 ```shell
 npm install -g curvenote
 ```
 
 :::{important}
-If you do not have `npm` installed you can look at our guide for [Installing NodeJS](oxa:EplL6AlILV3RGEDPzj5U/ok1vVkdB8m0EHgjdelbF 'Installing NodeJS'). If you have any challenges installing, please [open an issue here](https://github.com/curvenote/curvenotejs/issues) or send an email to [support@curvenote.com](mailto:support@curvenote.com).
+If you do not have `npm` installed you can look at our guide for [Installing NodeJS](./installing-prerequisites.md). If you have any challenges installing, please [open an issue here](https://github.com/curvenote/curvenotejs/issues) or send an email to [support@curvenote.com](mailto:support@curvenote.com).
 :::
 
 This will install `curvenote` globally (`-g`) on your system and add a link to the main CLI tool. To see if things worked, try checking the version with:

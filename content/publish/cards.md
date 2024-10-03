@@ -33,7 +33,7 @@ For example, a listing for the SciPy 2023 abtracts collection:
 :width: 80%
 ```
 
-````{code}
+````markdown
 ```{cn:articles}
 :venue: my-journal
 :collection: 2023
@@ -51,7 +51,7 @@ Use the {myst:directive}`cn:collections` directive to add a listing of the colle
 :width: 80%
 ```
 
-````{code}
+````markdown
 ```{cn:collections}
 :venue: my-journal
 :exclude: archive
