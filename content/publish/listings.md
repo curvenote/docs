@@ -4,6 +4,8 @@ description: ''
 tags: []
 ---
 
+# Static Listings
+
 The {myst:directive}`template:list` enables a very flexible way to add content from a list YAML list. This parses a local data file, gives you access to the list (specified by the {myst:directive}`template:list.path`) and then loops over the content using Jinja style templates (see [Nunjucks docs for syntax](https://mozilla.github.io/nunjucks/templating.html)).
 For example, if you have a series of blog articles, people or news, you might have a simple YAML file like:
 
@@ -84,3 +86,12 @@ You can also change the {myst:directive}`template:list.parent` element that is u
 {% if description -%}{{description}}{%- endif %}
 :::
 ::::
+
+# Dynamic Listings
+
+Dynamic listings query the Curvenote platform API on load to reteive lists of published works from your Venue, so are always up to date. Dynamic listings can be configured usig cobinations of [Submission Kinds](/kinds) and [Collections](/collections).
+
+- TODO: cn:articles https://github.com/curvenote/curvenote/blob/main/packages/cli-plugin/src/directives/articles.ts
+- TODO: cn:collections https://github.com/curvenote/curvenote/blob/main/packages/cli-plugin/src/directives/collections.ts
+
+See the reference material for all [Curvenote directives](directives).

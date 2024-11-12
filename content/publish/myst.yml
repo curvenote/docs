@@ -40,8 +40,10 @@ project:
     - directives.mjs
   toc:
     - file: solutions.md
-    - title: Designing your site
+    - title: Designing a venue
       children:
+        - file: venues.md
+        - file: planning.md
         - file: landing-pages.md
         - file: navigation.md
         - file: cards.md
@@ -52,8 +54,8 @@ project:
         - file: custom-development.md
     - title: Organizing content
       children:
-        - file: venues.md
         - file: kinds.md
+        - collections: collections.md
     - title: Preparing an article
       children:
         - file: authoring-in-myst.md

@@ -1,5 +1,5 @@
 ---
-title: Article Kinds
+title: Submission Kinds
 ---
 
 Curvenote articles allow for various levels of interactivity, connectivity, and computational integration. Whether your content is simple text with static visuals or fully networked and interactive, Curvenote offers robust solutions to publish your scientific work in an open, reproducible format. It is possible to include interactivity and computation in publications by simply attaching one or more Jupyter Notebooks and ensuring that the reproducible computational environment is set up correctly.
@@ -15,7 +15,7 @@ Articles from the [Scipy Proceedings](https://proceedings.scipy.org).
 
 ## Supporting a range of article types
 
-Curvenote supports several article {term}`kinds <Submission Kind>` that can be defined for any {term}`venue`. All Curvenote articles are built primarily for the web and are focused on providing a dynamic reading experience with hover popups, and **rich cross-referencing**. In addition to creating PDFs and JATS, each article kind can have varying degrees of interactivity and computational resources, depending on the needs of your research.
+Curvenote supports several article {term}`kinds <Submission Kind>` that can be defined for any {term}`venue`. All Curvenote articles are built primarily for the web and are focused on providing a dynamic reading experience with hover popups, and **rich cross-referencing**. In addition to creating PDFs and JATS, each submission kind can have varying degrees of interactivity and computational resources, depending on the needs of your research.
 
 Abstracts and Summaries
 : Designed for concise communication, **abstracts** can serve as standalone entries or be part of larger works. These typically contain text and static visualizations but can also include **rich cross-references** and metadata.
