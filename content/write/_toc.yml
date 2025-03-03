@@ -49,7 +49,7 @@ parts:
       - file: export-cli-latex-and-pdfs
       - file: export-cli-jupyter-book
       - file: export-hosting
-  - caption: Jupyter Extension
+  - caption: Jupyter Notebooks
     chapters:
       - file: jupyter-extension-overview
       - file: install-jupyter-extension
@@ -61,7 +61,6 @@ parts:
       - file: add-and-link-notebooks
       - file: unlinking-notebooks
       - file: deleting-notebooks
-      - file: curvenote-and-binder
       - file: notebook-settings
   - caption: Reference
     chapters:
