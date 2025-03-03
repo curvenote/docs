@@ -77,8 +77,8 @@ The CLI is in active development and our roadmap includes the following powerful
 
 :::{important} Next Steps
 
-- [Install the Curvenote CLI](../publish/installing)
-- [Setup Curvenote API access](../publish/authentication)
+- [Install the Curvenote CLI](https://docs.curvenote.com/publish/installing)
+- [Setup Curvenote API access](https://docs.curvenote.com/publish/authentication)
   :::
 
 ### Web-based publishing - curve.space
