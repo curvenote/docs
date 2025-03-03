@@ -38,7 +38,7 @@ Curvenote is a Content Management System (CMS) and online application for techni
 
 Log in to Curvenote and use it to write anything from scientific papers, and technical reports to a complete PhD thesis or project documentation. Manage your work in [Projects](./curvenote-projects.md), whilst also [working online with collaborators](./collaboration.md) or organizing multiple [Projects](./curvenote-projects.md) and people within a [Team](./curvenote-teams.md).
 
-Curvenote integrates with [Jupyter Notebooks](./jupyter-extension-overview.md) through a [browser extension](./install-jupyter-extension.md) providing [version control and collaboration features](./versioning-notebooks.md), forming a bridge between data science and analysis work and writing & review, enabling effective collaboration across domains and skillsets. By saving Jupyter Notebooks in Curvenote your papers, reports and articles can include [reproducible figures](./reproducible-figures.md) and [interactive outputs](./interactive-outputs.md) that remain linked to your Jupyter Notebook environment and are easy to track and update.
+Curvenote integrates with [Jupyter Notebooks](./jupyter-overview.md), forming a bridge between data science and analysis work and writing & review, enabling effective collaboration across domains and skillsets. By saving Jupyter Notebooks in Curvenote your papers, reports and articles can include [reproducible figures](./reproducible-figures.md) and [interactive outputs](./interactive-outputs.md) that remain linked to your Jupyter Notebook environment and are easy to track and update.
 
 Curvenote allows you to publish your work:
 
@@ -48,7 +48,7 @@ Curvenote allows you to publish your work:
 :::{important} Next Steps
 
 - [Start Writing](https://docs.curvenote.com/write)
-- [Integrate your data science work from Jupyter](./jupyter-extension-overview.md)
+- [Integrate your data science work from Jupyter](./jupyter-overview.md)
 - [Publish to the web](./export-hosting.md)
 - [Export](./export-pdf.md) your work to other document formats
 

@@ -14,70 +14,7 @@ oxa: oxa:m59m7JQmWVyPjlASj9v3/93FoBDnslDe5zX30YhHW
 tags: []
 ---
 
-+++ {"oxa":"oxa:m59m7JQmWVyPjlASj9v3/c5NnJo1SYaZxNLDXWrTT.1"}
-
-When a notebook is added to Curvenote, each of the cells are considered blocks and have a unique oxa link. These links correspond to a specific version number of the block and allow you to reuse your content throughout Curvenote. All copies of a block are linked so you can easily view, edit, and access all previous versions of the block from any copy. Reusing Jupyter cells is a convenient and simple way to integrate your static or *interactive* code outputs directly into your writing, use prewritten code as a template for new projects, and more!
-
-+++ {"oxa":"oxa:m59m7JQmWVyPjlASj9v3/rMGz241YphqtgAVaMhNh.1"}
-
-## Import a Block/Cell
-
-Blocks can be copied and pasted/imported on both Curvenote and Jupyter using the Curvenote Jupyter extension. Only saved versions of blocks can be imported; unsaved drafts and changes are not included when you copy a link.
-
-+++ {"oxa":"oxa:m59m7JQmWVyPjlASj9v3/MiQlpXnG2tiJWBDXL3op.1"}
-
-### Curvenote Jupyter Extension
-
-To copy a link to the current saved version of a cell:
-
-- Open the $\mathbf{\vdots}$ **Curvenote Options** menu for the cell.
-  - Select **Copy Link**.
-- A black box will appear in the bottom left of your screen saying your link is copied.
-
-To copy a link to a specific version of cell:
-
-- Select a cell.
-- Access the **Selected Cell** section of the Curvenote Jupyter Extension Panel.
-- Open the version $\mathbf{\vdots}$ **Options** menu.
-  - Select **Copy Link**
-- A black box will appear in the bottom left of your screen saying your link is copied.
-
-```{figure} images/m59m7JQmWVyPjlASj9v3-W0szLYQs387X1G7UfN0I-v1.gif
-:name: BXi9IaZISY
-:align: center
-:width: 100%
-```
-
-````{warning}
-The oxa link includes the version number after the . at the end of the link. For example version 3 of a block: https://curvenote.com/oxa:uniquelinktext.3
-
-````
-
-+++ {"oxa":"oxa:m59m7JQmWVyPjlASj9v3/8Gts73YR5VQD6Z9CiA0a.1"}
-
-To import a cell:
-
-- Add a new cell with Jupyter where you want to import the cell.
-  - This cell {u}`cannot` be already linked to Curvenote!
-  - Any content in the cell will be overwritten upon import.
-- Access the **Selected Cell** section of the Curvenote Jupyter Extension Panel.
-- Paste the oxa link into the **Import Cell** section.
-  - Click **IMPORT CELL**.
-
-```{figure} images/m59m7JQmWVyPjlASj9v3-ABUc36s5ptfrB6EaWf9r-v1.gif
-:name: q0t5oa3Ymp
-:align: center
-:width: 100%
-```
-
-````{warning}
-The default cell type in Jupyter is Code. If you are importing a Markdown cell you will need to change the cell type in the Jupyter toolbar either before or after your cell is imported.
-
-````
-
-+++ {"oxa":"oxa:m59m7JQmWVyPjlASj9v3/APjRseaTeCI4L59Psr2f.1"}
-
-### Curvenote
+When a notebook is added to Curvenote, each of the cells are considered blocks and have a unique oxa link. These links correspond to a specific version number of the block and allow you to reuse your content throughout Curvenote. All copies of a block are linked so you can easily view, edit, and access all previous versions of the block from any copy. Reusing Jupyter cells is a convenient and simple way to integrate your static or _interactive_ code outputs directly into your writing, use prewritten code as a template for new projects, and more!
 
 To copy a link to the current saved version of a block you can either use keyboard shortcuts or the Curvenote menus. You can also copy a link to a specific version of a cell using the Block Details Panel.
 
@@ -107,8 +44,6 @@ When you have copied the link a black box will appear in the bottom left of your
 :align: center
 :width: 70%
 ```
-
-+++ {"oxa":"oxa:m59m7JQmWVyPjlASj9v3/4MsUNEyMFbf5oKR609JL.1"}
 
 To import a block you must be in Draft Mode (if not, click **EDIT** in the app bar at the top of the page). Blocks can also be imported using either the paste keyboard shortcut or the Curvenote menus.
 
@@ -156,13 +91,12 @@ Often you may want to reuse or start from code you or someone else has already w
 - To reuse content {u}`you` have already written that is saved on Curvenote:
   - Simply import the cells you want to use following the instructions above. The cells are linked to communicate changes across all copies.
 - To use content you or someone else has written as a template for a new notebook, and remove the communication of changes between cells:
-  - You will need to import and unlink the cell. Unlinking the imported cell from the original copy, will leave the current content within the cell but remove the previous versions. Versioning will restart when you save your notebook. Learn more [Unlinking Notebooks](oxa:m59m7JQmWVyPjlASj9v3/NdljohZBrFlaf0p1xeAs "Unlinking Notebooks")
+  - You will need to import and unlink the cell. Unlinking the imported cell from the original copy, will leave the current content within the cell but remove the previous versions. Versioning will restart when you save your notebook. Learn more [Unlinking Notebooks](oxa:m59m7JQmWVyPjlASj9v3/NdljohZBrFlaf0p1xeAs 'Unlinking Notebooks')
 - To use content someone else has written that is not saved on Curvenote:
-  - Add their notebook to Curvenote then import! Learn more [Add & Link Notebooks](oxa:m59m7JQmWVyPjlASj9v3/SiW5BdJkvLNs1kVQxnx0 "Add & Link Notebooks")
-  - Learn more about how Curvenote works with notebooks available on [Binder](https://mybinder.org/) [Curvenote & Binder](oxa:m59m7JQmWVyPjlASj9v3/zb0bOrpIpkWMjuF3oAOK "Curvenote & Binder")
+  - Add their notebook to Curvenote then import! Learn more [Add & Link Notebooks](oxa:m59m7JQmWVyPjlASj9v3/SiW5BdJkvLNs1kVQxnx0 'Add & Link Notebooks')
+  - Learn more about how Curvenote works with notebooks available on [Binder](https://mybinder.org/) [Curvenote & Binder](oxa:m59m7JQmWVyPjlASj9v3/zb0bOrpIpkWMjuF3oAOK 'Curvenote & Binder')
 
-````{warning}
+```{warning}
 Cells shared publicly on Curvenote have an oxa link that can be copied by anyone. To make edits and version these cells, you will need to unlink the cells from their original project. This is equivalent to copying the content of their cell into a new cell in your notebook.
 
-````
-
+```
