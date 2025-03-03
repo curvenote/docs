@@ -77,8 +77,8 @@ The CLI is in active development and our roadmap includes the following powerful
 
 :::{important} Next Steps
 
-- [Install the Curvenote CLI](https://docs.curvenote.com/cli/installing)
-- [Setup Curvenote API access](https://docs.curvenote.com/cli/authorization)
+- [Install the Curvenote CLI](../publish/installing)
+- [Setup Curvenote API access](../publish/authentication)
   :::
 
 ### Web-based publishing - curve.space
@@ -93,7 +93,7 @@ Curvenote provides a modern website publishing system that makes building and de
 
 The resulting websites are automatically deployed on a global CDN for fast rendering and delivery around the globe and incorporate interactive features typically only found in the most modern web-based Journals and publications.
 
-Each Curvenote user can deploy multiple sites for free to their [curve.space](https://curve.space) subdomain (e.g. `https://username-slug.curve.space`) or deploy to a custom domain. Members of Curvenote [Team](oxa:w6jXebeTS6WGaVFDIEz9/REipmoZAgXHBPDKdLEC5 'Teams') can also deploy websites linked to shared team projects, making content aggregation and collaboration across a group of authors, editors, and reviewers easy.
+Each Curvenote user can deploy multiple sites for free to their [curve.space](https://curve.space) subdomain (e.g. `https://username-slug.curve.space`) or deploy to a custom domain. Members of a Curvenote [Team](./curvenote-teams.md) can also deploy websites linked to shared team projects, making content aggregation and collaboration across a group of authors, editors, and reviewers easy.
 
 :::{important} Next Steps
 
