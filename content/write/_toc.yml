@@ -10,7 +10,6 @@ parts:
       - file: curvenote-teams
       - file: curvenote-projects
       - file: collaboration
-      - file: jupyter-extension
   - caption: Curvenote Writing
     chapters:
       - file: editing
@@ -51,15 +50,13 @@ parts:
       - file: export-hosting
   - caption: Jupyter Notebooks
     chapters:
-      - file: jupyter-extension-overview
-      - file: install-jupyter-extension
+      - file: jupyter-overview
       - file: reproducible-figures
       - file: interactive-outputs-in-jupyter
       - file: versioning-notebooks
       - file: blocks-and-cells
       - file: reusing-blocks
       - file: add-and-link-notebooks
-      - file: unlinking-notebooks
       - file: deleting-notebooks
       - file: notebook-settings
   - caption: Reference
