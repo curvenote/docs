@@ -88,8 +88,3 @@ curvenote token delete
 ```
 
 This will remove the local config file with the API token in it. Note, if you have signed into the CLI using the environment variable, you can unset that using `unset CURVENOTE_TOKEN`. To confirm that you are logged out you can run the command `curvenote auth list` as before, and it should inform you that you are not authenticated.
-
-## User and Session Tokens
-
-The CLI handles all session creation and token refresh if you use the user token created in the Curvenote API.
-The user token that is provided by Curvenote is a signed JWT, that allows you to login and get a session token. The user token cannot be used for the API generally, instead a session token must be used. To get a session token, `POST` to the `/login` endpoint with an `Authorization` header that includes the user token provided by Curvenote; note that this URL is the audience field (`aud`) of the JWT. The response will validate your user token and provide a session token that can be used on any API endpoint. If you get a `401 Not Authorized` response from the server, your session token may have expired and you can use the above technique to refresh your session token.
