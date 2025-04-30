@@ -70,6 +70,7 @@ project:
         - file: submissions-using-github.md
         - file: github-actions.md
         - file: integrated-previews.md
+        - file: doi-registration.md
     - title: Integrity checks
       children:
         - file: integrity-checks.md
