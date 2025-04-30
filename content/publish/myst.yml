@@ -55,7 +55,7 @@ project:
     - title: Organizing content
       children:
         - file: kinds.md
-        - collections: collections.md
+        - file: collections.md
     - title: Preparing an article
       children:
         - file: authoring-in-myst.md
