@@ -4,7 +4,7 @@ title: Registering a DOI
 
 Curvenote can register DOIs for appropriate content hosted on the Curvenote venues. This can be either under Curvenote's DOI prefix ([10.62329](https://api.crossref.org/prefixes/10.62329)) or if included in your active subscription, under your own prefix.
 
-The registration process is currently manual, to request a DOI get in touch with [Curvenote Support](mailto:support@curvenote.com).
+The registration process is currently manual, to request a DOI get in touch with [Curvenote Support](mailto:doi@curvenote.com).
 
 # Deposit types
 
