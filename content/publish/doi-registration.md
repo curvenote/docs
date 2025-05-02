@@ -43,7 +43,7 @@ You may also specify in the frontmatter:
 
 This type is used to register a conference proceedings. Similar to "journal" deposits, this will attempt to discover multiple articles.
 
-In addition to the above article metadata for each article, this deposit type requires conference title, proceedings title, and proceedings publisher, set in `curvenote.yml` (Note - the mapping from available frontmatter fields (venue/volume/journal) to required deposit fields (conference/proceedings/series) is currently complex and unintuitive, care is needed):
+In addition to the above article metadata for each article, this deposit type requires conference title, proceedings title, and proceedings publisher, set in `curvenote.yml`:
 
 - `venue.title` - conference title
 - `volume.title` - proceedings title
