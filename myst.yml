@@ -138,7 +138,6 @@ project:
             - file: editor/command-menu.md
             - file: editor/markdown-accelerators.md
             - file: editor/editing-toolbar.md
-            - file: editor/explorable-explanations.md
             - file: editor/authors.md
         - title: Organization
           children:

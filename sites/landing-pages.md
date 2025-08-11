@@ -1,6 +1,5 @@
 ---
 title: Landing pages
-description: ''
 ---
 
 The landing pages of your site define what happens on the main page as well as other supporting information. For example, a journal might include submission instructions, policies, and editorial staff; for a lab-group this might be the research that your lab group does, links to the people that are a part of your lab. Your landing pages include all of the content that are not {term}`works <work>` (articles, blogs, notebooks, seminars, etc.) submitted to your {term}`Site`.

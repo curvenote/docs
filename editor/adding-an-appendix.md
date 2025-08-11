@@ -41,4 +41,4 @@ As all your references, figures, tables and images accessible form anywhere in y
 
 This approach is useful if you need your appendix to be in a separate PDF, or you want to ensure separation for numbering or other reasons, or if you are publishing to the [web](export-hosting.md).
 
-Also if you have very specific requreiments to work to that Curvenote does not support, you can [export your manuscript and appendices as LaTeX](export-latex.md), combining the `.tex` outputs as needed and building your PDF externally.
+Also if you have very specific requirements to work to that Curvenote does not support, you can [export your manuscript and appendices as LaTeX](export-latex.md), combining the `.tex` outputs as needed and building your PDF externally.

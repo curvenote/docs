@@ -3,7 +3,6 @@ title: Curvenote Directives & Roles
 short_title: Directives & Roles
 tags:
   - writing
-keywords: []
 ---
 
 ```{myst:directive} cn:articles

@@ -1,6 +1,5 @@
 ---
 title: Authentication
-description: ''
 ---
 
 Most translation and export functionality is local and **does not** require you to be logged into Curvenote. Additionally, the API for any public content on Curvenote does not require you to be authenticated. However, if you want to sync content from your _private_ Curvenote projects to a local folder, modify any online projects, or deploy a website you will need to be authenticated.
@@ -66,7 +65,7 @@ This will bring up a prompt to select which account you should use for the Curve
 
 ### Authenticating on a Server
 
-You can also override the config path by having a `CURVENOTE_TOKEN` in your environment, this is helpful when using the Curvenote CLI from a continuous integration system or on a server, for example, when [deploying from a GitHub Action](https://curvenote.com/oxa:Eh6WvY9NT46Ds4lE3OqJ/rVruBYk1hDZL2Ca9a6UQ).
+You can also override the config path by having a `CURVENOTE_TOKEN` in your environment, this is helpful when using the Curvenote CLI from a continuous integration system or on a server.
 
 ```shell
 export CURVENOTE_TOKEN="API_TOKEN"

@@ -48,7 +48,7 @@ The following checklist includes aspects to consider when planning your site, wh
   - Where does the logo link to? `/` or external?
 - Landing Site
   - Body font
-  - [Hero Unit](#the-hero-unit)
+  - [Hero Unit](#hero-unit)
     - Background Image [example](https://cdn.curvenote.com/static/site/scipy/scipy-hero-v2-tilt.webp)
     - Background Color
     - Heading
@@ -63,19 +63,19 @@ The following checklist includes aspects to consider when planning your site, wh
       - title
       - styling
       - Open in new tab
-  - [Footer](#the-footer)
+  - [Footer](#footers)
     - Logo and dark mode logo, usually larger than the Brand logo (svg or png)
     - Tagline
     - Social links
     - Listed Links
-  - [Top Level Navigation](navigation) shown in the top navigation bar
+  - [Top Level Navigation](#top-level-navigation) shown in the top navigation bar
   - Content
     - Pages
       - Index page
         - show table of contents (default off)
         - Custom second level footer
       - People / Team Page - [example](https://colab.stanford.edu/people)
-      - News Page - External, [static listing](#static-listing), [example](https://colab.stanford.edu/news)
+      - News Page - External, [static listing](#static-listings), [example](https://colab.stanford.edu/news)
     - Show [Table of Contents](#example-toc) vs [Navigation Banner](#example-navigation-banner)
     - Show document outline
     - Grid - centered, left
@@ -100,15 +100,21 @@ The following checklist includes aspects to consider when planning your site, wh
     - description
     - list of kinds
 
+(hero-unit)=
+
 ## The Hero Unit
 
 ![](images/example-hero-unit.png)
 
 [example](https://proceedings.scipy.org/), [example](https://agrogeo24.curve.space/), [example](https://journal.physiomeproject.org/)
 
+(footers)=
+
 ## The Footers
 
 ![](images/example-footers.png)
+
+(top-level-navigation)=
 
 ## The Top Navigation Bar
 

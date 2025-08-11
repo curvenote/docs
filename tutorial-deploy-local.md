@@ -7,7 +7,7 @@ tags:
   - tutorial
 ---
 
-Curvenote allows you to easily publish content on the web as a fast, optimized site that preserves all interactive features in Curvenote, and can be hosted for free on a `*.curve.space` domain or on your own [custom domain](oxa:Eh6WvY9NT46Ds4lE3OqJ/Qn9rzCukuPlbwhKl8qA0 'Custom Domains').
+Curvenote allows you to easily publish content on the web as a fast, optimized site that preserves all interactive features in Curvenote, and can be hosted for free on a `*.curve.space` domain or on your own [custom domain](./sites/custom-domains.md).
 
 **In this tutorial we will:**
 
@@ -17,7 +17,7 @@ Curvenote allows you to easily publish content on the web as a fast, optimized s
 - deploy that to a new website hosted at `https://username.curve.space`
 
 :::{important} Before you start
-This tutorial assumes that you have installed the Curvenote CLI (see [Installing Curvenote](oxa:EplL6AlILV3RGEDPzj5U/k4G4ZrOcTIx3szxGNEFb 'Installing Curvenote')), generated and set an API Access Token (see [Authorization](oxa:EplL6AlILV3RGEDPzj5U/RzBCtk3yOrXhAVY2z2Bw 'Authorization')) and is aimed at `*nix` operating systems.
+This tutorial assumes that you have installed the Curvenote CLI (see [Installing Curvenote](./cli/installing.md)), generated and set an API Access Token (see [Authentication](./cli//authentication.md)) and is aimed at `*nix` operating systems.
 :::
 
 # Create a folder containing content
@@ -62,7 +62,7 @@ blog/
 :::{important} Homepage
 When your site is initialized, the CLI will choose a file to use as the first page of your site; `index.md` and `README.md` (in either lower/upper case) are chosen first if they exist.
 
-If you want to ensure a specific file is used as root, you can rename this now. Otherwise, continue and see [Table of contents](oxa:Eh6WvY9NT46Ds4lE3OqJ/FrJ3eDvWP2LO3o40n4du 'Table of contents') on how to change the root file later.
+If you want to ensure a specific file is used as root, you can rename this now. Otherwise, continue and see [Table of contents](https://mystmd.org/guide/table-of-contents) on how to change the root file later.
 :::
 
 # Initialize a Curvenote site
@@ -203,7 +203,7 @@ project:
 
 # Making changes
 
-There are three major areas of the site that we can change (1) the content in Markdown or Notebooks; (2) the table of contents and navigation (including actions); (3) the branding and theme. We will focus in this tutorial on adding frontmatter and making branding changes around the content that you already have and you can explore more in guides for [Table of Contents](oxa:Eh6WvY9NT46Ds4lE3OqJ/FrJ3eDvWP2LO3o40n4du 'Table of Contents'), [Navigation & Actions](oxa:Eh6WvY9NT46Ds4lE3OqJ/jrOoppptNKmkpA5FmGTU 'Navigation & Actions'), [Logo & Branding](oxa:Eh6WvY9NT46Ds4lE3OqJ/UgHua2z4Rp16qMSx6e6U 'Logo & Branding'), and in [Themes](oxa:Eh6WvY9NT46Ds4lE3OqJ/vOSirflk00uCKzwatefn 'Themes').
+There are three major areas of the site that we can change (1) the content in Markdown or Notebooks; (2) the table of contents and navigation (including actions); (3) the branding and theme. We will focus in this tutorial on adding frontmatter and making branding changes around the content that you already have and you can explore more in guides for [Table of Contents](https://mystmd.org/guide/table-of-contents), [Navigation & Actions](oxa:Eh6WvY9NT46Ds4lE3OqJ/jrOoppptNKmkpA5FmGTU 'Navigation & Actions'), [Logo & Branding](oxa:Eh6WvY9NT46Ds4lE3OqJ/UgHua2z4Rp16qMSx6e6U 'Logo & Branding'), and in [Themes](oxa:Eh6WvY9NT46Ds4lE3OqJ/vOSirflk00uCKzwatefn 'Themes').
 
 🛠️ For the live editing to work, ensure that the web server is running, if you have cancelled it you can bring it back up using `curvenote start`.
 
@@ -248,7 +248,7 @@ When building your site the Curvenote CLI tries to resolve the title for your pa
 :width: 100%
 ```
 
-In the example above, the `index.md` file contains a Heading with the text “Welcome” which has been used for the default page title. However, the other two files `my-first-notebook.ipynb` and `my-first-post.md` do not contain any markdown headings, so the filename has been used directly. We can modify these default choices to suit our needs by adding [Frontmatter](oxa:Eh6WvY9NT46Ds4lE3OqJ/ZS5jFLjvnEdoTjlf1d7S 'Frontmatter') to our content files.
+In the example above, the `index.md` file contains a Heading with the text “Welcome” which has been used for the default page title. However, the other two files `my-first-notebook.ipynb` and `my-first-post.md` do not contain any markdown headings, so the filename has been used directly. We can modify these default choices to suit our needs by adding [Frontmatter](https://mystmd.org/guide/frontmatter) to our content files.
 
 ### Frontmatter
 
@@ -282,17 +282,17 @@ Once we save, the website will update and we’ll see the following changes and 
 :width: 100%
 ```
 
-Note that, the title has been updated in the [Table of contents](oxa:Eh6WvY9NT46Ds4lE3OqJ/FrJ3eDvWP2LO3o40n4du 'Table of contents') as well as at the top of the page, and the author and affiliation also now appear in the page header. There is a growing number of options available, check [Frontmatter](oxa:Eh6WvY9NT46Ds4lE3OqJ/ZS5jFLjvnEdoTjlf1d7S 'Frontmatter') for more details on them all.
+Note that, the title has been updated in the [Table of contents](https://mystmd.org/guide/table-of-contents) as well as at the top of the page, and the author and affiliation also now appear in the page header. There is a growing number of options available, check [Frontmatter](https://mystmd.org/guide/frontmatter) for more details on them all.
 
 #### Notebooks
 
-The format of the [Frontmatter](oxa:Eh6WvY9NT46Ds4lE3OqJ/ZS5jFLjvnEdoTjlf1d7S 'Frontmatter') section is the same in notebooks with one key difference being that we need to {u}`add an additional Markdown Cell as the first cell in our notebook` and place the front matter section in there, complete with `---` markers.
+The format of the [Frontmatter](https://mystmd.org/guide/frontmatter) section is the same in notebooks with one key difference being that we need to {u}`add an additional Markdown Cell as the first cell in our notebook` and place the front matter section in there, complete with `---` markers.
 
 Whitespace matters, as this is YAML, and as long as the layout of the section looks ok when you are editing the cell, that will work. Once we render the cell, unfortunately, Jupyter, VSCode and other notebook renderers don't “yet” know how to display the frontmatter correctly, so it may look a mess.
 
 ### Site-wide frontmatter
 
-So we can add frontmatter to each of our files and be very precise about the metadata for each piece of content, which is great but some of this metadata can be common across our whole site (or sections of it, see [Working with projects](oxa:Eh6WvY9NT46Ds4lE3OqJ/Omi3OM3q7uQVMkQChjdM 'Working with projects')). Rather than duplicate the frontmatter in `index.md` in our other files, let’s instead move some of it to `curvenote.yml` where it will be applied to all content in our site.
+So we can add frontmatter to each of our files and be very precise about the metadata for each piece of content, which is great but some of this metadata can be common across our whole site. Rather than duplicate the frontmatter in `index.md` in our other files, let’s instead move some of it to `curvenote.yml` where it will be applied to all content in our site.
 
 🛠️ Open the `curvenote.yml` file for your site and locate the `project:` section. Add the `authors` information that we just added to the `index.md` file.
 
@@ -323,10 +323,6 @@ project:
         - Curvenote
 ```
 
-:::{important} Projects
-Curvenote uses “Projects” to scope different collections of content. When you create a new site there is by default a “root project” associated with it, hence the `curvenote.yml` in your local folder and has both a `site:` and a `project:` section, so here we can speak about project-wide and site-wide synonymously. Learn more about projects in [Working with projects](oxa:Eh6WvY9NT46Ds4lE3OqJ/Omi3OM3q7uQVMkQChjdM 'Working with projects').
-:::
-
 🛠️ Next, go back to `index.md` and remove the `authors` information from there, leaving only the following fields:
 
 ```yaml
@@ -340,10 +336,10 @@ Ensure both files are saved and go back to your browser. You should see no chang
 
 🛠️ Next, check the other pages on the site which should now all show the project-wide author information!
 
-This leaves us to add page specific metadata to the other pages on our site, such as title & description (see [Frontmatter](oxa:Eh6WvY9NT46Ds4lE3OqJ/ZS5jFLjvnEdoTjlf1d7S 'Frontmatter') for the full list) as well as overriding the `authors` metadata on a specific page should we need to.
+This leaves us to add page specific metadata to the other pages on our site, such as title & description (see [Frontmatter](https://mystmd.org/guide/frontmatter) for the full list) as well as overriding the `authors` metadata on a specific page should we need to.
 
 :::{important} Further Customization
-Many options for customization are available and you can learn more in the guides for [Table of Contents](oxa:Eh6WvY9NT46Ds4lE3OqJ/FrJ3eDvWP2LO3o40n4du 'Table of Contents'), [Navigation & Actions](oxa:Eh6WvY9NT46Ds4lE3OqJ/jrOoppptNKmkpA5FmGTU 'Navigation & Actions'), [Logo & Branding](oxa:Eh6WvY9NT46Ds4lE3OqJ/UgHua2z4Rp16qMSx6e6U 'Logo & Branding'), and [Themes](oxa:Eh6WvY9NT46Ds4lE3OqJ/vOSirflk00uCKzwatefn 'Themes').
+Many options for customization are available and you can learn more in the guides for [Table of Contents](https://mystmd.org/guide/table-of-contents), [Navigation & Actions](oxa:Eh6WvY9NT46Ds4lE3OqJ/jrOoppptNKmkpA5FmGTU 'Navigation & Actions'), [Logo & Branding](oxa:Eh6WvY9NT46Ds4lE3OqJ/UgHua2z4Rp16qMSx6e6U 'Logo & Branding'), and [Themes](oxa:Eh6WvY9NT46Ds4lE3OqJ/vOSirflk00uCKzwatefn 'Themes').
 :::
 
 ## Deployment

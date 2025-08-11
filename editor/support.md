@@ -1,8 +1,5 @@
 ---
 title: Support
-description: ''
-authors: []
-name: support
 ---
 
 If you are experiencing difficulties, Curvenote support can help. The best way to get support is to email us or reach out to the [Curvenote Slack](http://slack.curvenote.dev) team.
@@ -32,7 +29,7 @@ The Curvenote founders and team are online daily across EU and North American ti
 
 You can give support access to your project by adding the support user as a collaborator, like so:
 
-```{figure} images/w6jXebeTS6WGaVFDIEz9-dB0zGvlqHeHHKr9tQ94G-v1.gif
+```{figure} images/w6jXebeTS6WGaVFDIEz9-dB0zGvlqHeHHKr9tQ94G-v1.mp4
 :name: aiZ5vurJ22
 :align: center
 :width: 70%
@@ -42,7 +39,7 @@ Access your list of collaborators from the project settings dialog, add `support
 
 Once added, support will be notified and you can also point us to particular places in your project by mentioning `@support` in a comment.
 
-```{figure} images/w6jXebeTS6WGaVFDIEz9-tQHZIzPgaoRxV7aQY2ij-v1.gif
+```{figure} images/w6jXebeTS6WGaVFDIEz9-tQHZIzPgaoRxV7aQY2ij-v1.mp4
 :name: oQmXWQpZHs
 :align: center
 :width: 70%

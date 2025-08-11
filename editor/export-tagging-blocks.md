@@ -33,7 +33,7 @@ To tag a your content:
 
 Once you have tagged the required content options and initiate the export process again, the text for 🟢**Required** options will turn green, and the **EXPORT** button will be available.
 
-```{figure} images/TnCP56I5qhrKLeVufPL4-9h3zpNZb5kn42JwHzdq9-v1.gif
+```{figure} images/TnCP56I5qhrKLeVufPL4-9h3zpNZb5kn42JwHzdq9-v1.mp4
 :name: QuC0iu0wFx
 :align: center
 :width: 70%

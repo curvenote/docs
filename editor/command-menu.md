@@ -1,14 +1,12 @@
 ---
 title: Command Menu
-description: ''
-name: command-menu
 ---
 
 The command menu can be accessed by simply typing `/`, the command menu will appear **inline** with a variety of options to format or add features to your text. Continue typing to filter the menu dynamically. Most of these features also have keyboard shortcuts that can be used to directly add them, without searching the command menu. The command menu and keyboard shortcuts make it easy to explore your options without pausing the flow of ideas while writing.
 
 ## Access Command Menu
 
-```{figure} images/MshxlXndaLsk3WbJ0ZGy-xbuscBaLDjx7V03omwY2-v3.gif
+```{figure} images/MshxlXndaLsk3WbJ0ZGy-xbuscBaLDjx7V03omwY2-v3.mp4
 :name: a6eaf62f
 :align: center
 :width: 70%
@@ -24,7 +22,7 @@ The following lists the commands and shows examples of the options currently ava
 
 ### Paragraph & Headings
 
-You can create headings of different sizes, change the size, or return a heading to the standard paragraph text style. Any text within the line will be formatted as your selected heading. You cannot have more than one heading size on a line. Headings are recognized by Curvenote and can be numbered and [referenced](oxa:Z1isOjJQGvM22q5fhunb/kM7RCPH0vEYtXYMgTN6G 'Internal References') as sections.
+You can create headings of different sizes, change the size, or return a heading to the standard paragraph text style. Any text within the line will be formatted as your selected heading. You cannot have more than one heading size on a line. Headings are recognized by Curvenote and can be numbered and [referenced](./internal-references.md) as sections.
 
 Write `/heading 1` `⌘ ⌥ 1` with the level of the heading that you include, you can also access Heading or Paragraph formatting using Markdown commands (`## Your Heading`) or the options menu when your heading is fully selected.
 
@@ -40,4 +38,4 @@ You can add either a Bullet Point or Numbered List to your block. You can search
 - `/bullet point list` `⌘ ⇧ 8`
 - `/numbered list` `⌘ ⇧ 7`
 
-You can also access list formatting and options using Markdown commands or the editing toolbar. Learn more [Markdown Accelerators](oxa:Z1isOjJQGvM22q5fhunb/CR4x2BBf2tUF5l0BmMNK 'Markdown Accelerators') and [Editing Toolbar](oxa:Z1isOjJQGvM22q5fhunb/FXp6KALoOyrnk0w5XgQT 'Editing Toolbar').
+You can also access list formatting and options using Markdown commands or the editing toolbar. Learn more [Markdown Accelerators](./markdown-accelerators.md) and [Editing Toolbar](./editing-toolbar.md).

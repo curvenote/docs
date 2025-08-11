@@ -1,7 +1,5 @@
 ---
 title: Figures & Images
-description: ''
-name: figures-and-images
 ---
 
 Images and GIFs can be added into articles by dragging them into a content block, or using the editing menu. Once added, images can be resized, and have numbered captions, which allow you to reference the figures in other parts of your document.
@@ -114,7 +112,7 @@ To toggle the caption and or numbering for an image/GIF:
   - Select the lines symbol for the **Show/Hide Caption** option.
   - When the caption is shown, you can then enable numbering by selecting the number icon for the **Toggle Numbering** option.
 
-Figures can be referenced by their numbers within the text using either the command menu or keyboard shortcuts. To reference a figure use one of the following two commands, then select the figure you want to reference from the drop down menu. When you click on the reference a preview of the image and its caption is displayed. Learn about internal references [Internal References](oxa:Z1isOjJQGvM22q5fhunb/kM7RCPH0vEYtXYMgTN6G 'Internal References')
+Figures can be referenced by their numbers within the text using either the command menu or keyboard shortcuts. To reference a figure use one of the following two commands, then select the figure you want to reference from the drop down menu. When you click on the reference a preview of the image and its caption is displayed. Learn about internal references [Internal References](./internal-references.md)
 
 `/link to figure` `[[fig:`
 

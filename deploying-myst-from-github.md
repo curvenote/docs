@@ -22,7 +22,7 @@ In this guide, we’ll take you through the steps of using GitHub to version you
 
 This guide assumes that (1) you already have an initialized curvenote project in a local folder, and (2) that this local folder is also a GitHub repository.
 
-1. to initialize your curvenote project see [Start with a local folder](oxa:Eh6WvY9NT46Ds4lE3OqJ/awl1FKZAY7CpiX7GWWXS "Start with a local folder")
+1. to initialize your curvenote project see [Start with a local folder](./tutorial-deploy-local.md)
 2. to initialize your git repository see GitHub’s guides on [git init](https://github.com/git-guides/git-init), [creating a repo](https://docs.github.com/en/get-started/quickstart/create-a-repo) and [managing remotes](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories)
 
 ```

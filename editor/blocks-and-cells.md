@@ -1,10 +1,8 @@
 ---
 title: Blocks & Cells
-description: ''
-name: blocks-and-cells
 ---
 
-On Curvenote, blocks are distinct sections of content. In [Jupyter](https://jupyter-notebook.readthedocs.io/en/stable/notebook.html#structure-of-a-notebook-document), cells are the distinct sections of content that make up a notebook. When notebooks are saved on Curvenote the cells from Jupyter are considered blocks. While there are different types of cells in Jupyter, each cell is version individually and can be reused throughout your content on Curvenote. Learn how to edit, run, save and version blocks/cells below, and how to reuse your blocks/cells in [Reusing Blocks](oxa:m59m7JQmWVyPjlASj9v3/93FoBDnslDe5zX30YhHW 'Reusing Blocks').
+On Curvenote, blocks are distinct sections of content. In [Jupyter](https://jupyter-notebook.readthedocs.io/en/stable/notebook.html#structure-of-a-notebook-document), cells are the distinct sections of content that make up a notebook. When notebooks are saved on Curvenote the cells from Jupyter are considered blocks. While there are different types of cells in Jupyter, each cell is version individually and can be reused throughout your content on Curvenote. Learn how to edit, run, save and version blocks/cells below, and how to reuse your blocks/cells in [Reusing Blocks](./reusing-blocks.md).
 
 ## Cell Types
 
@@ -36,7 +34,7 @@ To add/import a block (Markdown cell) to your notebook:
   - To add a new block, click the corresponding ➕ to where you want to add a new block (above or below).
   - To import a block, open the $\mathbf{\vdots}$ **More Options** menu to the right of the ➕.
     - Select Import Block.
-    - Paste the oxa link to the block you want to import. Learn more about importing and reusing blocks/cells [Reusing Blocks](oxa:m59m7JQmWVyPjlASj9v3/93FoBDnslDe5zX30YhHW 'Reusing Blocks').
+    - Paste the oxa link to the block you want to import. Learn more about importing and reusing blocks/cells [Reusing Blocks](./reusing-blocks.md).
 - Make the desired changes.
 - For these changes to be available in Jupyter, save a new version of the notebook by clicking **SAVE VERSION** in the app bar at the top of the page.
 
@@ -56,7 +54,7 @@ To edit a block (Markdown cell) in your notebook:
   - To save a version of the notebook:
     - Click **SAVE VERSION** in the app bar at the top of the page.
 
-```{figure} images/m59m7JQmWVyPjlASj9v3-TJortLQ3wxGy5T2Tovj7-v1.gif
+```{figure} images/m59m7JQmWVyPjlASj9v3-TJortLQ3wxGy5T2Tovj7-v1.mp4
 :name: k62oE6T5d6
 :align: center
 :width: 70%
@@ -81,7 +79,7 @@ You can preview and switch between different versions of a block/cell on Curveno
   - Click the **USE VERSION #** button at the top of the Block Details Panel
   - Open the version $\mathbf{\vdots}$ **Options** menu and select **Use Version.**
 
-```{figure} images/m59m7JQmWVyPjlASj9v3-AVXtTWOUjmvLopTmCQ8n-v1.gif
+```{figure} images/m59m7JQmWVyPjlASj9v3-AVXtTWOUjmvLopTmCQ8n-v1.mp4
 :name: cXSbvF2B57
 :align: center
 :width: 70%
@@ -106,7 +104,7 @@ Blocks can viewed, edited, and reused on their own. In some instances it’s ben
   - Adjust your image.
   - Click **UPLOAD**.
 
-    ```{figure} images/m59m7JQmWVyPjlASj9v3-HJ03JtvrtUj0wozihaM8-v1.gif
+    ```{figure} images/m59m7JQmWVyPjlASj9v3-HJ03JtvrtUj0wozihaM8-v1.mp4
     :name: xHYdtotmqZ
     :align: center
     :width: 70%

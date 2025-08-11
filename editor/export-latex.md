@@ -1,7 +1,5 @@
 ---
 title: LaTeX
-description: ''
-name: latex
 ---
 
 After creating an article in Curvenote, you can export and download your article as a collection of files for editing and compilation in $\LaTeX$. Before downloading you can choose from a variety of templates to format your article. The formatting for these templates will automatically be added to your exported TeX file!
@@ -55,9 +53,9 @@ You can now export and download your article! To do this:
   - Hover over the thumbnail on the left for an expanded preview of the template layout.
   - Click **Select**.
 - Complete the template specific instructions for Template Options.
-  - Each template has a variety of required and optional options to include such as author name, affiliation, email, etc. Learn more [Template Options](oxa:TnCP56I5qhrKLeVufPL4/BTQbtvjluVAg2HfrZa5v 'Template Options')
+  - Each template has a variety of required and optional options to include such as author name, affiliation, email, etc. Learn more [Template Options](./export-template-options.md)
   - Click **Next**.
-  - Other requirements such as abstracts and acknowledgements use tagged content. Learn more [Tagging Blocks](oxa:TnCP56I5qhrKLeVufPL4/e5eN6eaP9xLRDRzEK1t7 'Tagging Blocks')
+  - Other requirements such as abstracts and acknowledgements use tagged content. Learn more [Tagging Blocks](./export-tagging-blocks.md)
 - Click **EXPORT**.
 - Your article export is now processing.
   - You can exit the window during processing. You will notified when your export is complete.
@@ -66,7 +64,7 @@ You can now export and download your article! To do this:
     - Click the ☁️⬇️ icon for the **Download Zip** option.
   - If you have closed the pop-up:
     - Click the download {u}`⬇ `icon.
-    - Select $\textcircled{\checkmark}$ **Download LaTeX**.
+    - Select **Download LaTeX**.
   - You can also download the log file for the LaTeX export.
 - Your exported zip file will be available for download until you save a new version.
   - You will need to repeat this process for that version.
@@ -76,7 +74,7 @@ Don’t see the template you need? [Request a new template](mailto:support@curve
 
 ```
 
-```{figure} images/TnCP56I5qhrKLeVufPL4-4575o2WVTll7yfeWWM2D-v1.gif
+```{figure} images/TnCP56I5qhrKLeVufPL4-4575o2WVTll7yfeWWM2D-v1.mp4
 :name: W3lUObifX4
 :align: center
 :width: 100%

@@ -54,12 +54,12 @@ You can now export and download your article! To do this:
     - Click the ☁️⬇️ icon for the **Download** **DOCX** option.
   - If you have closed the pop-up:
     - Click the download {u}`⬇ `icon.
-    - Select $\textcircled{\checkmark}$ **Download DOCX**.
+    - Select **Download DOCX**.
   - You can also download the log file for the Word export.
 - Your exported zip file will be available for download until you save a new version.
   - You will need to repeat this process for that version.
 
-```{figure} images/TnCP56I5qhrKLeVufPL4-vrVM4xJ3SGB38KPeWaCR-v1.gif
+```{figure} images/TnCP56I5qhrKLeVufPL4-vrVM4xJ3SGB38KPeWaCR-v1.mp4
 :name: rIixw3WMqa
 :align: center
 :width: 100%

@@ -1,6 +1,5 @@
 ---
 title: Hosting your Website
-description: ''
 subject: MyST Websites
 ---
 
@@ -45,7 +44,7 @@ site:
     - your-project.curve.space
 ```
 
-When you call `curvenote deploy` each of these domains will have the latest changes. You can also put [Custom Domains](oxa:Eh6WvY9NT46Ds4lE3OqJ/Qn9rzCukuPlbwhKl8qA0 'Custom Domains') in here, although that requires more work to setup initially.
+When you call `curvenote deploy` each of these domains will have the latest changes. You can also put [Custom Domains](../sites/custom-domains.md) in here, although that requires more work to setup initially.
 
 ## Team Domains
 

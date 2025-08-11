@@ -1,14 +1,15 @@
 ---
 title: Listings
-description: ''
 ---
+
+(static-listings)=
 
 # Static Listings
 
 The {myst:directive}`template:list` enables a very flexible way to add content from a list YAML list. This parses a local data file, gives you access to the list (specified by the {myst:directive}`template:list.path`) and then loops over the content using Jinja style templates (see [Nunjucks docs for syntax](https://mozilla.github.io/nunjucks/templating.html)).
 For example, if you have a series of blog articles, people or news, you might have a simple YAML file like:
 
-```{literalinclude} news.yml
+```{literalinclude} ../news.yml
 
 ```
 
@@ -89,6 +90,8 @@ You can also change the {myst:directive}`template:list.parent` element that is u
 {% if description -%}{{description}}{%- endif %}
 :::
 ::::
+
+(dynamic-listings)=
 
 # Dynamic Listings
 

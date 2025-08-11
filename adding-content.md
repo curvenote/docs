@@ -1,6 +1,5 @@
 ---
 title: Adding and updating content
-description: ''
 ---
 
 **In this guide you will:**
@@ -8,11 +7,9 @@ description: ''
 - add additional local files to your site, both Markdown `.md` and Jupyter notebooks `ipynb`
 - link to a second project on Curvenote, to include it’s content in your website
 - pull updated content from Curvenote
-- customise the navigation of your site
+- customize the navigation of your site
 
-```{important}
-**Before you start:**
-
+```{important} Before you start
 This guide assumes that you have completed one of the [Start with a Curvenote project](oxa:Eh6WvY9NT46Ds4lE3OqJ/cMzSX755ZfawTQbU41BV "Start with a Curvenote project") or [Start with a local folder](oxa:Eh6WvY9NT46Ds4lE3OqJ/awl1FKZAY7CpiX7GWWXS "Start with a local folder") tutorials and so have the Curvenote CLI installed (see [Installing Curvenote](oxa:EplL6AlILV3RGEDPzj5U/k4G4ZrOcTIx3szxGNEFb "Installing Curvenote")), Authorized (see [Authorization](oxa:EplL6AlILV3RGEDPzj5U/RzBCtk3yOrXhAVY2z2Bw "Authorization")) and have already started the local development environment at least once.
 
 ```

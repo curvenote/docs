@@ -1,10 +1,8 @@
 ---
 title: Videos & Embedded Content
-description: ''
-name: videos-and-iframes
 ---
 
-External content from a variety of places can be embedded into a Curvenote block. All of the options below must be added using either the options in Insert Menu➕ in the Editing Toolbar at the top of the page or the [command menu](oxa:Z1isOjJQGvM22q5fhunb/gKX5CnZEMGcUbygsA0dh 'Command Menu') accessed via the `/` symbol.
+External content from a variety of places can be embedded into a Curvenote block. All of the options below must be added using either the options in Insert Menu➕ in the Editing Toolbar at the top of the page or the [command menu](./command-menu.md) accessed via the `/` symbol.
 
 - YouTube Video `/YouTube`
 - Vimeo Video `/Vimeo`
@@ -21,7 +19,7 @@ For example, this is a concept video about Curvenote (when we started we were ca
 
 ## 3D Content - SketchFab
 
-You can embed 3D content from [Interactive Outputs](oxa:Z1isOjJQGvM22q5fhunb/FQ38tYxjaVDpk4NClicI 'Interactive Outputs') hosted on Curvenote, or through external services like Sketchfab.
+You can embed 3D content from [Interactive Outputs](./interactive-outputs.md) hosted on Curvenote, or through external services like Sketchfab.
 
 ```{iframe} https://sketchfab.com/models/34dfb04af48747de92ff1add099dda4e/embed
 :label: pyfkIUwwVp

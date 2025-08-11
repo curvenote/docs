@@ -1,6 +1,5 @@
 ---
 title: Installing Curvenote
-description: ''
 ---
 
 Curvenote is available through [NodeJS](./installing-prerequisites.md) and the node package manager, `npm`. Node is used by Jupyter as well as many other Python packages so you may already have it installed on your _PATH_ and the following command may just work 🤞.
@@ -36,13 +35,3 @@ npm update -g curvenote
 ```
 
 Try the `curvenote --version` command before and after, with an update you should be on the most up to date version (see [npm](https://npmjs.com/package/curvenote) for the latest version!). If you are not, try `npm uninstall -g curvenote` or without the `-g` global flag, until `curvenote` is no longer available on your command line. Then try installing again!
-
-### Dependencies for $\LaTeX$ and PDF
-
-If you are exporting to $\LaTeX$ with an open-source template specified (see all [templates](https://github.com/curvenote/templates)) or if you are creating a PDF you will need to install the [jtex](https://pypi.org/project/jtex/) python package to be installed and available on the user's `PATH`. With [Python 3.7](https://www.python.org/downloads/) or greater installed, install `jtex` via pip:
-
-```shell
-python -m pip install jtex
-```
-
-For $\LaTeX$ PDF builds you will also require a version of [LaTeX to be installed](https://www.latex-project.org/get).

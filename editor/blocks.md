@@ -1,6 +1,5 @@
 ---
 title: Blocks
-description: ''
 ---
 
 Content on Curvenote is separated into distinct units called blocks. Blocks are individually versioned so you can easily switch between previous saved versions and track changes made by you and your collaborators. You can easily copy and import blocks across Curvenote projects. All copies of a block are linked, meaning if you save a version of a block in one location, that version is available for use in all other instances of the block. Blocks make it easy create sections of content, reuse your previous work, and work with collaborators!
@@ -33,7 +32,7 @@ To create a block:
 - Click the ➕ **Insert Content Block** corresponding to where you want to add a new block (above or below).
   - The newly added block is a draft of the first version, and is automatically opened in Draft Mode.
 
-```{figure} images/MshxlXndaLsk3WbJ0ZGy-Ec4xhxdQM0LDveou0h7D-v2.gif
+```{figure} images/MshxlXndaLsk3WbJ0ZGy-Ec4xhxdQM0LDveou0h7D-v2.mp4
 :name: acad45cf
 :align: center
 :width: 80%
@@ -51,7 +50,7 @@ Similar to how you enter Draft Mode for an article, you must also open a draft v
 - Select the block and hit ENTER.
 - Open the block $\mathbf{\vdots}$ **Options** menu and select **Edit**.
 
-You can now make changes to the block in a draft version. Learn more ➡️ [Block Drafts and Versions](oxa:MshxlXndaLsk3WbJ0ZGy/j2CWEfiYF7jy4ufhARH0 'Block Drafts and Versions')
+You can now make changes to the block in a draft version.
 
 :::{note}
 To enter draft mode for a block opened on its own page, click **EDIT** in the app bar at the top of the page. This is the same as entering Draft Mode for an article.
@@ -72,7 +71,7 @@ In some instances it’s beneficial to include additional information with a blo
   - Adjust your image.
   - Click **UPLOAD**.
 
-```{figure} images/MshxlXndaLsk3WbJ0ZGy-e8ekRJBORLYbCbelLaun-v2.gif
+```{figure} images/MshxlXndaLsk3WbJ0ZGy-e8ekRJBORLYbCbelLaun-v2.mp4
 :name: a0b47325
 :align: center
 :width: 80%
@@ -98,12 +97,12 @@ Because blocks can be reused throughout Curvenote, they are rarely deleted perma
 - Open the $\mathbf{\vdots}$ **Options** menu for the block (top right of the block).
   - Select 🗑️ **Remove.**
 
-```{figure} images/MshxlXndaLsk3WbJ0ZGy-I2avfquiBN3Zps19ShcK-v3.gif
+```{figure} images/MshxlXndaLsk3WbJ0ZGy-I2avfquiBN3Zps19ShcK-v3.mp4
 :name: acb9937c
 :align: center
 :width: 90%
 ```
 
 :::{danger}
-Blocks are permanently deleted when the project they were originally created in is deleted. Learn more about [Projects](https://curvenote.com/oxa:w6jXebeTS6WGaVFDIEz9/9d32qzwBWH2BsgNBGwEP).
+Blocks are permanently deleted when the project they were originally created in is deleted. Learn more about [Projects](./curvenote-projects.md).
 :::

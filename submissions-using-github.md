@@ -14,7 +14,7 @@ to accept submissions, conduct open peer-review, make publication decisions,
 and publish content through Curvenote.
 
 The recommended starting point for this guide is a local MyST Project that
-you have already prepared using the [](./preparing-for-submission.md) guide.
+you have already prepared using the [](./authoring/submitting-your-work.md) guide.
 :::
 
 :::{tip} Prerequisites

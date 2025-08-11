@@ -1,6 +1,5 @@
 ---
 title: Deleting Notebooks
-description: ''
 authors:
   - userId: vKndfPAZO7WeFxLH1GQcpnXPzfH3
     name: Rowan Cockett
@@ -21,7 +20,7 @@ Notebooks can be removed from a Curvenote project. This will not delete any loca
 You can only remove a notebook from a project via Curvenote. Removing a notebook from your project _will not delete_ any local version of the notebook (`.ipynb` file).
 
 ```{warning}
-Only project owners or team admins can remove notebooks. Learn more ➡️ [Teams ](oxa:MshxlXndaLsk3WbJ0ZGy/QzRJgq8s55vRXiVa9QtT "Teams "), [Project Collaboration](oxa:MshxlXndaLsk3WbJ0ZGy/YLNojGkT0Xa7iZb989pu "Project Collaboration")
+Only project owners or team admins can remove notebooks. Learn more ➡️ [Teams](./curvenote-teams.md), [Project Collaboration](./collaboration.md)
 
 ```
 
@@ -42,7 +41,7 @@ This will **permanently** delete the notebook and its associated versions and dr
 
 ```
 
-```{figure} images/m59m7JQmWVyPjlASj9v3-Odt8qiaTxuTUfUDRlnNr-v1.gif
+```{figure} images/m59m7JQmWVyPjlASj9v3-Odt8qiaTxuTUfUDRlnNr-v1.mp4
 :name: IOdAkItr36
 :align: center
 :width: 100%

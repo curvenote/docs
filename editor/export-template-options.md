@@ -14,10 +14,10 @@ Read through the option fields carefully and include the appropriate information
 - If the 🔴 **Required** text is red and the 🟠 **Optional** text is orange, there is required information missing.
   - You must fulfill these requirements before export.
   - The field corresponding to the required option(s) is indicated in red, and details for the incomplete option(s) are displayed at the bottom of the window.
-  - Some options on the second page (abstract, summary, acknowledgements) may required tagged content. Learn more [Tagging Blocks](oxa:TnCP56I5qhrKLeVufPL4/e5eN6eaP9xLRDRzEK1t7 'Tagging Blocks').
+  - Some options on the second page (abstract, summary, acknowledgements) may required tagged content. Learn more [Tagging Blocks](./export-tagging-blocks.md).
 - Once you have fulfilled the required options, the text for both 🟢 **Required** and 🟢 **Optional** will turn green, and the **NEXT** button will be available.
 
-```{figure} images/TnCP56I5qhrKLeVufPL4-Li4DpZe8u0zoVDyN9Pk9-v1.gif
+```{figure} images/TnCP56I5qhrKLeVufPL4-Li4DpZe8u0zoVDyN9Pk9-v1.mp4
 :name: QMyEXDFFOx
 :align: center
 :width: 100%

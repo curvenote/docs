@@ -109,7 +109,7 @@ And follow the prompts. The process will be the same as you saw when submitting 
 
 Venues may use _Collections_ to organize their content and invite submissions from authors at particular times. Venues also use _Submission Kinds_ to identify a particular type of submission for example Conference Abstract, Research Paper, Research Letter, etc...
 
-If a venue you are submitting to has multiple Submission Kinds available or mulitple Collections open, you will be prompted to select a Collection and/or Submission Kind.
+If a venue you are submitting to has multiple Submission Kinds available or multiple Collections open, you will be prompted to select a Collection and/or Submission Kind.
 
 ```{figure} images/curvenote-submit-collections.png
 :label: fig:curvenote-submit-collections

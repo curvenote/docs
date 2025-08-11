@@ -1,11 +1,7 @@
 ---
 title: 'CLI: Jupyter Book Export'
 description: Export your Curvenote project as a Jupyter Book
-name: jupyter-book
-keywords: []
 ---
-
-+++ {"oxa":"oxa:EplL6AlILV3RGEDPzj5U/ATUr3RItqdPVqtIkhONn.2","tags":[]}
 
 [Jupyter Book](https://jupyterbook.org/) is an open-source project that helps you build publication-quality books and documents from computational documents like Jupyter Notebooks. The project works on top of tools for software documentation in the Python ecosystem ([Sphinx](https://www.sphinx-doc.org/en/master/)) and allows you to integrate narrative and computational content. Curvenote is [involved](https://executablebooks.org/en/latest/team.html) in helping out with [Executable Books](https://executablebooks.org/), which is a multi-stakeholder community that define standards and build tools for computational content.
 
@@ -20,8 +16,6 @@ The command line interface for `curvenote` can export directly to a Jupyter Book
 :align: center
 :width: 70%
 ```
-
-+++ {"oxa":"oxa:EplL6AlILV3RGEDPzj5U/aW9b47l4Mih0eZgAzRTP.2","tags":[]}
 
 ### Exporting a Jupyter Book from Curvenote
 
@@ -59,4 +53,4 @@ At this time:
 
 **Current limitations:**
 
-- You can only sync from curvenote → local at the moment. We expect this to change by April, 2022.
+- You can only sync from curvenote → local at the moment.

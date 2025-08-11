@@ -1,7 +1,5 @@
 ---
 title: Internal References
-description: ''
-name: internal-references
 ---
 
 Curvenote makes it easy to add reference links to the content throughout your project. Specialized internal references are included for articles, notebooks, sections, figures, and equations. Using either the command menu options or the direct keyboard shortcuts a list will appear of your available content to select and reference. When you hover over a reference, a preview of that content will appear.
@@ -10,11 +8,11 @@ Curvenote makes it easy to add reference links to the content throughout your pr
 
 You can use either the command menu or keyboard shortcuts to reference content within your text.
 
-#### Command Menu
+### Command Menu
 
 When using the command menu `/` you will need to first search the command menu options for the reference style you want, then click or hit `enter` to select that option. From there, you can either scroll through or continue typing to search for the content you want to reference. To insert the reference either click on the option, or hit `enter` when the option is highlighted.
 
-#### Keyboard Shortcuts
+### Keyboard Shortcuts
 
 When using the keyboard shortcuts, you can either begin typing `[[`, then scroll through or continue typing to search through all of your available content. You can also narrow your search by content type by entering the specified shortcut commands for each content type below. From here you can again scroll or continue typing to search. To insert the reference either click on the option, or hit `enter` when the option is highlighted.
 
@@ -26,7 +24,7 @@ To reference an article:
 
 `/link to article` `[[article:`
 
-```{figure} images/MshxlXndaLsk3WbJ0ZGy-UmpcpZPk1pdSYgvZQjTV-v2.gif
+```{figure} images/MshxlXndaLsk3WbJ0ZGy-UmpcpZPk1pdSYgvZQjTV-v2.mp4
 :name: a80e8f4f
 :align: center
 :width: 70%
@@ -36,7 +34,7 @@ To reference a notebook:
 
 `/link to notebook` `[[nb:`
 
-```{figure} images/MshxlXndaLsk3WbJ0ZGy-OKUZNxbRweAfJoegWvU0-v2.gif
+```{figure} images/MshxlXndaLsk3WbJ0ZGy-OKUZNxbRweAfJoegWvU0-v2.mp4
 :name: a55259c0
 :align: center
 :width: 70%
@@ -44,21 +42,17 @@ To reference a notebook:
 
 ```{note}
 You can reference articles and notebooks that are not in the current project by copying the reference from another project or creating a link using the content’s unique [oxa.link](https://oxa.link/). Curvenote will recognize that the link is to an internal article or notebook and add an icon before the text.
-
 ```
 
 ## Sections
 
-````{margin}
-```{figure} images/MshxlXndaLsk3WbJ0ZGy-xl8KloUEujO3GYdbZOT8-v2.gif
+```{figure} images/MshxlXndaLsk3WbJ0ZGy-xl8KloUEujO3GYdbZOT8-v2.mp4
 :name: aa8533b0
 :align: center
 :width: 80%
 ```
 
-````
-
-You can create sections within your articles and notebooks by using Markdown heading formatting. Learn more about creating headings ➡️ [Command Menu & Shortcuts](oxa:MshxlXndaLsk3WbJ0ZGy/MBRvRRC3dcKkhfgwGOaZ 'Command Menu & Shortcuts'), [Markdown Accelerated Editing](oxa:MshxlXndaLsk3WbJ0ZGy/z9mCLSQZG1tjCDyEDbE2 'Markdown Accelerated Editing ')
+You can create sections within your articles and notebooks by using Markdown heading formatting. Learn more about creating headings ➡️ [Command Menu & Shortcuts](./command-menu.md), [Markdown Accelerated Editing](./markdown-accelerators.md)
 
 Once headings have been been created, you can update their size and add numbering by highlighting the full text of the heading. A toolbar will appear below the text. You can adjust the level of your heading in the drop down menu. You can **Toggle Numbering** by clicking on the number symbol. The numbering is ordered by the level and location of the heading on the page. All numbering will start at 1 at the beginning of the page. The numbering will automatically update with added or removed headings.
 
@@ -79,7 +73,7 @@ Currently only sections that are numbered can be referenced accurately. Only sec
 
 ## Figures
 
-Images, GIFs, and Jupyter Outputs that are **numbered** can be referenced. Only figures on the current page will be displayed in the search options when using these reference commands. Learn more about numbering figures in [Figures & Images](oxa:Z1isOjJQGvM22q5fhunb/gzr0LnPie4uvL7GSEISJ 'Figures & Images').
+Images, GIFs, and Jupyter Outputs that are **numbered** can be referenced. Only figures on the current page will be displayed in the search options when using these reference commands. Learn more about numbering figures in [Figures & Images](./figures-and-images.md).
 
 To reference a figure:
 
@@ -93,7 +87,7 @@ To reference a figure:
 
 ## Equations
 
-Equations that are **numbered** and on the current page will be displayed in the search options when using these reference commands. Learn more about numbering equations [Math & Equations](oxa:Z1isOjJQGvM22q5fhunb/Y0cAWcbYJy11ZBXmGSAm 'Math & Equations').
+Equations that are **numbered** and on the current page will be displayed in the search options when using these reference commands. Learn more about numbering equations [Math & Equations](./math-and-equations.md).
 
 `/link to equation` `[[eq:`
 

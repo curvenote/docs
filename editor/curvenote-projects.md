@@ -1,8 +1,5 @@
 ---
 title: Projects
-description: ''
-authors: []
-name: projects
 ---
 
 Content in Curvenote lives within projects, which are a collection of content (articles, notebooks, blocks) that belong to either you personally, or a team. Using projects allows you to organize your content, include collaborators, share and publish your content!
@@ -28,7 +25,7 @@ To create a new project:
 
 The project will now be added to your personal or team profile.
 
-```{figure} images/MshxlXndaLsk3WbJ0ZGy-JlT6tQA5RzY53lcCXAH9-v3.gif
+```{figure} images/MshxlXndaLsk3WbJ0ZGy-JlT6tQA5RzY53lcCXAH9-v3.mp4
 :name: 9a080d30
 :align: center
 :width: 100%
@@ -38,7 +35,7 @@ The project will now be added to your personal or team profile.
 
 After creating a project you can update the settings at anytime. The project settings are accessible via the Project Actions menu $\mathbf{\vdots}$ when in your personal or team profile:
 
-```{figure} images/MshxlXndaLsk3WbJ0ZGy-SOnLcuNVjIpRIISgdovy-v3.gif
+```{figure} images/MshxlXndaLsk3WbJ0ZGy-SOnLcuNVjIpRIISgdovy-v3.mp4
 :name: 77b5a6a9
 :align: center
 :width: 40%
@@ -59,7 +56,7 @@ Only owners or team admins can access the project settings.
 
 In the project settings you can update or add the title, description, URL, visibility. Learn more ➡️ [Project Visibility](block:MshxlXndaLsk3WbJ0ZGy/0FyrKye6NnasrjwG04Jm 'Project Visibility').
 
-```{figure} images/MshxlXndaLsk3WbJ0ZGy-tUk7HqZd0OgKProeMo8S-v2.gif
+```{figure} images/MshxlXndaLsk3WbJ0ZGy-tUk7HqZd0OgKProeMo8S-v2.mp4
 :name: 24e53d74
 :align: center
 :width: 40%
@@ -73,7 +70,7 @@ You can add or update a thumbnail image for your project. To do this:
 - Use the image editor to position your image
 - Click **UPLOAD**
 
-```{figure} images/MshxlXndaLsk3WbJ0ZGy-O2MaY8Nvy1yN3HOVSsTR-v4.gif
+```{figure} images/MshxlXndaLsk3WbJ0ZGy-O2MaY8Nvy1yN3HOVSsTR-v4.mp4
 :name: ed6181b4
 :align: center
 :width: 70%
@@ -92,7 +89,7 @@ This will **permanently delete** the project and **all** of its content! Any lin
 
 ```
 
-```{figure} images/MshxlXndaLsk3WbJ0ZGy-FiPpHEQ7nTvkWBUxJgah-v5.gif
+```{figure} images/MshxlXndaLsk3WbJ0ZGy-FiPpHEQ7nTvkWBUxJgah-v5.mp4
 :name: edd18d02
 :align: center
 :width: 90%
@@ -102,6 +99,6 @@ This will **permanently delete** the project and **all** of its content! Any lin
 
 Projects offer more than just a place to put your content.
 
-- You can add other Curvenote members and collaborate within your projects. Learn more ➡️ [Project Collaborators](oxa:MshxlXndaLsk3WbJ0ZGy/YLNojGkT0Xa7iZb989pu 'Project Collaborators')
-- You can organize and control how to navigate the content in your project. Learn more ➡️ [Project Organization & Navigation](oxa:MshxlXndaLsk3WbJ0ZGy/1bwhXWHkAfHFhO4pMJjt 'Project Organization & Navigation')
-- You can share some or all of the content in your project publicly. Learn more ➡️ [Project Visibility](oxa:MshxlXndaLsk3WbJ0ZGy/0FyrKye6NnasrjwG04Jm 'Project Visibility')
+- You can add other Curvenote members and collaborate within your projects. Learn more ➡️ [Project Collaborators](./collaboration.md)
+- You can organize and control how to navigate the content in your project. Learn more ➡️ [Project Organization & Navigation](./curvenote-projects.md)
+- You can share some or all of the content in your project publicly. Learn more ➡️ [Project Visibility](./curvenote-projects.md)

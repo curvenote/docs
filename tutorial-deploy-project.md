@@ -161,7 +161,7 @@ To dive into details on how content is stored locally see [Folder Structure](oxa
 
 ## Making changes
 
-There are three major areas of the site that we can change (1) the content in Markdown or Notebooks; (2) the table of contents and navigation (including actions); (3) the branding and theme. We will focus in this tutorial on editing content, and you can explore more in guides for [Table of Contents](oxa:Eh6WvY9NT46Ds4lE3OqJ/FrJ3eDvWP2LO3o40n4du 'Table of Contents'), [Navigation & Actions](oxa:Eh6WvY9NT46Ds4lE3OqJ/jrOoppptNKmkpA5FmGTU 'Navigation & Actions'), [Logo & Branding](oxa:Eh6WvY9NT46Ds4lE3OqJ/UgHua2z4Rp16qMSx6e6U 'Logo & Branding'), and in [Themes](oxa:Eh6WvY9NT46Ds4lE3OqJ/vOSirflk00uCKzwatefn 'Themes').
+There are three major areas of the site that we can change (1) the content in Markdown or Notebooks; (2) the table of contents and navigation (including actions); (3) the branding and theme. We will focus in this tutorial on editing content, and you can explore more in guides for [Table of Contents](https://mystmd.org/guide/table-of-contents), [Navigation & Actions](oxa:Eh6WvY9NT46Ds4lE3OqJ/jrOoppptNKmkpA5FmGTU 'Navigation & Actions'), [Logo & Branding](oxa:Eh6WvY9NT46Ds4lE3OqJ/UgHua2z4Rp16qMSx6e6U 'Logo & Branding'), and in [Themes](oxa:Eh6WvY9NT46Ds4lE3OqJ/vOSirflk00uCKzwatefn 'Themes').
 
 🛠️ For the live editing to work, ensure that the web server is running, if you have cancelled it you can bring it back up using `curvenote start`
 

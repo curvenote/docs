@@ -1,6 +1,5 @@
 ---
 title: Installing NodeJS
-description: ''
 ---
 
 The Curvenote Command Line Interface (CLI) is built on [NodeJS](https://nodejs.org/en/about/) (`nodejs`), a Javascript runtime that is widely used in many projects including well-known Python projects such as Jupyter Lab. `node` comes with its own package manager called `npm`.
@@ -15,9 +14,9 @@ Following any of the install methods below, verify your installation and ensure 
 
 ```text
 % node -v
-v18.18.2
+v22.12.0
 % npm -v
-v9.8.1
+11.3.0
 ```
 
 ## Manual Installation (all platforms)

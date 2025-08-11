@@ -51,6 +51,6 @@ Whether you're preparing a funder report, publishing a preprint, or launching a 
 
 ## Next steps
 
-- [Install the CLI](../tutorials/install-cli.md)
-- [Set up your first publishing site](../tutorials/setup-site.md)
-- [Write and publish your first article](../tutorials/publish-first-article.md)
+- [Install the CLI](../cli/index.md)
+- [Set up your first publishing site](../sites/index.md)
+- [Write and publish your first article](../authoring/index.md)

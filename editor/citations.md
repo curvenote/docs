@@ -1,7 +1,5 @@
 ---
 title: Citations
-description: ''
-name: citations
 ---
 
 You can easily add citations to your Curvenote articles and have quick access to them while you are typing. There are currently two ways to add references:
@@ -75,7 +73,7 @@ The DOI is usually included with the article content. However, if you cannot fin
 - Select **SEARCH**
 - If the appropriate article or document is shown, select **CREATE CITATION**
 
-```{figure} images/MshxlXndaLsk3WbJ0ZGy-tZmadZXYnXoMbmz0nAwm-v2.gif
+```{figure} images/MshxlXndaLsk3WbJ0ZGy-tZmadZXYnXoMbmz0nAwm-v2.mp4
 :name: 17800507
 :align: center
 :width: 70%
@@ -87,7 +85,7 @@ Your citation will now be added to your citation library for that project, and c
 
 The bibtex (`*.bib`) file format is a storage format for citations, it is commonly used with $\LaTeX$, and can be exported from most reference managers.
 
-```{figure} images/MshxlXndaLsk3WbJ0ZGy-RaR3QGIKD1ek3VXMAX31-v3.gif
+```{figure} images/MshxlXndaLsk3WbJ0ZGy-RaR3QGIKD1ek3VXMAX31-v3.mp4
 :name: adaa6acf
 :align: center
 :width: 70%
@@ -122,7 +120,7 @@ The citations will now be added!
 
 By default when citations are added through the `[[cite:` command, they are added as individual citations, these can be wrapped in brackets using the `[]` icon in the toolbar when the citation is selected. You can also drag citations into and out of citation-groups. In latex, these correspond to `\citep{}` and render slightly differently than if you use your own brackets.
 
-```{figure} images/MshxlXndaLsk3WbJ0ZGy-jTbSRxmzUrpQhHBo3ZuF-v3.gif
+```{figure} images/MshxlXndaLsk3WbJ0ZGy-jTbSRxmzUrpQhHBo3ZuF-v3.mp4
 :name: a25010aa
 :align: center
 :width: 70%

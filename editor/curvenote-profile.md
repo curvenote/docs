@@ -1,8 +1,5 @@
 ---
 title: Your Profile
-description: ''
-authors: []
-name: profile
 ---
 
 Once you log into Curvenote, you’ll be taken to your profile. On your profile, you’ll be able to view all the projects you’ve created, projects that are shared with you, and change your profile settings. Profiles are public and can be reached by anyone with your Curvenote username. Only your public projects are shown on your public profile.
@@ -25,7 +22,7 @@ The standard view of your profile shows your profile information and projects yo
 :width: 90%
 ```
 
-Learn more about [Projects](oxa:w6jXebeTS6WGaVFDIEz9/9d32qzwBWH2BsgNBGwEP 'Projects')
+Learn more about [Projects](./curvenote-projects.md)
 
 ## Personalize Your Profile
 
@@ -39,7 +36,7 @@ To add or update your profile image:
 - Use the image editor to position your image
 - Click **UPLOAD IMAGE**
 
-```{figure} images/w6jXebeTS6WGaVFDIEz9-rYM8f43IbOBLnnEDu2fX-v1.gif
+```{figure} images/w6jXebeTS6WGaVFDIEz9-rYM8f43IbOBLnnEDu2fX-v1.mp4
 :name: XyNkmwRvO9
 :align: center
 :width: 70%
@@ -74,7 +71,7 @@ Your banner image will be public, and will be seen by individuals who visit your
 
 ```
 
-```{figure} images/w6jXebeTS6WGaVFDIEz9-PsiBBn80LAesPKOKb57y-v1.gif
+```{figure} images/w6jXebeTS6WGaVFDIEz9-PsiBBn80LAesPKOKb57y-v1.mp4
 :name: sQeWYmnN6J
 :align: center
 :width: 90%

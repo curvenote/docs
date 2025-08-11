@@ -1,8 +1,5 @@
 ---
 title: Teams
-description: ''
-authors: []
-name: teams
 ---
 
 You can create teams with other Curvenote users, so you can easily collaborate on your projects and content. Teams are similar to a personal profile, in that they have their own public profiles and can own projects.
@@ -17,14 +14,11 @@ You can create teams with other Curvenote users, so you can easily collaborate o
 
 ## Creating a Team
 
-````{margin}
-```{figure} images/MshxlXndaLsk3WbJ0ZGy-CikNSvrP8ng6ODaTeLHi-v2.gif
+```{figure} images/MshxlXndaLsk3WbJ0ZGy-CikNSvrP8ng6ODaTeLHi-v2.mp4
 :name: d3e976f9
 :align: center
 :width: 60%
 ```
-
-````
 
 To create a Curvenote team:
 
@@ -57,7 +51,7 @@ From your team profile, to add a team member:
 
 Any added team members can view, create, and edit projects and their content within that team.
 
-```{figure} images/MshxlXndaLsk3WbJ0ZGy-iuYTk8ZTIDHMGh8Oa0D8-v2.gif
+```{figure} images/MshxlXndaLsk3WbJ0ZGy-iuYTk8ZTIDHMGh8Oa0D8-v2.mp4
 :name: acb85245
 :align: center
 :width: 80%
@@ -80,7 +74,7 @@ Profile images will be shown as a badge on your personal profile image, when you
 - In the profile image area, drag and drop the image you’d like or follow the prompts to upload a new image
 - (Optional) adjust the image to your preference
 
-```{figure} images/MshxlXndaLsk3WbJ0ZGy-WFz7GdbOXwfnKxnmunYq-v2.gif
+```{figure} images/MshxlXndaLsk3WbJ0ZGy-WFz7GdbOXwfnKxnmunYq-v2.mp4
 :name: a327712f
 :align: center
 :width: 40%
@@ -130,4 +124,4 @@ You will be taken to the team page. A badge (which will be the public profile im
 
 ## What else can you do with Teams?
 
-Once you’ve invited your team members and have set up your public profile, there’s many more things you can do! Similar to your personal profile, you can create [Projects](oxa:w6jXebeTS6WGaVFDIEz9/9d32qzwBWH2BsgNBGwEP 'Projects') within a team, and within those projects you can create and collaborate on content. Learn more ➡️ [Writing with Curvenote](oxa:MshxlXndaLsk3WbJ0ZGy/hKsOALgkUajnIvKepSy6 'Writing with Curvenote'), [Curvenote for Jupyter](oxa:MshxlXndaLsk3WbJ0ZGy/7ydSovyXvbOtuEVfcwYs 'Curvenote for Jupyter')
+Once you’ve invited your team members and have set up your public profile, there’s many more things you can do! Similar to your personal profile, you can create [Projects](./curvenote-projects.md) within a team, and within those projects you can create and collaborate on content. Learn more ➡️ [Writing with Curvenote](./editing.md), [Curvenote for Jupyter](./jupyter-overview.md)

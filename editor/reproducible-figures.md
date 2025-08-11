@@ -1,14 +1,12 @@
 ---
 title: Reproducible Figures
-description: ''
-name: reproducible-figures
 ---
 
-Curvenote is built to work hand in hand with Jupyter and allows you to directly use outputs from Jupyter as figures within your Curvenote articles. The versioning in Curvenote also allows for you to easily update your image in the article, rather than having to copy-and-paste a new static image each time you update your code. Curvenote also supports interactive Jupyter outputs, learn more [Interactive Outputs](oxa:m59m7JQmWVyPjlASj9v3/p25knjQanZEYoTll6cty 'Interactive Outputs').
+Curvenote is built to work hand in hand with Jupyter and allows you to directly use outputs from Jupyter as figures within your Curvenote articles. The versioning in Curvenote also allows for you to easily update your image in the article, rather than having to copy-and-paste a new static image each time you update your code. Curvenote also supports interactive Jupyter outputs, learn more [Interactive Outputs](./interactive-outputs-in-jupyter.md).
 
 ## Jupyter Outputs
 
-When a notebook is added to Curvenote, the cells in Jupyter are considered blocks in Curvenote. Thus you can easily import an output cell into your Curvenote articles. Additionally all copies of the same block are linked, meaning each version of that block is available for use no matter where the block is displayed. This makes it easy to see and update plots in your articles when changes have been made on the Jupyter side. Learn more in [Reusing Blocks](oxa:m59m7JQmWVyPjlASj9v3/93FoBDnslDe5zX30YhHW 'Reusing Blocks').
+When a notebook is added to Curvenote, the cells in Jupyter are considered blocks in Curvenote. Thus you can easily import an output cell into your Curvenote articles. Additionally all copies of the same block are linked, meaning each version of that block is available for use no matter where the block is displayed. This makes it easy to see and update plots in your articles when changes have been made on the Jupyter side. Learn more in [Reusing Blocks](./reusing-blocks.md).
 
 ### Import an Output Cell
 
@@ -25,7 +23,7 @@ To bring an output cell into your Curvenote article:
 
 ### Outputs as Figures
 
-Once you’ve imported your output cell into a Curvenote article, you can format the output as a figure. You can adjust the size and location, add a caption and numbering, and referencing the figure throughout your text. The formatting options are available in a toolbar that appears above or below the figure when you select the figure. Learn more about referencing figures [Internal References](oxa:Z1isOjJQGvM22q5fhunb/kM7RCPH0vEYtXYMgTN6G 'Internal References').
+Once you’ve imported your output cell into a Curvenote article, you can format the output as a figure. You can adjust the size and location, add a caption and numbering, and referencing the figure throughout your text. The formatting options are available in a toolbar that appears above or below the figure when you select the figure. Learn more about referencing figures [Internal References](./internal-references.md).
 
 ### Update Version
 

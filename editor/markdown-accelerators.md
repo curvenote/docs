@@ -1,7 +1,5 @@
 ---
 title: Markdown Accelerators
-description: ''
-name: markdown-accelerators
 ---
 
 The Curvenote editor supports a variety of [basic Markdown](https://www.markdownguide.org/basic-syntax/) formatting commands. The formatting is displayed automatically as you create your content so you’ll always know what your viewers will see. Though Curvenote supports most basic Markdown commands, some such as adding images and hyperlinks are not supported.
@@ -16,11 +14,11 @@ The Curvenote editor supports a variety of [basic Markdown](https://www.markdown
 
 ## Markdown Accelerated Editing
 
-The following Markdown command options are currently available within Curvenote. All of these are optional and can also be accessed using the [Command Menu](oxa:Z1isOjJQGvM22q5fhunb/gKX5CnZEMGcUbygsA0dh 'Command Menu'), keyboard shortcuts, or the options menu where appropriate.
+The following Markdown command options are currently available within Curvenote. All of these are optional and can also be accessed using the [Command Menu](./command-menu.md), keyboard shortcuts, or the options menu where appropriate.
 
 ### Headings
 
-Start a line with a number of `#`’s, for example, `###` creates a level-3 heading. You can create headings of different levels, any text on the line will be formatted as your selected heading. Headings are recognized by Curvenote and can be numbered and cross-referenced. Learn more ➡️ [Internal Referencing](oxa:MshxlXndaLsk3WbJ0ZGy/nFyicOUy014lE2zKFsga 'Internal Referencing').
+Start a line with a number of `#`’s, for example, `###` creates a level-3 heading. You can create headings of different levels, any text on the line will be formatted as your selected heading. Headings are recognized by Curvenote and can be numbered and cross-referenced. Learn more ➡️ [Internal Referencing](./internal-references.md).
 
 ### Text Formatting
 
@@ -61,7 +59,7 @@ You can add a horizontal line to separate the content within your block.
 
 ### Math and Equations
 
-You can surround math by `$` for inline math, and start a line with `$$` to create an equation block. See [Math & Equations](oxa:Z1isOjJQGvM22q5fhunb/Y0cAWcbYJy11ZBXmGSAm 'Math & Equations') for more.
+You can surround math by `$` for inline math, and start a line with `$$` to create an equation block. See [Math & Equations](./math-and-equations.md) for more.
 
 ### Emojis
 

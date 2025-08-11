@@ -1,8 +1,5 @@
 ---
 title: Data and Security
-description: ''
-authors: []
-name: data-and-security
 ---
 
 The following is a summary of our data residency and security practices at Curvenote. You can read our [Terms and Conditions](http://curvenote.com/legal/) and [Privacy Statement](http://curvenote.com/legal/) which go into more detail.

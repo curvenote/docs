@@ -1,12 +1,10 @@
 ---
 title: Adding Authors
-description: ''
-name: authors
 ---
 
 Search for authors by their user name or create them directly and add additional metadata. Edit the authors ORCID, corresponding email, affiliation(s), and the various contributor roles ([CRediT Roles](https://casrai.org/credit/)). These are used when building various PDF and Word exports across any template.
 
-```{figure} images/Z1isOjJQGvM22q5fhunb-ssL7lufk409dGJ2Qb6r0-v1.gif
+```{figure} images/Z1isOjJQGvM22q5fhunb-ssL7lufk409dGJ2Qb6r0-v1.mp4
 :name: FVcx77ottY
 :align: center
 :width: 70%

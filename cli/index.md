@@ -1,7 +1,6 @@
 ---
 title: Curvenote CLI Overview
 short_title: Overview
-description: ''
 ---
 
 `curvenote` is a command line interface (CLI) that provides modern tooling for technical writing, reproducible science, and creating scientific & technical websites. To get started install curvenote:

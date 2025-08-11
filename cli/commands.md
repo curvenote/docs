@@ -1,7 +1,5 @@
 ---
 title: Commands
-description: ''
-keywords: []
 ---
 
 This has the list of all commands for the Curvenote CLI, you can use the help `curvenote -h` on any command and this will print the help for the command or service. To see the version of Curvenote, use `curvenote -v`. For debugging, use the `-d` or `--debug` flag and all debug commands will be logged, use this if any commands fail.

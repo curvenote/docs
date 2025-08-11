@@ -19,7 +19,7 @@ To include support for MyST Markdown in you can simply add `jupyterlab-myst` as 
 A good initial test of your computational environment setup is to ensure that your code and notebooks work on mybinder.org - that should be your first step and probably means getting your work into a public repo on GitHub.
 
 ```{tip}
-If you are not able to use the public mybinder.org service, perhaps because you cannot make your work public, then you can still proceed with the following steps and use Curvenote's [draft submissions](#submit-a-draft) for testing.
+If you are not able to use the public mybinder.org service, perhaps because you cannot make your work public, then you can still proceed with the following steps and use Curvenote's [draft submissions](./authoring/submitting-your-work.md) for testing.
 ```
 
 ### Configuration via Frontmatter
@@ -68,4 +68,4 @@ You will be able to see a `*.zip` file in the `_build/exports` folder, confirm t
 
 ### Testing in the Venue's environment
 
-Next you can test your submission in the Venue's environment by submitting a _Draft_. To start working with draft submissions go to the [Submitting you Work](submitting-your-work.md) guide.
+Next you can test your submission in the Venue's environment by submitting a _Draft_. To start working with draft submissions go to the [Submitting you Work](./authoring/submitting-your-work.md) guide.

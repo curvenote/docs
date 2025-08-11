@@ -1,10 +1,8 @@
 ---
 title: Articles
-description: ''
-name: articles
 ---
 
-Articles are text-based documents within Curvenote that can be used for a variety of purposes. Articles live in [Projects](https://curvenote.com/oxa:w6jXebeTS6WGaVFDIEz9/9d32qzwBWH2BsgNBGwEP) and are separated into distinct sections of content called blocks, which can include images, videos, citations, equations, tables, interactive Jupyter outputs and more! Articles and their blocks can be versioned, reused, and edited simultaneously by your and your collaborators.
+Articles are text-based documents within Curvenote that can be used for a variety of purposes. Articles live in [Projects](./curvenote-projects.md) and are separated into distinct sections of content called blocks, which can include images, videos, citations, equations, tables, interactive Jupyter outputs and more! Articles and their blocks can be versioned, reused, and edited simultaneously by your and your collaborators.
 
 ## Create a New Article
 
@@ -19,7 +17,7 @@ Articles must live within projects. To create a new article in a project:
 
   - You will be redirected to your newly created article!
 
-    ```{figure} images/MshxlXndaLsk3WbJ0ZGy-tstqdKcgZc5rP6CVdWS3-v4.gif
+    ```{figure} images/MshxlXndaLsk3WbJ0ZGy-tstqdKcgZc5rP6CVdWS3-v4.mp4
     :name: 9d6558d2
     :align: center
     :width: 100%
@@ -40,7 +38,7 @@ To edit your article:
   - Any changes you make are synced and saved.
 
 - Blocks can edited individually.
-  - Learn more about editing and versioning [Blocks](oxa:Z1isOjJQGvM22q5fhunb/dX2scJKs5ZrcWJLgLvVs 'Blocks').
+  - Learn more about editing and versioning [Blocks](./blocks.md).
 - To exit draft mode you can either click:
   - **STOP EDITING** in the top left.
     - You will be redirected to a view of your most recent saved **version**.
@@ -49,7 +47,7 @@ To edit your article:
     - Your edits are now saved in a new **version** of your article.
     - You will be redirected to a view of your newly saved **version**.
 
-```{figure} images/MshxlXndaLsk3WbJ0ZGy-ZiqlKcmXXfb30mlOCaCA-v3.gif
+```{figure} images/MshxlXndaLsk3WbJ0ZGy-ZiqlKcmXXfb30mlOCaCA-v3.mp4
 :name: a1ab9b36
 :align: center
 :width: 90%
@@ -89,7 +87,7 @@ If you change the article URL, previously created links to the article will be b
   - Use the image editor to position your image
   - Click **UPLOAD IMAGE**
 
-```{figure} images/MshxlXndaLsk3WbJ0ZGy-cqaNdAMtr7daU4LeCV2m-v4.gif
+```{figure} images/MshxlXndaLsk3WbJ0ZGy-cqaNdAMtr7daU4LeCV2m-v4.mp4
 :name: a72d4290
 :align: center
 :width: 60%
@@ -113,13 +111,12 @@ This will **permanently** delete the article including all of its blocks, histor
 
 ```
 
-```{figure} images/MshxlXndaLsk3WbJ0ZGy-Dq4Q0S946TI0JARnu2DE-v1.gif
+```{figure} images/MshxlXndaLsk3WbJ0ZGy-Dq4Q0S946TI0JARnu2DE-v1.mp4
 :name: Xv4y8DwTnZ
 :align: center
 :width: 80%
 ```
 
 ```{note}
-For articles in team projects, you must be a team admin to delete documents. Learn more [Teams](https://curvenote.com/oxa:w6jXebeTS6WGaVFDIEz9/REipmoZAgXHBPDKdLEC5).
-
+For articles in team projects, you must be a team admin to delete documents. Learn more [Teams](./curvenote-teams.md).
 ```

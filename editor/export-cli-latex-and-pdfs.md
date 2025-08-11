@@ -1,17 +1,10 @@
 ---
 title: 'CLI: LaTeX and PDF Export'
-description: ''
-name: latex-and-pdfs
-keywords: []
 ---
-
-+++ {"oxa":"oxa:EplL6AlILV3RGEDPzj5U/M3ieE6rw3gRWuPbXKKVZ.2","tags":[]}
 
 LaTeX is one of the best typesetting languages for creating PDFs of technical content, and it is heavily used in computational and mathematical disciplines. LaTeX has a steep learning curve, and it is quite difficult to switch between various templates with all of the intricate requirement differences in how to represent your content. It is also difficult to parameterize your PDF documents with data-driven content, reusable components, and has limited to no support for any interactive content.
 
 The Curvenote CLI has first class support for LaTeX documents and ensures that the LaTeX that is written is thoughtful and easily customizable. The CLI can also stitch together your workflows to allow you to write interactive, computational and reusable content as a _first_ target, and ensure that you have LaTeX and PDF outputs that can be submitted to existing preprint servers, journals or customers. PDFs and LaTeX aren’t going away, but we believe they should be a secondary communication tool — with instead a primary focus on interactive, connected, and up-to-date content.
-
-+++ {"oxa":"oxa:EplL6AlILV3RGEDPzj5U/0xC6LdjI35DyERzpvyyy.1","tags":[]}
 
 ## Video Overview
 
@@ -20,8 +13,6 @@ The Curvenote CLI has first class support for LaTeX documents and ensures that t
 :align: center
 :width: 70%
 ```
-
-+++ {"oxa":"oxa:EplL6AlILV3RGEDPzj5U/ZWrgs0BFl834Jz3xCiPa.2","tags":[]}
 
 ## Exporting a PDF from Curvenote
 
@@ -47,8 +38,6 @@ As with other tools, there is a `_build` directory, which has all the intermedia
 ## Specifying a Template
 
 There are many different templates that are available in our [open source repository](https://github.com/curvenote/templates) on GitHub, you can also browse them on <https://curvenote.com/templates>. Once you have chosen the template to work with, you can use the `-t` option in the command to export with that template. The default template is `default` which has similar styling to the online Curvenote environment.
-
-+++ {"oxa":"oxa:EplL6AlILV3RGEDPzj5U/YqsgIMcfgtnP9cyOzlGZ.1","tags":[]}
 
 ### Dependencies for LaTeX and PDF
 

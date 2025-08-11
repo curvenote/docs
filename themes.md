@@ -1,7 +1,5 @@
 ---
 title: Themes
-description: ''
-name: themes
 ---
 
 :::{important} More Coming Soon! 🚧

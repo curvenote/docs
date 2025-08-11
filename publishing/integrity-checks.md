@@ -33,7 +33,7 @@ Once this command is executed, you will receive a link to a web-based preview of
 The result of running `curvenote start`, showing the link to the web-based preview of the work and various output logs, including warnings. Errors and warnings such as those shown for broken cross-references should be addressed before submission.
 ```
 
-You should resolve any errors or warnings that appear in the terminal output before proceeding with your submission. Errors could include missing metadata, broken cross-references, or invalid links. Refer to the [](./metadata-essentials.md) page or the [MyST Markdown documentation](https://mystmd.org) for guidance on addressing these issues.
+You should resolve any errors or warnings that appear in the terminal output before proceeding with your submission. Errors could include missing metadata, broken cross-references, or invalid links. Refer to the [Metadata](../publishing/metadata.md) page or the [MyST Markdown documentation](https://mystmd.org) for guidance on addressing these issues.
 
 ### Automated Checks for Venue Requirements
 

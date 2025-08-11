@@ -1,7 +1,5 @@
 ---
 title: Reference Style
-description: ''
-name: reference-style
 ---
 
 Edit and set project wide defaults for reference labels, like figures, equations, tables, sections, and programs.

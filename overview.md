@@ -5,7 +5,7 @@ short_title: Curvenote Sites
 
 Curvenote is a platform for scientific writing and publishing, in this documentation we will go through writing, publishing, and administering a site as well as provide various tutorials. Curvenote is designed to streamline the process of collaboration, creation, and dissemination of scientific knowledge, integrating seamlessly with computational notebooks, and interactive data visualizations with live computation. Whether you're drafting your next paper, highlighting the work of your lab group, hosting a conference, or managing a journal, Curvenote provides the tools and flexibility you need to communicate modern science.
 
-Curvenote allows you to easily publish scientific content on the web as a fast, optimized website either deployed on our [free hosting service](oxa:Eh6WvY9NT46Ds4lE3OqJ/6xTpl07Az7VN9tdldJAt 'Hosting on curve.space') or your own [custom domains](oxa:Eh6WvY9NT46Ds4lE3OqJ/Qn9rzCukuPlbwhKl8qA0 'Custom Domains').
+Curvenote allows you to easily publish scientific content on the web as a fast, optimized website either deployed on our [free hosting service](oxa:Eh6WvY9NT46Ds4lE3OqJ/6xTpl07Az7VN9tdldJAt 'Hosting on curve.space') or your own [custom domains](./sites/custom-domains.md).
 
 **You can publish directly from Curvenote or a git repository:**
 
@@ -62,9 +62,6 @@ Interactive notebooks in a [blog by Steve Purves](https://www.stevejpurves.com/l
 A 250 page report for the EU on [soil management and climate change](https://climasoma.curve.space/report/summary).
 ```
 
-```{important}
-**Note**
-
-Creating and deploying a website currently requires you to use the Curvenote Command Line Interface. You can see documentation about installing and getting started in our [CLI docs](https://curvenote.com/oxa:EplL6AlILV3RGEDPzj5U/qO37OgRXvWSbykWGvaDR).
-
+```{note}
+Creating and deploying a website currently requires you to use the Curvenote Command Line Interface. You can see documentation about installing and getting started in our [CLI docs](./cli/index.md).
 ```

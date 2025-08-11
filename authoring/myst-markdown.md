@@ -6,13 +6,13 @@ description: Curvenote uses a flavour of Markdown called MyST Markdown, which is
 
 :::{tip} Objective
 The goal of this overview is to introduce MyST Markdown and commonly used features necessary to write a scientific paper 📄.
-MyST Markdown is bundled directly in Curvenote, and can be accessed through the CLI, which you can [install locally](./installing.md).
+MyST Markdown is bundled directly in Curvenote, and can be accessed through the CLI, which you can [install locally](../cli/index.md).
 :::
 
 Curvenote uses a flavour of Markdown called [MyST Markdown](https://mystmd.org) (Markedly Structured Text), which is designed to create publication-quality, computational documents written entirely in Markdown.
 
 :::{important} Getting Started
-To get started [install Curvenote CLI](./installing.md).
+To get started [install Curvenote CLI](../cli/index.md).
 :::
 
 ````{note} See the video tutorial 📺
@@ -29,8 +29,7 @@ MyST is influenced by [reStructuredText (RST)](https://en.wikipedia.org/wiki/reS
 
 ## Typography
 
-The official documentation for MyST Markdown is found on [mystmd.org](https://mystmd.org/guide),
-below we give some brief documentation for writing content.
+The official documentation for MyST Markdown is found on [mystmd.org](https://mystmd.org/guide), below we give some brief documentation for writing content.
 
 ### Basic Markdown
 
@@ -129,7 +128,6 @@ Tables can be created using [GFM tables](https://github.github.com/gfm/#tables-e
 | baz | bim |
 :::
 ```
-
 ````
 `````{tab-item} List Table
 ````{myst}
@@ -157,7 +155,7 @@ To get more specific about the way that you reference, you can use a markdown li
 
 To define parts of your document, like an abstract, use the page frontmatter. The full [documentation on page parts](https://mystmd.org/guide/document-parts) shows how to create these inline or in a notebook cell.
 
-```{code-block}
+```{code-block} yaml
 :filename: article.md
 ---
 title: My Paper

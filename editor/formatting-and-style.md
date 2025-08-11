@@ -1,14 +1,12 @@
 ---
 title: Formatting & Style
-description: ''
-name: formatting-and-style
 ---
 
 Curvenote provides lots of defaults to allow you to focus on writing your content, while including enough metadata and semantics to allow you to style it later however you want! This is how Curvenote allows you to write once, and then export to any template.
 
 ## Paragraph & Headings
 
-You can create headings of different sizes, change the size, or return a heading to the standard paragraph text style. Any text within the line will be formatted as your selected heading. You cannot have more than one heading size on a line. Headings are recognized by Curvenote and can be numbered and [referenced](oxa:Z1isOjJQGvM22q5fhunb/kM7RCPH0vEYtXYMgTN6G 'Internal References') as sections.
+You can create headings of different sizes, change the size, or return a heading to the standard paragraph text style. Any text within the line will be formatted as your selected heading. You cannot have more than one heading size on a line. Headings are recognized by Curvenote and can be numbered and [referenced](./internal-references.md) as sections.
 
 Write `/heading 1` `⌘ ⌥ 1` with the level of the heading that you include, you can also access Heading or Paragraph formatting using Markdown commands (`## Your Heading`) or the options menu when your heading is fully selected.
 
@@ -19,7 +17,7 @@ To turn a heading into a paragraph, you can select it and use the menu, use the 
 
 ## Inline Styles
 
-You can use standard shortcuts (`⌘B`, `⌘I`, `⌘U`) for styling **bold**, _italic_, and {u}`underlined` text. Use `⌘K` to create a link. Code can be created by surrounding text with `` ` ``. Subscript{sub}`2`, superscript{sup}`2` can be created using the [Editing Toolbar](oxa:Z1isOjJQGvM22q5fhunb/FXp6KALoOyrnk0w5XgQT 'Editing Toolbar').
+You can use standard shortcuts (`⌘B`, `⌘I`, `⌘U`) for styling **bold**, _italic_, and {u}`underlined` text. Use `⌘K` to create a link. Code can be created by surrounding text with `` ` ``. Subscript{sub}`2`, superscript{sup}`2` can be created using the [Editing Toolbar](./editing-toolbar.md).
 
 ## Numbered and Bullet Lists
 
@@ -28,7 +26,7 @@ You can add either a Bullet Point or Numbered List to your block. You can search
 - `/bullet point list` `⌘ ⇧ 8`
 - `/numbered list` `⌘ ⇧ 7`
 
-You can also access list formatting and options using Markdown commands or the editing toolbar. Learn more [Markdown Accelerators](oxa:Z1isOjJQGvM22q5fhunb/CR4x2BBf2tUF5l0BmMNK 'Markdown Accelerators') and [Editing Toolbar](oxa:Z1isOjJQGvM22q5fhunb/FXp6KALoOyrnk0w5XgQT 'Editing Toolbar').
+You can also access list formatting and options using Markdown commands or the editing toolbar. Learn more [Markdown Accelerators](./markdown-accelerators.md) and [Editing Toolbar](./editing-toolbar.md).
 
 ## Callout Panels & Admonitions
 

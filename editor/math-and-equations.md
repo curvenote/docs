@@ -1,7 +1,5 @@
 ---
 title: Math & Equations
-description: ''
-name: math-and-equations
 ---
 
 Curvenote supports and automatically renders $\LaTeX$ math symbols in either inline math or distinct equations. When equations are created, they can also be numbered and referenced within the text.
@@ -18,11 +16,11 @@ Curvenote supports and automatically renders $\LaTeX$ math symbols in either inl
 
 You can create math equations inline with the rest of your text in Curvenote such as: $\int_{a}^{b} x^2 \,dx$. Inline math can be created using
 
-- [Editing Toolbar](oxa:Z1isOjJQGvM22q5fhunb/FXp6KALoOyrnk0w5XgQT 'Editing Toolbar') → ➕ Insert Menu → $\bf{\Sigma}$ **Inline Math**
-- [Command Menu](oxa:Z1isOjJQGvM22q5fhunb/gKX5CnZEMGcUbygsA0dh 'Command Menu') `/` → **Inline Math**
+- [Editing Toolbar](./editing-toolbar.md) → ➕ Insert Menu → $\bf{\Sigma}$ **Inline Math**
+- [Command Menu](./command-menu.md) `/` → **Inline Math**
 - Keyboard shortcut `$ $`
 
-```{figure} images/MshxlXndaLsk3WbJ0ZGy-DwJwFluqdLMIcV1UCKOe-v2.gif
+```{figure} images/MshxlXndaLsk3WbJ0ZGy-DwJwFluqdLMIcV1UCKOe-v2.mp4
 :name: a7256801
 :align: center
 :width: 90%
@@ -49,13 +47,13 @@ Equations can be created using
 - Command Menu `/` → **Equation**
 - Keyboard shortcut `$$`
 
-```{figure} images/MshxlXndaLsk3WbJ0ZGy-KquePozuECEFRimjQu9q-v1.gif
+```{figure} images/MshxlXndaLsk3WbJ0ZGy-KquePozuECEFRimjQu9q-v1.mp4
 :name: hvamNcdPZf
 :align: center
 :width: 80%
 ```
 
-Learn more [Editing Toolbar](oxa:Z1isOjJQGvM22q5fhunb/FXp6KALoOyrnk0w5XgQT 'Editing Toolbar'), [Command Menu](oxa:Z1isOjJQGvM22q5fhunb/gKX5CnZEMGcUbygsA0dh 'Command Menu')
+Learn more [Editing Toolbar](./editing-toolbar.md), [Command Menu](./command-menu.md)
 
 ---
 
@@ -65,13 +63,13 @@ Equations can be referenced by their numbers within the text using either the co
 
 Then select the equation you want to reference from the drop down menu. When you click on the reference a preview of the equation is displayed.
 
-```{figure} images/MshxlXndaLsk3WbJ0ZGy-FOWw39AFB4LiLz4aEmJ0-v1.gif
+```{figure} images/MshxlXndaLsk3WbJ0ZGy-FOWw39AFB4LiLz4aEmJ0-v1.mp4
 :name: AZ2kAH8Uo0
 :align: center
 :width: 80%
 ```
 
-Learn about [Internal References](oxa:Z1isOjJQGvM22q5fhunb/kM7RCPH0vEYtXYMgTN6G 'Internal References').
+Learn about [Internal References](./internal-references.md).
 
 ```{note}
 The numbering is ordered by location of the equation on the page. All numbering will start at 1 at the beginning of the page. The numbering will automatically update with added or removed equations.

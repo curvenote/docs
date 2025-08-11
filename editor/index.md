@@ -1,6 +1,5 @@
 ---
 title: Writing with Curvenote
-description: ''
 ---
 
 Curvenote is a platform for scientific and technical communication providing modern tooling for technical writing, collaboration, publishing, and reproducible science. Our [mission](https://curvenote.com/mission) is to help in transitioning scientific communication out of static documents and promote more connections between how researchers work, and how they communicate and share that work.
@@ -100,4 +99,5 @@ Each Curvenote user can deploy multiple sites for free to their [curve.space](ht
 - [Learn more about Curvenote web and curve.space](https://docs.curvenote.com/web);
 - [Publish a website from a Curvenote Project](https://curvenote.com/@docs/web/tutorial-deploy-project);
 - [Publish a website from a Local Folder](https://curvenote.com/@docs/web/tutorial-deploy-local)
-  :::
+
+:::
