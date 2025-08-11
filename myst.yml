@@ -43,7 +43,7 @@ project:
     - title: Getting Started
       children:
         - file: start/index.md
-    - title: Site Design
+    - title: Site design
       children:
         - file: sites/index.md
         - file: sites/concepts.md
