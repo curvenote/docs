@@ -1,0 +1,200 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 7558cd75-224b-4ada-8915-810cd39c63a5
+  title: Curvenote
+  # description:
+  keywords: []
+  authors: []
+  github: https://github.com/curvenote/docs
+  copyright: Curvenote Inc. 2024
+  abbreviations:
+    AST: Abstract Syntax Tree
+    DOI: Digital Object Identifier
+    MyST: Markedly Structured Text
+    CLI: Command Line Interface
+    HTML: Hypertext Markup Language
+    PDF: Portable Document Format
+    AMS: American Mathematical Society
+    RRID: Research Resource Identifier
+    CSS: Cascading Style Sheet
+    CRediT: Contributor Roles Taxonomy
+    ROR: Research Organization Registry
+    ISNI: International Standard Name Identifier
+    NISO: National Information Standards Organization
+    YAML: Yet Another Markup Language
+    WASM: WebAssembly
+    REES: Reproducible Execution Environment Specification
+    URL: Uniform Resource Locator
+    XML: Extensible Markup Language
+    PID: Persistent Identifier
+    ID: Identifier
+    JATS: Journal Article Tag Suite
+    VoR: Version of Record
+    RST: reStructuredText
+    API: Application Programming Interface
+    JSON: JavaScript Object Notation
+    OA: Open Access
+    JOSS: Journal of Open Source Software
+  plugins:
+    - directives.mjs
+  toc:
+    - file: solutions.md
+    - title: Getting Started
+      children:
+        - file: start/index.md
+    - title: Site Design
+      children:
+        - file: sites/index.md
+        - file: sites/concepts.md
+        - file: sites/create-a-site.md
+        - file: sites/landing-pages.md
+        - file: sites/navigation.md
+        - file: sites/cards.md
+        - file: sites/listings.md
+        - file: sites/custom-domains.md
+        - file: sites/curvenote-branding.md
+        - file: sites/analytics.md
+        - file: sites/custom-development.md
+    - title: Preparing articles
+      children:
+        - file: authoring/myst-markdown.md
+        - file: article-actions.md
+        - file: authoring/submitting-your-work.md
+        - file: tutorial-deploy-local.md
+        - file: try-curvespace.md
+    - title: Computational articles
+      children:
+        - file: computational-articles.md
+        - file: live-compute.md
+        - file: computational-tiers.md
+        - file: large-scale-data.md
+    - title: Automation
+      children:
+        - file: submissions-using-github.md
+        - file: github-actions.md
+        - file: integrated-previews.md
+        - file: deploying-myst-from-github.md
+    - title: Publishing
+      children:
+        - file: publishing/editorial-process.md
+        - file: publishing/integrity-checks.md
+        - file: publishing/metadata.md
+        - file: publishing/doi-registration.md
+        - file: publishing/graceful-degradation.md
+        - file: publishing/kinds.md
+        - file: publishing/collections.md
+    # - title: Integrations
+    #   children:
+    #     - file: integrations/crossref.md
+    #     - file: integrations/github.md
+    #     - file: integrations/orcid.md
+    #     - file: integrations/openalex.md
+    #     - file: integrations/zenodo.md
+    #     - file: integrations/figshare.md
+    #     - file: integrations/ror.md
+    #     - file: integrations/rrid.md
+    #     - file: integrations/wikipedia.md
+    #     - file: integrations/funder-registry.md
+    #     - file: integrations/biorxiv.md
+    #     - file: integrations/arxiv.md
+    #     - file: integrations/typst.md
+    #     - file: integrations/jats.md
+    #     - file: integrations/meca.md
+    #     - file: integrations/google-scholar.md
+    #     - file: integrations/doi.md
+    #     - file: integrations/prereview.md
+    #     - file: integrations/ithenticate.md
+    #     - file: integrations/pubmed-central.md
+    #     - file: integrations/credit.md
+    #     - file: integrations/sphinx.md
+    #     - file: integrations/myst.md
+    #     - file: integrations/jupyter.md
+    #     - file: integrations/youtube.md
+    #     - file: integrations/google-drive.md
+    #     - file: integrations/proofig.md
+    #     - file: integrations/binderhub.md
+    # - title: Tools
+    #   class: section
+    #   children:
+    - title: Curvenote CLI
+      children:
+        - file: cli/index.md
+        - file: cli/installing.md
+        - file: cli/installing-prerequisites.md
+        - file: cli/authentication.md
+        - file: cli/commands.md
+    - title: Curvenote Editor
+      children:
+        - title: Account
+          children:
+            - file: editor/curvenote-profile.md
+            - file: editor/curvenote-teams.md
+            - file: editor/curvenote-projects.md
+            - file: editor/collaboration.md
+        - title: Writing
+          children:
+            - file: editor/editing.md
+            - file: editor/command-menu.md
+            - file: editor/markdown-accelerators.md
+            - file: editor/editing-toolbar.md
+            - file: editor/explorable-explanations.md
+            - file: editor/authors.md
+        - title: Organization
+          children:
+            - file: editor/articles.md
+            - file: editor/blocks.md
+            - file: editor/navigation.md
+        - title: Content
+          children:
+            - file: editor/formatting-and-style.md
+            - file: editor/figures-and-images.md
+            - file: editor/math-and-equations.md
+            - file: editor/tables.md
+            - file: editor/adding-an-appendix.md
+            - file: editor/interactive-outputs.md
+            - file: editor/videos-and-iframes.md
+        - title: References & Citations
+          children:
+            - file: editor/citations.md
+            - file: editor/internal-references.md
+            - file: editor/citation-style.md
+            - file: editor/reference-style.md
+        - title: Export
+          children:
+            - file: editor/export-microsoft-word.md
+            - file: editor/export-pdf.md
+            - file: editor/export-latex.md
+            - file: editor/export-template-options.md
+            - file: editor/export-tagging-blocks.md
+            - file: editor/export-cli-latex-and-pdfs.md
+            - file: editor/export-cli-jupyter-book.md
+            - file: editor/export-hosting.md
+        - title: Jupyter Notebooks
+          children:
+            - file: editor/jupyter-overview.md
+            - file: editor/reproducible-figures.md
+            - file: editor/interactive-outputs-in-jupyter.md
+            - file: editor/versioning-notebooks.md
+            - file: editor/blocks-and-cells.md
+            - file: editor/reusing-blocks.md
+            - file: editor/add-and-link-notebooks.md
+            - file: editor/deleting-notebooks.md
+            - file: editor/notebook-settings.md
+        - title: Reference
+          children:
+            - file: editor/support.md
+            - file: editor/data-and-security.md
+    - title: Reference
+      children:
+        - file: directives.md
+        - file: glossary.md
+site:
+  template: book-theme
+  options:
+    folders: true
+    logo: public/logo.svg
+    logo_text: Curvenote Docs
+    twitter: curvenote
+    hide_authors: true
+    analytics_google: G-WENBZHW9JR
