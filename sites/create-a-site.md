@@ -7,7 +7,7 @@ short_title: Create a Site
 Get started creating a publishing destination for your articles, lab notebooks, or group collections.
 :::
 
-## Steps to Set Up a Site
+## Steps to Set Up a Site!!
 
 :::{important} Before you start
 Make sure you have:
