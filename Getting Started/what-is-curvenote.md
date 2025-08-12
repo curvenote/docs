@@ -1,3 +1,8 @@
+---
+title: What is Curvenote?
+short_title: What is Curvenote
+---
+
 # What is Curvenote?
 
 Curvenote is a platform for **writing, organizing, and publishing scientific content**—built by researchers, for researchers.

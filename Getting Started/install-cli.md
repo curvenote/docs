@@ -1,3 +1,7 @@
+---
+title: Install & Authenticate the Curvenote CLI
+short_title: Install CLI
+---
 
 # Install & Authenticate the Curvenote CLI
 

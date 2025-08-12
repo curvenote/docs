@@ -1,3 +1,9 @@
+---
+title: Publish & Share Your Article
+short_title: Publish & Share
+---
+
+
 # Publish & Share
 
 **Goal:** Publish your article or site so it’s live on the web.  

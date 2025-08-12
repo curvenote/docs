@@ -1,3 +1,9 @@
+---
+title: Write Your First Article
+short_title: Write Article
+---
+
+
 # Write Your First Article
 
 **Goal:** Create and edit your first article in Curvenote using the CLI.  

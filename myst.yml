@@ -42,31 +42,29 @@ project:
     - file: solutions.md
     - title: Getting Started
       children:
-        - file: start/index.md
-        - file: start/getting-started/install-cli.md
-        - file: start/getting-started/organize-content.md
-        - file: start/getting-started/create-article-cli.md
-        - file: start/getting-started/publish-article.md
-    - title: Site design
+        - file: getting-started/What-is-curvenote.md
+        - file: getting-started/install-cli.md
+        - file: getting-started/create-project.md
+        - file: getting-started/create-article-cli.md
+        - file: getting-started/publish-article.md
+        - file: getting-started/create-a-site.md
+    - title: Design & Customize Your Site
       children:
-        - file: sites/index.md
-        - file: sites/concepts.md
-        - file: sites/create-a-site.md
-        - file: sites/landing-pages.md
-        - file: sites/navigation.md
-        - file: sites/cards.md
-        - file: sites/listings.md
-        - file: sites/custom-domains.md
-        - file: sites/curvenote-branding.md
-        - file: sites/analytics.md
-        - file: sites/custom-development.md
-    - title: Preparing articles
+        - file: site-design/layout-and-theme.md
+        - file: site-design/planning.md
+        - file: site-design/custom-domains.md
+        - file: site-design/navigation.md
+    - title: Authoring Content
       children:
-        - file: authoring/myst-markdown.md
-        - file: article-actions.md
-        - file: authoring/submitting-your-work.md
-        - file: tutorial-deploy-local.md
-        - file: try-curvespace.md
+        - file: authoring/citations.md
+        - file: authoring/add-figures-media.md
+        - file: authoring/interactive-figures.md
+        - file: authoring/link-data-code.md
+        - file: authoring/organize-content.md
+        - file: authoring/reuse-blocks.md
+        - file: authoring/version-history.md
+        - file: authoring/writing-markdown-myst-jupyter.md
+    
     - title: Computational articles
       children:
         - file: computational-articles.md

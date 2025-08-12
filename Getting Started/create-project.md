@@ -1,3 +1,8 @@
+---
+title: Create Your First Project
+short_title: Create Project
+---
+
 # Create Your First Project
 
 **Goal:** Create and organize your first Curvenote project so you can start writing and publishing content.  
