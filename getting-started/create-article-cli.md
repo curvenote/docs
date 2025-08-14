@@ -60,7 +60,7 @@ This is my first article written in Curvenote! 🎉
 
 ## My First Figure
 
-```{figure} assets/fig1.png
+```{figure} ../assets/fig1.png
 :alt: Example figure
 :width: 60%
 ```
