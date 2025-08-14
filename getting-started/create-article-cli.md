@@ -42,7 +42,7 @@ Open the new file in your preferred text editor:
 code content/my-first-article.md
 ```
 
-You can write in **Markdown**, **MyST**, or embed Jupyter code blocks if your project supports it.
+You can write in **MyST Markdown** or use **Jupyter Notebooks**.
 
 Example content:
 
