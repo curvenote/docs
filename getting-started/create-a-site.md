@@ -149,7 +149,7 @@ This will run structural and metadata checks and highlight any issues.
 Publishing makes submitted content live on the site:
 
 ```bash
-curvenote submission publish
+curvenote submission publish <site>
 ```
 
 Only site admins can publish. Once published:
