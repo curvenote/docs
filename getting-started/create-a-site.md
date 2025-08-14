@@ -7,7 +7,9 @@ short_title: Create a Site
 
 # Create a Site
 
-:::{tip} ObjectiveCreate a publishing destination for your articles, lab notebooks, or group collections. :::
+:::{tip} Objective
+Create a publishing destination for your articles, lab notebooks, or group collections.
+:::
 
 ## Quick Checklist
 
