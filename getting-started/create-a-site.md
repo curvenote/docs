@@ -160,5 +160,5 @@ Only site admins can publish. Once published:
 ## After Publishing
 
 - Share links to your articles or site homepage
-- Updates and re-publish (each update is tracked)
+- Update and re-publish (each update is tracked)
 - Embed individual figures, notebooks, or methods in other sites and tools.
