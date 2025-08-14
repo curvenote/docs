@@ -14,7 +14,7 @@ Create a publishing destination for your articles, lab notebooks, or group colle
 ## Quick Checklist
 
 - Have a Curvenote account & CLI installed
-- Access or create a site (web admin)
+- Access to create a site (web admin)
 - Configure your project (curvenote.yml)
 - Organize local content (if using Git/GitHub)
 - Add metadata to each file
