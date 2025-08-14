@@ -72,7 +72,7 @@ Figure caption goes here.
 See your changes instantly by running:
 
 ```bash
-curvenote preview
+curvenote start
 ```
 
 This opens a local preview of your site in your browser so you can check formatting, figures, and links.
