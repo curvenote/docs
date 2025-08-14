@@ -93,7 +93,7 @@ content/
 You can preview your content locally by running:
 
 ```bash
-curvenote preview
+curvenote start
 ```
 
 This launches a local development server where you can see your project as it will appear online.
