@@ -115,7 +115,7 @@ Metadata enables automated checks, collection assignment, and proper formatting
 From your local project, run:
 
 ```bash
-curvenote submit
+curvenote submit <site>
 ```
 
 You’ll be prompted to:
