@@ -5,7 +5,6 @@ short_title: Authentication
 
 **Goal:**  
 Sign in to the Curvenote CLI using an API token so you can work with private projects, sync content, and publish.
-:::
 
 ## When You Need to Authenticate
 - Accessing **private projects** from Curvenote
