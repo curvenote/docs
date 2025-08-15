@@ -55,15 +55,9 @@ curvenote start
 This opens a local preview of your site in your browser so you can check formatting, figures, and links.
 
 
-
 ## 4. Organize Your Articles
 
-Best practices for keeping articles manageable:
-
-- Use short, descriptive file names.
-- Group related content into folders (e.g., `methods/`, `results/`).
-- Store images and figures wherever is most convenient — for example, alongside the articles that reference them, or in a dedicated folder like `assets/` or `media/`.
-- Keep figures, datasets, and large media files in an `assets/` folder.
+For best practices on organizing content, see [Organize Articles and Sections](.organize-content.md)
 
 
 ## Next Steps
