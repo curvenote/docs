@@ -35,35 +35,13 @@ Once created, you can add the new article to your site navigation by editing `cu
 
 ## 2. Open and Edit Your Article
 
-Open the new file in your preferred text editor:
+Open the new file in your preferred text editor (for example, VS Code, Sublime Text, or another editor you use).
 
+If you use Visual Studio Code, you can open the file directly from your terminal:
 ```bash
 code content/my-first-article.md
 ```
-
 You can write in **MyST Markdown** or use **Jupyter Notebooks**.
-
-Example content:
-
-```markdown
----
-title: My First Curvenote Article
-authors:
-  - name: Jane Doe
-    orcid: 0000-0001-2345-6789
----
-
-# Introduction
-
-This is my first article written in Curvenote! 🎉
-
-## My First Figure
-
-```{figure} ../assets/fig1.png
-:alt: Example figure
-:width: 60%
-```
-Figure caption goes here.
 
 
 ## 3. Preview Locally
