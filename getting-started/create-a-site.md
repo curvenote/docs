@@ -7,7 +7,7 @@ short_title: Create a Site
 
 # Create a Site
 
-:::{tip} Objective
+**Goal**
 Create a publishing destination for your articles, lab notebooks, or group collections.
 :::
 
@@ -26,39 +26,20 @@ Create a publishing destination for your articles, lab notebooks, or group colle
 ## Workflow at a Glance
 
 ```mermaid
-graph TD
-    A[1. Create Site<br/>web admin] --> B[2. Set Landing Page]
-    B --> C[3. Organize Content<br/>optional for local/Git]
-    C --> D[4. Add Metadata]
-    D --> E[5. Submit Content]
-    E --> F[6. Push Changes<br/>optional]
-    F --> G[7. Run Checks<br/>optional]
-    G --> H[8. Publish<br/>admin only]
-    H --> I[🎉 Site Live!]
-    
-    style A fill:#e1f5fe
-    style I fill:#c8e6c9
+flowchart TD
+  A[1. Create Site (web admin)] --> B[2. Set Landing Page]
+  B --> C[3. Organize Content (optional)]
+  C --> D[4. Add Metadata]
+  D --> E[5. Submit Content]
+  E --> F[6. Push Changes (optional)]
+  F --> G[7. Run Checks (optional)]
+  G --> H[8. Publish (admin only)]
+  H --> I[Site Live!]
+  
+  style A fill:#e1f5fe
+  style I fill:#c8e6c9
 ```
 
-**Text Version:**
-
-```
-[1] Create Site (web admin)
-        ↓
-[2] Set Landing Page
-        ↓
-[3] Organize Content (optional for local/Git)
-        ↓
-[4] Add Metadata
-        ↓
-[5] Submit Content → [6] Push Changes (optional)
-        ↓
-[7] Run Checks (optional)
-        ↓
-[8] Publish (admin only)
-        ↓
-    🎉 Site Live!
-```
  ## Before You Begin
 :::{important} Make sure you have:
 
@@ -108,7 +89,7 @@ kind: article
 ---
 ```
 
-Metadata enables automated checks, collection assignment, and proper formatting
+Metadata enables automated checks, collection assignment, and proper formatting. See (metadata.md) for more details.
 
 ### 5. Submit Content to a Site and Collection
 
@@ -134,15 +115,15 @@ curvenote push
 This allows collaborators to preview your work, but does not make it publicly visible.
 
 ### 7. Run Checks (Optional but Recommended)
-
+Run structural and metadata checks to catch errors before publishing:
 
 ```bash
-curvenote check
+curvenote check <site>
 ```
 
-This will run structural and metadata checks and highlight any issues.
+Include the site (venue) ID so the check runs in the correct publishing context. This ensures the content is validated against the specific site’s configuration and collections.
 
-> 💡 **Tip:** For more details on how to run a structural check, visit this page (link)
+> 💡 **Tip:** For step-by-step instructions on running a structural check and resolving any issues, see [Integrity Checks](https://curvenote.com/docs/publish/integrity-checks)
 
 ### 8. Publish Content (Admin Action)
 
@@ -162,3 +143,11 @@ Only site admins can publish. Once published:
 - Share links to your articles or site homepage
 - Update and re-publish (each update is tracked)
 - Embed individual figures, notebooks, or methods in other sites and tools.
+
+## Related Guides
+
+- [Install & Authenticate the Curvenote CLI](install-cli)
+- [Add Metadata to Your Content](/metadata)
+- [Push, Submit, and Publish Content](publish-article)
+- [Run Integrity Checks](https://curvenote.com/docs/publish/integrity-checks)
+- [Manage Collections in a Site](https://curvenote.com/docs/publish/collections)

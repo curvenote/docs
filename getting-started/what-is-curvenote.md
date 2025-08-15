@@ -18,7 +18,6 @@ Most research outputs today are frozen in time—locked into PDFs and detached f
 - **Web-first publishing** for better discoverability  
 - **One-click exports** to Typst or PDF when needed  
 
-
 Work in your browser or use the Curvenote CLI:  
 
 - Write in **Markdown, Jupyter**, or the Curvenote editor  
@@ -29,14 +28,13 @@ Work in your browser or use the Curvenote CLI:
 
 ---
 
-## Publishing as part of your workflow  
-Publishing with Curvenote is fast and flexible. You can publish:  
+## The platform for modern research
+
+Curvenote modernizes how scientific research is written, managed, and published. With Curvenote, you can publish:  
 
 - Single articles  
 - Multi-article collections (lab sites, conference proceedings, documentation)  
-- Research outputs with **interactive figures, notebooks, and citations**  
-
-Everything you publish stays editable and updateable—no reformatting required.  
+- Research outputs with **interactive figures, notebooks, and citations**   
 
 
 ## Built for research teams  
@@ -50,10 +48,10 @@ Curvenote supports:
 
 
 ## Why it matters  
-Scientific knowledge should be **open, versioned, and reusable**. Curvenote provides the infrastructure for **living research outputs**—helping you move faster, stay organized, and share work in ways that are valuable to both humans and machines.  
+Scientific knowledge should be **open, versioned, and reusable**. Curvenote provides the infrastructure for **living research outputs** that evolve with your work. Our platform organizes research into modular, discoverable components that work across any project, enabling collaborative web-first workflows that connect with your existing tech stack.
 
 
 ## Next steps  
-1. [Install the CLI](install-cli.md)  
-2. [Set up your first publishing site](set-up-site.md)  
-3. [Write and publish your first article](create-article-cli.md)  
+1. [Install the CLI](getting-started/install-cli.md)  
+2. [Set up your first publishing site](getting-started/create-a-site.md)  
+3. [Write and publish your first article](getting-started/create-article-cli.md)  
