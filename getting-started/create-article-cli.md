@@ -12,26 +12,25 @@ short_title: Write Article
 
 ## 1. Create a New Article
 
-From inside your project folder, run:
+To create a new article, simply add a new Markdown file to your project’s content/ directory using your preferred text editor or IDE.
 
+For example, create a file called `my-first-article.md`:
 ```bash
-curvenote create article my-first-article
-```
-
-This will:
-
-- Create a new Markdown file in your `content/` directory.
-- Add default frontmatter (metadata) like `title` and `date`.
-- Link the article into your site navigation if your `curvenote.yml` is set up.
-
-Example folder after running the command:
-
-```
 content/
 ├── index.md
 └── my-first-article.md
 ```
+Each article should start with YAML frontmatter containing at least a title field. For example:
 
+```bash
+---
+title: My First Article
+date: 2025-08-15
+---
+```
+Once created, you can add the new article to your site navigation by editing `curvenote.yml` and linking to the file.
+
+💡 **Tip**: If your project is already linked to a Curvenote site, you can use curvenote push to sync changes for review or curvenote submit to send it to a collection.
 
 
 ## 2. Open and Edit Your Article
@@ -85,8 +84,8 @@ Best practices for keeping articles manageable:
 
 - Use short, descriptive file names.
 - Group related content into folders (e.g., `methods/`, `results/`).
+- Store images and figures wherever is most convenient — for example, alongside the articles that reference them, or in a dedicated folder like `assets/` or `media/`.
 - Keep figures, datasets, and large media files in an `assets/` folder.
-
 
 
 ## Next Steps
@@ -97,6 +96,4 @@ Once your article looks good, you can:
 2. [Add Figures, Images, and Media →](../authoring/add-figures-media.md) 
 3. [Link Data and Code →](../authoring/link-data-code.md) 
 
----
 
-**Tip:** Curvenote supports reusable content blocks, so you can keep figures, citations, or sections consistent across multiple articles.
