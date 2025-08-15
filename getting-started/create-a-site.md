@@ -4,42 +4,24 @@ short_title: Create a Site
 ---
 
 **Objective:**  
-Request a Curvenote site and manage landing and submission content.
+Request a Curvenote site so you can publish and share your work online.
 
 ## Before You Start
-- Curvenote account + CLI installed  
-- Only Curvenote staff can create sites (use onboarding form)
+- Curvenote account + CLI installed.
+- Only Curvenote staff can create sites — you’ll use our onboarding form.
 
-## Steps
-
-### 1. Request a Site
-- Fill out the [Site Setup Request Form](https://forms.gle/Y8ppqCpPFKPH5GFr7)  
+## Request a Site
+- Fill out the [Site Setup Request Form](https://forms.gle/Y8ppqCpPFKPH5GFr7)
 - Curvenote will set up:
-  - Title & subdomain (`my-lab.curve.space`)  
-  - Public/private visibility  
-  - Initial landing content  
-- Receive confirmation email when live
+  - **Title & subdomain** (e.g., `my-lab.curve.space`)
+  - **Public or private** visibility
+  - **Initial landing content**
+- You’ll receive a confirmation email once your site is live.
 
-### 2. Manage Landing Content
-- Landing page = main entry point for visitors  
-- Update via **web admin**  
-- Feature articles, collections, or projects  
-- Configure your hero banner to highlight key work — see [Hero Unit & Background Images](planning.md)  
-- More planning tips in [Planning Your Site](planning.md)
+## Next Steps After Creation
+- Review your site’s landing page.
+- Follow the [Manage Your Site →](manage-site.md) guide to update content and handle submissions.
 
-### 3. Manage Submissions
-- Contributors submit via:
-  ```bash
-  curvenote submit <site>```
-  
-- Review & publish as admin
-- See [Publish & Share] (publish-article.md)
-
-## 4.Repo Setup Pattern (Git/GitHub)
-- `content/` for articles
-- `assets/` for figures/images
-- Collections in `curvenote.yml`
-- See [Organize Content into Sections](organize-content.md)
 ---
 ## Related Guides
 - [Hero Unit & Background Images](planning.md)  
