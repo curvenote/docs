@@ -1,89 +1,72 @@
 ---
 title: Authentication
+short_title: Authentication
 ---
 
-Most translation and export functionality is local and **does not** require you to be logged into Curvenote. Additionally, the API for any public content on Curvenote does not require you to be authenticated. However, if you want to sync content from your _private_ Curvenote projects to a local folder, modify any online projects, or deploy a website you will need to be authenticated.
+**Goal:**  
+Sign in to the Curvenote CLI using an API token so you can work with private projects, sync content, and publish.
 
-The Curvenote CLI works on an API token that can be generated from your personal settings on [curvenote.com](https://curvenote.com).
+## When You Need to Authenticate
+- Accessing **private projects** from Curvenote
+- Modifying or syncing content online
+- Publishing content to a site
+- Running CI/CD or automation scripts
 
-## Creating an API Token
+Most translation/export of **public content** does not require authentication.
 
-API Tokens allow you to access your Curvenote content programmatically.
+## 1. Generate an API Token
+1. Sign in to [Curvenote](https://curvenote.com/).  
+2. Go to **Personal Settings** → **API Access** or [click here](https://curvenote.com/profile?settings=true&tab=profile-api).  
+3. Click **Generate New Token**.  
+4. Copy the token — you won’t be able to see it again.
 
-🛠️ You can create an API token by clicking [here](https://curvenote.com/profile?settings=true&tab=profile-api) if you are signed in or navigating to your **Personal Settings**, which are available under your avatar in the top right.
-
-```{figure} images/settings-api-token.png
-:name: FdFCmj6QcJ
-:align: center
-:width: 70%
-
-Access the API Token by navigating to your **Personal Settings** by clicking on your avatar in the top right.
-```
-
-🛠️ Click on the **Generate New Token**, and give you token a description that you can recognize lated if you need to revoke it. You will be shown a screen that allows you to copy the API token for the next step.
-
-```{figure} images/settings-api-copy-token.png
-:name: rm1dO7qLHx
-:align: center
-:width: 70%
-
-Ensure that you copy your token for the next step. You will not be able to access this token again.
-```
-
-🛠️ Copy the API Token. You will not be able to see this token again, so be sure to copy it!
-
-## Sign In to Curvenote using the CLI
-
-🛠️ Sign into the Curvenote CLI using the command:
-
-```python
+## 2. Store the Token Locally
+Run:
+```bash
 curvenote token set
 ```
+Paste the API token when prompted.
 
-You will be asked for an API Token which you copied from your API Access settings in Curvenote (see above). The command will store a local config file that has your API token to be used for future calls to the library.
+## 3. Store the Token as an Environment Variable
 
-### Validate you are signed in
+Useful for CI/CD or servers:
 
-🛠️ You can validate that you are signed in using the command:
-
-```shell
-curvenote auth list
+```bash
+export CURVENOTE_TOKEN="API_TOKEN"
 ```
+The environment variable takes priority over stored tokens.
 
-This will print your username and email or tell you that you are not authenticated.
-This command will also list any other accounts that you can login as.
+## 4. Switch Accounts
 
-### Changing Profiles
+If you have multiple accounts:
 
-If you have multiple Curvenote accounts, for example, as a bot for a submission system, you can switch profiles using:
-
-```shell
+```bash
 curvenote token select
 ```
 
-This will bring up a prompt to select which account you should use for the Curvenote API.
-
-### Authenticating on a Server
-
-You can also override the config path by having a `CURVENOTE_TOKEN` in your environment, this is helpful when using the Curvenote CLI from a continuous integration system or on a server.
-
-```shell
-export CURVENOTE_TOKEN="API_TOKEN"
+## 5. Check Authentication Status
+```bash
+curvenote auth list
 ```
+Shows your current account or indicates if not authenticated.
 
-:::{warning} `CURVENOTE_TOKEN` environment variable takes priority
-If the environment variable is present, it will have precedence over any token you have set previously.
-The CLI will notify you through a log message about which token is being used.
-:::
-
-Alternatively, you can use the `curvenote token set $ENV_VAR` to set the token programmatically; we recommend not to paste your token into the command line directly as that will create an entry in your terminal history.
-
-## Sign Out of Curvenote
-
-To sign out of the Curvenote CLI, you can call:
-
-```shell
+## 6. Sign Out
+```bash
 curvenote token delete
 ```
 
-This will remove the local config file with the API token in it. Note, if you have signed into the CLI using the environment variable, you can unset that using `unset CURVENOTE_TOKEN`. To confirm that you are logged out you can run the command `curvenote auth list` as before, and it should inform you that you are not authenticated.
+Removes the stored token. If using an environment variable, unset it:
+```bash
+unset CURVENOTE_TOKEN
+```
+
+💡 **Tips:**
+- You only need to authenticate if working with private projects or publishing to a site.  
+- Store the API token in an environment variable (`CURVENOTE_TOKEN`) for CI/CD.  
+- Use `curvenote token select` to switch between accounts.  
+
+## Related Guides
+- [Install & Authenticate CLI (Tutorial)](install-cli.md)  
+- [Push, Submit, and Publish Content](push-submit-publish.md)  
+- [Set Up a Site for Publishing](setup-site.md)  
+- [Continuous Integration with Curvenote CLI](ci-cli.md)
