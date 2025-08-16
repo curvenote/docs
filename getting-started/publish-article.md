@@ -3,28 +3,28 @@ title: Publish & Share Your Article
 short_title: Publish & Share
 ---
 
+# Publish & Share Your Article
 
-# Publish & Share
+## What you'll learn
+How to publish your article and make it accessible online
 
-**Goal:** Publish your article or site so it’s live on the web.  
+Publishing your article with Curvenote is simple and fast. Whether you want to share your research publicly or submit it for review, Curvenote makes it easy to get your content live on the web.
 
----
+## Before you publish
 
-## Before You Publish
-Check that your project has:
-- At least one article with content.
-- A valid `curvenote.yml` configuration file.
-- All required assets (figures, datasets, notebooks) included.
+Make sure your project is ready:
 
-If you’re not sure your site is configured, see [Set Up a Site](set-up-site.md)
+- At least one article with content
+- A valid `curvenote.yml` configuration file
+- All required assets (figures, datasets, notebooks) included
 
----
+If you're not sure your site is configured, see [Set Up a Site](create-a-site.md)
 
-## Choose How You Want to Publish
+## Choose how to publish
 
-**Publish directly to the web (public)**  
+**Publish directly to the web (public)**
 
-This puts your project live on the `.curve.space` domain you set in `site.domains`
+This puts your project live on the `.curve.space` domain you set in `site.domains`:
 
 ```bash
 curvenote deploy
@@ -32,31 +32,32 @@ curvenote deploy
 
 **Submit to a site (for review or staged publishing)**
 
-Send your project to a site (e.g., a lab site or journal). Only site admins can make it public.
+Send your project to a site (e.g., a lab site or journal). Only site admins can make it public:
+
 ```bash
 curvenote submit <site>
 ```
 
 If you have admin rights and want to publish from the CLI:
+
 ```bash
 curvenote submission publish <site>
 ```
-## See the Result
 
-- **Deploy:** The CLI will show your live `.curve.space` URL.
-- **Submit:** Your submission appears in the site’s admin area.  
-  If published, the site will provide the public URL.
+## See the result
 
-## Update Content
-- If you deployed: Run `curvenote deploy` again to replace the live version.
-- If you submitted: Run `curvenote submit <site>` to create a new submission version, then publish (via admin UI or `curvenote submission publish <site>`).
+- **Deploy:** The CLI will show your live `.curve.space` URL
+- **Submit:** Your submission appears in the site's admin area. If published, the site will provide the public URL
 
-## Next Steps
+## Update your content
 
-- [Add Figures, Images, and Media →](add-figures-media.md)  
-- [Link Data and Code →](link-data-code.md)  
-- [Export to PDF/Typst →](export-pdf.md)
+- **If you deployed:** Run `curvenote deploy` again to replace the live version
+- **If you submitted:** Run `curvenote submit <site>` to create a new submission version, then publish (via admin UI or `curvenote submission publish <site>`)
 
----
+## Next steps
 
-**Tip:** Published content is “living” in Curvenote — you can make edits anytime, and your audience will always see the latest version.
+- [Add Figures, Images, and Media →](../editor/figures-and-images.md)  
+- [Link Data and Code →](../editor/add-and-link-notebooks.md)  
+- [Export to PDF/Typst →](../editor/export-pdf.md)
+
+💡 **Tip:** Published content is "living" in Curvenote — you can make edits anytime, and your audience will always see the latest version.
