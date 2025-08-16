@@ -1,131 +1,135 @@
 ---
-title: Citations
+title: Add Citations and References
+short_title: Citations
 ---
 
-You can easily add citations to your Curvenote articles and have quick access to them while you are typing. There are currently two ways to add references:
+# Add Citations and References
 
-1. **From a DOI**\: Simply search the document or article DOI, and add it to your article with one-click!
-2. **From a BibTex file**\: Export from your reference manager (e.g. Zotero, Mendeley, etc.) as a BibTex file, and drag and drop into Curvenote. If you want easy access to a reference manager, without downloading anything we recommend <https://zbib.org/>.
+## Quick Start
+Add citations to your Curvenote articles using DOIs or BibTeX files with automatic formatting and reference management
 
-Once your citations have been added to your project, you can easily access them through the `/cite` command, and can click on the citation to see all the details - and you can click on it to navigate to the web article or document. For example, try clicking on this citation {cite:p}`Cockett2015SimPEG`.
+You can easily add citations to your Curvenote articles and have quick access to them while you are typing. Citations can be added from DOIs or imported from BibTeX files, and they're automatically formatted according to your chosen style.
+
+## Before You Start
+
+Make sure you have:
+- An article open in Curvenote
+- DOIs for papers you want to cite, or
+- A BibTeX file exported from your reference manager
+- Your citation library set up in your project
 
 ## Video Demo 📺
 
-```{iframe} https://www.loom.com/embed/646329caf1e74c39bd6abb3835717ce0
-:label: YtpswdIs9H
-:align: center
-:width: 80%
-```
+[Watch the video tutorial](https://www.loom.com/embed/646329caf1e74c39bd6abb3835717ce0)
 
-```{list-table} Example of rendered citations, try clicking on any of the citations!
-:header-rows: 1
-:name: jBqbQidSUR
+## 1. Add Citations from DOIs
 
-* -
+A digital object identifier (DOI) is a unique string that permanently identifies an article or document on the web.
 
-  - Parenthetical citation
+### Find the DOI
+1. **Locate the DOI** on the article or document you want to cite
+2. **Copy it to your clipboard**
+3. **Note**: If you can't find the DOI, use the 'Search Metadata' option on [crossref.org](https://crossref.org)
 
-  - Narrative citation
+### Add the Citation
+1. **Place your cursor** where you want to add the citation
+2. **Type `/cite`** to access the citation menu
+3. **Navigate to "ADD DOI"**
+4. **Enter the DOI** in the search bar
+5. **Click "SEARCH"**
+6. **Select "CREATE CITATION"** if the correct article appears
 
-* - 1 author
 
-  - {cite:p}`heinen_compensation_2014`
+## 2. Import Citations from BibTeX Files
 
-  - {cite:t}`heinen_compensation_2014`
+BibTeX files (`.bib`) are commonly used with LaTeX and can be exported from most reference managers like Zotero, Mendeley, or EndNote.
 
-* - 2 authors
+### Export from Reference Manager
+1. **Open your reference manager** (Zotero, Mendeley, etc.)
+2. **Select the references** you want to import
+3. **Export as BibTeX** (`.bib` format)
+4. **Save the file** to your computer
 
-  - {cite:p}`Bartkowski2018Leverage`
+### Import to Curvenote
+1. **Drag and drop** the `.bib` file into your Curvenote project
+2. **Or use the upload button** in your project
+3. **All references** will be added to your citation library
+4. **Citation keys** will be automatically generated
 
-  - {cite:t}`Bartkowski2018Leverage`
+[Watch video: Importing citations from BibTeX file](images/MshxlXndaLsk3WbJ0ZGy-RaR3QGIKD1ek3VXMAX31-v3.mp4)
 
-* - 3 or more authors
+## 3. Insert Citations in Your Text
 
-  - {cite:p}`winter_effects_2018`
+Once citations are in your library, you can easily insert them:
 
-  - {cite:t}`winter_effects_2018`
+### Single Citation
+1. **Place your cursor** where you want the citation
+2. **Type `/cite`** or `[[cite:`
+3. **Search for the reference** you want to cite
+4. **Select the citation** from the dropdown
+5. **The citation** will be inserted automatically
 
-* - Group author
+### Multiple Citations
+1. **Place your cursor** where you want the citations
+2. **Type `/reference`** to access the references menu
+3. **Use the search** to find references
+4. **Check the boxes** for citations you want to add
+5. **Click "INSERT CITATIONS"**
 
-  - {cite:p}`EuropeanCommission2020`
+![Insert multiple citations](images/MshxlXndaLsk3WbJ0ZGy-V58UiaFTTyA5qx1tti7D-v1.png)
 
-  - {cite:t}`EuropeanCommission2020`
+## 4. Format and Arrange Citations
 
-```
+### Citation Styles
+Citations are automatically formatted according to your chosen style:
+- **Parenthetical citations**: `{cite:p}` for (Author, Year)
+- **Narrative citations**: `{cite:t}` for Author (Year)
 
-## Adding citations through DOIs
+### Group Citations
+1. **Select a citation** in your text
+2. **Click the `[]` button** in the toolbar to add brackets
+3. **Drag citations** into and out of citation groups
+4. **Rearrange citations** within groups as needed
 
-A digital object identifier (DOI) is a unique string that’s used to permanently identify an article or document on the web. If you are citing a paper, it will have a searchable DOI you can add to your Curvenote citation library.
 
-To add a DOI:
+## 5. Update and Manage Citations
 
-- Locate the DOI on the article or document you want to cite, and copy it to your clipboard
+### Update Existing Citations
+1. **Re-export your BibTeX** from your reference manager
+2. **Ensure citation keys** remain the same
+3. **Re-upload the BibTeX file**
+4. **All references** will be updated automatically
 
-```{note}
-The DOI is usually included with the article content. However, if you cannot find the DOI you can use the ‘Search Metadata’ option on [crossref.org.](crossref.org.)
+### Citation Keys
+- **Format**: `ref-citationkey` (lowercase)
+- **Example**: `Cockett2015-Elsevier` becomes `ref-cockett2015-elsevier`
+- **Use for**: Quick lookup with `[[cite:` command
 
-```
+## Citation Examples
 
-- Place your cursor in the area you want to add the citation
-- Access the citation menu by using the `/cite` command
-- Navigate to **ADD DOI**
-- Enter the DOI in the search bar
-- Select **SEARCH**
-- If the appropriate article or document is shown, select **CREATE CITATION**
+| Citation Type | Parenthetical Citation | Narrative Citation |
+|---------------|------------------------|-------------------|
+| 1 author | (Heinen, 2014) | Heinen (2014) |
+| 2 authors | (Bartkowski & Smith, 2018) | Bartkowski and Smith (2018) |
+| 3 or more authors | (Winter et al., 2018) | Winter et al. (2018) |
+| Group author | (European Commission, 2020) | European Commission (2020) |
 
-```{figure} images/MshxlXndaLsk3WbJ0ZGy-tZmadZXYnXoMbmz0nAwm-v2.mp4
-:name: 17800507
-:align: center
-:width: 70%
-```
 
-Your citation will now be added to your citation library for that project, and can be inserted into your articles without having to re-add the DOI.
 
-## Adding citations from BibTex files
+## Next Steps
 
-The bibtex (`*.bib`) file format is a storage format for citations, it is commonly used with $\LaTeX$, and can be exported from most reference managers.
+- [Add Figures, Images, and Media →](./figures-and-images.md)
+- [Create Internal References →](./internal-references.md)
+- [Export to PDF/LaTeX →](./export-latex.md)
 
-```{figure} images/MshxlXndaLsk3WbJ0ZGy-RaR3QGIKD1ek3VXMAX31-v3.mp4
-:name: adaa6acf
-:align: center
-:width: 70%
+---
 
-Import your references from a `*.bib` file, and easily update your references if you need to!
-```
+💡 **Tip:** Citations in Curvenote are clickable and will take you directly to the source article or document when clicked.
 
-### Updating Citations
+⚡ **Important:
+Citation Management**
 
-If you need to update your citation (e.g. fixing an author name, or adding a date), just re-export the bibtex from your reference manager, ensuring that the citation key for the reference is the same. Then just re-upload, the bibtex and all of the included reference will be updated💥.
-
-In Curvenote, the references are stored as a `Reference` block, when you upload through a bibtex file it is given a unique `name` that is derived from the citation key you provide. The block `name` (used in the URL and must be unique for a project) is prefixed with `ref-` and is lowercased. This means the bibtex references are like `Cockett2015-Elsevier` becomes `ref-cockett2015-elsevier`. You can also use these keys to quickly look up a citation through the `[[cite:` command or the reference search panel.
-
-## Inserting multiple citations
-
-To add multiple citations:
-
-- Place your cursor in the area you want to add the citation
-- Access the references menu by using the `/reference` command
-- Filter using the **Search**, and use the checkboxes to select the citation you would like to add
-- Select **INSERT CITATIONS**
-
-The citations will now be added!
-
-```{figure} images/MshxlXndaLsk3WbJ0ZGy-V58UiaFTTyA5qx1tti7D-v1.png
-:name: bb7026ea
-:align: center
-:width: 60%
-```
-
-## Rearranging Citations
-
-By default when citations are added through the `[[cite:` command, they are added as individual citations, these can be wrapped in brackets using the `[]` icon in the toolbar when the citation is selected. You can also drag citations into and out of citation-groups. In latex, these correspond to `\citep{}` and render slightly differently than if you use your own brackets.
-
-```{figure} images/MshxlXndaLsk3WbJ0ZGy-jTbSRxmzUrpQhHBo3ZuF-v3.mp4
-:name: a25010aa
-:align: center
-:width: 70%
-
-Use the `[]` button to toggle the brackets around the citation. You can drag citations into different groups, or rearrange them in order.
-```
-
-Note that if you add the citation through the `/reference` command, then multiple citations will be added to a single group in one go.
+- Keep your BibTeX file updated in your reference manager
+- Use consistent citation keys across your project
+- Regularly sync your references to avoid conflicts
+- Test your citations before finalizing your document
