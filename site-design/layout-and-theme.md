@@ -3,55 +3,144 @@ title: Choose a Layout & Theme
 short_title: Layout & Theme
 ---
 
-:::{tip} 
-**Objective:**  
-Choose and personalize your site’s layout and theme to match your brand and ensure your content is visually appealing and easy to read.
-:::
+# Choose a Layout & Theme
+
+## Quick Start
+Customize your site's visual appearance by selecting layouts, colors, fonts, and branding elements to match your organization's identity
+
+Your site's layout and theme determine how your content is presented to visitors. Curvenote provides flexible options to create a professional, branded appearance that enhances readability and user experience.
 
 ## Before You Start
+
 Make sure you have:
-- A Curvenote account with access to your site’s settings in the web admin interface
+- A Curvenote account with access to your site's settings
 - Primary and secondary brand colors (hex values)
-- Logo and dark mode logo (SVG or PNG)
+- Logo and dark mode logo (SVG or PNG format)
 - Any preferred fonts or typography guidelines
+- Your site already created and accessible
 
-## Steps to Choose a Layout & Theme
+## 1. Access Site Settings
 
-### 1. Open Site Settings
-- Navigate to your site in the Curvenote web admin interface.
-- Go to **Design** or **Theme Settings**.
+Navigate to your site's design configuration:
 
-### 2. Select a Layout
-Curvenote supports several content layouts for landing and listing pages:
-- **Grid – Centered**
-- **Grid – Left**
-- **Normal** (standard content width)
+1. **Open the Curvenote web admin interface**
+2. **Select your site** from the dashboard
+3. **Go to "Design" or "Theme Settings"**
+4. **You'll see options** for layout, colors, fonts, and branding
 
-Choose the layout that best fits your audience and content type. You can change this later.
+## 2. Choose Your Layout
 
-### 3. Apply Brand Colors
-- Enter your **primary** and **secondary** color values.
-- Preview changes to ensure text and buttons remain accessible and readable.
+Select how your content will be displayed:
 
-### 4. Upload Logos
-- **Brand Logo**: Appears in the site header.
-- **Dark Mode Logo**: Used when visitors switch to dark mode.
-- Recommended: a simple, square format without text for flexibility.
+### Layout Options
+- **Grid – Centered**: Content arranged in a centered grid layout
+- **Grid – Left**: Content aligned to the left in a grid format
+- **Normal**: Standard content width with traditional flow
 
-### 5. Set Fonts
-- **Title/Brand Font**: Typically a bold or distinctive font for headings.
-- **Main Text Font**: Easy-to-read sans-serif or serif.
-- **Technical/Monospace Font**: Used for code snippets or inline commands.
+### Choose Based On
+- **Content type**: Articles, journals, or lab websites
+- **Audience preferences**: Academic vs. general public
+- **Brand guidelines**: Formal vs. modern appearance
 
-### 6. Save and Preview
-- Save your changes.
-- View the site in both light and dark modes to confirm visual consistency.
+You can change this layout later as your needs evolve.
 
-:::{note} Example
-A research journal might use a clean **Grid – Centered** layout with a dark blue primary color (#003366), white secondary color (#FFFFFF), and a sans-serif body font.
-:::
+## 3. Configure Brand Colors
 
-## Related Guides
-- [Hero Unit & Background Images](planning.md)
-- [Custom Domains](custom-domains.md)
-- [Navigation & Page Structure](navigation.md)
+Set your site's color scheme:
+
+### Primary Color
+- **Purpose**: Main brand color for headers, buttons, and accents
+- **Format**: Hex color code (e.g., #003366)
+- **Consider**: Accessibility and contrast with text
+
+### Secondary Color
+- **Purpose**: Supporting color for backgrounds and highlights
+- **Format**: Hex color code (e.g., #FFFFFF)
+- **Consider**: How it complements your primary color
+
+### Preview Changes
+- **Test readability** of text on colored backgrounds
+- **Check contrast ratios** for accessibility
+- **View in both light and dark modes**
+
+## 4. Upload Your Logos
+
+Add your organization's branding:
+
+### Brand Logo
+- **Location**: Appears in the site header
+- **Format**: SVG or PNG (recommended: square format)
+- **Style**: Simple, clean design without text for flexibility
+- **Size**: Typically 200x200px or larger
+
+### Dark Mode Logo
+- **Purpose**: Used when visitors switch to dark mode
+- **Format**: Same as brand logo
+- **Consider**: How it looks on dark backgrounds
+
+## 5. Select Typography
+
+Choose fonts for different content types:
+
+### Title/Brand Font
+- **Use**: Main headings and site title
+- **Style**: Bold or distinctive font
+- **Examples**: Roboto, Open Sans, or your brand font
+
+### Main Text Font
+- **Use**: Body text and general content
+- **Style**: Easy-to-read sans-serif or serif
+- **Examples**: Inter, Source Sans Pro, or Georgia
+
+### Technical/Monospace Font
+- **Use**: Code snippets and inline commands
+- **Style**: Fixed-width font for code readability
+- **Examples**: Fira Code, JetBrains Mono, or Consolas
+
+## 6. Preview and Save
+
+Test your design choices:
+
+1. **Save your changes** in the settings
+2. **Preview your site** in both light and dark modes
+3. **Check different pages** to ensure consistency
+4. **Test on different devices** if possible
+5. **Verify accessibility** of color combinations
+
+## Design Examples
+
+### Research Journal
+- **Layout**: Grid – Centered
+- **Primary Color**: Dark blue (#003366)
+- **Secondary Color**: White (#FFFFFF)
+- **Font**: Sans-serif for clean, professional appearance
+
+### Lab Website
+- **Layout**: Grid – Left
+- **Primary Color**: University brand color
+- **Secondary Color**: Light gray (#F5F5F5)
+- **Font**: Modern sans-serif for readability
+
+### Conference Site
+- **Layout**: Normal
+- **Primary Color**: Conference theme color
+- **Secondary Color**: Complementary accent
+- **Font**: Professional serif for academic tone
+
+## Next Steps
+
+- [Plan Your Site Design →](./planning.md)
+- [Set Up Custom Domains →](./custom-domains.md)
+- [Configure Site Navigation →](./navigation.md)
+
+---
+
+💡 **Tip:** Start with a simple, clean design and refine it over time. You can always update your theme as your brand evolves.
+
+⚡ **Important:
+Design Best Practices**
+
+- Ensure sufficient contrast between text and backgrounds
+- Use consistent spacing and typography throughout
+- Test your design on different screen sizes
+- Keep your logo simple and recognizable at small sizes
