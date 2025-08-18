@@ -1,79 +1,185 @@
 ---
-title: Commands
+title: CLI Commands Reference
+short_title: Commands
 ---
 
-This has the list of all commands for the Curvenote CLI, you can use the help `curvenote -h` on any command and this will print the help for the command or service. To see the version of Curvenote, use `curvenote -v`. For debugging, use the `-d` or `--debug` flag and all debug commands will be logged, use this if any commands fail.
+# CLI Commands Reference
 
-## Getting Started
+## Quick Start
+Learn the essential Curvenote CLI commands for creating projects, building content, and deploying websites
 
-These commands are designed with prompts to get you started easily and point you to other information on how to get started.
+The Curvenote CLI provides a comprehensive set of commands for managing scientific content and websites. Use `curvenote --help` to see all available commands and `curvenote <command> --help` for specific command options.
 
-### curvenote init
+## Before You Start
 
-Creates a project from a directory or clones a remote Curvenote project.
+Make sure you have:
+- Curvenote CLI installed and working
+- Basic understanding of command line operations
+- Authentication set up (for private content)
+- A project to work with
 
-- `-y` or `--yes`: Follows the defaults for initializing a project.
-- `--write-toc`: Write an explicit table of contents.
+## 1. Getting Started Commands
 
-After calling `curvenote init` you will have a local folder with a `curvenote.yml` that defines all site and project settings.
+**Initialize new project:**
+```shell
+curvenote init [project-name]
+```
 
-### curvenote clone
+**Clone existing project:**
+```shell
+curvenote clone [remote-url] [folder]
+```
 
-Clone a remote Curvenote project, and brings all markdown, notebooks, and site configuration to your local folder.
+**Get help:**
+```shell
+curvenote --help
+curvenote <command> --help
+```
 
-**Optional arguments**
+**Check version:**
+```shell
+curvenote --version
+```
 
-- `[remote]`: specify the remote project URL, e.g. `https://curvenote.com/@templates/web` if this is not supplied, the CLI will ask you for a remote project URL.
-- `[folder]`: specify the local folder to clone into, must not exist. When paired with `-y` below the folder will be chosen as `content/name` where `name` is the name of the Curvenote project.
+## 2. Local Development Commands
 
-**Flags**
+**Start local server:**
+```shell
+curvenote start
+```
 
-- `-y` or `--yes`: Follows the defaults for which local folder to clone to, you must provide a remote.
+**Build content locally:**
+```shell
+curvenote build
+```
 
-If you are cloning in a folder that already contains a site, then this command will also add the project to your curvenote `site.projects` list as well as an entry into the navigation.
+**Clean build cache:**
+```shell
+curvenote start --clean
+curvenote build --clean
+```
 
-## Working Locally
+**Force reinstall dependencies:**
+```shell
+curvenote start --force
+curvenote build --force
+```
 
-### curvenote start
+## 3. Deployment Commands
 
-Start a local server that live-reloads when you make changes.
+**Deploy to web:**
+```shell
+curvenote deploy
+```
 
-- `-c` or `--clean`: clean all cached content, including images. Clean is called before a `curvenote deploy`.
-- `-f` or `--force`: force re-install all dependencies. Helpful to reset the curvenote web server as well as pull any new changes.
-- `--branch`: Branch to clone from <https://github.com/curvenote/curvenote>. Helpful for testing out new features or in development.
-- `--keep-host`: The `HOST` environment variable is by default `localhost`, and will be changed by default. Setting this flag will allow the `HOST` environment variable to be passed into the web server, and may cause it to crash if it is malformed.
+**Deploy without prompts:**
+```shell
+curvenote deploy --yes
+```
 
-### curvenote build
+**Deploy with strict checking:**
+```shell
+curvenote deploy --strict
+```
 
-Build all content locally, this is called by `start` and `deploy`. You can use this to write a table of contents, or check links or any other issues without starting a server.
+**Check external links:**
+```shell
+curvenote deploy --check-links
+```
 
-- `-c` or `--clean`: clean all cached content, including images. Clean is called before a `curvenote deploy`.
-- `-f` or `--force`: force re-install all dependencies. Helpful to reset the curvenote web server as well as pull any new changes.
-- `--branch`: Branch to clone from <https://github.com/curvenote/curvenote>. Helpful for testing out new features or in development.
-- `--write-toc`: Write an explicit table of contents.
-- `-ci`: Skip the installation and just create build folders for deployment. Helpful when working in a continuous integration system, like [deploying from GitHub](./github-action.md).
-- `--strict`: Summarize build warnings and stop on any errors.
-- `--check-links`: Check all links to external websites resolve.
+## 4. Content Sync Commands
 
-## Deploying
+**Pull content from remote:**
+```shell
+curvenote pull [path]
+```
 
-### curvenote deploy
+**Pull without prompts:**
+```shell
+curvenote pull --yes
+```
 
-- `-y` or `--yes`: Do not ask if you are sure you want to deploy!
-- `-f` or `--force`: force re-install all dependencies. Helpful to reset the curvenote web server as well as pull any new changes.
-- `-ci`: Skip the installation and just create build folders for deployment. Helpful when working in a continuous integration system, like [deploying from GitHub](./github-action.md).
-- `--strict`: Summarize build warnings and stop on any errors.
-- `--check-links`: Check all links to external websites resolve.
+**Pull specific file:**
+```shell
+curvenote pull content/article.md
+```
 
-Use the `site.domains` setting in your `curvenote.yml` to configure which site to deploy to.
+## 5. Authentication Commands
 
-## Syncing Content
+**Set API token:**
+```shell
+curvenote token set
+```
 
-### curvenote pull
+**List authenticated accounts:**
+```shell
+curvenote auth list
+```
 
-Pull content from a remote Curvenote project or document. This command will overwrite any local content.
+**Switch between accounts:**
+```shell
+curvenote token select
+```
 
-- `[path]`: the path to a local project folder or file with a remote configured, if omitted all content will be pulled.
-- `-y` or `--yes`: Do not ask if you want to override the files.
+**Remove authentication:**
+```shell
+curvenote token delete
+```
 
-You can pull both an entire project, or a single file.
+## 6. Advanced Commands
+
+**Write table of contents:**
+```shell
+curvenote build --write-toc
+```
+
+**Use specific branch:**
+```shell
+curvenote start --branch main
+```
+
+**CI/CD mode:**
+```shell
+curvenote build --ci
+curvenote deploy --ci
+```
+
+**Debug mode:**
+```shell
+curvenote --debug
+```
+
+## 7. Common Flags and Options
+
+**Global flags:**
+- `--help`: Show command help
+- `--version`: Show CLI version
+- `--debug`: Enable debug logging
+
+**Build flags:**
+- `--clean`: Clean build cache
+- `--force`: Force reinstall dependencies
+- `--strict`: Stop on errors
+- `--check-links`: Verify external links
+
+**Deploy flags:**
+- `--yes`: Skip confirmation prompts
+- `--ci`: Skip installation for CI/CD
+
+## Next Steps
+
+- [Set Up Authentication →](./authentication.md)
+- [Create Your First Project →](../Getting Started/create-project.md)
+- [Deploy Your Site →](../quick-start/3-publish.md)
+
+---
+
+💡 **Tip:** Use `curvenote --help` to explore all available commands and `curvenote <command> --help` to see specific options for each command.
+
+⚡ **Important: Command Best Practices**
+
+- **Use help commands**: Always check `--help` for command options
+- **Test locally first**: Use `curvenote start` before deploying
+- **Use clean builds**: Add `--clean` flag when troubleshooting
+- **Check links**: Use `--check-links` before final deployment
+- **Use CI mode**: Add `--ci` flag for automated deployments

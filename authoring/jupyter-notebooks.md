@@ -3,159 +3,434 @@ title: Write a Scientific Paper using Jupyter
 short_title: Write using Jupyter
 ---
 
-# Write a Scientific Paper using Jupyter
+# Writing a Scientific Paper using Jupyter
 
 ## Quick Start
-Create scientific papers directly from Jupyter notebooks with integrated code, outputs, and narrative text
+Create publication-quality scientific papers using Jupyter notebooks with Curvenote, combining code execution, interactive outputs, and rich documentation
 
-Jupyter notebooks provide a powerful way to write scientific papers that combine code, analysis, visualizations, and narrative text in a single document. Curvenote enhances this workflow by adding version control, collaboration, and publishing capabilities.
+Jupyter notebooks (`.ipynb` files) are perfect for scientific papers that include computational work, data analysis, or interactive visualizations. Curvenote provides first-class support for Jupyter notebooks, allowing you to create documents that combine executable code, interactive outputs, and publication-quality documentation seamlessly.
 
 ## Before You Start
 
 Make sure you have:
-- Jupyter Lab or Jupyter Notebook installed
-- A Curvenote project set up
-- Your research data and analysis ready
-- A clear structure for your paper
+- A Curvenote project to write your paper in
+- Jupyter environment installed (JupyterLab or Jupyter Notebook)
+- Python or other programming language set up
+- Data files or computational resources ready
+- Access to the Curvenote editor interface
 
 ## 1. Set Up Your Jupyter Environment
 
-Start with a well-organized Jupyter notebook:
+Install and configure Jupyter for scientific writing:
 
-1. **Create a new notebook** in Jupyter Lab or Jupyter Notebook
-2. **Organize your notebook** with clear sections:
-   - Introduction and background
-   - Methods and data
-   - Analysis and results
-   - Discussion and conclusions
-3. **Use markdown cells** for narrative text between code cells
-4. **Execute all cells** to ensure outputs are generated
+### Install Jupyter
+```bash
+# Install JupyterLab (recommended)
+pip install jupyterlab
 
-## 2. Structure Your Paper
+# Or install classic Jupyter Notebook
+pip install notebook
+```
 
-Organize your notebook to follow scientific paper conventions:
+### Start Jupyter
+```bash
+# Start JupyterLab
+jupyter lab
 
-### Introduction Section
-- **Background and context** in markdown cells
-- **Literature review** with citations
-- **Research questions** and objectives
-- **Hypotheses** to be tested
+# Or start classic Jupyter Notebook
+jupyter notebook
+```
 
-### Methods Section
-- **Data collection** procedures
-- **Code for data preprocessing**
-- **Analysis methods** with clear comments
-- **Statistical approaches** used
+### Install Scientific Libraries
+```bash
+# Common scientific Python packages
+pip install pandas numpy matplotlib seaborn plotly altair
+```
 
-### Results Section
-- **Code for analysis** with outputs
-- **Figures and visualizations**
-- **Statistical results** and tables
-- **Key findings** in markdown
+## 2. Structure Your Scientific Paper
 
-### Discussion Section
-- **Interpretation** of results
-- **Comparison** with previous work
-- **Limitations** and future work
-- **Conclusions** and implications
+Organize your notebook with clear sections using Markdown cells:
 
-## 3. Add Rich Content
+### Create Paper Sections
+```{myst}
+# Title of Your Scientific Paper
 
-Enhance your paper with various content types:
+## Abstract
 
-### Code and Analysis
-```python
-# Example analysis code
+Brief summary of your research question, methods, and key findings.
+
+## Introduction
+
+Background information, research objectives, and significance of your work.
+
+## Methods
+
+Detailed description of your computational approach, data sources, and analysis methods.
+
+## Results
+
+Presentation of your findings with interactive visualizations and statistical analysis.
+
+## Discussion
+
+Interpretation of results, implications, and future research directions.
+
+## References
+
+Citations and bibliography using academic reference formats.
+```
+
+### Use Markdown for Narrative
+```{myst}
+## Data Analysis
+
+We analyzed the experimental dataset using Python's pandas library. Previous work by @smith2023 showed similar patterns in the data.
+
+The analysis revealed three key findings:
+
+1. **Finding 1**: Description of the first significant result
+2. **Finding 2**: Description of the second significant result  
+3. **Finding 3**: Description of the third significant result
+
+See {numref}`Figure %s <fig:results>` for a visualization of our results.
+```
+
+## 3. Write and Execute Code Cells
+
+Add computational content to your scientific paper:
+
+### Data Loading and Preprocessing
+```{code-cell} python
 import pandas as pd
+import numpy as np
 import matplotlib.pyplot as plt
+import seaborn as sns
 
-# Load and process data
+# Load experimental data
 data = pd.read_csv('experiment_data.csv')
-results = analyze_data(data)
 
-# Create visualization
-plt.figure(figsize=(10, 6))
-plt.plot(results['x'], results['y'])
-plt.title('Experimental Results')
+# Basic data exploration
+print(f"Dataset shape: {data.shape}")
+print(f"Columns: {list(data.columns)}")
+print("\nFirst few rows:")
+print(data.head())
+```
+
+### Statistical Analysis
+```{code-cell} python
+# Perform statistical analysis
+results = data.groupby('condition').agg({
+    'value': ['mean', 'std', 'count', 'min', 'max']
+}).round(3)
+
+print("Statistical Summary by Condition:")
+print(results)
+
+# Calculate confidence intervals
+from scipy import stats
+confidence_intervals = data.groupby('condition')['value'].apply(
+    lambda x: stats.t.interval(0.95, len(x)-1, loc=x.mean(), scale=stats.sem(x))
+)
+print(f"\n95% Confidence Intervals: {confidence_intervals}")
+```
+
+### Create Publication-Quality Plots
+```{code-cell} python
+# Set up publication-quality plotting
+plt.style.use('seaborn-v0_8-whitegrid')
+fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(12, 5))
+
+# Plot 1: Box plot
+sns.boxplot(data=data, x='condition', y='value', ax=ax1)
+ax1.set_title('Distribution by Condition')
+ax1.set_xlabel('Experimental Condition')
+ax1.set_ylabel('Measured Value')
+
+# Plot 2: Scatter plot
+sns.scatterplot(data=data, x='time', y='value', hue='condition', ax=ax2)
+ax2.set_title('Value Over Time')
+ax2.set_xlabel('Time (minutes)')
+ax2.set_ylabel('Measured Value')
+
+plt.tight_layout()
 plt.show()
 ```
 
-### Narrative Text
-Use markdown cells for:
-- **Explanations** of methods and results
-- **Citations** and references
-- **Context** and background information
-- **Discussion** of implications
+## 4. Add Interactive Visualizations
 
-### Interactive Elements
-- **Interactive plots** (Plotly, Bokeh)
-- **Data tables** with sorting/filtering
-- **Embedded widgets** for exploration
-- **Dynamic visualizations**
+Create engaging interactive plots that remain functional in Curvenote:
 
-## 4. Link to Curvenote
+### Interactive Scatter Plots
+```{code-cell} python
+import plotly.express as px
 
-Connect your Jupyter notebook to Curvenote:
+# Create interactive scatter plot
+fig = px.scatter(data, x='x_value', y='y_value', 
+                 color='category', size='magnitude',
+                 hover_data=['condition', 'time'],
+                 title='Interactive Results Visualization')
 
-1. **Upload your notebook** to your Curvenote project
-2. **Link to local file** for version control
-3. **Sync changes** automatically
-4. **Collaborate** with co-authors
+fig.update_layout(
+    xaxis_title="X Variable",
+    yaxis_title="Y Variable",
+    font=dict(size=12)
+)
 
-## 5. Format for Publication
+fig.show()
+```
 
-Prepare your notebook for publication:
+### Statistical Visualizations
+```{code-cell} python
+import altair as alt
 
-1. **Review all outputs** are properly displayed
-2. **Check markdown formatting** is correct
-3. **Verify citations** are properly formatted
-4. **Test interactive elements** work as expected
-5. **Export to various formats** (PDF, HTML, etc.)
+# Create interactive Altair chart
+chart = alt.Chart(data).mark_circle().encode(
+    x='x_value:Q',
+    y='y_value:Q',
+    color='category:N',
+    size='magnitude:Q',
+    tooltip=['x_value', 'y_value', 'category', 'condition']
+).interactive()
 
-## 6. Collaborate and Review
+chart.properties(
+    title='Interactive Statistical Visualization',
+    width=600,
+    height=400
+)
+```
 
-Work with co-authors effectively:
+### Time Series Analysis
+```{code-cell} python
+import plotly.graph_objects as go
 
-1. **Share your project** with collaborators
-2. **Use comments** for feedback and discussion
-3. **Track changes** with version control
-4. **Review and revise** collaboratively
-5. **Finalize** for submission
+# Create time series plot
+fig = go.Figure()
 
-## Best Practices
+for condition in data['condition'].unique():
+    subset = data[data['condition'] == condition]
+    fig.add_trace(go.Scatter(
+        x=subset['time'],
+        y=subset['value'],
+        mode='lines+markers',
+        name=condition,
+        hovertemplate='Time: %{x}<br>Value: %{y}<br>Condition: ' + condition
+    ))
 
-### Code Organization
-- **Clear variable names** and comments
-- **Modular functions** for reusability
-- **Error handling** for robustness
-- **Documentation** for complex algorithms
+fig.update_layout(
+    title='Time Series Analysis by Condition',
+    xaxis_title='Time',
+    yaxis_title='Value',
+    hovermode='x unified'
+)
 
-### Writing Style
-- **Clear, concise language** in markdown cells
-- **Proper scientific tone** and terminology
-- **Logical flow** between sections
-- **Consistent formatting** throughout
+fig.show()
+```
 
-### Data Management
-- **Reproducible code** with fixed random seeds
-- **Data versioning** and backup
-- **Clear data sources** and citations
-- **Open data** when possible
+## 5. Add Citations and References
+
+Include academic citations using MyST syntax:
+
+### Literature Review Section
+```{myst}
+## Literature Review
+
+Recent studies have shown significant progress in this field @jones2023; @brown2022. 
+The work by @smith2023 provides a comprehensive framework for understanding these patterns.
+
+Our approach builds upon the methodology described by @wilson2021, extending it to handle 
+larger datasets and more complex experimental conditions.
+```
+
+### Create Bibliography
+Add a bibliography section to your paper:
+
+```{myst}
+## References
+
+```{bibliography}
+:style: apa
+```
+```
+
+### BibTeX File Example
+Create a `references.bib` file:
+```bibtex
+@article{jones2023,
+  title={Recent advances in computational methods for scientific analysis},
+  author={Jones, A. and Wilson, B. and Davis, C.},
+  journal={Nature},
+  year={2023},
+  volume={123},
+  pages={456--789},
+  doi={10.1038/nature12345}
+}
+
+@article{brown2022,
+  title={Novel approaches to data analysis in experimental sciences},
+  author={Brown, C. and Miller, D.},
+  journal={Science},
+  year={2022},
+  volume={456},
+  pages={123--456},
+  doi={10.1126/science.abc1234}
+}
+
+@article{smith2023,
+  title={A comprehensive framework for scientific computing},
+  author={Smith, J. and Johnson, K.},
+  journal={Computational Science},
+  year={2023},
+  volume={78},
+  pages={234--567},
+  doi={10.1016/j.compsci.2023.123456}
+}
+```
+
+## 6. Cross-Reference Content
+
+Link to figures, tables, and sections throughout your paper:
+
+### Reference Figures and Tables
+```{myst}
+## Results
+
+Our analysis produced several key visualizations. The main results are shown in {numref}`Figure %s <fig:main_results>`, 
+and detailed statistics are presented in {numref}`Table %s <tbl:statistics>`.
+
+## Discussion
+
+As shown in {numref}`Figure %s <fig:main_results>`, the data reveals clear patterns that support our hypothesis.
+The statistical analysis presented in {numref}`Table %s <tbl:statistics>` confirms the significance of these findings.
+```
+
+### Section References
+```{myst}
+## Methods
+
+Our computational approach follows the methodology described in {numref}`Section %s <sec:data_preprocessing>`.
+
+## Data Preprocessing
+:label: sec:data_preprocessing
+
+Detailed description of data preprocessing steps...
+```
+
+## 7. Ensure Reproducibility
+
+Make your research reproducible with proper documentation:
+
+### Set Random Seeds
+```{code-cell} python
+import numpy as np
+import random
+
+# Set seeds for reproducibility
+np.random.seed(42)
+random.seed(42)
+
+print("Random seeds set for reproducible results")
+```
+
+### Document Dependencies
+```{code-cell} python
+# Document package versions for reproducibility
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+import plotly.express as px
+import altair as alt
+
+print("Package versions for reproducibility:")
+print(f"pandas: {pd.__version__}")
+print(f"numpy: {np.__version__}")
+print(f"matplotlib: {plt.matplotlib.__version__}")
+print(f"seaborn: {sns.__version__}")
+print(f"plotly: {px.__version__}")
+```
+
+### Error Handling
+```{code-cell} python
+def load_data_safely(filepath):
+    """Load data with proper error handling."""
+    try:
+        data = pd.read_csv(filepath)
+        print(f"Successfully loaded {len(data)} rows from {filepath}")
+        return data
+    except FileNotFoundError:
+        print(f"Error: File {filepath} not found")
+        return None
+    except Exception as e:
+        print(f"Error loading data: {e}")
+        return None
+
+# Use the safe loading function
+data = load_data_safely('experiment_data.csv')
+```
+
+## 8. Publish Your Jupyter Paper
+
+Export and deploy your scientific paper:
+
+### Export to Curvenote
+```bash
+# Initialize a Curvenote project
+curvenote init my-scientific-paper
+
+# Add your notebook
+curvenote add paper.ipynb
+
+# Build and preview
+curvenote build
+curvenote serve
+```
+
+### Configure Project Settings
+Create `curvenote.yml`:
+```yaml
+project:
+  title: "My Scientific Paper"
+  description: "Computational analysis of experimental data"
+  
+  # Enable Jupyter features
+  jupyter:
+    execute: true
+    interactive: true
+    
+  # Computational environment
+  computational:
+    binderhub: true
+    jupyter: true
+    
+  # Bibliography
+  bibliography:
+    - references.bib
+```
+
+### Deploy Your Paper
+```bash
+# Deploy to curve.space
+curvenote deploy
+
+# Your paper will be available at:
+# https://your-paper.curve.space
+```
 
 ## Next Steps
 
-- [Add Interactive Outputs →](../editor/interactive-outputs.md)
-- [Link Data and Code →](../editor/add-and-link-notebooks.md)
-- [Publish & Share Your Article →](../getting-started/publish-article.md)
+- [Add Citations and References →](./citations.md)
+- [Create Interactive Figures →](./figures-and-images.md)
+- [Organize Your Content →](./organize-content.md)
+- [Learn about Computational Articles →](../computational-articles.md)
 
 ---
 
-💡 **Tip:** Jupyter notebooks in Curvenote maintain full interactivity when published, allowing readers to explore your analysis, run code, and interact with visualizations directly in the browser.
+💡 **Tip:** Start with a clear structure using Markdown cells, then add code cells for your analysis. Use interactive visualizations to engage readers and make your research more accessible.
 
-⚡ **Important:
-Reproducible Research Best Practices**
+⚡ **Important: Jupyter Best Practices**
 
-- Always include all necessary code and data
-- Use version control for your notebooks
-- Document your environment and dependencies
-- Test that your notebook runs from start to finish
+- **Clear documentation**: Use Markdown cells to explain your methodology
+- **Reproducible code**: Set random seeds and document dependencies
+- **Interactive outputs**: Use libraries that remain interactive in Curvenote
+- **Version control**: Save versions of your notebook as you develop
+- **Collaboration**: Share your notebook with colleagues for review and feedback
