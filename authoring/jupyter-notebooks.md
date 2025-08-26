@@ -3,9 +3,9 @@ title: Write a Scientific Paper using Jupyter
 short_title: Write using Jupyter
 ---
 
-# Writing a Scientific Paper using Jupyter
+# Write a Scientific Paper using Jupyter
 
-## Quick Start
+## Overview
 Create publication-quality scientific papers using Jupyter notebooks with Curvenote, combining code execution, interactive outputs, and rich documentation
 
 Jupyter notebooks (`.ipynb` files) are perfect for scientific papers that include computational work, data analysis, or interactive visualizations. Curvenote provides first-class support for Jupyter notebooks, allowing you to create documents that combine executable code, interactive outputs, and publication-quality documentation seamlessly.

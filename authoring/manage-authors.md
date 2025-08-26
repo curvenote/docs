@@ -5,7 +5,7 @@ short_title: Authors
 
 # Manage Authors and Contributors
 
-## Quick Start
+## Overview
 Add, edit, and manage authors for your Curvenote articles with full metadata including ORCID, affiliations, and contributor roles
 
 Manage authors and contributors for your articles with comprehensive metadata support. Add multiple authors, set affiliations, assign contributor roles, and ensure proper attribution for all contributors to your work.
@@ -155,7 +155,7 @@ Resolve frequent author management problems:
 
 💡 **Tip:** Use ORCID IDs whenever possible to ensure proper attribution and avoid author name confusion across publications.
 
-⚡ **Important: Author Management Best Practices**
+⚡ **Author Management Best Practices**
 
 - **Use ORCID IDs**: Link authors to their ORCID for proper attribution
 - **Set corresponding author**: Mark the primary contact for the article

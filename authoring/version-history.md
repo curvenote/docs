@@ -94,7 +94,7 @@ Make sure you have:
 
 - [Reuse Content Blocks →](./reuse-blocks.md)
 - [Organize Your Content →](./organize-content.md)
-- [Export Your Work →](../editor/export-pdf.md)
+- [Export Your Work →](../publishing/export-pdf.md)
 
 ---
 

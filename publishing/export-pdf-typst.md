@@ -6,7 +6,7 @@ description: Step-by-step tutorial for exporting your Curvenote scientific paper
 
 # Export Your Scientific Paper to PDF and Typst
 
-## Quick Start
+## Overview
 Export your Curvenote scientific papers to professional PDF and Typst formats for submission to journals, preprint servers, or sharing with collaborators
 
 This tutorial guides you through exporting your scientific papers from Curvenote to both PDF and Typst formats. Whether you're submitting to a journal, uploading to a preprint server, or sharing with colleagues, this tutorial covers the complete export workflow for both formats.

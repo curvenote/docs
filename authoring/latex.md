@@ -1,11 +1,11 @@
 ---
-title: Writing a Scientific Paper using LaTeX
+title: Write a Scientific Paper using LaTeX
 short_title: Write using LaTeX
 ---
 
-# Writing a Scientific Paper using LaTeX
+# Write a Scientific Paper using LaTeX
 
-## Quick Start
+## Overview
 Create publication-quality scientific papers using LaTeX with Curvenote, combining traditional typesetting with modern collaborative features
 
 LaTeX is the gold standard for scientific and academic writing, offering precise control over formatting, mathematical equations, and publication-ready output. Curvenote provides seamless LaTeX integration, allowing you to write in MyST Markdown and export to LaTeX, or work directly with LaTeX files while maintaining version control and collaboration features.
@@ -500,7 +500,7 @@ project:
 - [Add Citations and References →](./citations.md)
 - [Create Interactive Figures →](./figures-and-images.md)
 - [Organize Your Content →](./organize-content.md)
-- [Export to LaTeX →](../editor/export-latex.md)
+- [Export to LaTeX →](../publishing/export-latex.md)
 
 ---
 

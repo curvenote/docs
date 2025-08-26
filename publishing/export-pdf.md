@@ -6,7 +6,7 @@ description: Export and download your Curvenote articles as professional PDF doc
 
 # Export Articles as PDF
 
-## Quick Start
+## Overview
 Export your Curvenote articles as professional PDF documents with customizable templates, proper formatting, and publication-ready output
 
 ## Before You Start

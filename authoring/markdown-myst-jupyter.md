@@ -5,7 +5,7 @@ short_title: Writing Formats
 
 # Writing with Markdown, MyST, or Jupyter
 
-## Quick Start
+## Overview
 Choose the right writing format for your content: standard Markdown for simple documents, MyST Markdown for scientific papers, or Jupyter notebooks for computational work
 
 Curvenote supports multiple writing formats to match your content needs. Use standard Markdown for basic documents, MyST Markdown for publication-quality scientific papers with citations and cross-references, or Jupyter notebooks for interactive computational content with code and outputs.
@@ -163,8 +163,8 @@ For detailed Jupyter notebook workflows and scientific paper creation, see [Writ
 
 **For Jupyter Notebooks**:
 - [Writing Scientific Papers with Jupyter →](./jupyter-notebooks.md)
-- [Interactive Outputs →](../editor/interactive-outputs-in-jupyter.md)
-- [Reproducible Figures →](../editor/reproducible-figures.md)
+- [Interactive Outputs →](../Computational/interactive-outputs-in-jupyter.md)
+- [Reproducible Figures →](../Computational/reproducible-figures.md)
 
 ---
 
