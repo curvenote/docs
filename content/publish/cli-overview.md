@@ -3,11 +3,16 @@ title: Curvenote CLI
 description: ''
 ---
 
-`curvenote` is a command line interface (CLI) that provides modern tooling for technical writing, reproducible science, and creating scientific & technical websites. To get started install curvenote:
+`curvenote` is a command line interface (CLI) that provides modern tooling for technical writing, reproducible science, and creating scientific & technical websites. 
+
+
+``````{important} Download the Curvenote CLI
+To get started, download and install curvenote using `npm`:
 
 ```shell
 npm install -g curvenote
 ```
+``````
 
 See [Installing Curvenote](./installing.md) for more details, you must have a node version greater than 14 (see [Installing NodeJS](./installing-prerequisites.md) for more information).
 
