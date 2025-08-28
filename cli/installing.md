@@ -1,37 +1,114 @@
 ---
-title: Installing Curvenote
+title: Install Curvenote CLI
+short_title: Install CLI
 ---
 
-Curvenote is available through [NodeJS](./installing-prerequisites.md) and the node package manager, `npm`. Node is used by Jupyter as well as many other Python packages so you may already have it installed on your _PATH_ and the following command may just work 🤞.
+# Install Curvenote CLI
 
-🛠️ [Install NodeJS](./installing-prerequisites.md) and run the following command:
+## Quick Start
+Install the Curvenote CLI globally using npm to access command line tools for creating and managing scientific content
+
+The Curvenote CLI is distributed through npm and requires Node.js. Once installed, you can create projects, build content, and deploy sites directly from your terminal.
+
+## Before You Start
+
+Make sure you have:
+- Node.js version 14 or higher installed
+- npm (comes with Node.js)
+- Access to a terminal or command prompt
+- Stable internet connection for download
+
+## 1. Check Node.js Installation
+
+Verify Node.js is installed and up to date:
+
+```shell
+node --version
+npm --version
+```
+
+**Required versions:**
+- Node.js: 14.0.0 or higher
+- npm: 6.0.0 or higher
+
+## 2. Install Curvenote CLI
+
+Install the CLI globally:
 
 ```shell
 npm install -g curvenote
 ```
 
-:::{important}
-If you do not have `npm` installed you can look at our guide for [Installing NodeJS](./installing-prerequisites.md). If you have any challenges installing, please [open an issue here](https://github.com/curvenote/curvenotejs/issues) or send an email to [support@curvenote.com](mailto:support@curvenote.com).
-:::
+**What happens:**
+- Downloads and installs Curvenote CLI
+- Adds `curvenote` command to your PATH
+- Installs all required dependencies
 
-This will install `curvenote` globally (`-g`) on your system and add a link to the main CLI tool. To see if things worked, try checking the version with:
+## 3. Verify Installation
+
+Test that the CLI is working:
 
 ```shell
 curvenote --version
 ```
 
-This command should print the current version of the package. If all is good, you can type `curvenote` again in your terminal and it will list the help with all of the options available to you.
+**Expected output:**
+```
+curvenote v2.x.x
+```
 
-:::{note}
-If you have any challenges installing, please [open an issue here](https://github.com/curvenote/curvenote/issues).
-:::
+**Get help:**
+```shell
+curvenote --help
+```
 
-## Updating Curvenote
+## 4. Update Curvenote CLI
 
-There are new releases of the CLI every few weeks, to update to the latest version of `curvenote`, use:
+Keep your CLI up to date:
 
 ```shell
 npm update -g curvenote
 ```
 
-Try the `curvenote --version` command before and after, with an update you should be on the most up to date version (see [npm](https://npmjs.com/package/curvenote) for the latest version!). If you are not, try `npm uninstall -g curvenote` or without the `-g` global flag, until `curvenote` is no longer available on your command line. Then try installing again!
+**When to update:**
+- New features are released
+- Bug fixes are available
+- Security updates are published
+
+## 5. Troubleshoot Installation
+
+**If installation fails:**
+
+**Permission errors:**
+```shell
+sudo npm install -g curvenote
+```
+
+**Clear npm cache:**
+```shell
+npm cache clean --force
+```
+
+**Reinstall completely:**
+```shell
+npm uninstall -g curvenote
+npm install -g curvenote
+```
+
+## Next Steps
+
+- [Set Up Authentication →](./authentication.md)
+- [Learn Basic Commands →](./commands.md)
+- [Create Your First Project →](../Getting Started/create-project.md)
+
+---
+
+💡 **Tip:** Use `npm list -g curvenote` to check your current version and `npm outdated -g` to see if updates are available.
+
+⚡ **Important: Installation Best Practices**
+
+- **Use global installation**: The `-g` flag makes curvenote available system-wide
+- **Keep Node.js updated**: Ensure you have the latest LTS version
+- **Check permissions**: Use `sudo` if you encounter permission errors
+- **Verify installation**: Always test with `curvenote --version` after installation
+- **Regular updates**: Update the CLI regularly for new features and security patches

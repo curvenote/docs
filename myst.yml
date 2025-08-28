@@ -40,6 +40,13 @@ project:
     - directives.mjs
   toc:
     - file: solutions.md
+    - title: Quick Start
+      children:
+        - file: quick-start/index.md
+        - file: quick-start/1-install.md
+        - file: quick-start/2-first-project.md
+        - file: quick-start/3-publish.md
+        - file: quick-start/4-examples.md
     - title: Getting Started
       children:
         - file: getting-started/what-is-curvenote.md

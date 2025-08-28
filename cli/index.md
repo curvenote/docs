@@ -3,32 +3,103 @@ title: Curvenote CLI Overview
 short_title: Overview
 ---
 
-`curvenote` is a command line interface (CLI) that provides modern tooling for technical writing, reproducible science, and creating scientific & technical websites. To get started install curvenote:
+# Curvenote CLI Overview
+
+## Quick Start
+Install and use the Curvenote command line interface to create, manage, and deploy scientific content and websites
+
+The Curvenote CLI provides modern tooling for technical writing, reproducible science, and creating scientific & technical websites. It enables local content transformations, collaborative writing workflows, and seamless deployment to the web.
+
+## Before You Start
+
+Make sure you have:
+- Node.js version 14 or higher installed
+- Access to a terminal or command prompt
+- Understanding of basic command line operations
+- A Curvenote account (for authentication features)
+
+## 1. Install the CLI
+
+Get the Curvenote CLI tool:
 
 ```shell
 npm install -g curvenote
 ```
 
-See [Installing Curvenote](./installing.md) for more details, you must have a node version greater than 14 (see [Installing NodeJS](./installing-prerequisites.md) for more information).
-
-The CLI and all dependencies made by Curvenote are [open-source](https://github.com/curvenote/curvenote) (MIT License) and we contribute to upstream projects where we can (e.g. our founders are members of [Executable Books](https://executablebooks.org/en/latest/team.html)). The Curvenote CLI provides local content transformations, with an early focus on providing 100s of [LaTeX templates](https://github.com/curvenote/templates) for various scientific journals. The library also provides a connection to sync your local documents with Curvenote to aid in collaborative writing, especially in bridging the gap between those who can use Markdown, Git, and a Shell and those of us who are not programmers. We think this is especially important for writing workflows, where the collaboration and communication process is often quite different than a Git-driven approach.
-
-```{figure} images/curvenote-start.png
-:align: center
-:width: 70%
-
-Get started with a `curvenote init` to quickly see your content rendered.
+**Verify installation:**
+```shell
+curvenote --version
 ```
 
-## Features of the Curvenote CLI
+**Get help:**
+```shell
+curvenote --help
+```
 
-- Create and edit scientific & technical websites, including Jupyter Notebooks
-- Sync articles and notebooks from Curvenote
-- Locally export to static documents
-- Export to MyST Markdown (see [mystmd.org](https://mystmd.org))
+## 2. Understand CLI Capabilities
 
-## Open Source
+The Curvenote CLI provides comprehensive tools for:
 
-The CLI is Open Source (MIT License) and can be found [on GitHub](https://github.com/curvenote/curvenote). We welcome contributions and [issues](https://github.com/curvenote/curvenote/issues) from anyone looking to improve scientific communication!
+**Content Creation**: Create and edit scientific & technical websites, including Jupyter Notebooks
 
-- <https://github.com/curvenote/curvenote>
+**Local Development**: Build and preview content locally with live reload
+
+**Content Sync**: Sync articles and notebooks from Curvenote platform
+
+**Export Options**: Export to PDF, Word, LaTeX, and MyST Markdown formats
+
+**Deployment**: Deploy sites to curve.space or custom domains
+
+## 3. Key CLI Features
+
+**Open Source**: MIT License, available on [GitHub](https://github.com/curvenote/curvenote)
+
+**LaTeX Templates**: 100s of templates for various scientific journals
+
+**Collaborative Workflows**: Bridge gap between technical and non-technical users
+
+**Local Processing**: All content transformations happen locally
+
+**Version Control**: Integrates with Git for collaborative development
+
+## 4. Basic Workflow
+
+**Initialize project**: `curvenote init` to create new projects
+
+**Start development**: `curvenote start` for local preview
+
+**Build content**: `curvenote build` to process content
+
+**Deploy site**: `curvenote deploy` to publish online
+
+**Sync content**: `curvenote pull` to get latest changes
+
+## 5. Integration Options
+
+**GitHub Actions**: Automated deployment and previews
+
+**Jupyter Integration**: Direct notebook support and execution
+
+**MyST Markdown**: Full support for scientific document features
+
+**Custom Domains**: Deploy to your own domain names
+
+**API Access**: Programmatic access to Curvenote features
+
+## Next Steps
+
+- [Install Curvenote CLI →](./installing.md)
+- [Set Up Authentication →](./authentication.md)
+- [Learn Commands →](./commands.md)
+
+---
+
+💡 **Tip:** Start with `curvenote init` to quickly create a new project and see your content rendered locally. The CLI provides immediate feedback and live previews as you work.
+
+⚡ **Important: CLI Best Practices**
+
+- **Keep CLI updated**: Use `npm update -g curvenote` regularly
+- **Use local preview**: Always test with `curvenote start` before deploying
+- **Version control**: Commit your `curvenote.yml` configuration files
+- **Authentication**: Set up API tokens for private content access
+- **Documentation**: Check `curvenote --help` for command options

@@ -1,116 +1,141 @@
 ---
-title: Installing NodeJS
+title: Install Node.js Prerequisites
+short_title: Node.js Setup
 ---
 
-The Curvenote Command Line Interface (CLI) is built on [NodeJS](https://nodejs.org/en/about/) (`nodejs`), a Javascript runtime that is widely used in many projects including well-known Python projects such as Jupyter Lab. `node` comes with its own package manager called `npm`.
+# Install Node.js Prerequisites
 
-There are a number of ways to install `nodejs` and you can choose one that is suitable depending on your platform and preferences.
+## Quick Start
+Install Node.js version 14 or higher to use the Curvenote CLI for creating and managing scientific content
 
-:::{important} Node Versions
-Curvenote currently supports `nodejs` v16, v18, and v20. Note that odd-numbered releases of `nodejs` are not long-lived and you should prefer even-numbered releases when installing.
-:::
+Node.js is the JavaScript runtime required to run the Curvenote CLI. Choose the installation method that best fits your system and workflow preferences.
 
-Following any of the install methods below, verify your installation and ensure that `node` and `npm` are available on your system _PATH_ by opening a new terminal window or command line prompt and typing:
+## Before You Start
 
-```text
-% node -v
-v22.12.0
-% npm -v
-11.3.0
+Make sure you have:
+- Administrative access to your system (for global installation)
+- Stable internet connection for download
+- Understanding of your system's package manager
+- Terminal or command prompt access
+
+## 1. Choose Installation Method
+
+Select the best method for your system:
+
+**Manual Installation**: Download from nodejs.org (all platforms)
+
+**Package Managers**: Use system package managers (recommended)
+
+**Version Managers**: Use nvm or similar tools (advanced users)
+
+**Virtual Environments**: Use conda or nodeenv (isolated environments)
+
+## 2. Manual Installation
+
+Download and install from the official website:
+
+**Visit**: https://nodejs.org/
+
+**Download**: LTS (Long Term Support) version
+
+**Install**: Follow platform-specific instructions
+
+**Verify installation:**
+```shell
+node --version
+npm --version
 ```
 
-## Manual Installation (all platforms)
+## 3. Package Manager Installation
 
-You can download an appropriate installer package for your platform by visiting <https://nodejs.org/>. _LTS_ refers to the current _Long Term Support_ version of `nodejs` and is the best choice for use with Curvenote.
-
-Download the installer package, and follow instructions to execute the installer for your platform. The installer will automatically add `node` and `npm` to your system PATH.
-
-🛠️ Next, up [Installing Curvenote](./installing.md)
-
-## `node` via `conda` / `mamba` (all platforms)
-
-`nodejs` is available as a package on `conda-forge`, although a limited number of versions are available on that channel. If you are a `conda` user, installation is straightforward but please note that curvenote requires even-numbered node versions, and odd-numbered releases can be found on `conda-forge`.
-
-🛠️ Use the following command can be used to lock down the version you are installing, adjust as necessary for the even-numbered version you are targeting:
-
-```python
-(my-conda-env)% conda install -c conda-forge 'nodejs>=18,<19'
-(my-conda-env)% node -v
-(my-conda-env)% v16.14.2
-(my-conda-env)% npm -v
-(my-conda-env)% v
+**macOS (Homebrew):**
+```shell
+brew install node
 ```
 
-💡 Alternatively, you can create a new `conda` environment directly as a `node` environment:
+**Ubuntu/Debian:**
+```shell
+sudo apt update
+sudo apt install nodejs npm
+```
+
+**Windows (Chocolatey):**
+```shell
+choco install nodejs
+```
+
+**CentOS/RHEL:**
+```shell
+sudo yum install nodejs npm
+```
+
+## 4. Version Manager Installation
+
+**nvm (Linux/macOS):**
+```shell
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
+nvm install 18
+nvm use 18
+```
+
+**nvm-windows:**
+Download from https://github.com/coreybutler/nvm-windows
+
+**Install specific version:**
+```shell
+nvm install 18.17.0
+nvm use 18.17.0
+```
+
+## 5. Virtual Environment Installation
+
+**Conda/Mamba:**
+```shell
+conda install -c conda-forge 'nodejs>=18,<19'
+```
+
+**nodeenv (Python users):**
+```shell
+pip install nodeenv
+nodeenv -n 18.17.0 my_env
+source my_env/bin/activate
+```
+
+## 6. Verify Installation
+
+Test that Node.js is properly installed:
 
 ```shell
-% conda create -yn my-node-env 'nodejs>=18,<19'
-% ....
-#
-# To activate this environment, use
-#
-#     $ conda activate my-node-env
-#
-# To deactivate an active environment, use
-#
-#     $ conda deactivate
+node --version
+npm --version
 ```
 
-🛠️ Next, up [Installing Curvenote](./installing.md)
-
-## `nodeenv` via pip (all platforms)
-
-`nodeenv` is a python package allowing you to create and manage `node` installations on your system via virtual environments. If you want to work in virtual environments for `node` alongside your python `virtualenv` this is the way to go.
-
-🛠️ Install `nodeenv`:
-
-```python
-% pip install nodeenv
+**Expected output:**
+```
+v18.17.0
+9.6.7
 ```
 
-🛠️ Query available node versions:
-
-```python
-% nodeenv --list
-% ... 16.15.0 ...
-```
-
-🛠️ Create a new environment based on a specific `node` version, and activate it:
-
+**Check PATH:**
 ```shell
-% nodeenv -n 16.15.0 node_env
-% . node_env/bin/activate
-(node_env) % node -v
-(node_env) % v16.15.0
-(node_env) % npm -v
-(node_env) % v8.5.5
+which node
+which npm
 ```
 
-Read more about `nodeenv` in [their docs](https://ekalinin.github.io/nodeenv/).
+## Next Steps
 
-🛠️ Next, up [Installing Curvenote](./installing.md)
+- [Install Curvenote CLI →](./installing.md)
+- [Set Up Authentication →](./authentication.md)
+- [Create Your First Project →](../Getting Started/create-project.md)
 
-## Node Version Manager - Linux/MacOS (`nvm`)
+---
 
-`nvm` is a convenient way to manage multiple node installations on a POSIX compatible system.
+💡 **Tip:** Use the LTS (Long Term Support) version of Node.js for the most stable experience. Even-numbered versions (16, 18, 20) are recommended.
 
-🛠️ Install `nvm` using the install script in [their docs](https://github.com/nvm-sh/nvm).
+⚡ **Important: Node.js Requirements**
 
-```shell
-% nvm -v
-0.39.1
-```
-
-💡 Note: on MacOS you can also install `nvm` via `brew`
-
-🛠️ Next, install an initial (default) version of `node`:
-
-```bash
-% nvm install 18
-Downloading and installing node v18...
-...
-Now using node v18 (npm v9)
-%
-```
-
-🛠️ Next, up [Installing Curvenote](./installing.md)
+- **Version requirement**: Node.js 14.0.0 or higher
+- **npm requirement**: npm 6.0.0 or higher
+- **LTS versions**: Use even-numbered releases (16, 18, 20)
+- **PATH setup**: Ensure node and npm are in your system PATH
+- **Permissions**: May need sudo/admin access for global installation
