@@ -5,7 +5,7 @@ short_title: Commands
 
 # CLI Commands Reference
 
-## Quick Start
+## Overview
 Learn the essential Curvenote CLI commands for creating projects, building content, and deploying websites
 
 The Curvenote CLI provides a comprehensive set of commands for managing scientific content and websites. Use `curvenote --help` to see all available commands and `curvenote <command> --help` for specific command options.

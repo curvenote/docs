@@ -5,7 +5,7 @@ short_title: Citations
 
 # Add Citations and References
 
-## Quick Start
+## Overview
 Add academic citations and references to your Curvenote articles using DOIs or BibTeX files, with easy access through the citation menu
 
 Curvenote supports two main methods for adding citations: searching by DOI for individual papers, or importing BibTeX files from reference managers. Once added, citations are stored in your project library and can be easily inserted and managed throughout your content.

@@ -5,7 +5,7 @@ short_title: Link Data & Code
 
 # Link Data and Code
 
-## Quick Start
+## Overview
 Connect your Curvenote articles to external datasets, code repositories, and computational resources for reproducible research
 
 Curvenote provides multiple ways to link your content to external data sources, code repositories, and computational environments. This enables readers to access the underlying data, run your code, and reproduce your research findings.

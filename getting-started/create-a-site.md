@@ -5,7 +5,7 @@ short_title: Create a Site
 
 # Create a Site
 
-## Quick Start
+## Overview
 Set up your Curvenote site to publish and share your work online
 
 Creating a Curvenote site gives you a dedicated space to publish your research, lab work, or any scientific content. The process is simple and handled through our onboarding form.

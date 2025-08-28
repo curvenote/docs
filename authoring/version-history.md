@@ -5,7 +5,7 @@ short_title: Version History
 
 # Track Versions and Drafts
 
-## Quick Start
+## Overview
 Manage version history, track changes, and work with drafts across your Curvenote articles, notebooks, and blocks
 
 Curvenote provides comprehensive version control for all your content. Every article, notebook, and block can be versioned independently, allowing you to track changes, revert to previous versions, and collaborate safely with automatic draft saving and conflict resolution.
@@ -94,7 +94,7 @@ Make sure you have:
 
 - [Reuse Content Blocks →](./reuse-blocks.md)
 - [Organize Your Content →](./organize-content.md)
-- [Export Your Work →](../editor/export-pdf.md)
+- [Export Your Work →](../publishing/export-pdf.md)
 
 ---
 

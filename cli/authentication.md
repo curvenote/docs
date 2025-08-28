@@ -5,7 +5,7 @@ short_title: Authentication
 
 # Authentication and API Tokens
 
-## Quick Start
+## Overview
 Set up authentication to access private Curvenote content, sync projects, and deploy websites using API tokens
 
 Most Curvenote CLI functionality works without authentication, but you'll need an API token to access private content, sync projects, or deploy websites. API tokens provide secure, programmatic access to your Curvenote account.

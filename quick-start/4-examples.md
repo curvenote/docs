@@ -5,7 +5,7 @@ short_title: Examples
 
 # Common Examples
 
-## Quick Start
+## Overview
 Copy-paste solutions for adding figures, citations, code blocks, and interactive elements to your Curvenote content
 
 These examples show common patterns for enhancing your content with visual elements, references, and interactive components that make your research more engaging and reproducible.

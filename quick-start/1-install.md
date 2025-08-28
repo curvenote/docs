@@ -5,7 +5,7 @@ short_title: Install
 
 # Install Curvenote
 
-## Quick Start
+## Overview
 Install the Curvenote CLI tool and authenticate with your account to start creating and publishing content
 
 The Curvenote CLI provides command-line access to all Curvenote features, allowing you to create projects, manage content, and publish sites directly from your terminal.

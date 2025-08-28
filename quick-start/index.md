@@ -5,7 +5,7 @@ short_title: Quick Start
 
 # Quick Start Guide
 
-## Quick Start
+## Overview
 Get from zero to published site in minutes with step-by-step instructions
 
 This guide provides everything you need to install Curvenote, create your first project, publish it to the web, and add common content elements like figures, citations, and code.

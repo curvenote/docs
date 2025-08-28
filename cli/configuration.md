@@ -5,7 +5,7 @@ short_title: Configuration
 
 # Configure Curvenote Projects
 
-## Quick Start
+## Overview
 Configure your Curvenote projects using YAML configuration files to customize site settings, project metadata, and deployment options
 
 Curvenote uses YAML configuration files (`curvenote.yml` or `myst.yml`) to define project settings, site configuration, and deployment options. These files control everything from site appearance to export formats and domain settings.

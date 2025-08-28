@@ -1,11 +1,11 @@
 ---
-title: Writing a Scientific Paper using Typst
+title: Write a Scientific Paper using Typst
 short_title: Write using Typst
 ---
 
-# Writing a Scientific Paper using Typst
+# Write a Scientific Paper using Typst
 
-## Quick Start
+## Overview
 Create publication-quality scientific papers using Typst with Curvenote, combining modern typesetting with powerful mathematical notation and collaborative features
 
 Typst is a modern, fast typesetting system designed for scientific and academic writing. It offers LaTeX-like capabilities with improved performance, cleaner syntax, and better error messages. Curvenote provides seamless Typst integration, allowing you to write in MyST Markdown and export to Typst, or work directly with Typst files while maintaining version control and collaboration features.
@@ -547,7 +547,7 @@ typst compile your_paper.typ --format png
 - [Add Citations and References →](./citations.md)
 - [Create Interactive Figures →](./figures-and-images.md)
 - [Organize Your Content →](./organize-content.md)
-- [Export to PDF →](../editor/export-pdf.md)
+- [Export to PDF →](../publishing/export-pdf.md)
 
 ---
 

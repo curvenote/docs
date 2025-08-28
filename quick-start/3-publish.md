@@ -5,7 +5,7 @@ short_title: Publish
 
 # Publish Your Site
 
-## Quick Start
+## Overview
 Deploy your Curvenote project to the web with a single command to make your content accessible to anyone
 
 Publishing creates a live website from your local project, making your content available on the internet with a professional URL and optimized hosting.

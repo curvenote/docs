@@ -5,7 +5,7 @@ short_title: Workflows
 
 # CLI Workflows and Development
 
-## Quick Start
+## Overview
 Learn common Curvenote CLI workflows for local development, content management, and deployment processes
 
 The Curvenote CLI supports various workflows for different use cases. Whether you're developing locally, collaborating with teams, or deploying to production, these workflows help you work efficiently and maintain consistency.

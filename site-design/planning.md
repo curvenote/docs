@@ -5,7 +5,7 @@ short_title: Site Planning
 
 # Plan Your Site Design
 
-## Quick Start
+## Overview
 Plan and configure your site's hero section, background images, and overall design strategy to create a compelling first impression
 
 Your site's hero section is the first thing visitors see. A well-designed hero unit can significantly improve user engagement and site navigation.

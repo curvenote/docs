@@ -5,7 +5,7 @@ short_title: Organize Content
 
 # Organize Content into Sections
 
-## Quick Start
+## Overview
 Structure your Curvenote project with folders, navigation groups, and table of contents to create a well-organized content hierarchy
 
 Curvenote provides multiple ways to organize your content, from simple folder structures to complex navigation hierarchies. Proper organization helps readers navigate your content and makes it easier to manage large projects with multiple articles, notebooks, and resources.

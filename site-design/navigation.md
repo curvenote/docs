@@ -6,7 +6,7 @@ description: Configure navigation menus, action buttons, and site structure for 
 
 # Set Up Site Navigation
 
-## Quick Start
+## Overview
 Configure your site's navigation menu, action buttons, and page structure to help visitors find content and take desired actions
 
 Your site's navigation determines how visitors move through your content and what actions they can take. A well-organized navigation structure improves user experience and helps achieve your site's goals.

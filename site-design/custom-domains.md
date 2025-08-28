@@ -6,7 +6,7 @@ description: Configure your own domain name for your Curvenote site
 
 # Set Up Custom Domains
 
-## Quick Start
+## Overview
 Configure your own domain name to host your Curvenote site instead of using the default curve.space subdomain
 
 You can use Curvenote to host any custom domain that you own, for example a personal blog, lab website, or journal. Custom domains are available with the Curvenote Pro plan or require a subscription to a Lab Group site or Journal hosted with Curvenote.

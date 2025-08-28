@@ -5,7 +5,7 @@ short_title: Layout & Theme
 
 # Choose a Layout & Theme
 
-## Quick Start
+## Overview
 Customize your site's visual appearance by selecting layouts, colors, fonts, and branding elements to match your organization's identity
 
 Your site's layout and theme determine how your content is presented to visitors. Curvenote provides flexible options to create a professional, branded appearance that enhances readability and user experience.

@@ -5,7 +5,7 @@ short_title: Create Project
 
 # Create Your First Project
 
-## Quick Start
+## Overview
 Create and organize your first Curvenote project to start writing and publishing content
 
 A **project** is the container for everything you want to publish in Curvenote — including articles, figures, datasets, media, and the configuration that controls how they appear online.
