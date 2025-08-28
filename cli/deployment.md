@@ -5,7 +5,7 @@ short_title: Deployment
 
 # Deploy Curvenote Sites
 
-## Quick Start
+## Overview
 Deploy your Curvenote projects to the web using the CLI for automatic hosting, custom domains, and continuous deployment
 
 Deploy your Curvenote sites to get them online quickly with automatic hosting, custom domain support, and integration with GitHub Actions for continuous deployment.

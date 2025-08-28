@@ -5,7 +5,7 @@ short_title: Node.js Setup
 
 # Install Node.js Prerequisites
 
-## Quick Start
+## Overview
 Install Node.js version 14 or higher to use the Curvenote CLI for creating and managing scientific content
 
 Node.js is the JavaScript runtime required to run the Curvenote CLI. Choose the installation method that best fits your system and workflow preferences.

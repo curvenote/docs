@@ -5,7 +5,7 @@ short_title: Add & Link Notebooks
 
 # Add & Link Notebooks
 
-## Quick Start
+## Overview
 Upload Jupyter notebooks to your Curvenote project and link them to local files for version control and collaboration
 
 Notebooks can be created in Jupyter then uploaded to a Curvenote project via the web app. You should always add pre-executed, saved notebooks to Curvenote so that outputs appear and are available for use. Notebooks that already exist on Curvenote can also be imported and linked to a local `.ipynb` file.

@@ -5,7 +5,7 @@ short_title: Overview
 
 # Curvenote CLI Overview
 
-## Quick Start
+## Overview
 Install and use the Curvenote command line interface to create, manage, and deploy scientific content and websites
 
 The Curvenote CLI provides modern tooling for technical writing, reproducible science, and creating scientific & technical websites. It enables local content transformations, collaborative writing workflows, and seamless deployment to the web.

@@ -5,7 +5,7 @@ short_title: Export
 
 # Export Curvenote Content
 
-## Quick Start
+## Overview
 Export your Curvenote projects to various formats including PDF, Word, LaTeX, and MECA archives for sharing and publication
 
 Export your Curvenote content to different formats for sharing, publication, or archival purposes. The CLI supports multiple export formats with customizable templates and options.

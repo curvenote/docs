@@ -5,7 +5,7 @@ short_title: First Project
 
 # Create Your First Project
 
-## Quick Start
+## Overview
 Create a new Curvenote project and start a local preview server to see your content live as you edit
 
 A Curvenote project contains your content files, site configuration, and assets. The local preview server provides instant feedback as you make changes to your content.

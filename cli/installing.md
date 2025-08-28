@@ -5,7 +5,7 @@ short_title: Install CLI
 
 # Install Curvenote CLI
 
-## Quick Start
+## Overview
 Install the Curvenote CLI globally using npm to access command line tools for creating and managing scientific content
 
 The Curvenote CLI is distributed through npm and requires Node.js. Once installed, you can create projects, build content, and deploy sites directly from your terminal.

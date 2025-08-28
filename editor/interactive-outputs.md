@@ -5,7 +5,7 @@ short_title: Interactive Outputs
 
 # Add Interactive Outputs
 
-## Quick Start
+## Overview
 Use Jupyter notebook outputs as interactive figures in your Curvenote articles with automatic versioning and updates
 
 Curvenote is built to work hand in hand with Jupyter and allows you to directly use outputs from Jupyter as figures within your Curvenote articles. The versioning in Curvenote also allows for you to easily update your image in the article, rather than having to copy-and-paste a new static image each time you update your code.

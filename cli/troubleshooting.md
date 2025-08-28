@@ -5,7 +5,7 @@ short_title: Troubleshooting
 
 # Troubleshoot CLI Issues
 
-## Quick Start
+## Overview
 Resolve common Curvenote CLI issues with step-by-step solutions for installation, authentication, deployment, and build problems
 
 The Curvenote CLI is designed to be reliable, but you may encounter issues during installation, development, or deployment. This guide provides solutions for the most common problems.

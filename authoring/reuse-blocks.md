@@ -5,7 +5,7 @@ short_title: Reuse Blocks
 
 # Reuse Text, Figures, and Blocks
 
-## Quick Start
+## Overview
 Reuse content blocks, figures, and text across multiple Curvenote projects using the block system and oxa links
 
 Curvenote's block system allows you to create reusable content components that can be shared across articles, notebooks, and projects. All copies of a block are linked, meaning changes propagate to all instances, making it easy to maintain consistency and update content across multiple documents.

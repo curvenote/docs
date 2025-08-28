@@ -5,7 +5,7 @@ short_title: Write Article
 
 # Write Your First Article
 
-## Quick Start
+## Overview
 Create and edit your first article in Curvenote using the CLI
 
 Writing articles in Curvenote is straightforward and flexible. You can use Markdown, Jupyter notebooks, or other formats to create rich, interactive content.

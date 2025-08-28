@@ -5,7 +5,7 @@ short_title: Install CLI
 
 # Install & Authenticate the Curvenote CLI
 
-## Quick Start
+## Overview
 Get the Curvenote CLI installed and authenticated in minutes
 
 The Curvenote CLI lets you create, manage, and publish content from your terminal. Follow these steps to get up and running quickly.

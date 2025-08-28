@@ -5,7 +5,7 @@ short_title: Figures & Images
 
 # Add Figures, Images, and Media
 
-## Quick Start
+## Overview
 Add images, GIFs, and other media to your Curvenote articles using drag-and-drop or copy-paste methods
 
 Curvenote supports various image formats (JPEG, TIFF, PNG, etc.) and GIFs that can be added to content blocks or displayed as standalone figures. Once added, images can be formatted, resized, and given numbered captions for easy referencing throughout your document.
