@@ -29,7 +29,7 @@ Check that your work builds as expected by running `curvenote start` and opening
 ```{figure} images/curvenote-start-warnings.png
 :label: fig:curvenote-start-warnings
 :class: framed
-The result of running `curvenote start` showing the link to the web based preview of the work and various outpu logs and in this case warnings. Errors and warnings such as those shown for broken cross references  should be addressed before making a submission.
+The result of running `curvenote start` showing the link to the web based preview of the work and various output logs and in this case warnings. Errors and warnings such as those shown for broken cross references  should be addressed before making a submission.
 ```
 
 You should check that no errors appear on in the terminal after running `curvenote start`. Errors and warnings can point to problems with your work that should be addressed before submission.
