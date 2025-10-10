@@ -64,6 +64,7 @@ project:
         - file: submitting-your-work.md
         - file: tutorial-deploy-local.md
         - file: try-curvespace.md
+        - file: init-from-github.md
         - file: deploying-myst-from-github.md
     - title: Automation
       children:
@@ -83,6 +84,9 @@ project:
     - title: Editorial process
       children:
         - file: editorial-process.md
+    - title: Creating Templates
+      children:
+        - file: creating-templates.md
     - title: Publishing an article
       children:
         - file: graceful-degradation.md
