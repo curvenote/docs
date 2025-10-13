@@ -13,12 +13,67 @@ These commands are designed with prompts to get you started easily and point you
 
 ### curvenote init
 
-Creates a project from a directory or clones a remote Curvenote project.
+Initialize a Curvenote project from various sources including local folders, GitHub templates, or Curvenote projects.
 
-- `-y` or `--yes`: Follows the defaults for initializing a project.
-- `--write-toc`: Write an explicit table of contents.
+**Usage:**
 
-After calling `curvenote init` you will have a local folder with a `curvenote.yml` that defines all site and project settings.
+```bash
+curvenote init                      # Interactive initialization from local folder
+curvenote init --github <url>       # Initialize from GitHub template
+curvenote init --curvenote <url>    # Initialize from Curvenote project
+curvenote init --write-template     # Generate template.yml for template creators
+curvenote init --improve            # Update existing project metadata
+curvenote init --add-authors        # Add authors to existing project
+```
+
+**Initialization Modes:**
+
+- **Local folder** (default): Initialize from content in the current directory
+- **GitHub template** (`--github`): Clone and initialize from a GitHub repository template
+- **Curvenote import** (`--curvenote`): Import from an existing Curvenote project
+
+**Project Modification Options:**
+
+These options work on existing projects with a `curvenote.yml`:
+
+- `--write-template`: Generate a `template.yml` file with default questions for template creators
+- `--improve`: Re-run template questions to update project metadata interactively
+- `--add-authors [list]`: Add authors to the project (interactive or comma-separated)
+- `--write-toc`: Generate an explicit table of contents
+
+**Common Flags:**
+
+- `-y, --yes`: Use defaults and skip interactive prompts
+- `--output <path>`: Specify target directory for initialization (with `--github`)
+- `--domain <domain>`: Set custom domain for deployment
+
+**Examples:**
+
+```bash
+# Initialize from local folder
+curvenote init
+
+# Clone and initialize from GitHub template
+curvenote init --github https://github.com/username/template-repo
+
+# Initialize to a specific directory
+curvenote init --github https://github.com/username/template-repo --output my-project
+
+# Import from Curvenote (non-interactive)
+curvenote init --curvenote https://curvenote.com/@username/project --yes
+
+# Update metadata on existing project
+curvenote init --improve
+
+# Generate template.yml for your repository
+curvenote init --write-template
+```
+
+After initialization, you will have a `curvenote.yml` file that defines all site and project settings.
+
+**See also:**
+- [Using GitHub Templates](init-from-github.md) - Guide for end users
+- [Creating Templates](creating-templates.md) - Guide for template creators and lab leads
 
 ### curvenote clone
 

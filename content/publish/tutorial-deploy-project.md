@@ -46,6 +46,10 @@ mkdir myproject
 cd myproject
 ```
 
+::::{note} New in curvenote init
+You can now use `curvenote init --curvenote <url>` for non-interactive initialization, or explore GitHub templates with `curvenote init --github <url>`. See [Using GitHub Templates](init-from-github.md) to learn more.
+::::
+
 🛠️ Next, call `curvenote init` to start an interactive command line that will guide you through the initial setup of your site.
 
 ```text
