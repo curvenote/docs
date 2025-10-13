@@ -72,6 +72,163 @@ project:
 
 You can include more specific configuration based on your template's purpose. The person using your template will customize these values during initialization.
 
+### Using Extends for Cleaner Configuration
+
+The `extends` field in `curvenote.yml` allows you to separate standard organizational content from project-specific content. This is a core MyST feature that points to another YAML file to extend.
+
+#### Why Use Extends?
+
+When creating templates for a lab, journal, or organization, you often have:
+- Standard information that stays the same (lab name, venue, affiliations)
+- Common abbreviations and references
+- Organization-specific settings
+
+By moving these to a separate file, template users see a cleaner `curvenote.yml` with only the fields they need to customize.
+
+#### Basic Structure
+
+Create a base configuration file (e.g., `_curvenote-base.yml`):
+
+```yaml
+# _curvenote-base.yml
+version: 1
+project:
+  venue: Rock Scientists Journal
+  subject: Geology
+  abbreviations:
+    GSA: Geological Society of America
+    IUGS: International Union of Geological Sciences
+  affiliations:
+    - id: lab
+      institution: Smith Geophysics Research Lab
+      department: Earth Sciences
+      address: University of Example
+```
+
+Then reference it in your main `curvenote.yml`:
+
+```yaml
+# curvenote.yml
+version: 1
+extends: _curvenote-base.yml
+project:
+  title: My Research Project
+  authors: []
+  keywords: []
+```
+
+#### What to Put in the Base File
+
+**Good candidates for the base file:**
+- `venue` - Journal or conference name
+- `subject` - Field of study
+- `abbreviations` - Standard acronyms in your field
+- `affiliations` - Lab or institutional information
+- `github` - Organization GitHub URL
+- `bibliography` - Standard reference files
+- `numbering` - Consistent numbering schemes
+- `options` - Template-specific settings
+
+**Keep in the main file:**
+- `title` - Project-specific
+- `description` - Project-specific
+- `authors` - Changes per project
+- `keywords` - Project-specific
+- Any fields users customize during `curvenote init`
+
+#### Complete Example: Lab Template
+
+For a research lab providing a standard template:
+
+```yaml
+# _lab-defaults.yml
+version: 1
+project:
+  venue: Smith Lab Internal Reports
+  subject: Seismology
+  github: https://github.com/smith-lab
+  bibliography:
+    - references.bib
+    - _lab-common-refs.bib
+  abbreviations:
+    PGA: Peak Ground Acceleration
+    GMM: Ground Motion Model
+    PSHA: Probabilistic Seismic Hazard Analysis
+  affiliations:
+    - id: smith-lab
+      institution: Smith Geophysics Research Lab
+      department: Earth Sciences
+      address: State University, 123 Campus Drive
+      url: https://smithlab.edu
+  options:
+    numbering:
+      heading_1: true
+      heading_2: true
+```
+
+```yaml
+# curvenote.yml (what users see and edit)
+version: 1
+extends: _lab-defaults.yml
+project:
+  title: Summer 2024 Field Campaign Results
+  description: Analysis of seismic data from Western Pacific
+  authors:
+    - name: Jane Researcher
+      affiliation: smith-lab
+      orcid: 0000-0002-1234-5678
+  keywords:
+    - earthquake monitoring
+    - field study
+```
+
+#### Benefits for Template Users
+
+When someone initializes from your template:
+1. **Cleaner main file** - Only project-specific content is visible
+2. **Less to edit** - Standard fields are already configured
+3. **Consistency** - Everyone uses the same base settings
+4. **Updates** - Fix the base file to update all projects
+5. **Focus** - Users think about their content, not boilerplate
+
+#### Including Base Files in Your Template
+
+When creating your template repository:
+
+```
+my-lab-template/
+├── _lab-defaults.yml      # Base configuration (extends from this)
+├── _lab-common-refs.bib   # Shared references
+├── curvenote.yml          # Main config (extends _lab-defaults.yml)
+├── template.yml           # Custom questions
+├── README.md              # Documentation
+└── content/
+    └── example.md
+```
+
+**Document it in your README:**
+```markdown
+## Template Structure
+
+This template uses `extends` to keep your `curvenote.yml` clean:
+- `_lab-defaults.yml` - Lab-standard settings (don't edit)
+- `curvenote.yml` - Your project-specific settings (edit this)
+
+The base file includes our standard abbreviations, lab affiliation, 
+and citation style. You only need to focus on your project's title, 
+authors, and keywords.
+```
+
+#### When Not to Use Extends
+
+Skip `extends` if:
+- You're creating a simple, standalone template
+- There's no shared organizational content
+- Users will fork/modify everything anyway
+- The extra file adds more confusion than clarity
+
+For most lab, journal, or organizational templates, however, `extends` significantly improves the user experience.
+
 #### README.md
 
 Your README should explain:
@@ -367,40 +524,6 @@ questions:
     hint: "Rock Scientists requires ORCID for all authors. Add authors in order of contribution."
     required: true
 
-  - id: corresponding_author_email
-    field: project.corresponding_author_email
-    enabled: true
-    type: text
-    message: "Corresponding author email:"
-    placeholder: "email@institution.edu"
-    required: true
-
-  - id: rock_types
-    field: project.rock_types
-    enabled: true
-    type: list
-    message: "Primary rock types studied:"
-    placeholder: "e.g., sedimentary, igneous, metamorphic, basalt, granite"
-    hint: "List major rock types relevant to your study"
-    required: true
-
-  - id: study_location
-    field: project.study_location
-    enabled: true
-    type: text
-    message: "Study site location:"
-    placeholder: "e.g., Mid-Atlantic Ridge, 23°N or Western Pacific Subduction Zone"
-    hint: "Provide geographic location with coordinates if applicable"
-    required: true
-
-  - id: geological_age
-    field: project.geological_age
-    enabled: true
-    type: text
-    message: "Geological age/period (if applicable):"
-    placeholder: "e.g., Cretaceous, Paleozoic, Recent"
-    required: false
-
   - id: keywords
     field: project.keywords
     enabled: true
@@ -419,9 +542,8 @@ questions:
     hint: "Include grant numbers if applicable"
     required: false
 
-  # Disable subtitle as it's not used in Rock Scientists format
-  - id: subtitle
-    enabled: false
+  # Omit subtitle as it's not used in Rock Scientists format
+  # - id: subtitle
 ```
 
 ### Example 2: Research Lab Template
@@ -440,21 +562,14 @@ questions:
     placeholder: "e.g., Summer 2024 Field Campaign Results"
     required: true
 
-  - id: lab_group
-    field: project.lab_group
-    enabled: true
-    type: text
-    message: "Lab group:"
-    default: "Smith Geophysics Research Lab"
-    required: true
 
-  - id: project_lead
+  - id: authors
     field: project.authors
     enabled: true
     type: people
-    message: "Project lead:"
-    placeholder: "ORCID or GitHub username"
-    hint: "The primary investigator for this project"
+    message: "Author(s):"
+    placeholder: "ORCID, GitHub username, or comma-separated list"
+    hint: "The primary invetigators who carried out this work."
     required: true
 
   - id: team_members
@@ -464,14 +579,6 @@ questions:
     message: "Team members:"
     placeholder: "Comma-separated ORCIDs or GitHub usernames"
     hint: "Additional researchers who contributed to this project"
-    required: false
-
-  - id: project_type
-    field: project.project_type
-    enabled: true
-    type: text
-    message: "Project type:"
-    placeholder: "e.g., Field Study, Lab Analysis, Literature Review"
     required: false
 
   - id: funding_source
@@ -490,69 +597,9 @@ questions:
     placeholder: "e.g., seismology, tectonics, geophysics"
     required: false
 
-  # Disable description and subtitle
-  - id: description
-    enabled: false
-  - id: subtitle
-    enabled: false
-```
-
-### Example 3: Course Assignment Template
-
-For instructors distributing assignments:
-
-```yaml
-name: curvenote init
-version: 1
-questions:
-  - id: title
-    field: project.title
-    enabled: true
-    type: text
-    message: "Assignment title:"
-    placeholder: "e.g., Lab 3: Seismic Wave Analysis"
-    required: true
-
-  - id: student_name
-    field: project.authors
-    enabled: true
-    type: people
-    message: "Student name:"
-    placeholder: "Your GitHub username or name"
-    hint: "This will appear as the author of your submission"
-    required: true
-
-  - id: course_code
-    field: project.course_code
-    enabled: true
-    type: text
-    message: "Course code:"
-    default: "GEOL-301"
-    required: true
-
-  - id: semester
-    field: project.semester
-    enabled: true
-    type: text
-    message: "Semester:"
-    default: "Fall 2024"
-    required: true
-
-  - id: due_date
-    field: project.due_date
-    enabled: true
-    type: text
-    message: "Due date:"
-    placeholder: "e.g., 2024-10-15"
-    required: false
-
-  # Disable fields not relevant for assignments
-  - id: subtitle
-    enabled: false
-  - id: description
-    enabled: false
-  - id: keywords
-    enabled: false
+  # Disable description and subtitle by omission
+  # - id: description
+  # - id: subtitle
 ```
 
 ## Part 5: The Improve Workflow
@@ -696,29 +743,6 @@ For more comprehensive updates, use `--improve` instead.
 
 ## Part 7: Testing and Publishing Your Template
 
-### Testing Locally
-
-Before publishing, test your template thoroughly:
-
-```bash
-# 1. Create a test directory
-$ mkdir ../test-my-template
-$ cd ../test-my-template
-
-# 2. Initialize from your local template
-$ curvenote init --github file:///absolute/path/to/my-template
-
-# 3. Go through the questions as a user would
-# 4. Verify the output in curvenote.yml
-# 5. Test the content structure
-```
-
-Test with different scenarios:
-- Skip optional questions
-- Provide various author formats (ORCID, GitHub, manual)
-- Test required vs. optional fields
-- Verify custom fields appear in `curvenote.yml`
-
 ### Common Issues and Troubleshooting
 
 **template.yml not being used:**
@@ -764,177 +788,3 @@ $ git push -u origin main
 - Or **private** for organization-specific templates
 - Add topics/tags for discoverability: `curvenote`, `template`, your domain
 - Include a comprehensive README
-
-### README Best Practices
-
-Your README should include:
-
-```markdown
-# Template Name
-
-One-line description of what this template is for.
-
-## Purpose
-
-Who should use this template and why.
-
-## What's Included
-
-- List of files and structure
-- Any pre-configured settings
-- Example content
-
-## Getting Started
-
-```bash
-curvenote init --github https://github.com/username/template-name
-```
-
-## Custom Questions
-
-This template asks for:
-- **Field name**: Description and why it's needed
-- **Another field**: Purpose and expected format
-
-## Metadata Requirements
-
-- Required fields (must be provided)
-- Optional fields (can skip)
-- Format expectations
-
-## Support
-
-How to get help or ask questions.
-
-## License
-
-Template license information.
-```
-
-### Example Repository README
-
-Here's a complete example for Rock Scientists:
-
-```markdown
-# Rock Scientists Submission Template
-
-Official article template for submissions to Rock Scientists, the international
-journal of geological research.
-
-## Purpose
-
-This template provides a standardized starting point for Rock Scientists 
-submissions, ensuring all required metadata is collected and articles follow 
-the journal's structure and style guidelines.
-
-## What's Included
-
-- Pre-configured Rock Scientists article structure
-- GSA citation style
-- Example figures with proper captions
-- Sample geology-specific content sections
-- Required metadata fields via custom template.yml
-
-## Getting Started
-
-```bash
-curvenote init --github https://github.com/rock-scientists/submission-template
-```
-
-You'll be guided through providing:
-- Article title and abstract
-- Author information (ORCID required)
-- Rock types and study location
-- Geological age/period
-- Keywords and funding information
-
-## Metadata Requirements
-
-### Required Fields
-
-- **Title**: Descriptive article title
-- **Abstract**: 250 words or less
-- **Authors**: All authors with ORCID identifiers
-- **Corresponding author email**: For editorial contact
-- **Rock types**: Primary rock types in your study
-- **Study location**: Geographic location with coordinates
-- **Keywords**: 5-10 keywords from GSA Thesaurus
-
-### Optional Fields
-
-- **Geological age/period**: If applicable to your study
-- **Funding source**: Grant numbers and funding agencies
-
-## Writing Your Article
-
-After initialization:
-
-1. Replace example content with your research
-2. Add figures to the `images/` directory
-3. Update `references.bib` with your citations
-4. Run `curvenote start` to preview locally
-
-## Before Submission
-
-Run `curvenote init --improve` to review and complete all metadata before 
-submitting to the journal.
-
-## Questions?
-
-Contact the editorial team:
-- Email: submissions@rockscientists.org
-- Website: https://rockscientists.org/submit
-
-## License
-
-This template is available under the MIT License.
-```
-
-## Best Practices Summary
-
-### For Template Creators
-
-1. **Keep questions focused** - Only ask for information you really need
-2. **Provide clear examples** - Use realistic placeholders from your domain
-3. **Use hints effectively** - Explain why you're asking and what format you expect
-4. **Encourage ORCID** - It provides the most complete author metadata
-5. **Test thoroughly** - Try your template as a new user would
-6. **Document everything** - Clear README with examples and expectations
-7. **Make improvement easy** - Encourage users to run `--improve` later
-
-### For Field-Specific Templates
-
-1. **Use domain terminology** - Speak your community's language
-2. **Collect relevant metadata** - Ask for discipline-specific information
-3. **Provide domain examples** - Show realistic examples from your field
-4. **Set appropriate defaults** - Pre-fill organization-specific values
-5. **Link to standards** - Reference community vocabularies and ontologies
-
-### For Lab/Organization Templates
-
-1. **Standardize naming** - Consistent project and file naming
-2. **Include branding** - Lab logo and standard styling
-3. **Pre-configure settings** - Default funding, affiliations, etc.
-4. **Provide examples** - Show proper structure with example projects
-5. **Version your template** - Update as workflows evolve
-
-## Next Steps
-
-- Create your first template repository
-- Generate and customize `template.yml`
-- Test with your team or community
-- Publish to GitHub
-- Share with your community
-- Iterate based on feedback
-
-## Additional Resources
-
-- [Using GitHub Templates](init-from-github.md) - User guide for your template users
-- [CLI Commands Reference](cli-commands.md) - Complete command documentation  
-- [Project Configuration](../write/frontmatter.md) - Understanding curvenote.yml
-- [MyST Markdown Guide](../write/mystmd.md) - Content formatting
-
----
-
-**Questions or feedback?** Open an issue on the [Curvenote repository](https://github.com/curvenote/curvenote) or contact support@curvenote.com.
-

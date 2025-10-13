@@ -67,8 +67,8 @@ If you want to ensure a specific file is used as root, you can rename this now. 
 
 # Initialize a Curvenote site
 
-::::{note} Enhanced Init Experience
-The `curvenote init` command now includes:
+::::{note} Init Experience
+The `curvenote init` command includes:
 - **Author lookup** - Automatically fetch author details from ORCID or GitHub
 - **Template support** - Use community templates for standardized workflows  
 - **Metadata completion** - Come back and run `curvenote init --improve` after writing to complete your metadata
