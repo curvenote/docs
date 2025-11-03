@@ -75,6 +75,9 @@ project:
     - title: Integrity checks
       children:
         - file: integrity-checks.md
+    - title: Interactivity
+      children:
+        - file: any-bundle.md
     - title: Computational articles
       children:
         - file: computational-articles.md
