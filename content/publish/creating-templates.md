@@ -265,10 +265,6 @@ You'll be asked to provide:
 - Study site location
 - Keywords
 
-## Questions?
-
-Contact submissions@rockscientists.org
-```
 
 ### Content Structure
 
