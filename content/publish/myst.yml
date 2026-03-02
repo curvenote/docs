@@ -59,6 +59,7 @@ project:
     - title: Preparing an article
       children:
         - file: authoring-in-myst.md
+        - file: myst-extensions.md
         - file: metadata-essentials.md
         - file: article-actions.md
         - file: submitting-your-work.md

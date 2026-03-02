@@ -25,3 +25,7 @@ keywords: []
 ```{myst:directive} template:list
 
 ```
+
+```{myst:directive} bluesky
+
+```
