@@ -46,14 +46,11 @@ Curvenote automatically recognizes and enriches links to Bluesky in your Markdow
 ### Supported URL formats
 
 - **Profile links**: `https://bsky.app/profile/{handle}`
-- **Post links**: `https://bsky.app/profile/{handle}/post/{rkey}`
 
 For example:
 
 ```{myst}
 Check out [Curvenote on Bluesky](https://bsky.app/profile/curvenote.com) for updates.
-
-Or link to a specific post: [this announcement](https://bsky.app/profile/curvenote.com/post/3k2e5y6abc123).
 ```
 
 ### Automatic link text
