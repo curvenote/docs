@@ -1,7 +1,7 @@
 ---
 title: MyST Extensions
 short_title: MyST Extensions
-description: Curvenote extends MyST Markdown with additional directives and link handling for embedding Bluesky content and enriching Bluesky links in your articles.
+description: Curvenote extends MyST Markdown with additional capabilities such as roles, directives, link transformers and more to bring richer content into your articles.
 ---
 
 Curvenote extends [MyST Markdown](./authoring-in-myst.md) with custom directives and link transformers that enhance your content with rich, interactive elements. This page documents the Bluesky integration, which allows you to embed profile cards and create smart links to Bluesky profiles and posts.
