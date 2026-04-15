@@ -1,0 +1,18 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  title: Architecture
+  github: https://github.com/curvenote/curvenote
+  copyright: Curvenote Inc. 2026
+  toc:
+    - file: index.md
+    - file: system-overview.md
+    - file: services.md
+    - file: data-model.md
+    - file: auth.md
+    - file: contributing.md
+site:
+  template: book-theme
+  nav: []
+  actions: []
+  domains: []

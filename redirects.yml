@@ -1,0 +1,12 @@
+# Old URL -> new URL redirect table.
+#
+# Populated incrementally as the new IA replaces the old publish/write
+# trees. Every URL in the production sitemap from the old docs MUST
+# eventually have an entry here. Old URLs must never 404 — redirect to
+# the nearest conceptual home, never to the site root.
+#
+# Format:
+#   - from: /publish/old-page
+#     to: /platform/new-page
+
+redirects: []

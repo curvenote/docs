@@ -1,0 +1,30 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  title: CLI
+  github: https://github.com/curvenote/curvenote
+  copyright: Curvenote Inc. 2026
+  abbreviations:
+    CLI: Command Line Interface
+    MyST: Markedly Structured Text
+  toc:
+    - file: index.md
+    - file: install.md
+    - file: tutorial.md
+    - file: config.md
+    - file: ci.md
+    - title: Commands
+      children:
+        - file: commands/index.md
+        - file: commands/site.md
+        - file: commands/sync.md
+        - file: commands/submit.md
+        - file: commands/submission.md
+        - file: commands/works.md
+        - file: commands/check.md
+        - file: commands/export.md
+site:
+  template: book-theme
+  nav: []
+  actions: []
+  domains: []

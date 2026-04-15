@@ -1,0 +1,17 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  title: Extend
+  github: https://github.com/curvenote/curvenote
+  copyright: Curvenote Inc. 2026
+  toc:
+    - file: index.md
+    - file: plugins.md
+    - file: directives.md
+    - file: checks.md
+    - file: publishing.md
+site:
+  template: book-theme
+  nav: []
+  actions: []
+  domains: []
