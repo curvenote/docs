@@ -14,11 +14,33 @@ site:
     - title: Sign Up
       url: https://curvenote.com/signup
   nav:
-    - title: Publish
+    - title: Start
+      url: /start
+    - title: Platform
+      url: /platform
+    - title: CLI
+      url: /cli
+    - title: Extend
+      url: /extend
+    - title: Architecture
+      url: /architecture
+    - title: Editor
+      url: https://curvenote.com/docs/write
+    - title: Publish (legacy)
       url: /publish
-    - title: Write
+    - title: Write (legacy)
       url: /write
   projects:
+    - path: content/start
+      slug: start
+    - path: content/platform
+      slug: platform
+    - path: content/cli
+      slug: cli
+    - path: content/extend
+      slug: extend
+    - path: content/architecture
+      slug: architecture
     - path: content/publish
       slug: publish
     - path: content/write

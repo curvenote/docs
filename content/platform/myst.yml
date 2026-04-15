@@ -1,0 +1,49 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  title: Platform
+  github: https://github.com/curvenote/docs
+  copyright: Curvenote Inc. 2026
+  toc:
+    - file: index.md
+    - title: Getting started
+      children:
+        - file: getting-started/index.md
+        - file: getting-started/sign-in.md
+        - file: getting-started/connect-repo.md
+        - file: getting-started/first-site.md
+    - title: Sites
+      children:
+        - file: sites/index.md
+        - file: sites/structure.md
+        - file: sites/themes.md
+        - file: sites/domains.md
+        - file: sites/deploy.md
+    - title: Works and versions
+      children:
+        - file: works/index.md
+        - file: works/concepts.md
+        - file: works/versioning.md
+        - file: works/dois.md
+    - title: Checks
+      children:
+        - file: checks/index.md
+        - file: checks/running.md
+        - file: checks/reference.md
+        - file: checks/custom.md
+    - title: Accounts and org
+      children:
+        - file: accounts/index.md
+    - title: Journals
+      children:
+        - file: journals/index.md
+        - file: journals/concepts.md
+        - file: journals/setup.md
+        - file: journals/submission-workflow.md
+        - file: journals/editorial-review.md
+        - file: journals/publishing.md
+site:
+  template: book-theme
+  nav: []
+  actions: []
+  domains: []
